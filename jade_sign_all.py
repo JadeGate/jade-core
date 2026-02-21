@@ -60,26 +60,35 @@ def main():
     signed = 0
     failed = 0
     
-    print()
+    # Count total first
+    all_files = []
     for d in skill_dirs:
         if not os.path.exists(d):
             print(f"  ⚠️  目录不存在: {d}")
             continue
-        
         for fname in sorted(os.listdir(d)):
-            if not fname.endswith('.json') or fname.endswith('.sig.json'):
-                continue
-            
-            fpath = os.path.join(d, fname)
-            try:
-                result = signer.sign_skill(fpath)
-                sig = result['jade_signature']
-                print(f"  💠 {fname}")
-                print(f"     hash: {sig['content_hash'][:30]}...")
-                signed += 1
-            except Exception as e:
-                print(f"  ❌ {fname}: {e}")
-                failed += 1
+            if fname.endswith('.json') and not fname.endswith('.sig.json'):
+                all_files.append((d, fname))
+    
+    total = len(all_files)
+    print(f"  📦 共 {total} 个 skill 待处理\n")
+    
+    for i, (d, fname) in enumerate(all_files, 1):
+        fpath = os.path.join(d, fname)
+        bar_len = 30
+        filled = int(bar_len * i / total)
+        bar = "█" * filled + "░" * (bar_len - filled)
+        pct = int(100 * i / total)
+        
+        try:
+            result = signer.sign_skill(fpath)
+            sig = result['jade_signature']
+            print(f"\r  [{bar}] {pct:3d}% ({i}/{total}) 💠 {fname}", end="", flush=True)
+            print(f"\n     hash: {sig['content_hash'][:30]}...")
+            signed += 1
+        except Exception as e:
+            print(f"\r  [{bar}] {pct:3d}% ({i}/{total}) ❌ {fname}: {e}")
+            failed += 1
     
     print()
     print(f"  ════════════════════════════════════")
