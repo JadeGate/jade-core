@@ -1,0 +1,156 @@
+{
+  "jade_version": "1.0.0",
+  "skill_id": "mcp_sqlite_query",
+  "metadata": {
+    "name": "MCP SQLite Query",
+    "version": "1.0.0",
+    "description": "Execute read-only SQL queries against a SQLite database via MCP sqlite server.",
+    "author": "jade-mcp-bridge",
+    "tags": [
+      "mcp",
+      "sqlite",
+      "database",
+      "sql",
+      "query"
+    ],
+    "license": "BSL-1.1",
+    "created_at": "2026-02-21T00:00:00Z",
+    "updated_at": "2026-02-21T00:00:00Z"
+  },
+  "trigger": {
+    "type": "task_intent",
+    "conditions": [
+      {
+        "field": "task.type",
+        "operator": "in",
+        "value": [
+          "mcp_sqlite_query"
+        ]
+      }
+    ]
+  },
+  "input_schema": {
+    "required_params": [
+      {
+        "name": "db_path",
+        "type": "string",
+        "description": "Path to SQLite database"
+      },
+      {
+        "name": "query",
+        "type": "string",
+        "description": "SQL query (SELECT only)"
+      }
+    ],
+    "optional_params": [
+      {
+        "name": "max_rows",
+        "type": "number",
+        "description": "Max rows to return",
+        "default": 1000
+      }
+    ]
+  },
+  "output_schema": {
+    "fields": [
+      {
+        "name": "columns",
+        "type": "array",
+        "description": "Column names"
+      },
+      {
+        "name": "rows",
+        "type": "array",
+        "description": "Result rows"
+      },
+      {
+        "name": "row_count",
+        "type": "number",
+        "description": "Number of rows returned"
+      }
+    ]
+  },
+  "execution_dag": {
+    "nodes": [
+      {
+        "id": "validate_db",
+        "action": "path_validate",
+        "params": {
+          "path": "{{input.db_path}}",
+          "must_exist": true,
+          "allowed_extensions": ".db,.sqlite,.sqlite3"
+        }
+      },
+      {
+        "id": "validate_sql",
+        "action": "sql_validate",
+        "params": {
+          "query": "{{input.query}}",
+          "allow_write": false,
+          "blocked_keywords": [
+            "DROP",
+            "DELETE",
+            "INSERT",
+            "UPDATE",
+            "ALTER",
+            "CREATE",
+            "TRUNCATE"
+          ]
+        }
+      },
+      {
+        "id": "execute",
+        "action": "sqlite_query",
+        "params": {
+          "db_path": "{{input.db_path}}",
+          "query": "{{input.query}}",
+          "max_rows": "{{input.max_rows | default:1000}}"
+        }
+      },
+      {
+        "id": "return_data",
+        "action": "return_result",
+        "params": {
+          "columns": "{{execute.output.columns}}",
+          "rows": "{{execute.output.rows}}",
+          "row_count": "{{execute.output.row_count}}"
+        }
+      }
+    ],
+    "edges": [
+      {
+        "from": "validate_db",
+        "to": "validate_sql"
+      },
+      {
+        "from": "validate_sql",
+        "to": "execute"
+      },
+      {
+        "from": "execute",
+        "to": "return_data"
+      }
+    ],
+    "entry_node": "validate_db",
+    "exit_node": [
+      "return_data"
+    ]
+  },
+  "security": {
+    "network_whitelist": [],
+    "file_permissions": {
+      "read": [
+        "{{input.db_path}}"
+      ],
+      "write": []
+    },
+    "max_execution_time_ms": 30000,
+    "max_retries": 1,
+    "sandbox_level": "strict",
+    "dangerous_patterns": []
+  },
+  "mcp_compatible": true,
+  "required_mcp_capabilities": [
+    "sqlite"
+  ]
+}

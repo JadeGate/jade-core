@@ -1,0 +1,183 @@
+{
+  "jade_version": "1.0.0",
+  "skill_id": "mcp_fetch_url",
+  "metadata": {
+    "name": "MCP Fetch URL",
+    "version": "1.0.0",
+    "description": "Fetch content from a URL via MCP fetch server. Supports HTML to markdown conversion.",
+    "author": "jade-mcp-bridge",
+    "tags": [
+      "mcp",
+      "fetch",
+      "http",
+      "web",
+      "scrape"
+    ],
+    "license": "BSL-1.1",
+    "created_at": "2026-02-21T00:00:00Z",
+    "updated_at": "2026-02-21T00:00:00Z"
+  },
+  "trigger": {
+    "type": "task_intent",
+    "conditions": [
+      {
+        "field": "task.type",
+        "operator": "in",
+        "value": [
+          "mcp_fetch_url"
+        ]
+      }
+    ]
+  },
+  "input_schema": {
+    "required_params": [
+      {
+        "name": "url",
+        "type": "string",
+        "description": "URL to fetch"
+      }
+    ],
+    "optional_params": [
+      {
+        "name": "extract_mode",
+        "type": "string",
+        "description": "Extract mode (markdown/text/raw)",
+        "default": "markdown"
+      },
+      {
+        "name": "max_chars",
+        "type": "number",
+        "description": "Max output characters",
+        "default": 50000
+      },
+      {
+        "name": "user_agent",
+        "type": "string",
+        "description": "User-Agent header",
+        "default": ""
+      },
+      {
+        "name": "timeout_ms",
+        "type": "number",
+        "description": "Timeout in ms",
+        "default": 15000
+      }
+    ]
+  },
+  "output_schema": {
+    "fields": [
+      {
+        "name": "content",
+        "type": "string",
+        "description": "Extracted content"
+      },
+      {
+        "name": "status_code",
+        "type": "number",
+        "description": "HTTP status code"
+      },
+      {
+        "name": "content_type",
+        "type": "string",
+        "description": "Content-Type header"
+      }
+    ]
+  },
+  "execution_dag": {
+    "nodes": [
+      {
+        "id": "validate_url",
+        "action": "url_validate",
+        "params": {
+          "url": "{{input.url}}",
+          "allowed_schemes": [
+            "https",
+            "http"
+          ]
+        }
+      },
+      {
+        "id": "fetch",
+        "action": "http_get",
+        "params": {
+          "url": "{{input.url}}",
+          "headers": {
+            "User-Agent": "{{input.user_agent | default:\"JadeBot/1.0\"}}"
+          },
+          "timeout_ms": "{{input.timeout_ms | default:15000}}",
+          "max_size_bytes": 5242880
+        }
+      },
+      {
+        "id": "check_ok",
+        "action": "condition_check",
+        "params": {
+          "field": "{{fetch.output.status_code}}",
+          "operator": "in",
+          "value": [
+            200,
+            301,
+            302
+          ]
+        }
+      },
+      {
+        "id": "extract_content",
+        "action": "html_to_text",
+        "params": {
+          "html": "{{fetch.output.body}}",
+          "mode": "{{input.extract_mode | default:\"markdown\"}}",
+          "max_chars": "{{input.max_chars | default:50000}}"
+        }
+      },
+      {
+        "id": "return_content",
+        "action": "return_result",
+        "params": {
+          "content": "{{extract_content.output.text}}",
+          "status_code": "{{fetch.output.status_code}}",
+          "content_type": "{{fetch.output.headers.content-type}}"
+        }
+      }
+    ],
+    "edges": [
+      {
+        "from": "validate_url",
+        "to": "fetch"
+      },
+      {
+        "from": "fetch",
+        "to": "check_ok"
+      },
+      {
+        "from": "check_ok",
+        "to": "extract_content"
+      },
+      {
+        "from": "extract_content",
+        "to": "return_content"
+      }
+    ],
+    "entry_node": "validate_url",
+    "exit_node": [
+      "return_content"
+    ]
+  },
+  "security": {
+    "network_whitelist": [
+      "*"
+    ],
+    "file_permissions": {
+      "read": [],
+      "write": []
+    },
+    "max_execution_time_ms": 20000,
+    "max_retries": 1,
+    "sandbox_level": "standard",
+    "dangerous_patterns": []
+  },
+  "mcp_compatible": true,
+  "required_mcp_capabilities": [
+    "fetch"
+  ]
+}

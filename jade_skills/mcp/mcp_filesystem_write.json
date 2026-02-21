@@ -1,0 +1,155 @@
+{
+  "jade_version": "1.0.0",
+  "skill_id": "mcp_filesystem_write",
+  "metadata": {
+    "name": "MCP Filesystem Write",
+    "version": "1.0.0",
+    "description": "Write content to local filesystem via MCP filesystem server. Creates directories if needed.",
+    "author": "jade-mcp-bridge",
+    "tags": [
+      "mcp",
+      "filesystem",
+      "write",
+      "file"
+    ],
+    "license": "BSL-1.1",
+    "created_at": "2026-02-21T00:00:00Z",
+    "updated_at": "2026-02-21T00:00:00Z"
+  },
+  "trigger": {
+    "type": "task_intent",
+    "conditions": [
+      {
+        "field": "task.type",
+        "operator": "in",
+        "value": [
+          "mcp_filesystem_write"
+        ]
+      }
+    ]
+  },
+  "input_schema": {
+    "required_params": [
+      {
+        "name": "file_path",
+        "type": "string",
+        "description": "Path to write to"
+      },
+      {
+        "name": "content",
+        "type": "string",
+        "description": "Content to write"
+      }
+    ],
+    "optional_params": [
+      {
+        "name": "encoding",
+        "type": "string",
+        "description": "File encoding",
+        "default": "utf-8"
+      }
+    ]
+  },
+  "output_schema": {
+    "fields": [
+      {
+        "name": "success",
+        "type": "boolean",
+        "description": "Whether write succeeded"
+      },
+      {
+        "name": "path",
+        "type": "string",
+        "description": "Written file path"
+      },
+      {
+        "name": "size",
+        "type": "number",
+        "description": "Written file size"
+      }
+    ]
+  },
+  "execution_dag": {
+    "nodes": [
+      {
+        "id": "validate_path",
+        "action": "path_validate",
+        "params": {
+          "path": "{{input.file_path}}",
+          "must_exist": false
+        }
+      },
+      {
+        "id": "ensure_dir",
+        "action": "dir_create",
+        "params": {
+          "path": "{{input.file_path | dirname}}"
+        }
+      },
+      {
+        "id": "write_file",
+        "action": "file_write",
+        "params": {
+          "path": "{{input.file_path}}",
+          "content": "{{input.content}}",
+          "encoding": "{{input.encoding | default:\"utf-8\"}}"
+        }
+      },
+      {
+        "id": "verify_write",
+        "action": "file_info",
+        "params": {
+          "path": "{{input.file_path}}"
+        }
+      },
+      {
+        "id": "return_ok",
+        "action": "return_result",
+        "params": {
+          "success": true,
+          "path": "{{input.file_path}}",
+          "size": "{{verify_write.output.size}}"
+        }
+      }
+    ],
+    "edges": [
+      {
+        "from": "validate_path",
+        "to": "ensure_dir"
+      },
+      {
+        "from": "ensure_dir",
+        "to": "write_file"
+      },
+      {
+        "from": "write_file",
+        "to": "verify_write"
+      },
+      {
+        "from": "verify_write",
+        "to": "return_ok"
+      }
+    ],
+    "entry_node": "validate_path",
+    "exit_node": [
+      "return_ok"
+    ]
+  },
+  "security": {
+    "network_whitelist": [],
+    "file_permissions": {
+      "read": [],
+      "write": [
+        "{{input.file_path}}"
+      ]
+    },
+    "max_execution_time_ms": 10000,
+    "max_retries": 1,
+    "sandbox_level": "strict",
+    "dangerous_patterns": []
+  },
+  "mcp_compatible": true,
+  "required_mcp_capabilities": [
+    "filesystem"
+  ]
+}

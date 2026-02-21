@@ -1,0 +1,153 @@
+{
+  "jade_version": "1.0.0",
+  "skill_id": "mcp_github_create_issue",
+  "metadata": {
+    "name": "MCP GitHub Create Issue",
+    "version": "1.0.0",
+    "description": "Create a GitHub issue via MCP GitHub server. Supports labels, assignees, and markdown body.",
+    "author": "jade-mcp-bridge",
+    "tags": [
+      "mcp",
+      "github",
+      "issue",
+      "create"
+    ],
+    "license": "BSL-1.1",
+    "created_at": "2026-02-21T00:00:00Z",
+    "updated_at": "2026-02-21T00:00:00Z"
+  },
+  "trigger": {
+    "type": "task_intent",
+    "conditions": [
+      {
+        "field": "task.type",
+        "operator": "in",
+        "value": [
+          "mcp_github_create_issue"
+        ]
+      }
+    ]
+  },
+  "input_schema": {
+    "required_params": [
+      {
+        "name": "repo",
+        "type": "string",
+        "description": "Repository (owner/name)"
+      },
+      {
+        "name": "title",
+        "type": "string",
+        "description": "Issue title"
+      }
+    ],
+    "optional_params": [
+      {
+        "name": "body",
+        "type": "string",
+        "description": "Issue body (markdown)",
+        "default": ""
+      },
+      {
+        "name": "labels",
+        "type": "array",
+        "description": "Labels to apply",
+        "default": ""
+      }
+    ]
+  },
+  "output_schema": {
+    "fields": [
+      {
+        "name": "issue_number",
+        "type": "number",
+        "description": "Created issue number"
+      },
+      {
+        "name": "url",
+        "type": "string",
+        "description": "Issue URL"
+      }
+    ]
+  },
+  "execution_dag": {
+    "nodes": [
+      {
+        "id": "validate_repo",
+        "action": "data_transform",
+        "params": {
+          "value": "{{input.repo}}",
+          "pattern": "^[a-zA-Z0-9._-]+/[a-zA-Z0-9._-]+$"
+        }
+      },
+      {
+        "id": "create_issue",
+        "action": "http_post",
+        "params": {
+          "url": "https://api.github.com/repos/{{input.repo}}/issues",
+          "headers": {
+            "Authorization": "Bearer {{env.GITHUB_TOKEN}}",
+            "Accept": "application/vnd.github.v3+json"
+          },
+          "body": {
+            "title": "{{input.title}}",
+            "body": "{{input.body | default:\"\"}}",
+            "labels": "{{input.labels | default:[]}}"
+          }
+        }
+      },
+      {
+        "id": "check_ok",
+        "action": "condition_check",
+        "params": {
+          "field": "{{create_issue.output.status_code}}",
+          "operator": "equals",
+          "value": 201
+        }
+      },
+      {
+        "id": "return_issue",
+        "action": "return_result",
+        "params": {
+          "issue_number": "{{create_issue.output.body.number}}",
+          "url": "{{create_issue.output.body.html_url}}"
+        }
+      }
+    ],
+    "edges": [
+      {
+        "from": "validate_repo",
+        "to": "create_issue"
+      },
+      {
+        "from": "create_issue",
+        "to": "check_ok"
+      },
+      {
+        "from": "check_ok",
+        "to": "return_issue"
+      }
+    ],
+    "entry_node": "validate_repo",
+    "exit_node": [
+      "return_issue"
+    ]
+  },
+  "security": {
+    "network_whitelist": [
+      "api.github.com"
+    ],
+    "file_permissions": {
+      "read": [],
+      "write": []
+    },
+    "max_execution_time_ms": 15000,
+    "max_retries": 1,
+    "sandbox_level": "standard",
+    "dangerous_patterns": []
+  },
+  "mcp_compatible": true,
+  "required_mcp_capabilities": [
+    "github"
+  ]
+}

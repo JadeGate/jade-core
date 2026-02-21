@@ -1,0 +1,181 @@
+{
+  "jade_version": "1.0.0",
+  "skill_id": "mcp_puppeteer_screenshot",
+  "metadata": {
+    "name": "MCP Puppeteer Screenshot",
+    "version": "1.0.0",
+    "description": "Take a screenshot of a webpage via MCP puppeteer server.",
+    "author": "jade-mcp-bridge",
+    "tags": [
+      "mcp",
+      "puppeteer",
+      "screenshot",
+      "browser",
+      "web"
+    ],
+    "license": "BSL-1.1",
+    "created_at": "2026-02-21T00:00:00Z",
+    "updated_at": "2026-02-21T00:00:00Z"
+  },
+  "trigger": {
+    "type": "task_intent",
+    "conditions": [
+      {
+        "field": "task.type",
+        "operator": "in",
+        "value": [
+          "mcp_puppeteer_screenshot"
+        ]
+      }
+    ]
+  },
+  "input_schema": {
+    "required_params": [
+      {
+        "name": "url",
+        "type": "string",
+        "description": "URL to screenshot"
+      }
+    ],
+    "optional_params": [
+      {
+        "name": "format",
+        "type": "string",
+        "description": "Image format (png/jpeg)",
+        "default": "png"
+      },
+      {
+        "name": "full_page",
+        "type": "boolean",
+        "description": "Capture full page",
+        "default": false
+      },
+      {
+        "name": "width",
+        "type": "number",
+        "description": "Viewport width",
+        "default": 1280
+      },
+      {
+        "name": "height",
+        "type": "number",
+        "description": "Viewport height",
+        "default": 720
+      },
+      {
+        "name": "wait_ms",
+        "type": "number",
+        "description": "Wait after load (ms)",
+        "default": 2000
+      }
+    ]
+  },
+  "output_schema": {
+    "fields": [
+      {
+        "name": "image_base64",
+        "type": "string",
+        "description": "Screenshot as base64"
+      },
+      {
+        "name": "format",
+        "type": "string",
+        "description": "Image format"
+      },
+      {
+        "name": "url",
+        "type": "string",
+        "description": "Captured URL"
+      }
+    ]
+  },
+  "execution_dag": {
+    "nodes": [
+      {
+        "id": "validate_url",
+        "action": "url_validate",
+        "params": {
+          "url": "{{input.url}}",
+          "allowed_schemes": [
+            "https",
+            "http"
+          ]
+        }
+      },
+      {
+        "id": "navigate",
+        "action": "page_navigate",
+        "params": {
+          "url": "{{input.url}}",
+          "wait_until": "networkidle2",
+          "timeout_ms": 30000
+        }
+      },
+      {
+        "id": "wait_render",
+        "action": "wait",
+        "params": {
+          "duration_ms": "{{input.wait_ms | default:2000}}"
+        }
+      },
+      {
+        "id": "screenshot",
+        "action": "page_screenshot",
+        "params": {
+          "format": "{{input.format | default:\"png\"}}",
+          "full_page": "{{input.full_page | default:false}}",
+          "width": "{{input.width | default:1280}}",
+          "height": "{{input.height | default:720}}"
+        }
+      },
+      {
+        "id": "return_img",
+        "action": "return_result",
+        "params": {
+          "image_base64": "{{screenshot.output.data}}",
+          "format": "{{input.format | default:\"png\"}}",
+          "url": "{{input.url}}"
+        }
+      }
+    ],
+    "edges": [
+      {
+        "from": "validate_url",
+        "to": "navigate"
+      },
+      {
+        "from": "navigate",
+        "to": "wait_render"
+      },
+      {
+        "from": "wait_render",
+        "to": "screenshot"
+      },
+      {
+        "from": "screenshot",
+        "to": "return_img"
+      }
+    ],
+    "entry_node": "validate_url",
+    "exit_node": [
+      "return_img"
+    ]
+  },
+  "security": {
+    "network_whitelist": [
+      "*"
+    ],
+    "file_permissions": {
+      "read": [],
+      "write": []
+    },
+    "max_execution_time_ms": 45000,
+    "max_retries": 1,
+    "sandbox_level": "standard",
+    "dangerous_patterns": []
+  },
+  "mcp_compatible": true,
+  "required_mcp_capabilities": [
+    "puppeteer"
+  ]
+}
