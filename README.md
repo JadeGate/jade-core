@@ -10,9 +10,9 @@
 [![Skills](https://img.shields.io/badge/Verified_Skills-35-blue.svg)](#skill-registry)
 [![Tests](https://img.shields.io/badge/Tests-135_passed-brightgreen.svg)](#testing)
 
-*以玉为契，不可篡改。*
+*
 
-*Code is fluid. Jade is solid.*
+*春风不度玉门关*
 
 [Install](#install) · [Quick Start](#quick-start) · [CLI](#cli) · [Architecture](#architecture) · [Math](#formal-verification) · [Contributing](#contributing)
 
@@ -376,7 +376,7 @@ See [CONTRIBUTING.md](./CONTRIBUTING.md) for guidelines.
 
 **💠 JadeGate** — *Pass the Gate. Trust the Jade.*
 
-*春风不度玉门关。Malicious code shall not pass.*
+*春风不度玉门关*
 
 [GitHub](https://github.com/JadeGate/jade-core) · [PyPI](https://pypi.org/project/jadegate/) · [crates.io](https://crates.io/crates/jadegate)
 
