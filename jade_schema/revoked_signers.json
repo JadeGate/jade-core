@@ -1,0 +1,6 @@
+{
+  "$schema": "jadegate-revocation-v1",
+  "description": "Revoked signer fingerprints. Only Root can modify this file.",
+  "revoked": [],
+  "revoked_details": []
+}
