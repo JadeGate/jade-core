@@ -14,7 +14,6 @@
 import os
 import sys
 import json
-import getpass
 
 # 把 jade_core 加入路径
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
@@ -30,6 +29,7 @@ def main():
     
     # 输入私钥
     private_key = input("  输入你的 root 私钥 (jade-sk-root-...): ")
+    print(f"  你输入的是: {private_key[:15]}...{private_key[-6:]}")
     private_key = private_key.strip()
     
     if not private_key.startswith("jade-sk-"):
