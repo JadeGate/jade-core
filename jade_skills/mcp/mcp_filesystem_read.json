@@ -1,0 +1,146 @@
+{
+  "jade_version": "1.0.0",
+  "skill_id": "mcp_filesystem_read",
+  "metadata": {
+    "name": "MCP Filesystem Read",
+    "version": "1.0.0",
+    "description": "Read file contents from local filesystem via MCP filesystem server. Supports text and binary files with size limits.",
+    "author": "jade-mcp-bridge",
+    "tags": [
+      "mcp",
+      "filesystem",
+      "read",
+      "file"
+    ],
+    "license": "BSL-1.1",
+    "created_at": "2026-02-21T00:00:00Z",
+    "updated_at": "2026-02-21T00:00:00Z"
+  },
+  "trigger": {
+    "type": "task_intent",
+    "conditions": [
+      {
+        "field": "task.type",
+        "operator": "in",
+        "value": [
+          "mcp_filesystem_read"
+        ]
+      }
+    ]
+  },
+  "input_schema": {
+    "required_params": [
+      {
+        "name": "file_path",
+        "type": "string",
+        "description": "Path to file to read"
+      }
+    ],
+    "optional_params": [
+      {
+        "name": "encoding",
+        "type": "string",
+        "description": "File encoding",
+        "default": "utf-8"
+      },
+      {
+        "name": "allowed_extensions",
+        "type": "string",
+        "description": "Comma-separated allowed extensions",
+        "default": "*"
+      }
+    ]
+  },
+  "output_schema": {
+    "fields": [
+      {
+        "name": "content",
+        "type": "string",
+        "description": "File contents"
+      },
+      {
+        "name": "size",
+        "type": "number",
+        "description": "File size in bytes"
+      },
+      {
+        "name": "mime_type",
+        "type": "string",
+        "description": "Detected MIME type"
+      }
+    ]
+  },
+  "execution_dag": {
+    "nodes": [
+      {
+        "id": "validate_path",
+        "action": "path_validate",
+        "params": {
+          "path": "{{input.file_path}}",
+          "must_exist": true,
+          "allowed_extensions": "{{input.allowed_extensions | default:\"*\"}}"
+        }
+      },
+      {
+        "id": "check_size",
+        "action": "file_info",
+        "params": {
+          "path": "{{input.file_path}}",
+          "max_size_bytes": 10485760
+        }
+      },
+      {
+        "id": "read_file",
+        "action": "file_read",
+        "params": {
+          "path": "{{input.file_path}}",
+          "encoding": "{{input.encoding | default:\"utf-8\"}}"
+        }
+      },
+      {
+        "id": "return_content",
+        "action": "return_result",
+        "params": {
+          "content": "{{read_file.output.data}}",
+          "size": "{{check_size.output.size}}",
+          "mime_type": "{{check_size.output.mime_type}}"
+        }
+      }
+    ],
+    "edges": [
+      {
+        "from": "validate_path",
+        "to": "check_size"
+      },
+      {
+        "from": "check_size",
+        "to": "read_file"
+      },
+      {
+        "from": "read_file",
+        "to": "return_content"
+      }
+    ],
+    "entry_node": "validate_path",
+    "exit_node": [
+      "return_content"
+    ]
+  },
+  "security": {
+    "network_whitelist": [],
+    "file_permissions": {
+      "read": [
+        "{{input.file_path}}"
+      ],
+      "write": []
+    },
+    "max_execution_time_ms": 10000,
+    "max_retries": 1,
+    "sandbox_level": "strict",
+    "dangerous_patterns": []
+  },
+  "mcp_compatible": true,
+  "required_mcp_capabilities": [
+    "filesystem"
+  ]
+}

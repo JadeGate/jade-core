@@ -74,6 +74,77 @@
             "ip_addresses": "array"
           },
           "risk_level": "low"
+        },
+        "http_put": {
+          "description": "HTTP PUT request",
+          "parameters": {
+            "url": {
+              "type": "string",
+              "required": true
+            },
+            "headers": {
+              "type": "object",
+              "required": true
+            },
+            "body": {
+              "type": "object",
+              "required": true
+            }
+          },
+          "returns": {
+            "status_code": "integer",
+            "body": "object"
+          },
+          "risk_level": "medium"
+        },
+        "http_patch": {
+          "description": "HTTP PATCH request",
+          "parameters": {
+            "url": {
+              "type": "string",
+              "required": true
+            },
+            "headers": {
+              "type": "object",
+              "required": true
+            },
+            "body": {
+              "type": "object",
+              "required": true
+            }
+          },
+          "returns": {
+            "status_code": "integer",
+            "body": "object"
+          },
+          "risk_level": "medium"
+        },
+        "url_validate": {
+          "description": "Validate and sanitize a URL",
+          "parameters": {
+            "url": {
+              "type": "string",
+              "required": true
+            }
+          },
+          "returns": {
+            "valid": "boolean",
+            "sanitized_url": "string"
+          },
+          "risk_level": "low"
+        },
+        "websocket_connect": {
+          "desc": "Connect to WebSocket",
+          "params": {
+            "url": {
+              "type": "string",
+              "required": true
+            }
+          },
+          "returns": {
+            "connection_id": "string"
+          },
+          "risk_level": "medium"
         }
       }
     },
@@ -133,16 +204,11 @@
           "risk_level": "high"
         },
         "file_list": {
-          "description": "List files in a directory within allowed paths",
+          "desc": "List files in directory",
           "params": {
             "path": {
               "type": "string",
               "required": true
-            },
-            "pattern": {
-              "type": "string",
-              "required": false,
-              "default": "*"
             }
           },
           "returns": {
@@ -151,7 +217,7 @@
           "risk_level": "low"
         },
         "file_delete": {
-          "description": "Delete a file within allowed paths",
+          "desc": "Delete a file",
           "params": {
             "path": {
               "type": "string",
@@ -181,7 +247,7 @@
           "risk_level": "medium"
         },
         "file_move": {
-          "description": "Move/rename a file within allowed paths",
+          "desc": "Move/rename a file",
           "params": {
             "source": {
               "type": "string",
@@ -216,6 +282,46 @@
             "failed_count": "number"
           },
           "risk_level": "high"
+        },
+        "file_info": {
+          "desc": "Get file metadata",
+          "params": {
+            "path": {
+              "type": "string",
+              "required": true
+            }
+          },
+          "returns": {
+            "size": "number",
+            "modified": "string"
+          },
+          "risk_level": "low"
+        },
+        "path_validate": {
+          "desc": "Validate file path safety",
+          "params": {
+            "path": {
+              "type": "string",
+              "required": true
+            }
+          },
+          "returns": {
+            "valid": "boolean"
+          },
+          "risk_level": "low"
+        },
+        "dir_create": {
+          "desc": "Create directory",
+          "params": {
+            "path": {
+              "type": "string",
+              "required": true
+            }
+          },
+          "returns": {
+            "success": "boolean"
+          },
+          "risk_level": "medium"
         }
       }
     },
@@ -223,9 +329,9 @@
       "description": "Data transformation operations - pure functions, no side effects",
       "actions": {
         "json_parse": {
-          "description": "Parse a JSON string into structured data",
+          "desc": "Parse JSON string",
           "params": {
-            "input": {
+            "text": {
               "type": "string",
               "required": true
             }
@@ -233,7 +339,7 @@
           "returns": {
             "data": "object"
           },
-          "risk_level": "none"
+          "risk_level": "low"
         },
         "json_extract": {
           "description": "Extract a value from structured data using JSONPath",
@@ -419,6 +525,67 @@
             "duplicates": "array"
           },
           "risk_level": "none"
+        },
+        "kv_store": {
+          "description": "Store key-value pair",
+          "parameters": {
+            "key": {
+              "type": "string",
+              "required": true
+            },
+            "value": {
+              "type": "string",
+              "required": true
+            }
+          },
+          "returns": {
+            "success": "boolean"
+          },
+          "risk_level": "low"
+        },
+        "kv_retrieve": {
+          "description": "Retrieve value by key",
+          "parameters": {
+            "key": {
+              "type": "string",
+              "required": true
+            }
+          },
+          "returns": {
+            "value": "string",
+            "found": "boolean"
+          },
+          "risk_level": "low"
+        },
+        "vector_search": {
+          "description": "Semantic vector search",
+          "parameters": {
+            "query": {
+              "type": "string",
+              "required": true
+            },
+            "top_k": {
+              "type": "integer",
+              "required": true
+            }
+          },
+          "returns": {
+            "results": "array"
+          },
+          "risk_level": "low"
+        },
+        "json_stringify": {
+          "desc": "Stringify to JSON",
+          "params": {
+            "data": {
+              "type": "object",
+              "required": true
+            }
+          },
+          "returns": {
+            "text": "string"
+          },
+          "risk_level": "low"
         }
       }
     },
@@ -538,6 +705,32 @@
             "image_base64": "string"
           },
           "risk_level": "low"
+        },
+        "page_pdf": {
+          "description": "Generate PDF from page",
+          "parameters": {
+            "url": {
+              "type": "string",
+              "required": true
+            }
+          },
+          "returns": {
+            "pdf_data": "string"
+          },
+          "risk_level": "medium"
+        },
+        "page_evaluate": {
+          "desc": "Evaluate JS in page",
+          "params": {
+            "script": {
+              "type": "string",
+              "required": true
+            }
+          },
+          "returns": {
+            "result": "any"
+          },
+          "risk_level": "high"
         }
       }
     },
@@ -957,6 +1150,32 @@
             "count": "number"
           },
           "risk_level": "low"
+        },
+        "html_to_markdown": {
+          "description": "Convert HTML to markdown",
+          "parameters": {
+            "html": {
+              "type": "string",
+              "required": true
+            }
+          },
+          "returns": {
+            "markdown": "string"
+          },
+          "risk_level": "low"
+        },
+        "html_to_text": {
+          "desc": "Convert HTML to plain text",
+          "params": {
+            "html": {
+              "type": "string",
+              "required": true
+            }
+          },
+          "returns": {
+            "text": "string"
+          },
+          "risk_level": "low"
         }
       }
     },
@@ -1067,6 +1286,41 @@
           "returns": {
             "messages": "array",
             "count": "number"
+          },
+          "risk_level": "low"
+        },
+        "slack_send": {
+          "description": "Send Slack message",
+          "parameters": {
+            "channel": {
+              "type": "string",
+              "required": true
+            },
+            "text": {
+              "type": "string",
+              "required": true
+            }
+          },
+          "returns": {
+            "success": "boolean",
+            "ts": "string"
+          },
+          "risk_level": "medium"
+        },
+        "slack_read": {
+          "description": "Read Slack channel messages",
+          "parameters": {
+            "channel": {
+              "type": "string",
+              "required": true
+            },
+            "limit": {
+              "type": "integer",
+              "required": true
+            }
+          },
+          "returns": {
+            "messages": "array"
           },
           "risk_level": "low"
         }
@@ -1184,6 +1438,38 @@
             "rows": "array",
             "columns": "array",
             "row_count": "number"
+          },
+          "risk_level": "medium"
+        },
+        "sql_validate": {
+          "description": "Validate SQL query safety",
+          "parameters": {
+            "query": {
+              "type": "string",
+              "required": true
+            }
+          },
+          "returns": {
+            "valid": "boolean",
+            "sanitized": "string"
+          },
+          "risk_level": "low"
+        },
+        "sqlite_query": {
+          "description": "Execute SQLite query",
+          "parameters": {
+            "database": {
+              "type": "string",
+              "required": true
+            },
+            "query": {
+              "type": "string",
+              "required": true
+            }
+          },
+          "returns": {
+            "rows": "array",
+            "columns": "array"
           },
           "risk_level": "medium"
         }
