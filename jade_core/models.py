@@ -204,6 +204,7 @@ class SecurityPolicy:
     max_retries: int
     sandbox_level: SandboxLevel
     dangerous_patterns: List[str]
+    env_whitelist: List[str]
 
     @classmethod
     def from_dict(cls, data: Dict[str, Any]) -> SecurityPolicy:
@@ -216,6 +217,7 @@ class SecurityPolicy:
             max_retries=data.get("max_retries", 3),
             sandbox_level=SandboxLevel(data.get("sandbox_level", "strict")),
             dangerous_patterns=data.get("dangerous_patterns", []),
+            env_whitelist=data.get("env_whitelist", []),
         )
 
 

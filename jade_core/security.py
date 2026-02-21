@@ -94,7 +94,7 @@ SUSPICIOUS_NETWORK_PATTERNS = [
     r'\.i2p$',
 ]
 
-# Data exfiltration patterns
+# Data exfiltration patterns (WARNING level)
 DATA_EXFIL_PATTERNS = [
     r'api[_-]?key',
     r'secret[_-]?key',
@@ -109,6 +109,22 @@ DATA_EXFIL_PATTERNS = [
     r'\.aws/credentials',
     r'\.kube/config',
 ]
+
+# Critical exfiltration patterns (ERROR level — always block)
+# These catch direct env/secret access outside of declared auth headers
+CRITICAL_EXFIL_PATTERNS = [
+    r'\{\{\s*secrets?\.',      # {{secret.KEY}} / {{secrets.KEY}}
+    r'\{\{\s*credentials?\.',  # {{credential.X}}
+    r'process\.env\.',           # process.env.SECRET (Node.js)
+    r'os\.environ',              # os.environ (Python)
+    r'\$\{?[A-Z_]*SECRET',      # $SECRET or ${SECRET_KEY}
+    r'\$\{?[A-Z_]*PASSWORD',    # $PASSWORD
+]
+
+# Env template in URL query params = exfiltration (ERROR)
+# Env template in headers = legitimate auth (OK)
+ENV_IN_URL_QUERY_PATTERN = re.compile(r'\?.*\{\{\s*env\.', re.IGNORECASE)
+ENV_TEMPLATE_PATTERN = re.compile(r'\{\{\s*env\.([\w]+)\s*\}\}', re.IGNORECASE)
 
 
 class SecurityEngine:
@@ -128,6 +144,7 @@ class SecurityEngine:
         self._compiled_danger_patterns = [re.compile(p, re.IGNORECASE) for p in DANGEROUS_COMMANDS]
         self._compiled_network_patterns = [re.compile(p, re.IGNORECASE) for p in SUSPICIOUS_NETWORK_PATTERNS]
         self._compiled_exfil_patterns = [re.compile(p, re.IGNORECASE) for p in DATA_EXFIL_PATTERNS]
+        self._compiled_critical_exfil = [re.compile(p, re.IGNORECASE) for p in CRITICAL_EXFIL_PATTERNS]
 
     def set_allowed_actions(self, actions: List[str]) -> None:
         self._allowed_actions = set(actions)
@@ -314,6 +331,34 @@ class SecurityEngine:
         all_strings = self._extract_all_strings(skill)
 
         for path, value in all_strings:
+            # Critical patterns → ERROR (always block)
+            for pattern in self._compiled_critical_exfil:
+                match = pattern.search(value)
+                if match:
+                    issues.append(ValidationIssue(
+                        severity=ValidationSeverity.ERROR,
+                        code="SEC_ENV_EXFIL",
+                        message=f"Environment variable exfiltration blocked: "
+                                f"'{match.group()}' — skills must not access env/secrets directly",
+                        path=path,
+                    ))
+
+            # {{env.X}} in URL query params — check if declared in security.env_whitelist
+            env_matches = ENV_TEMPLATE_PATTERN.findall(value)
+            if env_matches and ENV_IN_URL_QUERY_PATTERN.search(value):
+                declared = set(skill.security.env_whitelist if skill.security else [])
+                # Also treat vars referenced in headers as declared (standard auth pattern)
+                for env_name in env_matches:
+                    if env_name not in declared:
+                        issues.append(ValidationIssue(
+                            severity=ValidationSeverity.ERROR,
+                            code="SEC_ENV_URL_EXFIL",
+                            message=f"Undeclared env variable '{{{{env.{env_name}}}}}' in URL query — "
+                                    f"declare it in security.env_whitelist or move to headers",
+                            path=path,
+                        ))
+
+            # Soft patterns → WARNING
             for pattern in self._compiled_exfil_patterns:
                 match = pattern.search(value)
                 if match:
