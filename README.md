@@ -14,6 +14,10 @@ Zero trust. Five-layer mathematical verification. Runs locally. No cloud. No LLM
 
 </div>
 
+<div align="center">
+<img src="assets/demo.gif" alt="JadeGate Demo" width="820"/>
+</div>
+
 ---
 
 
