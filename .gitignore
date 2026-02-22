@@ -1,3 +1,35 @@
+# 白名单模式：默认忽略所有，只允许特定文件/目录
+*
+
+# === 允许的目录 ===
+!jade_core/
+!jade_core/**
+!jade_schema/
+!jade_schema/**
+!jade_skills/
+!jade_skills/**
+!jade_registry/
+!jade_registry/**
+!tests/
+!tests/**
+!.github/
+!.github/**
+
+# === 允许的根目录文件 ===
+!.gitignore
+!setup.py
+!setup.cfg
+!pyproject.toml
+!LICENSE
+!README.md
+!CATALOG.md
+!jadegate.pub.json
+!jade_keygen.py
+!jade_keygen_ci.py
+!jade_sign_all.py
+!jade_cli.py
+
+# === 始终排除（即使在允许目录内） ===
 __pycache__/
 *.pyc
 *.egg-info/
@@ -7,4 +39,11 @@ build/
 *.egg
 .pytest_cache/
 .mypy_cache/
+
+# === 敏感文件永远不上传 ===
+*.pem
+*.key
+*secret*
+*credential*
+*password*
 jade_keygen_root.py
