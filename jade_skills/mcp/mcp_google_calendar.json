@@ -1,0 +1,158 @@
+{
+  "jade_version": "1.0.0",
+  "skill_id": "mcp_google_calendar",
+  "metadata": {
+    "name": "MCP Google Calendar",
+    "version": "1.0.0",
+    "description": "List upcoming events from Google Calendar via MCP.",
+    "author": "jade-mcp-bridge",
+    "tags": [
+      "mcp",
+      "google",
+      "calendar",
+      "events"
+    ],
+    "license": "BSL-1.1",
+    "created_at": "2026-02-22T16:23:40Z",
+    "updated_at": "2026-02-22T16:23:40Z"
+  },
+  "trigger": {
+    "type": "task_intent",
+    "conditions": [
+      {
+        "field": "task.type",
+        "operator": "in",
+        "value": [
+          "mcp_google_calendar"
+        ]
+      }
+    ]
+  },
+  "input_schema": {
+    "required_params": [
+      {
+        "name": "calendar_id",
+        "type": "string",
+        "description": "Calendar ID (default: primary)"
+      }
+    ],
+    "optional_params": [
+      {
+        "name": "max_results",
+        "type": "number",
+        "description": "Max events",
+        "default": 10
+      }
+    ]
+  },
+  "output_schema": {
+    "fields": [
+      {
+        "name": "events",
+        "type": "array",
+        "description": "Calendar events"
+      },
+      {
+        "name": "status",
+        "type": "string",
+        "description": "Status"
+      }
+    ]
+  },
+  "execution_dag": {
+    "nodes": [
+      {
+        "id": "fetch",
+        "action": "http_get",
+        "params": {
+          "url": "https://www.googleapis.com/calendar/v3/calendars/{{input.calendar_id}}/events?maxResults={{input.max_results}}",
+          "headers": {
+            "Authorization": "Bearer {{env.GOOGLE_TOKEN}}"
+          }
+        }
+      },
+      {
+        "id": "chk",
+        "action": "condition_check",
+        "params": {
+          "field": "{{fetch.output.status_code}}",
+          "operator": "equals",
+          "value": 200
+        }
+      },
+      {
+        "id": "ext",
+        "action": "json_extract",
+        "params": {
+          "data": "{{fetch.output.body}}",
+          "path": "$.items[*]",
+          "fields": [
+            "summary",
+            "start",
+            "end",
+            "id"
+          ]
+        }
+      },
+      {
+        "id": "ret",
+        "action": "return_result",
+        "params": {
+          "events": "{{ext.output.value}}",
+          "status": "ok"
+        }
+      }
+    ],
+    "edges": [
+      {
+        "from": "fetch",
+        "to": "chk"
+      },
+      {
+        "from": "chk",
+        "to": "ext"
+      },
+      {
+        "from": "ext",
+        "to": "ret"
+      }
+    ],
+    "entry_node": "fetch",
+    "exit_node": [
+      "ret"
+    ]
+  },
+  "security": {
+    "network_whitelist": [
+      "www.googleapis.com"
+    ],
+    "file_permissions": {
+      "read": [],
+      "write": []
+    },
+    "max_execution_time_ms": 15000,
+    "max_retries": 1,
+    "sandbox_level": "standard",
+    "dangerous_patterns": [],
+    "env_whitelist": [
+      "GOOGLE_TOKEN"
+    ]
+  },
+  "mcp_compatible": true,
+  "required_mcp_capabilities": [
+    "google-calendar"
+  ],
+  "jade_signature": {
+    "version": "1.0.0",
+    "skill_id": "mcp_google_calendar",
+    "content_hash": "sha256:b377e5387d2760f187c24a1d1ca0d5f17dbc02c7b133401ad15f3213136f3304",
+    "signature": "jade-sig-180osGYcDfCab/cVQacNM2jSOmpf+ru2YlCSsPuFxxRfLvj0SpBibCAishT/R1qCYfQJ8PKfxnxly2ZMhBfDDQ==",
+    "signer": {
+      "public_key": "jade-pk-root-o0p0Em+ufryyPQFFdKHEdSbWOPCqiGhUwwC9AjYJb/U=",
+      "fingerprint": "SHA256:HU0Dpg+xFPNxCURZhG9eX6Yx+ynMlbincaJxIRUJt98=",
+      "role": "root"
+    },
+    "timestamp": "2026-02-22T16:23:41Z",
+    "expires": "2027-02-22T16:23:41Z"
+  }
+}

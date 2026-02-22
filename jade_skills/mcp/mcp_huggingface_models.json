@@ -1,0 +1,158 @@
+{
+  "jade_version": "1.0.0",
+  "skill_id": "mcp_huggingface_models",
+  "metadata": {
+    "name": "MCP Hugging Face Models",
+    "version": "1.0.0",
+    "description": "Search models on Hugging Face Hub.",
+    "author": "jade-mcp-bridge",
+    "tags": [
+      "mcp",
+      "huggingface",
+      "ai",
+      "models"
+    ],
+    "license": "BSL-1.1",
+    "created_at": "2026-02-22T16:23:40Z",
+    "updated_at": "2026-02-22T16:23:40Z"
+  },
+  "trigger": {
+    "type": "task_intent",
+    "conditions": [
+      {
+        "field": "task.type",
+        "operator": "in",
+        "value": [
+          "mcp_huggingface_models"
+        ]
+      }
+    ]
+  },
+  "input_schema": {
+    "required_params": [
+      {
+        "name": "query",
+        "type": "string",
+        "description": "Search query"
+      }
+    ],
+    "optional_params": [
+      {
+        "name": "limit",
+        "type": "number",
+        "description": "Max results",
+        "default": 10
+      }
+    ]
+  },
+  "output_schema": {
+    "fields": [
+      {
+        "name": "models",
+        "type": "array",
+        "description": "Matching models"
+      },
+      {
+        "name": "query",
+        "type": "string",
+        "description": "Original query"
+      }
+    ]
+  },
+  "execution_dag": {
+    "nodes": [
+      {
+        "id": "search",
+        "action": "http_get",
+        "params": {
+          "url": "https://huggingface.co/api/models?search={{input.query}}&limit={{input.limit}}",
+          "headers": {
+            "Authorization": "Bearer {{env.HF_TOKEN}}"
+          }
+        }
+      },
+      {
+        "id": "chk",
+        "action": "condition_check",
+        "params": {
+          "field": "{{search.output.status_code}}",
+          "operator": "equals",
+          "value": 200
+        }
+      },
+      {
+        "id": "ext",
+        "action": "json_extract",
+        "params": {
+          "data": "{{search.output.body}}",
+          "path": "$[*]",
+          "fields": [
+            "modelId",
+            "downloads",
+            "likes",
+            "pipeline_tag"
+          ]
+        }
+      },
+      {
+        "id": "ret",
+        "action": "return_result",
+        "params": {
+          "models": "{{ext.output.value}}",
+          "query": "{{input.query}}"
+        }
+      }
+    ],
+    "edges": [
+      {
+        "from": "search",
+        "to": "chk"
+      },
+      {
+        "from": "chk",
+        "to": "ext"
+      },
+      {
+        "from": "ext",
+        "to": "ret"
+      }
+    ],
+    "entry_node": "search",
+    "exit_node": [
+      "ret"
+    ]
+  },
+  "security": {
+    "network_whitelist": [
+      "huggingface.co"
+    ],
+    "file_permissions": {
+      "read": [],
+      "write": []
+    },
+    "max_execution_time_ms": 15000,
+    "max_retries": 1,
+    "sandbox_level": "standard",
+    "dangerous_patterns": [],
+    "env_whitelist": [
+      "HF_TOKEN"
+    ]
+  },
+  "mcp_compatible": true,
+  "required_mcp_capabilities": [
+    "huggingface"
+  ],
+  "jade_signature": {
+    "version": "1.0.0",
+    "skill_id": "mcp_huggingface_models",
+    "content_hash": "sha256:2f8405cea6b22c47eadc1d90b5d599eae1ce0927edf0a1d140edc549a0ae9411",
+    "signature": "jade-sig-YFQQh4FZclCn12ahQEIbMwZZtI2tOdIfRbPwzM6mEtGdh5IUdRz0WXSRmVMPNbRbdwQjGAxqMUe3n1oY6yonCw==",
+    "signer": {
+      "public_key": "jade-pk-root-o0p0Em+ufryyPQFFdKHEdSbWOPCqiGhUwwC9AjYJb/U=",
+      "fingerprint": "SHA256:HU0Dpg+xFPNxCURZhG9eX6Yx+ynMlbincaJxIRUJt98=",
+      "role": "root"
+    },
+    "timestamp": "2026-02-22T16:23:42Z",
+    "expires": "2027-02-22T16:23:42Z"
+  }
+}

@@ -1,0 +1,109 @@
+{
+  "jade_version": "1.0.0",
+  "skill_id": "pdf_text_extract",
+  "metadata": {
+    "name": "PDF Text Extract",
+    "version": "1.0.0",
+    "description": "Extract text content from a PDF file.",
+    "author": "jade-mcp-bridge",
+    "tags": [
+      "tools",
+      "pdf",
+      "extract",
+      "text"
+    ],
+    "license": "BSL-1.1",
+    "created_at": "2026-02-22T16:23:40Z",
+    "updated_at": "2026-02-22T16:23:40Z"
+  },
+  "trigger": {
+    "type": "task_intent",
+    "conditions": [
+      {
+        "field": "task.type",
+        "operator": "in",
+        "value": [
+          "pdf_text_extract"
+        ]
+      }
+    ]
+  },
+  "input_schema": {
+    "required_params": [
+      {
+        "name": "file_path",
+        "type": "string",
+        "description": "Path to PDF file"
+      }
+    ],
+    "optional_params": []
+  },
+  "output_schema": {
+    "fields": [
+      {
+        "name": "text",
+        "type": "string",
+        "description": "Extracted text"
+      },
+      {
+        "name": "pages",
+        "type": "number",
+        "description": "Page count"
+      }
+    ]
+  },
+  "execution_dag": {
+    "nodes": [
+      {
+        "id": "read",
+        "action": "file_read",
+        "params": {
+          "path": "{{input.file_path}}",
+          "encoding": "utf-8"
+        }
+      },
+      {
+        "id": "ret",
+        "action": "return_result",
+        "params": {
+          "text": "{{read.output.content}}",
+          "pages": 1
+        }
+      }
+    ],
+    "edges": [
+      {
+        "from": "read",
+        "to": "ret"
+      }
+    ],
+    "entry_node": "read",
+    "exit_node": [
+      "ret"
+    ]
+  },
+  "security": {
+    "network_whitelist": [],
+    "file_permissions": {
+      "read": [],
+      "write": []
+    },
+    "max_execution_time_ms": 15000,
+    "max_retries": 1,
+    "sandbox_level": "strict",
+    "dangerous_patterns": []
+  },
+  "jade_signature": {
+    "version": "1.0.0",
+    "skill_id": "pdf_text_extract",
+    "content_hash": "sha256:625171d3db12ca1bb79034b422d51180bd61cef07630baaea24d7fbcbd32a646",
+    "signature": "jade-sig-QLmu6nSKMsdx26N1bBr6Fd683MTt/1wWZgYKuZVBzd4kdDiZgWuRzF5pfsekjJO1ZgvhWjnBT+HlQgzGmVyjCw==",
+    "signer": {
+      "public_key": "jade-pk-root-o0p0Em+ufryyPQFFdKHEdSbWOPCqiGhUwwC9AjYJb/U=",
+      "fingerprint": "SHA256:HU0Dpg+xFPNxCURZhG9eX6Yx+ynMlbincaJxIRUJt98=",
+      "role": "root"
+    },
+    "timestamp": "2026-02-22T16:23:45Z",
+    "expires": "2027-02-22T16:23:45Z"
+  }
+}

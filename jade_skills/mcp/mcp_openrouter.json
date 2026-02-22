@@ -1,0 +1,164 @@
+{
+  "jade_version": "1.0.0",
+  "skill_id": "mcp_openrouter",
+  "metadata": {
+    "name": "MCP OpenRouter Chat",
+    "version": "1.0.0",
+    "description": "Route chat completions through OpenRouter.",
+    "author": "jade-mcp-bridge",
+    "tags": [
+      "mcp",
+      "openrouter",
+      "ai",
+      "chat",
+      "llm"
+    ],
+    "license": "BSL-1.1",
+    "created_at": "2026-02-22T16:23:40Z",
+    "updated_at": "2026-02-22T16:23:40Z"
+  },
+  "trigger": {
+    "type": "task_intent",
+    "conditions": [
+      {
+        "field": "task.type",
+        "operator": "in",
+        "value": [
+          "mcp_openrouter"
+        ]
+      }
+    ]
+  },
+  "input_schema": {
+    "required_params": [
+      {
+        "name": "model",
+        "type": "string",
+        "description": "Model ID (e.g. anthropic/claude-3)"
+      },
+      {
+        "name": "messages",
+        "type": "array",
+        "description": "Chat messages array"
+      }
+    ],
+    "optional_params": [
+      {
+        "name": "temperature",
+        "type": "number",
+        "description": "Sampling temperature",
+        "default": 0.7
+      }
+    ]
+  },
+  "output_schema": {
+    "fields": [
+      {
+        "name": "response",
+        "type": "string",
+        "description": "Model response"
+      },
+      {
+        "name": "model",
+        "type": "string",
+        "description": "Model used"
+      }
+    ]
+  },
+  "execution_dag": {
+    "nodes": [
+      {
+        "id": "chat",
+        "action": "http_post",
+        "params": {
+          "url": "https://openrouter.ai/api/v1/chat/completions",
+          "headers": {
+            "Authorization": "Bearer {{env.OPENROUTER_KEY}}",
+            "Content-Type": "application/json"
+          },
+          "body": {
+            "model": "{{input.model}}",
+            "messages": "{{input.messages}}",
+            "temperature": "{{input.temperature}}"
+          }
+        }
+      },
+      {
+        "id": "chk",
+        "action": "condition_check",
+        "params": {
+          "field": "{{chat.output.status_code}}",
+          "operator": "equals",
+          "value": 200
+        }
+      },
+      {
+        "id": "ext",
+        "action": "json_extract",
+        "params": {
+          "data": "{{chat.output.body}}",
+          "path": "$.choices[0].message.content"
+        }
+      },
+      {
+        "id": "ret",
+        "action": "return_result",
+        "params": {
+          "response": "{{ext.output.value}}",
+          "model": "{{input.model}}"
+        }
+      }
+    ],
+    "edges": [
+      {
+        "from": "chat",
+        "to": "chk"
+      },
+      {
+        "from": "chk",
+        "to": "ext"
+      },
+      {
+        "from": "ext",
+        "to": "ret"
+      }
+    ],
+    "entry_node": "chat",
+    "exit_node": [
+      "ret"
+    ]
+  },
+  "security": {
+    "network_whitelist": [
+      "openrouter.ai"
+    ],
+    "file_permissions": {
+      "read": [],
+      "write": []
+    },
+    "max_execution_time_ms": 15000,
+    "max_retries": 1,
+    "sandbox_level": "standard",
+    "dangerous_patterns": [],
+    "env_whitelist": [
+      "OPENROUTER_KEY"
+    ]
+  },
+  "mcp_compatible": true,
+  "required_mcp_capabilities": [
+    "openrouter"
+  ],
+  "jade_signature": {
+    "version": "1.0.0",
+    "skill_id": "mcp_openrouter",
+    "content_hash": "sha256:17b71cc903b52b4f4791e833cb9ed2484d22e24fd217f72512d1bee13159de60",
+    "signature": "jade-sig-aIvTEZnpQq45/UuzEN4w9n3H/2ZBcR+GpUepPuqZaIwhula17+wI1UIa9Ju+e9MBxt3xRvggXFAyN6imszIGCQ==",
+    "signer": {
+      "public_key": "jade-pk-root-o0p0Em+ufryyPQFFdKHEdSbWOPCqiGhUwwC9AjYJb/U=",
+      "fingerprint": "SHA256:HU0Dpg+xFPNxCURZhG9eX6Yx+ynMlbincaJxIRUJt98=",
+      "role": "root"
+    },
+    "timestamp": "2026-02-22T16:23:43Z",
+    "expires": "2027-02-22T16:23:43Z"
+  }
+}

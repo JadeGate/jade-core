@@ -1,0 +1,164 @@
+{
+  "jade_version": "1.0.0",
+  "skill_id": "mcp_cloudflare_r2",
+  "metadata": {
+    "name": "MCP Cloudflare R2 Storage",
+    "version": "1.0.0",
+    "description": "List objects in Cloudflare R2 bucket.",
+    "author": "jade-mcp-bridge",
+    "tags": [
+      "mcp",
+      "cloudflare",
+      "r2",
+      "storage",
+      "s3"
+    ],
+    "license": "BSL-1.1",
+    "created_at": "2026-02-22T16:23:40Z",
+    "updated_at": "2026-02-22T16:23:40Z"
+  },
+  "trigger": {
+    "type": "task_intent",
+    "conditions": [
+      {
+        "field": "task.type",
+        "operator": "in",
+        "value": [
+          "mcp_cloudflare_r2"
+        ]
+      }
+    ]
+  },
+  "input_schema": {
+    "required_params": [
+      {
+        "name": "bucket",
+        "type": "string",
+        "description": "R2 bucket name"
+      }
+    ],
+    "optional_params": [
+      {
+        "name": "prefix",
+        "type": "string",
+        "description": "Object prefix filter"
+      },
+      {
+        "name": "limit",
+        "type": "number",
+        "description": "Max objects",
+        "default": 100
+      }
+    ]
+  },
+  "output_schema": {
+    "fields": [
+      {
+        "name": "objects",
+        "type": "array",
+        "description": "Bucket objects"
+      },
+      {
+        "name": "bucket",
+        "type": "string",
+        "description": "Bucket name"
+      }
+    ]
+  },
+  "execution_dag": {
+    "nodes": [
+      {
+        "id": "list",
+        "action": "http_get",
+        "params": {
+          "url": "https://api.cloudflare.com/client/v4/accounts/{{env.CF_ACCOUNT_ID}}/r2/buckets/{{input.bucket}}/objects",
+          "headers": {
+            "Authorization": "Bearer {{env.CF_R2_TOKEN}}"
+          }
+        }
+      },
+      {
+        "id": "chk",
+        "action": "condition_check",
+        "params": {
+          "field": "{{list.output.status_code}}",
+          "operator": "equals",
+          "value": 200
+        }
+      },
+      {
+        "id": "ext",
+        "action": "json_extract",
+        "params": {
+          "data": "{{list.output.body}}",
+          "path": "$.result[*]",
+          "fields": [
+            "key",
+            "size",
+            "uploaded"
+          ]
+        }
+      },
+      {
+        "id": "ret",
+        "action": "return_result",
+        "params": {
+          "objects": "{{ext.output.value}}",
+          "bucket": "{{input.bucket}}"
+        }
+      }
+    ],
+    "edges": [
+      {
+        "from": "list",
+        "to": "chk"
+      },
+      {
+        "from": "chk",
+        "to": "ext"
+      },
+      {
+        "from": "ext",
+        "to": "ret"
+      }
+    ],
+    "entry_node": "list",
+    "exit_node": [
+      "ret"
+    ]
+  },
+  "security": {
+    "network_whitelist": [
+      "api.cloudflare.com"
+    ],
+    "file_permissions": {
+      "read": [],
+      "write": []
+    },
+    "max_execution_time_ms": 15000,
+    "max_retries": 1,
+    "sandbox_level": "standard",
+    "dangerous_patterns": [],
+    "env_whitelist": [
+      "CF_ACCOUNT_ID",
+      "CF_R2_TOKEN"
+    ]
+  },
+  "mcp_compatible": true,
+  "required_mcp_capabilities": [
+    "cloudflare-r2"
+  ],
+  "jade_signature": {
+    "version": "1.0.0",
+    "skill_id": "mcp_cloudflare_r2",
+    "content_hash": "sha256:e2ac651cf7e1ef2eb98599daf16ea142c2395f76bbe3516724e982706bd6c024",
+    "signature": "jade-sig-CO+REbY1LI48nTNkc1JbEFI0Cold8J+oy+sBb0nHojZdvyaB3/J6lnxRJRPl3l2sXgGLdjKzVMaiq7ZxIomGAQ==",
+    "signer": {
+      "public_key": "jade-pk-root-o0p0Em+ufryyPQFFdKHEdSbWOPCqiGhUwwC9AjYJb/U=",
+      "fingerprint": "SHA256:HU0Dpg+xFPNxCURZhG9eX6Yx+ynMlbincaJxIRUJt98=",
+      "role": "root"
+    },
+    "timestamp": "2026-02-22T16:23:43Z",
+    "expires": "2027-02-22T16:23:43Z"
+  }
+}

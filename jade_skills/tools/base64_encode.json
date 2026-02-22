@@ -1,0 +1,109 @@
+{
+  "jade_version": "1.0.0",
+  "skill_id": "base64_encode",
+  "metadata": {
+    "name": "Base64 Encode",
+    "version": "1.0.0",
+    "description": "Encode text or file content to Base64.",
+    "author": "jade-mcp-bridge",
+    "tags": [
+      "tools",
+      "base64",
+      "encode",
+      "convert"
+    ],
+    "license": "BSL-1.1",
+    "created_at": "2026-02-22T16:23:40Z",
+    "updated_at": "2026-02-22T16:23:40Z"
+  },
+  "trigger": {
+    "type": "task_intent",
+    "conditions": [
+      {
+        "field": "task.type",
+        "operator": "in",
+        "value": [
+          "base64_encode"
+        ]
+      }
+    ]
+  },
+  "input_schema": {
+    "required_params": [
+      {
+        "name": "content",
+        "type": "string",
+        "description": "Content to encode"
+      }
+    ],
+    "optional_params": []
+  },
+  "output_schema": {
+    "fields": [
+      {
+        "name": "encoded",
+        "type": "string",
+        "description": "Base64 encoded string"
+      },
+      {
+        "name": "length",
+        "type": "number",
+        "description": "Output length"
+      }
+    ]
+  },
+  "execution_dag": {
+    "nodes": [
+      {
+        "id": "enc",
+        "action": "string_format",
+        "params": {
+          "template": "{{input.content}}",
+          "variables": {}
+        }
+      },
+      {
+        "id": "ret",
+        "action": "return_result",
+        "params": {
+          "encoded": "{{enc.output.result}}",
+          "length": 0
+        }
+      }
+    ],
+    "edges": [
+      {
+        "from": "enc",
+        "to": "ret"
+      }
+    ],
+    "entry_node": "enc",
+    "exit_node": [
+      "ret"
+    ]
+  },
+  "security": {
+    "network_whitelist": [],
+    "file_permissions": {
+      "read": [],
+      "write": []
+    },
+    "max_execution_time_ms": 15000,
+    "max_retries": 1,
+    "sandbox_level": "strict",
+    "dangerous_patterns": []
+  },
+  "jade_signature": {
+    "version": "1.0.0",
+    "skill_id": "base64_encode",
+    "content_hash": "sha256:50459afbe8d7390bdb41ed755ce39014d9f3618d61d2bf876ef11ee11e4bd5c4",
+    "signature": "jade-sig-Sm0pI/pWyhGnkYEA9UPqZsa4MpWRV/8QmOKpr8UA4Sntz8gVhEBKpLP77VQAngqBXACMxtTL5nMTJmcj3ksTAw==",
+    "signer": {
+      "public_key": "jade-pk-root-o0p0Em+ufryyPQFFdKHEdSbWOPCqiGhUwwC9AjYJb/U=",
+      "fingerprint": "SHA256:HU0Dpg+xFPNxCURZhG9eX6Yx+ynMlbincaJxIRUJt98=",
+      "role": "root"
+    },
+    "timestamp": "2026-02-22T16:23:47Z",
+    "expires": "2027-02-22T16:23:47Z"
+  }
+}

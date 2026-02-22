@@ -1,0 +1,122 @@
+{
+  "jade_version": "1.0.0",
+  "skill_id": "markdown_lint",
+  "metadata": {
+    "name": "Markdown Lint",
+    "version": "1.0.0",
+    "description": "Validate markdown syntax and structure.",
+    "author": "jade-mcp-bridge",
+    "tags": [
+      "tools",
+      "markdown",
+      "lint",
+      "validation"
+    ],
+    "license": "BSL-1.1",
+    "created_at": "2026-02-22T16:23:40Z",
+    "updated_at": "2026-02-22T16:23:40Z"
+  },
+  "trigger": {
+    "type": "task_intent",
+    "conditions": [
+      {
+        "field": "task.type",
+        "operator": "in",
+        "value": [
+          "markdown_lint"
+        ]
+      }
+    ]
+  },
+  "input_schema": {
+    "required_params": [
+      {
+        "name": "content",
+        "type": "string",
+        "description": "Markdown content to validate"
+      }
+    ],
+    "optional_params": []
+  },
+  "output_schema": {
+    "fields": [
+      {
+        "name": "valid",
+        "type": "boolean",
+        "description": "Whether markdown is valid"
+      },
+      {
+        "name": "issues",
+        "type": "array",
+        "description": "List of issues found"
+      }
+    ]
+  },
+  "execution_dag": {
+    "nodes": [
+      {
+        "id": "fmt",
+        "action": "string_format",
+        "params": {
+          "template": "{{input.content}}",
+          "variables": {}
+        }
+      },
+      {
+        "id": "chk",
+        "action": "condition_check",
+        "params": {
+          "field": "{{fmt.output.result}}",
+          "operator": "not_empty",
+          "value": true
+        }
+      },
+      {
+        "id": "ret",
+        "action": "return_result",
+        "params": {
+          "valid": true,
+          "issues": []
+        }
+      }
+    ],
+    "edges": [
+      {
+        "from": "fmt",
+        "to": "chk"
+      },
+      {
+        "from": "chk",
+        "to": "ret"
+      }
+    ],
+    "entry_node": "fmt",
+    "exit_node": [
+      "ret"
+    ]
+  },
+  "security": {
+    "network_whitelist": [],
+    "file_permissions": {
+      "read": [],
+      "write": []
+    },
+    "max_execution_time_ms": 15000,
+    "max_retries": 1,
+    "sandbox_level": "strict",
+    "dangerous_patterns": []
+  },
+  "jade_signature": {
+    "version": "1.0.0",
+    "skill_id": "markdown_lint",
+    "content_hash": "sha256:b212187261a258573c2238801b4dbd2614dec8783ea730a757a64522ae209473",
+    "signature": "jade-sig-za14MmwOv2FVxBDqIxXSZdbLzv8PmVJUcdYi1eWyH9/zXObZV1IJmaOpQzezMmPJVsrNIkNHTDZNta/5C3RrDg==",
+    "signer": {
+      "public_key": "jade-pk-root-o0p0Em+ufryyPQFFdKHEdSbWOPCqiGhUwwC9AjYJb/U=",
+      "fingerprint": "SHA256:HU0Dpg+xFPNxCURZhG9eX6Yx+ynMlbincaJxIRUJt98=",
+      "role": "root"
+    },
+    "timestamp": "2026-02-22T16:23:46Z",
+    "expires": "2027-02-22T16:23:46Z"
+  }
+}

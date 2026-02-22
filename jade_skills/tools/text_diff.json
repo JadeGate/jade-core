@@ -1,0 +1,115 @@
+{
+  "jade_version": "1.0.0",
+  "skill_id": "text_diff",
+  "metadata": {
+    "name": "Text Diff",
+    "version": "1.0.0",
+    "description": "Compare two text strings and show differences.",
+    "author": "jade-mcp-bridge",
+    "tags": [
+      "tools",
+      "text",
+      "diff",
+      "compare"
+    ],
+    "license": "BSL-1.1",
+    "created_at": "2026-02-22T16:23:40Z",
+    "updated_at": "2026-02-22T16:23:40Z"
+  },
+  "trigger": {
+    "type": "task_intent",
+    "conditions": [
+      {
+        "field": "task.type",
+        "operator": "in",
+        "value": [
+          "text_diff"
+        ]
+      }
+    ]
+  },
+  "input_schema": {
+    "required_params": [
+      {
+        "name": "text_a",
+        "type": "string",
+        "description": "First text"
+      },
+      {
+        "name": "text_b",
+        "type": "string",
+        "description": "Second text"
+      }
+    ],
+    "optional_params": []
+  },
+  "output_schema": {
+    "fields": [
+      {
+        "name": "identical",
+        "type": "boolean",
+        "description": "Whether texts are identical"
+      },
+      {
+        "name": "diff",
+        "type": "string",
+        "description": "Diff output"
+      }
+    ]
+  },
+  "execution_dag": {
+    "nodes": [
+      {
+        "id": "cmp",
+        "action": "condition_check",
+        "params": {
+          "field": "{{input.text_a}}",
+          "operator": "equals",
+          "value": "{{input.text_b}}"
+        }
+      },
+      {
+        "id": "ret",
+        "action": "return_result",
+        "params": {
+          "identical": "{{cmp.output.result}}",
+          "diff": "comparison complete"
+        }
+      }
+    ],
+    "edges": [
+      {
+        "from": "cmp",
+        "to": "ret"
+      }
+    ],
+    "entry_node": "cmp",
+    "exit_node": [
+      "ret"
+    ]
+  },
+  "security": {
+    "network_whitelist": [],
+    "file_permissions": {
+      "read": [],
+      "write": []
+    },
+    "max_execution_time_ms": 15000,
+    "max_retries": 1,
+    "sandbox_level": "strict",
+    "dangerous_patterns": []
+  },
+  "jade_signature": {
+    "version": "1.0.0",
+    "skill_id": "text_diff",
+    "content_hash": "sha256:147f139e2e04ed6720d41fc757c730958a22f2544bb7c323749f666cb31757f1",
+    "signature": "jade-sig-InuOQFSlGT8FDiYNltdJ2bb5VIQ25WlyEYxc+iwN07iT9I4/IWJQMpM7Qz3uNMcLfY5FcoEZi3TT+rVQkHsABA==",
+    "signer": {
+      "public_key": "jade-pk-root-o0p0Em+ufryyPQFFdKHEdSbWOPCqiGhUwwC9AjYJb/U=",
+      "fingerprint": "SHA256:HU0Dpg+xFPNxCURZhG9eX6Yx+ynMlbincaJxIRUJt98=",
+      "role": "root"
+    },
+    "timestamp": "2026-02-22T16:23:46Z",
+    "expires": "2027-02-22T16:23:46Z"
+  }
+}

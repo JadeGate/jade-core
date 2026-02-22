@@ -1,0 +1,172 @@
+{
+  "jade_version": "1.0.0",
+  "skill_id": "mcp_resend_email",
+  "metadata": {
+    "name": "MCP Resend Email",
+    "version": "1.0.0",
+    "description": "Send transactional emails via Resend API.",
+    "author": "jade-mcp-bridge",
+    "tags": [
+      "mcp",
+      "resend",
+      "email",
+      "transactional"
+    ],
+    "license": "BSL-1.1",
+    "created_at": "2026-02-22T16:23:40Z",
+    "updated_at": "2026-02-22T16:23:40Z"
+  },
+  "trigger": {
+    "type": "task_intent",
+    "conditions": [
+      {
+        "field": "task.type",
+        "operator": "in",
+        "value": [
+          "mcp_resend_email"
+        ]
+      }
+    ]
+  },
+  "input_schema": {
+    "required_params": [
+      {
+        "name": "to",
+        "type": "string",
+        "description": "Recipient email"
+      },
+      {
+        "name": "subject",
+        "type": "string",
+        "description": "Email subject"
+      },
+      {
+        "name": "html",
+        "type": "string",
+        "description": "Email HTML body"
+      }
+    ],
+    "optional_params": [
+      {
+        "name": "from_addr",
+        "type": "string",
+        "description": "Sender address",
+        "default": "noreply@example.com"
+      }
+    ]
+  },
+  "output_schema": {
+    "fields": [
+      {
+        "name": "id",
+        "type": "string",
+        "description": "Email ID"
+      },
+      {
+        "name": "status",
+        "type": "string",
+        "description": "Send status"
+      }
+    ]
+  },
+  "execution_dag": {
+    "nodes": [
+      {
+        "id": "send",
+        "action": "http_post",
+        "params": {
+          "url": "https://api.resend.com/emails",
+          "headers": {
+            "Authorization": "Bearer {{env.RESEND_KEY}}",
+            "Content-Type": "application/json"
+          },
+          "body": {
+            "from": "{{input.from_addr}}",
+            "to": "{{input.to}}",
+            "subject": "{{input.subject}}",
+            "html": "{{input.html}}"
+          }
+        }
+      },
+      {
+        "id": "chk",
+        "action": "condition_check",
+        "params": {
+          "field": "{{send.output.status_code}}",
+          "operator": "equals",
+          "value": 200
+        }
+      },
+      {
+        "id": "ext",
+        "action": "json_extract",
+        "params": {
+          "data": "{{send.output.body}}",
+          "path": "$",
+          "fields": [
+            "id"
+          ]
+        }
+      },
+      {
+        "id": "ret",
+        "action": "return_result",
+        "params": {
+          "id": "{{ext.output.value}}",
+          "status": "sent"
+        }
+      }
+    ],
+    "edges": [
+      {
+        "from": "send",
+        "to": "chk"
+      },
+      {
+        "from": "chk",
+        "to": "ext"
+      },
+      {
+        "from": "ext",
+        "to": "ret"
+      }
+    ],
+    "entry_node": "send",
+    "exit_node": [
+      "ret"
+    ]
+  },
+  "security": {
+    "network_whitelist": [
+      "api.resend.com"
+    ],
+    "file_permissions": {
+      "read": [],
+      "write": []
+    },
+    "max_execution_time_ms": 15000,
+    "max_retries": 1,
+    "sandbox_level": "standard",
+    "dangerous_patterns": [],
+    "env_whitelist": [
+      "RESEND_KEY"
+    ]
+  },
+  "mcp_compatible": true,
+  "required_mcp_capabilities": [
+    "resend"
+  ],
+  "jade_signature": {
+    "version": "1.0.0",
+    "skill_id": "mcp_resend_email",
+    "content_hash": "sha256:c9ae3bb17f3ce89f0585d352cc150291b43f5a33317c367d8a26e7b33e7f9b96",
+    "signature": "jade-sig-IkCNhsH7QhIaTvJv4XpfIc+sBjTOrRKB7+D+MA1wSoyVYqS86P2f5JEV+cYqOOFqYK9nsdFttOVeBZ2ewmHJDg==",
+    "signer": {
+      "public_key": "jade-pk-root-o0p0Em+ufryyPQFFdKHEdSbWOPCqiGhUwwC9AjYJb/U=",
+      "fingerprint": "SHA256:HU0Dpg+xFPNxCURZhG9eX6Yx+ynMlbincaJxIRUJt98=",
+      "role": "root"
+    },
+    "timestamp": "2026-02-22T16:23:45Z",
+    "expires": "2027-02-22T16:23:45Z"
+  }
+}

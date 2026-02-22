@@ -1,0 +1,164 @@
+{
+  "jade_version": "1.0.0",
+  "skill_id": "mcp_spotify_search",
+  "metadata": {
+    "name": "MCP Spotify Search",
+    "version": "1.0.0",
+    "description": "Search tracks, albums, and artists on Spotify.",
+    "author": "jade-mcp-bridge",
+    "tags": [
+      "mcp",
+      "spotify",
+      "music",
+      "search"
+    ],
+    "license": "BSL-1.1",
+    "created_at": "2026-02-22T16:23:40Z",
+    "updated_at": "2026-02-22T16:23:40Z"
+  },
+  "trigger": {
+    "type": "task_intent",
+    "conditions": [
+      {
+        "field": "task.type",
+        "operator": "in",
+        "value": [
+          "mcp_spotify_search"
+        ]
+      }
+    ]
+  },
+  "input_schema": {
+    "required_params": [
+      {
+        "name": "query",
+        "type": "string",
+        "description": "Search query"
+      }
+    ],
+    "optional_params": [
+      {
+        "name": "type",
+        "type": "string",
+        "description": "Search type: track,album,artist",
+        "default": "track"
+      },
+      {
+        "name": "limit",
+        "type": "number",
+        "description": "Max results",
+        "default": 10
+      }
+    ]
+  },
+  "output_schema": {
+    "fields": [
+      {
+        "name": "results",
+        "type": "array",
+        "description": "Search results"
+      },
+      {
+        "name": "query",
+        "type": "string",
+        "description": "Original query"
+      }
+    ]
+  },
+  "execution_dag": {
+    "nodes": [
+      {
+        "id": "search",
+        "action": "http_get",
+        "params": {
+          "url": "https://api.spotify.com/v1/search?q={{input.query}}&type={{input.type}}&limit={{input.limit}}",
+          "headers": {
+            "Authorization": "Bearer {{env.SPOTIFY_TOKEN}}"
+          }
+        }
+      },
+      {
+        "id": "chk",
+        "action": "condition_check",
+        "params": {
+          "field": "{{search.output.status_code}}",
+          "operator": "equals",
+          "value": 200
+        }
+      },
+      {
+        "id": "ext",
+        "action": "json_extract",
+        "params": {
+          "data": "{{search.output.body}}",
+          "path": "$.tracks.items[*]",
+          "fields": [
+            "name",
+            "artists",
+            "album",
+            "external_urls"
+          ]
+        }
+      },
+      {
+        "id": "ret",
+        "action": "return_result",
+        "params": {
+          "results": "{{ext.output.value}}",
+          "query": "{{input.query}}"
+        }
+      }
+    ],
+    "edges": [
+      {
+        "from": "search",
+        "to": "chk"
+      },
+      {
+        "from": "chk",
+        "to": "ext"
+      },
+      {
+        "from": "ext",
+        "to": "ret"
+      }
+    ],
+    "entry_node": "search",
+    "exit_node": [
+      "ret"
+    ]
+  },
+  "security": {
+    "network_whitelist": [
+      "api.spotify.com"
+    ],
+    "file_permissions": {
+      "read": [],
+      "write": []
+    },
+    "max_execution_time_ms": 15000,
+    "max_retries": 1,
+    "sandbox_level": "standard",
+    "dangerous_patterns": [],
+    "env_whitelist": [
+      "SPOTIFY_TOKEN"
+    ]
+  },
+  "mcp_compatible": true,
+  "required_mcp_capabilities": [
+    "spotify"
+  ],
+  "jade_signature": {
+    "version": "1.0.0",
+    "skill_id": "mcp_spotify_search",
+    "content_hash": "sha256:67584a236c79601de475cfe92d75440cdb205edb1dc278d83ac8cba2fa177406",
+    "signature": "jade-sig-KbyOAMf1m5S7HJTflznXPD0M2P2kQfSvFHlyNgpMBDSliKz7gL042qS2GWOfUxSRTNXNyVK9I/l53qGe9H3sAw==",
+    "signer": {
+      "public_key": "jade-pk-root-o0p0Em+ufryyPQFFdKHEdSbWOPCqiGhUwwC9AjYJb/U=",
+      "fingerprint": "SHA256:HU0Dpg+xFPNxCURZhG9eX6Yx+ynMlbincaJxIRUJt98=",
+      "role": "root"
+    },
+    "timestamp": "2026-02-22T16:23:43Z",
+    "expires": "2027-02-22T16:23:43Z"
+  }
+}

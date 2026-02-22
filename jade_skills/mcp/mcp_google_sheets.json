@@ -1,0 +1,150 @@
+{
+  "jade_version": "1.0.0",
+  "skill_id": "mcp_google_sheets",
+  "metadata": {
+    "name": "MCP Google Sheets",
+    "version": "1.0.0",
+    "description": "Read data from Google Sheets via MCP.",
+    "author": "jade-mcp-bridge",
+    "tags": [
+      "mcp",
+      "google",
+      "sheets",
+      "spreadsheet"
+    ],
+    "license": "BSL-1.1",
+    "created_at": "2026-02-22T16:23:40Z",
+    "updated_at": "2026-02-22T16:23:40Z"
+  },
+  "trigger": {
+    "type": "task_intent",
+    "conditions": [
+      {
+        "field": "task.type",
+        "operator": "in",
+        "value": [
+          "mcp_google_sheets"
+        ]
+      }
+    ]
+  },
+  "input_schema": {
+    "required_params": [
+      {
+        "name": "spreadsheet_id",
+        "type": "string",
+        "description": "Spreadsheet ID"
+      },
+      {
+        "name": "range",
+        "type": "string",
+        "description": "Cell range e.g. Sheet1!A1:D10"
+      }
+    ],
+    "optional_params": []
+  },
+  "output_schema": {
+    "fields": [
+      {
+        "name": "data",
+        "type": "array",
+        "description": "Sheet data"
+      },
+      {
+        "name": "status",
+        "type": "string",
+        "description": "Status"
+      }
+    ]
+  },
+  "execution_dag": {
+    "nodes": [
+      {
+        "id": "read",
+        "action": "http_get",
+        "params": {
+          "url": "https://sheets.googleapis.com/v4/spreadsheets/{{input.spreadsheet_id}}/values/{{input.range}}",
+          "headers": {
+            "Authorization": "Bearer {{env.GOOGLE_TOKEN}}"
+          }
+        }
+      },
+      {
+        "id": "chk",
+        "action": "condition_check",
+        "params": {
+          "field": "{{read.output.status_code}}",
+          "operator": "equals",
+          "value": 200
+        }
+      },
+      {
+        "id": "ext",
+        "action": "json_extract",
+        "params": {
+          "data": "{{read.output.body}}",
+          "path": "$.values"
+        }
+      },
+      {
+        "id": "ret",
+        "action": "return_result",
+        "params": {
+          "data": "{{ext.output.value}}",
+          "status": "ok"
+        }
+      }
+    ],
+    "edges": [
+      {
+        "from": "read",
+        "to": "chk"
+      },
+      {
+        "from": "chk",
+        "to": "ext"
+      },
+      {
+        "from": "ext",
+        "to": "ret"
+      }
+    ],
+    "entry_node": "read",
+    "exit_node": [
+      "ret"
+    ]
+  },
+  "security": {
+    "network_whitelist": [
+      "sheets.googleapis.com"
+    ],
+    "file_permissions": {
+      "read": [],
+      "write": []
+    },
+    "max_execution_time_ms": 15000,
+    "max_retries": 1,
+    "sandbox_level": "standard",
+    "dangerous_patterns": [],
+    "env_whitelist": [
+      "GOOGLE_TOKEN"
+    ]
+  },
+  "mcp_compatible": true,
+  "required_mcp_capabilities": [
+    "google-sheets"
+  ],
+  "jade_signature": {
+    "version": "1.0.0",
+    "skill_id": "mcp_google_sheets",
+    "content_hash": "sha256:970b6aa503355a818b5007de26ea0fc4226f637e0e2b2e2daee7ab10b2189473",
+    "signature": "jade-sig-fZ3v/dh5Rlu5c0pJDTOG6fTqA7HxyiFBsgPQnHDzHmyRCU5uDfm9wT2T7oocDXqJWB5cxeZYoigRKc71mvlZCg==",
+    "signer": {
+      "public_key": "jade-pk-root-o0p0Em+ufryyPQFFdKHEdSbWOPCqiGhUwwC9AjYJb/U=",
+      "fingerprint": "SHA256:HU0Dpg+xFPNxCURZhG9eX6Yx+ynMlbincaJxIRUJt98=",
+      "role": "root"
+    },
+    "timestamp": "2026-02-22T16:23:41Z",
+    "expires": "2027-02-22T16:23:41Z"
+  }
+}

@@ -1,0 +1,166 @@
+{
+  "jade_version": "1.0.0",
+  "skill_id": "mcp_supabase_auth",
+  "metadata": {
+    "name": "MCP Supabase Auth",
+    "version": "1.0.0",
+    "description": "Sign up or sign in users via Supabase Auth.",
+    "author": "jade-mcp-bridge",
+    "tags": [
+      "mcp",
+      "supabase",
+      "auth",
+      "authentication"
+    ],
+    "license": "BSL-1.1",
+    "created_at": "2026-02-22T16:23:40Z",
+    "updated_at": "2026-02-22T16:23:40Z"
+  },
+  "trigger": {
+    "type": "task_intent",
+    "conditions": [
+      {
+        "field": "task.type",
+        "operator": "in",
+        "value": [
+          "mcp_supabase_auth"
+        ]
+      }
+    ]
+  },
+  "input_schema": {
+    "required_params": [
+      {
+        "name": "action",
+        "type": "string",
+        "description": "Action: signup or signin"
+      },
+      {
+        "name": "email",
+        "type": "string",
+        "description": "User email"
+      }
+    ],
+    "optional_params": [
+      {
+        "name": "user_password",
+        "type": "string",
+        "description": "User password (write-only, not logged)"
+      }
+    ]
+  },
+  "output_schema": {
+    "fields": [
+      {
+        "name": "user",
+        "type": "object",
+        "description": "User object"
+      },
+      {
+        "name": "status",
+        "type": "string",
+        "description": "Auth status"
+      }
+    ]
+  },
+  "execution_dag": {
+    "nodes": [
+      {
+        "id": "auth",
+        "action": "http_post",
+        "params": {
+          "url": "https://{{env.SUPABASE_URL}}/auth/v1/{{input.action}}",
+          "headers": {
+            "apikey": "{{env.SUPABASE_ANON_KEY}}",
+            "Content-Type": "application/json"
+          },
+          "body": {
+            "email": "{{input.email}}",
+            "password": "{{input.user_password}}"
+          }
+        }
+      },
+      {
+        "id": "chk",
+        "action": "condition_check",
+        "params": {
+          "field": "{{auth.output.status_code}}",
+          "operator": "equals",
+          "value": 200
+        }
+      },
+      {
+        "id": "ext",
+        "action": "json_extract",
+        "params": {
+          "data": "{{auth.output.body}}",
+          "path": "$",
+          "fields": [
+            "user",
+            "session"
+          ]
+        }
+      },
+      {
+        "id": "ret",
+        "action": "return_result",
+        "params": {
+          "user": "{{ext.output.value}}",
+          "status": "ok"
+        }
+      }
+    ],
+    "edges": [
+      {
+        "from": "auth",
+        "to": "chk"
+      },
+      {
+        "from": "chk",
+        "to": "ext"
+      },
+      {
+        "from": "ext",
+        "to": "ret"
+      }
+    ],
+    "entry_node": "auth",
+    "exit_node": [
+      "ret"
+    ]
+  },
+  "security": {
+    "network_whitelist": [
+      "supabase.co"
+    ],
+    "file_permissions": {
+      "read": [],
+      "write": []
+    },
+    "max_execution_time_ms": 15000,
+    "max_retries": 1,
+    "sandbox_level": "standard",
+    "dangerous_patterns": [],
+    "env_whitelist": [
+      "SUPABASE_URL",
+      "SUPABASE_ANON_KEY"
+    ]
+  },
+  "mcp_compatible": true,
+  "required_mcp_capabilities": [
+    "supabase"
+  ],
+  "jade_signature": {
+    "version": "1.0.0",
+    "skill_id": "mcp_supabase_auth",
+    "content_hash": "sha256:b2c0659e9f8c47d8a90d2de32600af883e54c0a6a30eb5224b14033c2d6d0fe7",
+    "signature": "jade-sig-JW0VjZQPsFTr9v9LwFDzCfvq2RLSbkGkFMP3HAmbNFiYSvJ89jGhyOoN5wfEg1COd2TdwZM8aA+qa0D369oCCw==",
+    "signer": {
+      "public_key": "jade-pk-root-o0p0Em+ufryyPQFFdKHEdSbWOPCqiGhUwwC9AjYJb/U=",
+      "fingerprint": "SHA256:HU0Dpg+xFPNxCURZhG9eX6Yx+ynMlbincaJxIRUJt98=",
+      "role": "root"
+    },
+    "timestamp": "2026-02-22T16:23:44Z",
+    "expires": "2027-02-22T16:23:44Z"
+  }
+}
