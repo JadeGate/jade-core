@@ -128,13 +128,13 @@
     "version": "1.0.0",
     "skill_id": "mcp_docker_list",
     "content_hash": "sha256:25f75bb0673a7c508dc402c0b02d08e01c5c03dadea2830f1fedf9a5a1eddbe1",
-    "signature": "jade-sig-fDhcSHqbJBsjcjy1QQ2kfOOxBYkP3Ll/pZnyP69sq3L1+0t7102DKdhYPnuLbOQGuq0Czsm4Vq8YDgvp+TrMBg==",
+    "signature": "jade-sig-YnInhUEzubz5RLCKC0iQ15t72UPbZ1SEJJeGSA8fwBTX/fxWSR8UVFGlTfOuR4LQNA9k41Kdvvg/As/YonELBA==",
     "signer": {
-      "public_key": "jade-pk-root-CSoKNMpd17huyuQvkIW4pfKaixcJ6pUtLT2ljfnzJis=",
-      "fingerprint": "SHA256:qXEdtwUlyBn7LJVPiqftBRnuCrKQx6kYOb43c0Xz2yk=",
+      "public_key": "jade-pk-root-o0p0Em+ufryyPQFFdKHEdSbWOPCqiGhUwwC9AjYJb/U=",
+      "fingerprint": "SHA256:HU0Dpg+xFPNxCURZhG9eX6Yx+ynMlbincaJxIRUJt98=",
       "role": "root"
     },
-    "timestamp": "2026-02-21T08:53:45Z",
-    "expires": "2027-02-21T08:53:45Z"
+    "timestamp": "2026-02-22T16:17:39Z",
+    "expires": "2027-02-22T16:17:39Z"
   }
 }

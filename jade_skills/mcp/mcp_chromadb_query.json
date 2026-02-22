@@ -82,5 +82,18 @@
   "mcp_compatible": true,
   "required_mcp_capabilities": [
     "chromadb"
-  ]
+  ],
+  "jade_signature": {
+    "version": "1.0.0",
+    "skill_id": "mcp_chromadb_query",
+    "content_hash": "sha256:1b99a8a1dc7dd6842acc4431f0cefb0a7521a13669548d5576949c25534b97a5",
+    "signature": "jade-sig-Z1YaxRhZKmgOwg/DBeT3xYH6pw8LNvY9gSGaE61FGfNO1FUzUXurKaCRsVqOdbf+ZhwZ0q0QmT2OCi5H/wdeBA==",
+    "signer": {
+      "public_key": "jade-pk-root-o0p0Em+ufryyPQFFdKHEdSbWOPCqiGhUwwC9AjYJb/U=",
+      "fingerprint": "SHA256:HU0Dpg+xFPNxCURZhG9eX6Yx+ynMlbincaJxIRUJt98=",
+      "role": "root"
+    },
+    "timestamp": "2026-02-22T16:17:36Z",
+    "expires": "2027-02-22T16:17:36Z"
+  }
 }

@@ -4,9 +4,9 @@
   "issuer": "JadeGate Root CA",
   "subject": "JadeGate Root CA",
   "algorithm": "Ed25519",
-  "fingerprint": "SHA256:2P1URTCynzJwNMCHuWGr9RJb6GK3qbv57Ituc4gZibI=",
-  "public_key": "jade-pk-root-nahtqppiTuY+3eXtr9Hh+LgVlOnSZy+pN5i/r4tVck8=",
-  "created": "2026-02-21T09:41:46Z",
+  "fingerprint": "SHA256:HU0Dpg+xFPNxCURZhG9eX6Yx+ynMlbincaJxIRUJt98=",
+  "public_key": "jade-pk-root-o0p0Em+ufryyPQFFdKHEdSbWOPCqiGhUwwC9AjYJb/U=",
+  "created": "2026-02-22T16:17:15Z",
   "expires": "2036-01-01T00:00:00Z",
   "permissions": [
     "sign:skill",

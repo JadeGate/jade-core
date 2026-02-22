@@ -6,7 +6,13 @@
     "version": "1.0.0",
     "description": "Safely read and parse complex tables from local PDF files. Extracts structured tabular data without executing any embedded scripts or macros. Pure local file operation.",
     "author": "jade-core-team",
-    "tags": ["pdf", "table", "parser", "data-extraction", "local"],
+    "tags": [
+      "pdf",
+      "table",
+      "parser",
+      "data-extraction",
+      "local"
+    ],
     "license": "MIT",
     "created_at": "2026-02-21T00:00:00Z",
     "updated_at": "2026-02-21T00:00:00Z"
@@ -52,9 +58,21 @@
   },
   "output_schema": {
     "fields": [
-      { "name": "tables", "type": "array", "description": "Array of extracted tables, each containing rows and columns" },
-      { "name": "page_count", "type": "number", "description": "Number of pages processed" },
-      { "name": "table_count", "type": "number", "description": "Total number of tables found" }
+      {
+        "name": "tables",
+        "type": "array",
+        "description": "Array of extracted tables, each containing rows and columns"
+      },
+      {
+        "name": "page_count",
+        "type": "number",
+        "description": "Number of pages processed"
+      },
+      {
+        "name": "table_count",
+        "type": "number",
+        "description": "Total number of tables found"
+      }
     ]
   },
   "execution_dag": {
@@ -136,22 +154,56 @@
       }
     ],
     "edges": [
-      { "from": "validate_file", "to": "check_pdf_magic" },
-      { "from": "check_pdf_magic", "to": "check_file_size", "condition": "success" },
-      { "from": "check_pdf_magic", "to": "abort_not_pdf", "condition": "failure" },
-      { "from": "check_file_size", "to": "extract_pages", "condition": "success" },
-      { "from": "check_file_size", "to": "abort_too_large", "condition": "failure" },
-      { "from": "extract_pages", "to": "detect_tables" },
-      { "from": "detect_tables", "to": "format_output" },
-      { "from": "format_output", "to": "return_result" }
+      {
+        "from": "validate_file",
+        "to": "check_pdf_magic"
+      },
+      {
+        "from": "check_pdf_magic",
+        "to": "check_file_size",
+        "condition": "success"
+      },
+      {
+        "from": "check_pdf_magic",
+        "to": "abort_not_pdf",
+        "condition": "failure"
+      },
+      {
+        "from": "check_file_size",
+        "to": "extract_pages",
+        "condition": "success"
+      },
+      {
+        "from": "check_file_size",
+        "to": "abort_too_large",
+        "condition": "failure"
+      },
+      {
+        "from": "extract_pages",
+        "to": "detect_tables"
+      },
+      {
+        "from": "detect_tables",
+        "to": "format_output"
+      },
+      {
+        "from": "format_output",
+        "to": "return_result"
+      }
     ],
     "entry_node": "validate_file",
-    "exit_node": ["return_result", "abort_not_pdf", "abort_too_large"]
+    "exit_node": [
+      "return_result",
+      "abort_not_pdf",
+      "abort_too_large"
+    ]
   },
   "security": {
     "network_whitelist": [],
     "file_permissions": {
-      "read": ["{{input.file_path}}"],
+      "read": [
+        "{{input.file_path}}"
+      ],
       "write": []
     },
     "max_execution_time_ms": 120000,
@@ -160,5 +212,20 @@
     "dangerous_patterns": []
   },
   "mcp_compatible": true,
-  "required_mcp_capabilities": ["filesystem"]
+  "required_mcp_capabilities": [
+    "filesystem"
+  ],
+  "jade_signature": {
+    "version": "1.0.0",
+    "skill_id": "pdf_table_parser",
+    "content_hash": "sha256:d2a623bb51f23adf5504cc41904b5cf4b5c9a698f1f561082a4074598fed7a82",
+    "signature": "jade-sig-+zzU+g7dp4vxxiv5XfnqnSx5XtN0bH15n09a7qZzWBlC6JBIae1Y6LQm1OjVWeSxI3DBv9Qm11rYNYfC/Fw4AA==",
+    "signer": {
+      "public_key": "jade-pk-root-o0p0Em+ufryyPQFFdKHEdSbWOPCqiGhUwwC9AjYJb/U=",
+      "fingerprint": "SHA256:HU0Dpg+xFPNxCURZhG9eX6Yx+ynMlbincaJxIRUJt98=",
+      "role": "root"
+    },
+    "timestamp": "2026-02-22T16:18:21Z",
+    "expires": "2027-02-22T16:18:21Z"
+  }
 }

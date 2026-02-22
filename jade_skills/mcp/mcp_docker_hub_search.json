@@ -77,5 +77,18 @@
   "mcp_compatible": true,
   "required_mcp_capabilities": [
     "docker-hub"
-  ]
+  ],
+  "jade_signature": {
+    "version": "1.0.0",
+    "skill_id": "mcp_docker_hub_search",
+    "content_hash": "sha256:31945a4325493ba9b09bd4f51d58e283fe32a0d1440bbbee6b221a4e1511c4c6",
+    "signature": "jade-sig-UdvzhgcNQfmjL8oJZxcVtThUtRfyL4U4T5cNMWJOPZ1Rzp4S3hqEwDo+41BviAUD3wI7KUp6ELFDcCfInRm2AA==",
+    "signer": {
+      "public_key": "jade-pk-root-o0p0Em+ufryyPQFFdKHEdSbWOPCqiGhUwwC9AjYJb/U=",
+      "fingerprint": "SHA256:HU0Dpg+xFPNxCURZhG9eX6Yx+ynMlbincaJxIRUJt98=",
+      "role": "root"
+    },
+    "timestamp": "2026-02-22T16:17:39Z",
+    "expires": "2027-02-22T16:17:39Z"
+  }
 }

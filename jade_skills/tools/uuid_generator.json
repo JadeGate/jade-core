@@ -66,5 +66,18 @@
     "entry_node": "main",
     "exit_node": "main"
   },
-  "mcp_compatible": false
+  "mcp_compatible": false,
+  "jade_signature": {
+    "version": "1.0.0",
+    "skill_id": "uuid_generator",
+    "content_hash": "sha256:9b8e984d50e4f10407476279b6bbd883c07e9ee0af34e4dab5029a045ccfd316",
+    "signature": "jade-sig-rbU546egoqOOrorgGq4AM0RnbQZMgaElOxyD2EmF5qHxXjjApoebrWLb4bktg3qqZOoPoxQZ6u93587liobbDg==",
+    "signer": {
+      "public_key": "jade-pk-root-o0p0Em+ufryyPQFFdKHEdSbWOPCqiGhUwwC9AjYJb/U=",
+      "fingerprint": "SHA256:HU0Dpg+xFPNxCURZhG9eX6Yx+ynMlbincaJxIRUJt98=",
+      "role": "root"
+    },
+    "timestamp": "2026-02-22T16:18:18Z",
+    "expires": "2027-02-22T16:18:18Z"
+  }
 }

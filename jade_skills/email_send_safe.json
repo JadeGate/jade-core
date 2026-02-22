@@ -6,7 +6,13 @@
     "version": "1.0.0",
     "description": "Securely send emails via SMTP with mandatory confirmation step, content sanitization, and attachment size limits. Prevents accidental mass-mailing and sensitive data leakage through strict guardrails.",
     "author": "jade-core-team",
-    "tags": ["email", "smtp", "send", "safe", "communication"],
+    "tags": [
+      "email",
+      "smtp",
+      "send",
+      "safe",
+      "communication"
+    ],
     "license": "MIT",
     "created_at": "2026-02-21T00:00:00Z",
     "updated_at": "2026-02-21T00:00:00Z"
@@ -17,7 +23,11 @@
       {
         "field": "task.type",
         "operator": "in",
-        "value": ["send_email", "email_send", "compose_email"]
+        "value": [
+          "send_email",
+          "email_send",
+          "compose_email"
+        ]
       }
     ]
   },
@@ -82,9 +92,21 @@
   },
   "output_schema": {
     "fields": [
-      { "name": "sent", "type": "boolean", "description": "Whether the email was successfully sent" },
-      { "name": "message_id", "type": "string", "description": "SMTP message ID if sent" },
-      { "name": "sanitized_fields", "type": "array", "description": "List of fields that were sanitized" }
+      {
+        "name": "sent",
+        "type": "boolean",
+        "description": "Whether the email was successfully sent"
+      },
+      {
+        "name": "message_id",
+        "type": "string",
+        "description": "SMTP message ID if sent"
+      },
+      {
+        "name": "sanitized_fields",
+        "type": "array",
+        "description": "List of fields that were sanitized"
+      }
     ]
   },
   "execution_dag": {
@@ -120,7 +142,12 @@
         "action": "text_sanitize",
         "params": {
           "input": "{{input.body}}",
-          "rules": ["strip_html", "remove_scripts", "mask_credit_cards", "mask_ssn"]
+          "rules": [
+            "strip_html",
+            "remove_scripts",
+            "mask_credit_cards",
+            "mask_ssn"
+          ]
         }
       },
       {
@@ -234,25 +261,89 @@
       }
     ],
     "edges": [
-      { "from": "validate_recipient", "to": "check_valid_email" },
-      { "from": "check_valid_email", "to": "check_single_recipient", "condition": "success" },
-      { "from": "check_valid_email", "to": "abort_invalid_email", "condition": "failure" },
-      { "from": "check_single_recipient", "to": "sanitize_body", "condition": "success" },
-      { "from": "check_single_recipient", "to": "abort_multi_recipient", "condition": "failure" },
-      { "from": "sanitize_body", "to": "check_attachment" },
-      { "from": "check_attachment", "to": "validate_attachment_size", "condition": "success" },
-      { "from": "check_attachment", "to": "build_email", "condition": "failure" },
-      { "from": "validate_attachment_size", "to": "check_size_limit" },
-      { "from": "check_size_limit", "to": "build_email", "condition": "success" },
-      { "from": "check_size_limit", "to": "abort_attachment_too_large", "condition": "failure" },
-      { "from": "build_email", "to": "request_confirmation" },
-      { "from": "request_confirmation", "to": "check_confirmed" },
-      { "from": "check_confirmed", "to": "send_smtp", "condition": "success" },
-      { "from": "check_confirmed", "to": "abort_not_confirmed", "condition": "failure" },
-      { "from": "send_smtp", "to": "return_success" }
+      {
+        "from": "validate_recipient",
+        "to": "check_valid_email"
+      },
+      {
+        "from": "check_valid_email",
+        "to": "check_single_recipient",
+        "condition": "success"
+      },
+      {
+        "from": "check_valid_email",
+        "to": "abort_invalid_email",
+        "condition": "failure"
+      },
+      {
+        "from": "check_single_recipient",
+        "to": "sanitize_body",
+        "condition": "success"
+      },
+      {
+        "from": "check_single_recipient",
+        "to": "abort_multi_recipient",
+        "condition": "failure"
+      },
+      {
+        "from": "sanitize_body",
+        "to": "check_attachment"
+      },
+      {
+        "from": "check_attachment",
+        "to": "validate_attachment_size",
+        "condition": "success"
+      },
+      {
+        "from": "check_attachment",
+        "to": "build_email",
+        "condition": "failure"
+      },
+      {
+        "from": "validate_attachment_size",
+        "to": "check_size_limit"
+      },
+      {
+        "from": "check_size_limit",
+        "to": "build_email",
+        "condition": "success"
+      },
+      {
+        "from": "check_size_limit",
+        "to": "abort_attachment_too_large",
+        "condition": "failure"
+      },
+      {
+        "from": "build_email",
+        "to": "request_confirmation"
+      },
+      {
+        "from": "request_confirmation",
+        "to": "check_confirmed"
+      },
+      {
+        "from": "check_confirmed",
+        "to": "send_smtp",
+        "condition": "success"
+      },
+      {
+        "from": "check_confirmed",
+        "to": "abort_not_confirmed",
+        "condition": "failure"
+      },
+      {
+        "from": "send_smtp",
+        "to": "return_success"
+      }
     ],
     "entry_node": "validate_recipient",
-    "exit_node": ["return_success", "abort_invalid_email", "abort_multi_recipient", "abort_attachment_too_large", "abort_not_confirmed"]
+    "exit_node": [
+      "return_success",
+      "abort_invalid_email",
+      "abort_multi_recipient",
+      "abort_attachment_too_large",
+      "abort_not_confirmed"
+    ]
   },
   "security": {
     "network_whitelist": [
@@ -264,7 +355,9 @@
       "smtp.mail.yahoo.com"
     ],
     "file_permissions": {
-      "read": ["{{input.attachment_path}}"],
+      "read": [
+        "{{input.attachment_path}}"
+      ],
       "write": []
     },
     "max_execution_time_ms": 30000,
@@ -273,5 +366,21 @@
     "dangerous_patterns": []
   },
   "mcp_compatible": true,
-  "required_mcp_capabilities": ["smtp", "filesystem"]
+  "required_mcp_capabilities": [
+    "smtp",
+    "filesystem"
+  ],
+  "jade_signature": {
+    "version": "1.0.0",
+    "skill_id": "email_send_safe",
+    "content_hash": "sha256:3a868d3ed4b2d8791b929bea50e14b8ba5f757a91ec45fc496b21baddcbacac9",
+    "signature": "jade-sig-XNcZ023JBwD9zEh3paaBUXEm4NBAW6EArjDhYawRN/VQj5ggNCdqGSBk63aEEnpoAkSzVYroaATNt+xPTJG2DA==",
+    "signer": {
+      "public_key": "jade-pk-root-o0p0Em+ufryyPQFFdKHEdSbWOPCqiGhUwwC9AjYJb/U=",
+      "fingerprint": "SHA256:HU0Dpg+xFPNxCURZhG9eX6Yx+ynMlbincaJxIRUJt98=",
+      "role": "root"
+    },
+    "timestamp": "2026-02-22T16:18:21Z",
+    "expires": "2027-02-22T16:18:21Z"
+  }
 }

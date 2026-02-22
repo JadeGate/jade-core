@@ -77,5 +77,18 @@
   "mcp_compatible": true,
   "required_mcp_capabilities": [
     "datadog"
-  ]
+  ],
+  "jade_signature": {
+    "version": "1.0.0",
+    "skill_id": "mcp_datadog_metrics",
+    "content_hash": "sha256:eb34f42fb4d25994df5838c54defbf6cb95fb5fd3b483cecbd73388c17e6ae36",
+    "signature": "jade-sig-ogWbvMtm1Aqvn5te6i2yyhzxxmz7RqkoWCUwZYk6gKwqGnQLJB90cDkdRW9LS/X4xjm+od+BZAxKfzVbW56RDA==",
+    "signer": {
+      "public_key": "jade-pk-root-o0p0Em+ufryyPQFFdKHEdSbWOPCqiGhUwwC9AjYJb/U=",
+      "fingerprint": "SHA256:HU0Dpg+xFPNxCURZhG9eX6Yx+ynMlbincaJxIRUJt98=",
+      "role": "root"
+    },
+    "timestamp": "2026-02-22T16:17:38Z",
+    "expires": "2027-02-22T16:17:38Z"
+  }
 }

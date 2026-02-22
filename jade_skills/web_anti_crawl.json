@@ -6,7 +6,13 @@
     "version": "1.0.0",
     "description": "Standard operating procedure for bypassing common web anti-crawl mechanisms (Cloudflare, rate limiting) using ethical and compliant methods. Rotates headers, respects robots.txt, and uses exponential backoff.",
     "author": "jade-core-team",
-    "tags": ["web", "anti-crawl", "scraping", "cloudflare", "http"],
+    "tags": [
+      "web",
+      "anti-crawl",
+      "scraping",
+      "cloudflare",
+      "http"
+    ],
     "license": "MIT",
     "created_at": "2026-02-21T00:00:00Z",
     "updated_at": "2026-02-21T00:00:00Z"
@@ -17,7 +23,11 @@
       {
         "field": "error.code",
         "operator": "in",
-        "value": ["403", "429", "503"]
+        "value": [
+          "403",
+          "429",
+          "503"
+        ]
       },
       {
         "field": "error.context",
@@ -51,9 +61,21 @@
   },
   "output_schema": {
     "fields": [
-      { "name": "status_code", "type": "number", "description": "Final HTTP status code" },
-      { "name": "body", "type": "string", "description": "Response body content" },
-      { "name": "retries_used", "type": "number", "description": "Number of retries performed" }
+      {
+        "name": "status_code",
+        "type": "number",
+        "description": "Final HTTP status code"
+      },
+      {
+        "name": "body",
+        "type": "string",
+        "description": "Response body content"
+      },
+      {
+        "name": "retries_used",
+        "type": "number",
+        "description": "Number of retries performed"
+      }
     ]
   },
   "execution_dag": {
@@ -145,18 +167,53 @@
       }
     ],
     "edges": [
-      { "from": "check_robots", "to": "validate_robots" },
-      { "from": "validate_robots", "to": "build_headers", "condition": "success" },
-      { "from": "validate_robots", "to": "abort_blocked", "condition": "failure" },
-      { "from": "build_headers", "to": "initial_request" },
-      { "from": "initial_request", "to": "check_success" },
-      { "from": "check_success", "to": "return_success", "condition": "success" },
-      { "from": "check_success", "to": "wait_backoff", "condition": "failure" },
-      { "from": "wait_backoff", "to": "retry_request" },
-      { "from": "retry_request", "to": "return_retry_result" }
+      {
+        "from": "check_robots",
+        "to": "validate_robots"
+      },
+      {
+        "from": "validate_robots",
+        "to": "build_headers",
+        "condition": "success"
+      },
+      {
+        "from": "validate_robots",
+        "to": "abort_blocked",
+        "condition": "failure"
+      },
+      {
+        "from": "build_headers",
+        "to": "initial_request"
+      },
+      {
+        "from": "initial_request",
+        "to": "check_success"
+      },
+      {
+        "from": "check_success",
+        "to": "return_success",
+        "condition": "success"
+      },
+      {
+        "from": "check_success",
+        "to": "wait_backoff",
+        "condition": "failure"
+      },
+      {
+        "from": "wait_backoff",
+        "to": "retry_request"
+      },
+      {
+        "from": "retry_request",
+        "to": "return_retry_result"
+      }
     ],
     "entry_node": "check_robots",
-    "exit_node": ["return_success", "return_retry_result", "abort_blocked"],
+    "exit_node": [
+      "return_success",
+      "return_retry_result",
+      "abort_blocked"
+    ],
     "max_retries": {
       "node": "retry_request",
       "max_count": "{{input.max_retries | default:5}}",
@@ -165,7 +222,9 @@
     }
   },
   "security": {
-    "network_whitelist": ["*"],
+    "network_whitelist": [
+      "*"
+    ],
     "file_permissions": {
       "read": [],
       "write": []
@@ -176,5 +235,20 @@
     "dangerous_patterns": []
   },
   "mcp_compatible": true,
-  "required_mcp_capabilities": ["http"]
+  "required_mcp_capabilities": [
+    "http"
+  ],
+  "jade_signature": {
+    "version": "1.0.0",
+    "skill_id": "web_anti_crawl_bypass",
+    "content_hash": "sha256:05b32d68938af254cfcf80d1e79d7a2c70a9a46d7257f9e47f16cd09c3d4b38b",
+    "signature": "jade-sig-DtocwG7DHIz7q/p2HQ/o6TEA0OK6NmYcD2pBzNb9CTGzz/FPCZws9ZK69eBkKKiKxup7+zE5qzd3o2jti2aLBA==",
+    "signer": {
+      "public_key": "jade-pk-root-o0p0Em+ufryyPQFFdKHEdSbWOPCqiGhUwwC9AjYJb/U=",
+      "fingerprint": "SHA256:HU0Dpg+xFPNxCURZhG9eX6Yx+ynMlbincaJxIRUJt98=",
+      "role": "root"
+    },
+    "timestamp": "2026-02-22T16:18:22Z",
+    "expires": "2027-02-22T16:18:22Z"
+  }
 }

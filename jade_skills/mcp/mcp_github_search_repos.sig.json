@@ -3,13 +3,13 @@
     "version": "1.0.0",
     "skill_id": "mcp_github_search_repos",
     "content_hash": "sha256:596db7f7af66878c853aace917adcaa32dd274b1cb09bfe1aca7e7db7c7de8c1",
-    "signature": "jade-sig-pbgpzxNG1hE/qvn/Wx1SS4QzQ1d0MBC6OCeFoMl2ZSCcasrRByW4j4o4ehsO1RMAECgNjmTHtTFPPWe2zB7MCQ==",
+    "signature": "jade-sig-O/yCj0/v6u6xYKk40biv8xOgU5vWkA6qcYnZFaXiWl/CMxiujSqV5sQsKXtCv2hV5CUmXQ/CVFGINQExfqjVCw==",
     "signer": {
-      "public_key": "jade-pk-root-CSoKNMpd17huyuQvkIW4pfKaixcJ6pUtLT2ljfnzJis=",
-      "fingerprint": "SHA256:qXEdtwUlyBn7LJVPiqftBRnuCrKQx6kYOb43c0Xz2yk=",
+      "public_key": "jade-pk-root-o0p0Em+ufryyPQFFdKHEdSbWOPCqiGhUwwC9AjYJb/U=",
+      "fingerprint": "SHA256:HU0Dpg+xFPNxCURZhG9eX6Yx+ynMlbincaJxIRUJt98=",
       "role": "root"
     },
-    "timestamp": "2026-02-21T08:53:56Z",
-    "expires": "2027-02-21T08:53:56Z"
+    "timestamp": "2026-02-22T16:17:46Z",
+    "expires": "2027-02-22T16:17:46Z"
   }
 }

@@ -82,5 +82,18 @@
   "mcp_compatible": true,
   "required_mcp_capabilities": [
     "jira"
-  ]
+  ],
+  "jade_signature": {
+    "version": "1.0.0",
+    "skill_id": "mcp_jira_create_issue",
+    "content_hash": "sha256:c3513596cb07ef7319fd945897827678d73001e36d7469e93a91b3e507b7898e",
+    "signature": "jade-sig-xpiHkcxSi2x0Ru24+/nIVitOla9VbrSOmy0rIrhSv46cnzpgyii6AMyj8dqqsztNk7o1q2VBe/zPA9gjnGQaAg==",
+    "signer": {
+      "public_key": "jade-pk-root-o0p0Em+ufryyPQFFdKHEdSbWOPCqiGhUwwC9AjYJb/U=",
+      "fingerprint": "SHA256:HU0Dpg+xFPNxCURZhG9eX6Yx+ynMlbincaJxIRUJt98=",
+      "role": "root"
+    },
+    "timestamp": "2026-02-22T16:17:48Z",
+    "expires": "2027-02-22T16:17:48Z"
+  }
 }

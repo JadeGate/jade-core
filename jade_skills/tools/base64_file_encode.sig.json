@@ -3,13 +3,13 @@
     "version": "1.0.0",
     "skill_id": "base64_file_encode",
     "content_hash": "sha256:fa5f6b9f576b6fb0be6c682e66524975071eec564ea413c8f8bb89a43206e99e",
-    "signature": "jade-sig-N9TANXlpDu/lh00qDG/TXtlAWO3M2247KuUqMgFw8sp6cMRBzK1tBfrLmCtbEPBr/v4saUhZkGjbfZlHyLLzDw==",
+    "signature": "jade-sig-r4tvtlCOd1tfoWgFb3UNqFZkN4aaPz08Ay5lIviLK8Xs5DCFypeTnGCmtcdZFBrAZJs6hwXbMejEy+JkMwoXBQ==",
     "signer": {
-      "public_key": "jade-pk-root-CSoKNMpd17huyuQvkIW4pfKaixcJ6pUtLT2ljfnzJis=",
-      "fingerprint": "SHA256:qXEdtwUlyBn7LJVPiqftBRnuCrKQx6kYOb43c0Xz2yk=",
+      "public_key": "jade-pk-root-o0p0Em+ufryyPQFFdKHEdSbWOPCqiGhUwwC9AjYJb/U=",
+      "fingerprint": "SHA256:HU0Dpg+xFPNxCURZhG9eX6Yx+ynMlbincaJxIRUJt98=",
       "role": "root"
     },
-    "timestamp": "2026-02-21T08:54:19Z",
-    "expires": "2027-02-21T08:54:19Z"
+    "timestamp": "2026-02-22T16:18:02Z",
+    "expires": "2027-02-22T16:18:02Z"
   }
 }

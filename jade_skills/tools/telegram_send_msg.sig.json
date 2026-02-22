@@ -3,13 +3,13 @@
     "version": "1.0.0",
     "skill_id": "telegram_send_msg",
     "content_hash": "sha256:f0143663b7d71046cc045e5d8ff63acbbfb163fe754ae1b148c435f6014ca441",
-    "signature": "jade-sig-0D2A+op8GKGa9I9EvPrM/dkWcEyzaeWfpvuEDRNNV/lPHERl/Yk7NdqOxFTgxuuML7FHwki9c684EtluqmtfDQ==",
+    "signature": "jade-sig-sSB2Y8oE+UWHdrFfcC3nj616hhvWjSuG3xaRjplKJ81UuAKNouXYOv4bzTPhxRzjIMsceqmam+x55fFo7YolDA==",
     "signer": {
-      "public_key": "jade-pk-root-CSoKNMpd17huyuQvkIW4pfKaixcJ6pUtLT2ljfnzJis=",
-      "fingerprint": "SHA256:qXEdtwUlyBn7LJVPiqftBRnuCrKQx6kYOb43c0Xz2yk=",
+      "public_key": "jade-pk-root-o0p0Em+ufryyPQFFdKHEdSbWOPCqiGhUwwC9AjYJb/U=",
+      "fingerprint": "SHA256:HU0Dpg+xFPNxCURZhG9eX6Yx+ynMlbincaJxIRUJt98=",
       "role": "root"
     },
-    "timestamp": "2026-02-21T08:54:45Z",
-    "expires": "2027-02-21T08:54:45Z"
+    "timestamp": "2026-02-22T16:18:15Z",
+    "expires": "2027-02-22T16:18:15Z"
   }
 }
