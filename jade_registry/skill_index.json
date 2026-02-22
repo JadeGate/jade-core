@@ -1,19 +1,1726 @@
 {
-  "jade_version": "1.0.0",
-  "index_version": "1.0.0",
-  "generated_at": "2026-02-21T03:32:17Z",
-  "total_skills": 35,
+  "jade_registry": "skill_index",
+  "version": "1.0.0",
+  "updated_at": "2026-02-22T00:00:00Z",
+  "total_skills": 121,
   "categories": {
-    "jade.core": 5,
-    "jadegate.community": 30
+    "mcp": 71,
+    "tools": 45,
+    "standalone": 5
   },
   "skills": [
     {
+      "skill_id": "mcp_airtable_records",
+      "name": "Airtable List Records",
+      "description": "List records from an Airtable base",
+      "version": "1.0.0",
+      "tags": [
+        "airtable",
+        "database",
+        "spreadsheet"
+      ],
+      "category": "mcp",
+      "signed": true,
+      "source_path": "jade_skills/mcp/mcp_airtable_records.json"
+    },
+    {
+      "skill_id": "mcp_anthropic_chat",
+      "name": "Anthropic Claude Chat",
+      "description": "Send messages to Anthropic Claude API",
+      "version": "1.0.0",
+      "tags": [
+        "llm",
+        "chat",
+        "anthropic"
+      ],
+      "category": "mcp",
+      "signed": true,
+      "source_path": "jade_skills/mcp/mcp_anthropic_chat.json"
+    },
+    {
+      "skill_id": "mcp_aws_lambda_invoke",
+      "name": "AWS Lambda Invoke",
+      "description": "Invoke an AWS Lambda function",
+      "version": "1.0.0",
+      "tags": [
+        "aws",
+        "lambda",
+        "serverless"
+      ],
+      "category": "mcp",
+      "signed": true,
+      "source_path": "jade_skills/mcp/mcp_aws_lambda_invoke.json"
+    },
+    {
+      "skill_id": "mcp_azure_openai",
+      "name": "Azure OpenAI Chat",
+      "description": "Chat completion via Azure OpenAI Service",
+      "version": "1.0.0",
+      "tags": [
+        "azure",
+        "openai",
+        "llm"
+      ],
+      "category": "mcp",
+      "signed": true,
+      "source_path": "jade_skills/mcp/mcp_azure_openai.json"
+    },
+    {
+      "skill_id": "mcp_brave_search",
+      "name": "MCP Brave Search",
+      "description": "Search the web using Brave Search API via MCP brave-search server.",
+      "version": "1.0.0",
+      "tags": [
+        "mcp",
+        "brave",
+        "search",
+        "web"
+      ],
+      "category": "mcp",
+      "signed": true,
+      "source_path": "jade_skills/mcp/mcp_brave_search.json"
+    },
+    {
+      "skill_id": "mcp_chromadb_query",
+      "name": "ChromaDB Collection Query",
+      "description": "Query a ChromaDB collection",
+      "version": "1.0.0",
+      "tags": [
+        "chromadb",
+        "vector",
+        "embeddings"
+      ],
+      "category": "mcp",
+      "signed": true,
+      "source_path": "jade_skills/mcp/mcp_chromadb_query.json"
+    },
+    {
+      "skill_id": "mcp_cloudflare_dns",
+      "name": "MCP Cloudflare DNS List",
+      "description": "List DNS records for a Cloudflare zone.",
+      "version": "1.0.0",
+      "tags": [
+        "mcp",
+        "cloudflare",
+        "dns",
+        "domain"
+      ],
+      "category": "mcp",
+      "signed": true,
+      "source_path": "jade_skills/mcp/mcp_cloudflare_dns.json"
+    },
+    {
+      "skill_id": "mcp_cloudflare_r2",
+      "name": "MCP Cloudflare R2 Storage",
+      "description": "List objects in Cloudflare R2 bucket.",
+      "version": "1.0.0",
+      "tags": [
+        "mcp",
+        "cloudflare",
+        "r2",
+        "storage",
+        "s3"
+      ],
+      "category": "mcp",
+      "signed": true,
+      "source_path": "jade_skills/mcp/mcp_cloudflare_r2.json"
+    },
+    {
+      "skill_id": "mcp_cloudflare_workers",
+      "name": "Cloudflare Workers Deploy",
+      "description": "Deploy a Cloudflare Worker script",
+      "version": "1.0.0",
+      "tags": [
+        "cloudflare",
+        "serverless",
+        "deploy"
+      ],
+      "category": "mcp",
+      "signed": true,
+      "source_path": "jade_skills/mcp/mcp_cloudflare_workers.json"
+    },
+    {
+      "skill_id": "mcp_confluence_read",
+      "name": "Confluence Read Page",
+      "description": "Read a Confluence wiki page",
+      "version": "1.0.0",
+      "tags": [
+        "confluence",
+        "wiki",
+        "docs"
+      ],
+      "category": "mcp",
+      "signed": true,
+      "source_path": "jade_skills/mcp/mcp_confluence_read.json"
+    },
+    {
+      "skill_id": "mcp_datadog_metrics",
+      "name": "Datadog Query Metrics",
+      "description": "Query metrics from Datadog",
+      "version": "1.0.0",
+      "tags": [
+        "datadog",
+        "monitoring",
+        "metrics"
+      ],
+      "category": "mcp",
+      "signed": true,
+      "source_path": "jade_skills/mcp/mcp_datadog_metrics.json"
+    },
+    {
+      "skill_id": "mcp_discord_webhook",
+      "name": "MCP Discord Webhook",
+      "description": "Send message via Discord webhook.",
+      "version": "1.0.0",
+      "tags": [
+        "mcp",
+        "discord",
+        "webhook",
+        "send"
+      ],
+      "category": "mcp",
+      "signed": true,
+      "source_path": "jade_skills/mcp/mcp_discord_webhook.json"
+    },
+    {
+      "skill_id": "mcp_docker_hub_search",
+      "name": "Docker Hub Search Images",
+      "description": "Search for Docker images on Docker Hub",
+      "version": "1.0.0",
+      "tags": [
+        "docker",
+        "containers",
+        "registry"
+      ],
+      "category": "mcp",
+      "signed": true,
+      "source_path": "jade_skills/mcp/mcp_docker_hub_search.json"
+    },
+    {
+      "skill_id": "mcp_docker_list",
+      "name": "MCP Docker List Containers",
+      "description": "List Docker containers via Docker API.",
+      "version": "1.0.0",
+      "tags": [
+        "mcp",
+        "docker",
+        "containers",
+        "list"
+      ],
+      "category": "mcp",
+      "signed": true,
+      "source_path": "jade_skills/mcp/mcp_docker_list.json"
+    },
+    {
+      "skill_id": "mcp_elasticsearch_search",
+      "name": "Elasticsearch Search",
+      "description": "Search documents in Elasticsearch",
+      "version": "1.0.0",
+      "tags": [
+        "elasticsearch",
+        "search",
+        "database"
+      ],
+      "category": "mcp",
+      "signed": true,
+      "source_path": "jade_skills/mcp/mcp_elasticsearch_search.json"
+    },
+    {
+      "skill_id": "mcp_email_read",
+      "name": "MCP Email Read (IMAP)",
+      "description": "Read recent emails via IMAP.",
+      "version": "1.0.0",
+      "tags": [
+        "mcp",
+        "email",
+        "imap",
+        "read"
+      ],
+      "category": "mcp",
+      "signed": true,
+      "source_path": "jade_skills/mcp/mcp_email_read.json"
+    },
+    {
+      "skill_id": "mcp_exa_search",
+      "name": "MCP Exa Semantic Search",
+      "description": "Neural semantic search via Exa API.",
+      "version": "1.0.0",
+      "tags": [
+        "mcp",
+        "exa",
+        "search",
+        "semantic"
+      ],
+      "category": "mcp",
+      "signed": true,
+      "source_path": "jade_skills/mcp/mcp_exa_search.json"
+    },
+    {
+      "skill_id": "mcp_fetch_url",
+      "name": "MCP Fetch URL",
+      "description": "Fetch content from a URL via MCP fetch server. Supports HTML to markdown conversion.",
+      "version": "1.0.0",
+      "tags": [
+        "mcp",
+        "fetch",
+        "http",
+        "web",
+        "scrape"
+      ],
+      "category": "mcp",
+      "signed": true,
+      "source_path": "jade_skills/mcp/mcp_fetch_url.json"
+    },
+    {
+      "skill_id": "mcp_filesystem_read",
+      "name": "MCP Filesystem Read",
+      "description": "Read file contents from local filesystem via MCP filesystem server. Supports text and binary files with size limits.",
+      "version": "1.0.0",
+      "tags": [
+        "mcp",
+        "filesystem",
+        "read",
+        "file"
+      ],
+      "category": "mcp",
+      "signed": true,
+      "source_path": "jade_skills/mcp/mcp_filesystem_read.json"
+    },
+    {
+      "skill_id": "mcp_filesystem_write",
+      "name": "MCP Filesystem Write",
+      "description": "Write content to local filesystem via MCP filesystem server. Creates directories if needed.",
+      "version": "1.0.0",
+      "tags": [
+        "mcp",
+        "filesystem",
+        "write",
+        "file"
+      ],
+      "category": "mcp",
+      "signed": true,
+      "source_path": "jade_skills/mcp/mcp_filesystem_write.json"
+    },
+    {
+      "skill_id": "mcp_firebase_read",
+      "name": "Firebase Realtime DB Read",
+      "description": "Read data from Firebase Realtime Database",
+      "version": "1.0.0",
+      "tags": [
+        "firebase",
+        "database",
+        "google"
+      ],
+      "category": "mcp",
+      "signed": true,
+      "source_path": "jade_skills/mcp/mcp_firebase_read.json"
+    },
+    {
+      "skill_id": "mcp_gcp_translate",
+      "name": "Google Cloud Translate",
+      "description": "Translate text via Google Cloud Translation API",
+      "version": "1.0.0",
+      "tags": [
+        "google",
+        "translate",
+        "nlp"
+      ],
+      "category": "mcp",
+      "signed": true,
+      "source_path": "jade_skills/mcp/mcp_gcp_translate.json"
+    },
+    {
+      "skill_id": "mcp_gdrive_search",
+      "name": "MCP Google Drive Search",
+      "description": "Search files in Google Drive.",
+      "version": "1.0.0",
+      "tags": [
+        "mcp",
+        "google",
+        "drive",
+        "search"
+      ],
+      "category": "mcp",
+      "signed": true,
+      "source_path": "jade_skills/mcp/mcp_gdrive_search.json"
+    },
+    {
+      "skill_id": "mcp_git_log",
+      "name": "MCP Git Log",
+      "description": "Get git commit log for a repository.",
+      "version": "1.0.0",
+      "tags": [
+        "mcp",
+        "git",
+        "log",
+        "history"
+      ],
+      "category": "mcp",
+      "signed": true,
+      "source_path": "jade_skills/mcp/mcp_git_log.json"
+    },
+    {
+      "skill_id": "mcp_github_actions_trigger",
+      "name": "GitHub Actions Trigger Workflow",
+      "description": "Trigger a GitHub Actions workflow dispatch",
+      "version": "1.0.0",
+      "tags": [
+        "github",
+        "ci",
+        "actions"
+      ],
+      "category": "mcp",
+      "signed": true,
+      "source_path": "jade_skills/mcp/mcp_github_actions_trigger.json"
+    },
+    {
+      "skill_id": "mcp_github_create_issue",
+      "name": "MCP GitHub Create Issue",
+      "description": "Create a GitHub issue via MCP GitHub server. Supports labels, assignees, and markdown body.",
+      "version": "1.0.0",
+      "tags": [
+        "mcp",
+        "github",
+        "issue",
+        "create"
+      ],
+      "category": "mcp",
+      "signed": true,
+      "source_path": "jade_skills/mcp/mcp_github_create_issue.json"
+    },
+    {
+      "skill_id": "mcp_github_list_repos",
+      "name": "GitHub List Repositories",
+      "description": "List repositories for a user or organization",
+      "version": "1.0.0",
+      "tags": [
+        "github",
+        "repos",
+        "git"
+      ],
+      "category": "mcp",
+      "signed": true,
+      "source_path": "jade_skills/mcp/mcp_github_list_repos.json"
+    },
+    {
+      "skill_id": "mcp_github_pr_create",
+      "name": "GitHub Create Pull Request",
+      "description": "Create a pull request on GitHub",
+      "version": "1.0.0",
+      "tags": [
+        "github",
+        "pr",
+        "git"
+      ],
+      "category": "mcp",
+      "signed": true,
+      "source_path": "jade_skills/mcp/mcp_github_pr_create.json"
+    },
+    {
+      "skill_id": "mcp_github_search_repos",
+      "name": "MCP GitHub Search Repositories",
+      "description": "Search GitHub repositories via MCP GitHub server.",
+      "version": "1.0.0",
+      "tags": [
+        "mcp",
+        "github",
+        "search",
+        "repository"
+      ],
+      "category": "mcp",
+      "signed": true,
+      "source_path": "jade_skills/mcp/mcp_github_search_repos.json"
+    },
+    {
+      "skill_id": "mcp_google_calendar",
+      "name": "MCP Google Calendar",
+      "description": "List upcoming events from Google Calendar via MCP.",
+      "version": "1.0.0",
+      "tags": [
+        "mcp",
+        "google",
+        "calendar",
+        "events"
+      ],
+      "category": "mcp",
+      "signed": true,
+      "source_path": "jade_skills/mcp/mcp_google_calendar.json"
+    },
+    {
+      "skill_id": "mcp_google_maps_geocode",
+      "name": "MCP Google Maps Geocode",
+      "description": "Geocode address to coordinates via Google Maps API.",
+      "version": "1.0.0",
+      "tags": [
+        "mcp",
+        "google",
+        "maps",
+        "geocode"
+      ],
+      "category": "mcp",
+      "signed": true,
+      "source_path": "jade_skills/mcp/mcp_google_maps_geocode.json"
+    },
+    {
+      "skill_id": "mcp_google_sheets",
+      "name": "MCP Google Sheets",
+      "description": "Read data from Google Sheets via MCP.",
+      "version": "1.0.0",
+      "tags": [
+        "mcp",
+        "google",
+        "sheets",
+        "spreadsheet"
+      ],
+      "category": "mcp",
+      "signed": true,
+      "source_path": "jade_skills/mcp/mcp_google_sheets.json"
+    },
+    {
+      "skill_id": "mcp_grafana_dashboard",
+      "name": "Grafana Get Dashboard",
+      "description": "Retrieve a Grafana dashboard by UID",
+      "version": "1.0.0",
+      "tags": [
+        "grafana",
+        "monitoring",
+        "dashboard"
+      ],
+      "category": "mcp",
+      "signed": true,
+      "source_path": "jade_skills/mcp/mcp_grafana_dashboard.json"
+    },
+    {
+      "skill_id": "mcp_hubspot_contacts",
+      "name": "HubSpot List Contacts",
+      "description": "List contacts from HubSpot CRM",
+      "version": "1.0.0",
+      "tags": [
+        "hubspot",
+        "crm",
+        "contacts"
+      ],
+      "category": "mcp",
+      "signed": true,
+      "source_path": "jade_skills/mcp/mcp_hubspot_contacts.json"
+    },
+    {
+      "skill_id": "mcp_huggingface_models",
+      "name": "MCP Hugging Face Models",
+      "description": "Search models on Hugging Face Hub.",
+      "version": "1.0.0",
+      "tags": [
+        "mcp",
+        "huggingface",
+        "ai",
+        "models"
+      ],
+      "category": "mcp",
+      "signed": true,
+      "source_path": "jade_skills/mcp/mcp_huggingface_models.json"
+    },
+    {
+      "skill_id": "mcp_jira_create_issue",
+      "name": "Jira Create Issue",
+      "description": "Create an issue in Jira",
+      "version": "1.0.0",
+      "tags": [
+        "jira",
+        "project",
+        "issue"
+      ],
+      "category": "mcp",
+      "signed": true,
+      "source_path": "jade_skills/mcp/mcp_jira_create_issue.json"
+    },
+    {
+      "skill_id": "mcp_linear_issues",
+      "name": "MCP Linear List Issues",
+      "description": "List Linear project issues.",
+      "version": "1.0.0",
+      "tags": [
+        "mcp",
+        "linear",
+        "project",
+        "issues"
+      ],
+      "category": "mcp",
+      "signed": true,
+      "source_path": "jade_skills/mcp/mcp_linear_issues.json"
+    },
+    {
+      "skill_id": "mcp_memory_store",
+      "name": "MCP Memory Store",
+      "description": "Store a knowledge entity in the MCP memory server knowledge graph.",
+      "version": "1.0.0",
+      "tags": [
+        "mcp",
+        "memory",
+        "knowledge",
+        "store",
+        "graph"
+      ],
+      "category": "mcp",
+      "signed": true,
+      "source_path": "jade_skills/mcp/mcp_memory_store.json"
+    },
+    {
+      "skill_id": "mcp_mongodb_find",
+      "name": "MongoDB Atlas Data API Find",
+      "description": "Query documents via MongoDB Atlas Data API",
+      "version": "1.0.0",
+      "tags": [
+        "mongodb",
+        "database",
+        "nosql"
+      ],
+      "category": "mcp",
+      "signed": true,
+      "source_path": "jade_skills/mcp/mcp_mongodb_find.json"
+    },
+    {
+      "skill_id": "mcp_notion_read",
+      "name": "MCP Notion Read Page",
+      "description": "Read a Notion page by ID.",
+      "version": "1.0.0",
+      "tags": [
+        "mcp",
+        "notion",
+        "read",
+        "page"
+      ],
+      "category": "mcp",
+      "signed": true,
+      "source_path": "jade_skills/mcp/mcp_notion_read.json"
+    },
+    {
+      "skill_id": "mcp_npm_search",
+      "name": "NPM Package Search",
+      "description": "Search for packages on NPM registry",
+      "version": "1.0.0",
+      "tags": [
+        "npm",
+        "packages",
+        "javascript"
+      ],
+      "category": "mcp",
+      "signed": true,
+      "source_path": "jade_skills/mcp/mcp_npm_search.json"
+    },
+    {
+      "skill_id": "mcp_openai_chat",
+      "name": "OpenAI Chat Completion",
+      "description": "Send messages to OpenAI GPT API",
+      "version": "1.0.0",
+      "tags": [
+        "llm",
+        "chat",
+        "openai"
+      ],
+      "category": "mcp",
+      "signed": true,
+      "source_path": "jade_skills/mcp/mcp_openai_chat.json"
+    },
+    {
+      "skill_id": "mcp_openrouter",
+      "name": "MCP OpenRouter Chat",
+      "description": "Route chat completions through OpenRouter.",
+      "version": "1.0.0",
+      "tags": [
+        "mcp",
+        "openrouter",
+        "ai",
+        "chat",
+        "llm"
+      ],
+      "category": "mcp",
+      "signed": true,
+      "source_path": "jade_skills/mcp/mcp_openrouter.json"
+    },
+    {
+      "skill_id": "mcp_pagerduty_incident",
+      "name": "PagerDuty Create Incident",
+      "description": "Create an incident in PagerDuty",
+      "version": "1.0.0",
+      "tags": [
+        "pagerduty",
+        "incident",
+        "oncall"
+      ],
+      "category": "mcp",
+      "signed": true,
+      "source_path": "jade_skills/mcp/mcp_pagerduty_incident.json"
+    },
+    {
+      "skill_id": "mcp_pinecone_query",
+      "name": "Pinecone Vector Query",
+      "description": "Query vectors in Pinecone",
+      "version": "1.0.0",
+      "tags": [
+        "pinecone",
+        "vector",
+        "embeddings"
+      ],
+      "category": "mcp",
+      "signed": true,
+      "source_path": "jade_skills/mcp/mcp_pinecone_query.json"
+    },
+    {
+      "skill_id": "mcp_postgres_query",
+      "name": "MCP PostgreSQL Query",
+      "description": "Execute read-only SQL query on PostgreSQL.",
+      "version": "1.0.0",
+      "tags": [
+        "mcp",
+        "postgres",
+        "sql",
+        "database"
+      ],
+      "category": "mcp",
+      "signed": true,
+      "source_path": "jade_skills/mcp/mcp_postgres_query.json"
+    },
+    {
+      "skill_id": "mcp_puppeteer_screenshot",
+      "name": "MCP Puppeteer Screenshot",
+      "description": "Take a screenshot of a webpage via MCP puppeteer server.",
+      "version": "1.0.0",
+      "tags": [
+        "mcp",
+        "puppeteer",
+        "screenshot",
+        "browser",
+        "web"
+      ],
+      "category": "mcp",
+      "signed": true,
+      "source_path": "jade_skills/mcp/mcp_puppeteer_screenshot.json"
+    },
+    {
+      "skill_id": "mcp_pypi_search",
+      "name": "PyPI Package Info",
+      "description": "Get Python package info from PyPI",
+      "version": "1.0.0",
+      "tags": [
+        "pypi",
+        "packages",
+        "python"
+      ],
+      "category": "mcp",
+      "signed": true,
+      "source_path": "jade_skills/mcp/mcp_pypi_search.json"
+    },
+    {
+      "skill_id": "mcp_redis_get",
+      "name": "MCP Redis Get",
+      "description": "Get value from Redis by key.",
+      "version": "1.0.0",
+      "tags": [
+        "mcp",
+        "redis",
+        "get",
+        "cache"
+      ],
+      "category": "mcp",
+      "signed": true,
+      "source_path": "jade_skills/mcp/mcp_redis_get.json"
+    },
+    {
+      "skill_id": "mcp_redis_set",
+      "name": "MCP Redis Set",
+      "description": "Set key-value pair in Redis.",
+      "version": "1.0.0",
+      "tags": [
+        "mcp",
+        "redis",
+        "set",
+        "cache"
+      ],
+      "category": "mcp",
+      "signed": true,
+      "source_path": "jade_skills/mcp/mcp_redis_set.json"
+    },
+    {
+      "skill_id": "mcp_replicate_predict",
+      "name": "MCP Replicate Prediction",
+      "description": "Run AI model predictions on Replicate.",
+      "version": "1.0.0",
+      "tags": [
+        "mcp",
+        "replicate",
+        "ai",
+        "inference"
+      ],
+      "category": "mcp",
+      "signed": true,
+      "source_path": "jade_skills/mcp/mcp_replicate_predict.json"
+    },
+    {
+      "skill_id": "mcp_resend_email",
+      "name": "MCP Resend Email",
+      "description": "Send transactional emails via Resend API.",
+      "version": "1.0.0",
+      "tags": [
+        "mcp",
+        "resend",
+        "email",
+        "transactional"
+      ],
+      "category": "mcp",
+      "signed": true,
+      "source_path": "jade_skills/mcp/mcp_resend_email.json"
+    },
+    {
+      "skill_id": "mcp_rss_read",
+      "name": "MCP RSS Feed Reader",
+      "description": "Fetch and parse RSS/Atom feed.",
+      "version": "1.0.0",
+      "tags": [
+        "mcp",
+        "rss",
+        "feed",
+        "news"
+      ],
+      "category": "mcp",
+      "signed": true,
+      "source_path": "jade_skills/mcp/mcp_rss_read.json"
+    },
+    {
+      "skill_id": "mcp_s3_list",
+      "name": "MCP AWS S3 List Objects",
+      "description": "List objects in S3 bucket.",
+      "version": "1.0.0",
+      "tags": [
+        "mcp",
+        "aws",
+        "s3",
+        "storage"
+      ],
+      "category": "mcp",
+      "signed": true,
+      "source_path": "jade_skills/mcp/mcp_s3_list.json"
+    },
+    {
+      "skill_id": "mcp_sendgrid_email",
+      "name": "SendGrid Send Email",
+      "description": "Send email via SendGrid API",
+      "version": "1.0.0",
+      "tags": [
+        "sendgrid",
+        "email",
+        "messaging"
+      ],
+      "category": "mcp",
+      "signed": true,
+      "source_path": "jade_skills/mcp/mcp_sendgrid_email.json"
+    },
+    {
+      "skill_id": "mcp_sentry_issues",
+      "name": "MCP Sentry List Issues",
+      "description": "List recent Sentry error issues.",
+      "version": "1.0.0",
+      "tags": [
+        "mcp",
+        "sentry",
+        "errors",
+        "monitoring"
+      ],
+      "category": "mcp",
+      "signed": true,
+      "source_path": "jade_skills/mcp/mcp_sentry_issues.json"
+    },
+    {
+      "skill_id": "mcp_shopify_products",
+      "name": "Shopify List Products",
+      "description": "List products from a Shopify store",
+      "version": "1.0.0",
+      "tags": [
+        "shopify",
+        "ecommerce",
+        "products"
+      ],
+      "category": "mcp",
+      "signed": true,
+      "source_path": "jade_skills/mcp/mcp_shopify_products.json"
+    },
+    {
+      "skill_id": "mcp_slack_send",
+      "name": "MCP Slack Send Message",
+      "description": "Send a message to a Slack channel via MCP slack server.",
+      "version": "1.0.0",
+      "tags": [
+        "mcp",
+        "slack",
+        "message",
+        "chat"
+      ],
+      "category": "mcp",
+      "signed": true,
+      "source_path": "jade_skills/mcp/mcp_slack_send.json"
+    },
+    {
+      "skill_id": "mcp_spotify_search",
+      "name": "MCP Spotify Search",
+      "description": "Search tracks, albums, and artists on Spotify.",
+      "version": "1.0.0",
+      "tags": [
+        "mcp",
+        "spotify",
+        "music",
+        "search"
+      ],
+      "category": "mcp",
+      "signed": true,
+      "source_path": "jade_skills/mcp/mcp_spotify_search.json"
+    },
+    {
+      "skill_id": "mcp_sqlite_query",
+      "name": "MCP SQLite Query",
+      "description": "Execute read-only SQL queries against a SQLite database via MCP sqlite server.",
+      "version": "1.0.0",
+      "tags": [
+        "mcp",
+        "sqlite",
+        "database",
+        "sql",
+        "query"
+      ],
+      "category": "mcp",
+      "signed": true,
+      "source_path": "jade_skills/mcp/mcp_sqlite_query.json"
+    },
+    {
+      "skill_id": "mcp_stripe_payments",
+      "name": "MCP Stripe List Payments",
+      "description": "List recent Stripe payments.",
+      "version": "1.0.0",
+      "tags": [
+        "mcp",
+        "stripe",
+        "payments",
+        "billing"
+      ],
+      "category": "mcp",
+      "signed": true,
+      "source_path": "jade_skills/mcp/mcp_stripe_payments.json"
+    },
+    {
+      "skill_id": "mcp_supabase_auth",
+      "name": "MCP Supabase Auth",
+      "description": "Sign up or sign in users via Supabase Auth.",
+      "version": "1.0.0",
+      "tags": [
+        "mcp",
+        "supabase",
+        "auth",
+        "authentication"
+      ],
+      "category": "mcp",
+      "signed": true,
+      "source_path": "jade_skills/mcp/mcp_supabase_auth.json"
+    },
+    {
+      "skill_id": "mcp_supabase_query",
+      "name": "Supabase Database Query",
+      "description": "Query a Supabase PostgreSQL database via REST API",
+      "version": "1.0.0",
+      "tags": [
+        "supabase",
+        "database",
+        "postgres"
+      ],
+      "category": "mcp",
+      "signed": true,
+      "source_path": "jade_skills/mcp/mcp_supabase_query.json"
+    },
+    {
+      "skill_id": "mcp_tavily_search",
+      "name": "MCP Tavily AI Search",
+      "description": "AI-powered web search via Tavily.",
+      "version": "1.0.0",
+      "tags": [
+        "mcp",
+        "tavily",
+        "search",
+        "ai"
+      ],
+      "category": "mcp",
+      "signed": true,
+      "source_path": "jade_skills/mcp/mcp_tavily_search.json"
+    },
+    {
+      "skill_id": "mcp_telegram_send",
+      "name": "MCP Telegram Send Message",
+      "description": "Send message via Telegram Bot API.",
+      "version": "1.0.0",
+      "tags": [
+        "mcp",
+        "telegram",
+        "send",
+        "message"
+      ],
+      "category": "mcp",
+      "signed": true,
+      "source_path": "jade_skills/mcp/mcp_telegram_send.json"
+    },
+    {
+      "skill_id": "mcp_twilio_sms",
+      "name": "Twilio Send SMS",
+      "description": "Send an SMS via Twilio API",
+      "version": "1.0.0",
+      "tags": [
+        "twilio",
+        "sms",
+        "messaging"
+      ],
+      "category": "mcp",
+      "signed": true,
+      "source_path": "jade_skills/mcp/mcp_twilio_sms.json"
+    },
+    {
+      "skill_id": "mcp_twitter_post",
+      "name": "MCP Twitter/X Post",
+      "description": "Post a tweet via Twitter API v2.",
+      "version": "1.0.0",
+      "tags": [
+        "mcp",
+        "twitter",
+        "x",
+        "post",
+        "tweet"
+      ],
+      "category": "mcp",
+      "signed": true,
+      "source_path": "jade_skills/mcp/mcp_twitter_post.json"
+    },
+    {
+      "skill_id": "mcp_vercel_deploy",
+      "name": "Vercel Deploy",
+      "description": "Trigger a Vercel deployment",
+      "version": "1.0.0",
+      "tags": [
+        "vercel",
+        "deploy",
+        "ci"
+      ],
+      "category": "mcp",
+      "signed": true,
+      "source_path": "jade_skills/mcp/mcp_vercel_deploy.json"
+    },
+    {
+      "skill_id": "mcp_weather_forecast",
+      "name": "MCP Weather Forecast",
+      "description": "Get current weather and forecast for a location.",
+      "version": "1.0.0",
+      "tags": [
+        "mcp",
+        "weather",
+        "forecast",
+        "openweathermap"
+      ],
+      "category": "mcp",
+      "signed": true,
+      "source_path": "jade_skills/mcp/mcp_weather_forecast.json"
+    },
+    {
+      "skill_id": "mcp_weaviate_search",
+      "name": "Weaviate Semantic Search",
+      "description": "Semantic search via Weaviate vector database",
+      "version": "1.0.0",
+      "tags": [
+        "weaviate",
+        "vector",
+        "search"
+      ],
+      "category": "mcp",
+      "signed": true,
+      "source_path": "jade_skills/mcp/mcp_weaviate_search.json"
+    },
+    {
+      "skill_id": "mcp_youtube_search",
+      "name": "MCP YouTube Search",
+      "description": "Search YouTube videos.",
+      "version": "1.0.0",
+      "tags": [
+        "mcp",
+        "youtube",
+        "search",
+        "video"
+      ],
+      "category": "mcp",
+      "signed": true,
+      "source_path": "jade_skills/mcp/mcp_youtube_search.json"
+    },
+    {
+      "skill_id": "base64_encode",
+      "name": "Base64 Encode",
+      "description": "Encode text or file content to Base64.",
+      "version": "1.0.0",
+      "tags": [
+        "tools",
+        "base64",
+        "encode",
+        "convert"
+      ],
+      "category": "tools",
+      "signed": true,
+      "source_path": "jade_skills/tools/base64_encode.json"
+    },
+    {
+      "skill_id": "base64_file_encode",
+      "name": "Base64 File Encoder",
+      "description": "Read a file and encode its content to Base64 string",
+      "version": "1.0.0",
+      "tags": [
+        "base64",
+        "encode",
+        "file",
+        "binary"
+      ],
+      "category": "tools",
+      "signed": true,
+      "source_path": "jade_skills/tools/base64_file_encode.json"
+    },
+    {
+      "skill_id": "color_converter",
+      "name": "Color Format Converter",
+      "description": "Convert between HEX, RGB, HSL color formats",
+      "version": "1.0.0",
+      "tags": [
+        "color",
+        "converter",
+        "design"
+      ],
+      "category": "tools",
+      "signed": true,
+      "source_path": "jade_skills/tools/color_converter.json"
+    },
+    {
+      "skill_id": "cron_expression_parser",
+      "name": "Cron Expression Parser",
+      "description": "Parse and explain a cron expression, show next N run times",
+      "version": "1.0.0",
+      "tags": [
+        "cron",
+        "scheduling",
+        "parser"
+      ],
+      "category": "tools",
+      "signed": true,
+      "source_path": "jade_skills/tools/cron_expression_parser.json"
+    },
+    {
+      "skill_id": "csv_data_analysis",
+      "name": "CSV Data Analysis",
+      "description": "Read and analyze CSV files with column stats, filtering and sorting",
+      "version": "1.0.0",
+      "tags": [
+        "csv",
+        "data",
+        "analysis",
+        "statistics"
+      ],
+      "category": "tools",
+      "signed": true,
+      "source_path": "jade_skills/tools/csv_data_analysis.json"
+    },
+    {
+      "skill_id": "discord_webhook_send",
+      "name": "Discord Webhook Sender",
+      "description": "Send messages to Discord channels via webhook with embed support",
+      "version": "1.0.0",
+      "tags": [
+        "discord",
+        "webhook",
+        "message",
+        "chat"
+      ],
+      "category": "tools",
+      "signed": true,
+      "source_path": "jade_skills/tools/discord_webhook_send.json"
+    },
+    {
+      "skill_id": "dns_lookup",
+      "name": "DNS Lookup",
+      "description": "Resolve domain name to IP addresses using DNS",
+      "version": "1.0.0",
+      "tags": [
+        "dns",
+        "lookup",
+        "network",
+        "resolve"
+      ],
+      "category": "tools",
+      "signed": true,
+      "source_path": "jade_skills/tools/dns_lookup.json"
+    },
+    {
+      "skill_id": "docker_container_list",
+      "name": "Docker Container List",
+      "description": "List running Docker containers via Docker socket API",
+      "version": "1.0.0",
+      "tags": [
+        "docker",
+        "container",
+        "devops",
+        "list"
+      ],
+      "category": "tools",
+      "signed": true,
+      "source_path": "jade_skills/tools/docker_container_list.json"
+    },
+    {
+      "skill_id": "epoch_converter",
+      "name": "Unix Epoch Converter",
+      "description": "Convert between Unix timestamps and human-readable dates",
+      "version": "1.0.0",
+      "tags": [
+        "time",
+        "epoch",
+        "converter"
+      ],
+      "category": "tools",
+      "signed": true,
+      "source_path": "jade_skills/tools/epoch_converter.json"
+    },
+    {
+      "skill_id": "exa_semantic_search",
+      "name": "Exa AI Semantic Search",
+      "description": "Search the web semantically using Exa AI API with neural search",
+      "version": "1.0.0",
+      "tags": [
+        "search",
+        "semantic",
+        "exa",
+        "neural"
+      ],
+      "category": "tools",
+      "signed": true,
+      "source_path": "jade_skills/tools/exa_semantic_search.json"
+    },
+    {
+      "skill_id": "git_clone_repo",
+      "name": "Git Clone Repository",
+      "description": "Clone a git repository with branch selection and shallow clone support",
+      "version": "1.0.0",
+      "tags": [
+        "git",
+        "clone",
+        "vcs",
+        "repository"
+      ],
+      "category": "tools",
+      "signed": true,
+      "source_path": "jade_skills/tools/git_clone_repo.json"
+    },
+    {
+      "skill_id": "git_diff_summary",
+      "name": "Git Diff Summary",
+      "description": "Get git diff and summarize changes using LLM",
+      "version": "1.0.0",
+      "tags": [
+        "git",
+        "diff",
+        "summary",
+        "changes"
+      ],
+      "category": "tools",
+      "signed": true,
+      "source_path": "jade_skills/tools/git_diff_summary.json"
+    },
+    {
+      "skill_id": "github_create_issue",
+      "name": "GitHub Issue Creator",
+      "description": "Create a new issue on a GitHub repository via API",
+      "version": "1.0.0",
+      "tags": [
+        "github",
+        "issue",
+        "api",
+        "repository"
+      ],
+      "category": "tools",
+      "signed": true,
+      "source_path": "jade_skills/tools/github_create_issue.json"
+    },
+    {
+      "skill_id": "hash_file_verify",
+      "name": "File Hash Verification",
+      "description": "Compute and verify SHA-256 hash of a file for integrity checking",
+      "version": "1.0.0",
+      "tags": [
+        "hash",
+        "sha256",
+        "verify",
+        "integrity"
+      ],
+      "category": "tools",
+      "signed": true,
+      "source_path": "jade_skills/tools/hash_file_verify.json"
+    },
+    {
+      "skill_id": "hash_text",
+      "name": "Hash Text",
+      "description": "Compute SHA-256 hash of input text.",
+      "version": "1.0.0",
+      "tags": [
+        "tools",
+        "hash",
+        "sha256",
+        "checksum"
+      ],
+      "category": "tools",
+      "signed": true,
+      "source_path": "jade_skills/tools/hash_text.json"
+    },
+    {
+      "skill_id": "http_health_check",
+      "name": "HTTP Health Check",
+      "description": "Check if a website is up by sending HTTP GET and measuring response time",
+      "version": "1.0.0",
+      "tags": [
+        "ping",
+        "health",
+        "uptime",
+        "monitor"
+      ],
+      "category": "tools",
+      "signed": true,
+      "source_path": "jade_skills/tools/http_health_check.json"
+    },
+    {
+      "skill_id": "image_resize_convert",
+      "name": "Image Resize and Convert",
+      "description": "Resize images and convert between formats (PNG, JPG, WebP)",
+      "version": "1.0.0",
+      "tags": [
+        "image",
+        "resize",
+        "convert",
+        "format"
+      ],
+      "category": "tools",
+      "signed": true,
+      "source_path": "jade_skills/tools/image_resize_convert.json"
+    },
+    {
+      "skill_id": "ip_geolocation",
+      "name": "IP Geolocation Lookup",
+      "description": "Look up geographic location of an IP address using free API",
+      "version": "1.0.0",
+      "tags": [
+        "ip",
+        "geolocation",
+        "location",
+        "network"
+      ],
+      "category": "tools",
+      "signed": true,
+      "source_path": "jade_skills/tools/ip_geolocation.json"
+    },
+    {
+      "skill_id": "json_data_transform",
+      "name": "JSON Data Transform",
+      "description": "Parse, extract, and transform JSON data with JSONPath queries",
+      "version": "1.0.0",
+      "tags": [
+        "json",
+        "transform",
+        "parse",
+        "extract"
+      ],
+      "category": "tools",
+      "signed": true,
+      "source_path": "jade_skills/tools/json_data_transform.json"
+    },
+    {
+      "skill_id": "jwt_decode",
+      "name": "JWT Token Decoder",
+      "description": "Decode a JWT token (header + payload, no verification)",
+      "version": "1.0.0",
+      "tags": [
+        "jwt",
+        "auth",
+        "decode"
+      ],
+      "category": "tools",
+      "signed": true,
+      "source_path": "jade_skills/tools/jwt_decode.json"
+    },
+    {
+      "skill_id": "log_error_analyzer",
+      "name": "Log Error Analyzer",
+      "description": "Analyze log files to extract errors, warnings and generate summary",
+      "version": "1.0.0",
+      "tags": [
+        "log",
+        "error",
+        "analysis",
+        "debug"
+      ],
+      "category": "tools",
+      "signed": true,
+      "source_path": "jade_skills/tools/log_error_analyzer.json"
+    },
+    {
+      "skill_id": "markdown_lint",
+      "name": "Markdown Lint",
+      "description": "Validate markdown syntax and structure.",
+      "version": "1.0.0",
+      "tags": [
+        "tools",
+        "markdown",
+        "lint",
+        "validation"
+      ],
+      "category": "tools",
+      "signed": true,
+      "source_path": "jade_skills/tools/markdown_lint.json"
+    },
+    {
+      "skill_id": "markdown_to_html",
+      "name": "Markdown to HTML Converter",
+      "description": "Convert Markdown text to HTML",
+      "version": "1.0.0",
+      "tags": [
+        "markdown",
+        "html",
+        "converter"
+      ],
+      "category": "tools",
+      "signed": true,
+      "source_path": "jade_skills/tools/markdown_to_html.json"
+    },
+    {
+      "skill_id": "notion_page_read",
+      "name": "Notion Page Reader",
+      "description": "Read a Notion page content via official API with block parsing",
+      "version": "1.0.0",
+      "tags": [
+        "notion",
+        "api",
+        "page",
+        "read"
+      ],
+      "category": "tools",
+      "signed": true,
+      "source_path": "jade_skills/tools/notion_page_read.json"
+    },
+    {
+      "skill_id": "password_generator",
+      "name": "Secure Password Generator",
+      "description": "Generate a cryptographically secure random password",
+      "version": "1.0.0",
+      "tags": [
+        "password",
+        "security",
+        "generator"
+      ],
+      "category": "tools",
+      "signed": false,
+      "source_path": "jade_skills/tools/password_generator.json"
+    },
+    {
+      "skill_id": "pdf_text_extract",
+      "name": "PDF Text Extract",
+      "description": "Extract text content from a PDF file.",
+      "version": "1.0.0",
+      "tags": [
+        "tools",
+        "pdf",
+        "extract",
+        "text"
+      ],
+      "category": "tools",
+      "signed": true,
+      "source_path": "jade_skills/tools/pdf_text_extract.json"
+    },
+    {
+      "skill_id": "qr_code_generate",
+      "name": "QR Code Generator",
+      "description": "Generate QR code image from text using public API",
+      "version": "1.0.0",
+      "tags": [
+        "qrcode",
+        "generate",
+        "image",
+        "barcode"
+      ],
+      "category": "tools",
+      "signed": true,
+      "source_path": "jade_skills/tools/qr_code_generate.json"
+    },
+    {
+      "skill_id": "regex_tester",
+      "name": "Regex Pattern Tester",
+      "description": "Test a regex pattern against input text",
+      "version": "1.0.0",
+      "tags": [
+        "regex",
+        "text",
+        "testing"
+      ],
+      "category": "tools",
+      "signed": true,
+      "source_path": "jade_skills/tools/regex_tester.json"
+    },
+    {
+      "skill_id": "rss_feed_reader",
+      "name": "RSS Feed Reader",
+      "description": "Fetch and parse RSS/Atom feed with entry extraction",
+      "version": "1.0.0",
+      "tags": [
+        "rss",
+        "feed",
+        "news",
+        "atom"
+      ],
+      "category": "tools",
+      "signed": true,
+      "source_path": "jade_skills/tools/rss_feed_reader.json"
+    },
+    {
+      "skill_id": "slack_send_message",
+      "name": "Slack Message Sender",
+      "description": "Send messages to Slack channels via webhook or API with formatting support",
+      "version": "1.0.0",
+      "tags": [
+        "slack",
+        "message",
+        "chat",
+        "notification"
+      ],
+      "category": "tools",
+      "signed": true,
+      "source_path": "jade_skills/tools/slack_send_message.json"
+    },
+    {
+      "skill_id": "sqlite_db_query",
+      "name": "SQLite Database Query",
+      "description": "Execute read-only SQL queries on a local SQLite database file",
+      "version": "1.0.0",
+      "tags": [
+        "database",
+        "sqlite",
+        "sql",
+        "query"
+      ],
+      "category": "tools",
+      "signed": true,
+      "source_path": "jade_skills/tools/sqlite_db_query.json"
+    },
+    {
+      "skill_id": "ssh_remote_exec",
+      "name": "SSH Remote Command",
+      "description": "Execute a command on a remote server via SSH proxy API",
+      "version": "1.0.0",
+      "tags": [
+        "ssh",
+        "remote",
+        "server",
+        "command"
+      ],
+      "category": "tools",
+      "signed": true,
+      "source_path": "jade_skills/tools/ssh_remote_exec.json"
+    },
+    {
+      "skill_id": "ssl_cert_check",
+      "name": "SSL Certificate Check",
+      "description": "Check SSL certificate validity and expiration for a domain",
+      "version": "1.0.0",
+      "tags": [
+        "ssl",
+        "certificate",
+        "security",
+        "https"
+      ],
+      "category": "tools",
+      "signed": true,
+      "source_path": "jade_skills/tools/ssl_cert_check.json"
+    },
+    {
+      "skill_id": "telegram_send_msg",
+      "name": "Telegram Send Message",
+      "description": "Send a message via Telegram Bot API",
+      "version": "1.0.0",
+      "tags": [
+        "telegram",
+        "message",
+        "bot",
+        "chat"
+      ],
+      "category": "tools",
+      "signed": true,
+      "source_path": "jade_skills/tools/telegram_send_msg.json"
+    },
+    {
+      "skill_id": "text_diff",
+      "name": "Text Diff",
+      "description": "Compare two text strings and show differences.",
+      "version": "1.0.0",
+      "tags": [
+        "tools",
+        "text",
+        "diff",
+        "compare"
+      ],
+      "category": "tools",
+      "signed": true,
+      "source_path": "jade_skills/tools/text_diff.json"
+    },
+    {
+      "skill_id": "text_sentiment",
+      "name": "Text Sentiment Analysis",
+      "description": "Analyze sentiment of text using LLM classification (positive/negative/neutral)",
+      "version": "1.0.0",
+      "tags": [
+        "sentiment",
+        "nlp",
+        "analysis",
+        "text"
+      ],
+      "category": "tools",
+      "signed": true,
+      "source_path": "jade_skills/tools/text_sentiment.json"
+    },
+    {
+      "skill_id": "text_translation",
+      "name": "Multi-Language Translation",
+      "description": "Translate text between languages using free translation APIs with fallback",
+      "version": "1.0.0",
+      "tags": [
+        "translate",
+        "language",
+        "i18n",
+        "multilingual"
+      ],
+      "category": "tools",
+      "signed": true,
+      "source_path": "jade_skills/tools/text_translation.json"
+    },
+    {
+      "skill_id": "timezone_query",
+      "name": "Time Zone Query",
+      "description": "Get current time in any timezone and convert between timezones",
+      "version": "1.0.0",
+      "tags": [
+        "time",
+        "timezone",
+        "clock",
+        "convert"
+      ],
+      "category": "tools",
+      "signed": true,
+      "source_path": "jade_skills/tools/timezone_query.json"
+    },
+    {
+      "skill_id": "url_shortener",
+      "name": "URL Shortener",
+      "description": "Shorten a URL using a public API",
+      "version": "1.0.0",
+      "tags": [
+        "url",
+        "shortener",
+        "web"
+      ],
+      "category": "tools",
+      "signed": true,
+      "source_path": "jade_skills/tools/url_shortener.json"
+    },
+    {
+      "skill_id": "uuid_generator",
+      "name": "UUID Generator",
+      "description": "Generate UUID v4 identifiers",
+      "version": "1.0.0",
+      "tags": [
+        "uuid",
+        "generator",
+        "utility"
+      ],
+      "category": "tools",
+      "signed": true,
+      "source_path": "jade_skills/tools/uuid_generator.json"
+    },
+    {
+      "skill_id": "web_search_query",
+      "name": "Web Search Query",
+      "description": "Search the web using DuckDuckGo HTML with result extraction and fallback",
+      "version": "1.0.0",
+      "tags": [
+        "search",
+        "web",
+        "duckduckgo",
+        "query"
+      ],
+      "category": "tools",
+      "signed": true,
+      "source_path": "jade_skills/tools/web_search_query.json"
+    },
+    {
+      "skill_id": "webpage_content_extract",
+      "name": "Webpage Content Extractor",
+      "description": "Fetch a webpage and extract main content, removing navigation and ads",
+      "version": "1.0.0",
+      "tags": [
+        "webpage",
+        "extract",
+        "content",
+        "readability"
+      ],
+      "category": "tools",
+      "signed": true,
+      "source_path": "jade_skills/tools/webpage_content_extract.json"
+    },
+    {
+      "skill_id": "webpage_screenshot",
+      "name": "Webpage Screenshot",
+      "description": "Take a screenshot of a webpage using headless browser navigation",
+      "version": "1.0.0",
+      "tags": [
+        "screenshot",
+        "webpage",
+        "capture",
+        "browser"
+      ],
+      "category": "tools",
+      "signed": true,
+      "source_path": "jade_skills/tools/webpage_screenshot.json"
+    },
+    {
+      "skill_id": "whois_lookup",
+      "name": "WHOIS Domain Lookup",
+      "description": "Query WHOIS information for a domain via public API",
+      "version": "1.0.0",
+      "tags": [
+        "whois",
+        "domain",
+        "lookup",
+        "registrar"
+      ],
+      "category": "tools",
+      "signed": true,
+      "source_path": "jade_skills/tools/whois_lookup.json"
+    },
+    {
+      "skill_id": "yaml_json_converter",
+      "name": "YAML/JSON Converter",
+      "description": "Convert between YAML and JSON formats",
+      "version": "1.0.0",
+      "tags": [
+        "yaml",
+        "json",
+        "converter"
+      ],
+      "category": "tools",
+      "signed": true,
+      "source_path": "jade_skills/tools/yaml_json_converter.json"
+    },
+    {
       "skill_id": "email_send_safe",
       "name": "Safe Email Sending SOP",
-      "version": "1.0.0",
       "description": "Securely send emails via SMTP with mandatory confirmation step, content sanitization, and attachment size limits. Prevents accidental mass-mailing and sensitive data leakage through strict guardrails.",
-      "author": "jade-core-team",
+      "version": "1.0.0",
       "tags": [
         "email",
         "smtp",
@@ -21,20 +1728,15 @@
         "safe",
         "communication"
       ],
-      "category": "jade.core",
-      "network_required": true,
-      "sandbox_level": "strict",
-      "node_count": 16,
-      "mcp_compatible": true,
-      "hash": "sha256:3a868d3ed4b2d879",
+      "category": "standalone",
+      "signed": true,
       "source_path": "jade_skills/email_send_safe.json"
     },
     {
       "skill_id": "file_batch_rename",
       "name": "File Batch Rename SOP",
-      "version": "1.0.0",
       "description": "Safely batch rename files in a directory using regex patterns. Includes dry-run preview, collision detection, and automatic rollback on failure. Zero network access required.",
-      "author": "jade-core-team",
+      "version": "1.0.0",
       "tags": [
         "file",
         "batch",
@@ -42,20 +1744,15 @@
         "regex",
         "local"
       ],
-      "category": "jade.core",
-      "network_required": false,
-      "sandbox_level": "strict",
-      "node_count": 11,
-      "mcp_compatible": true,
-      "hash": "sha256:8c02331d0afcd01e",
+      "category": "standalone",
+      "signed": true,
       "source_path": "jade_skills/file_batch_rename.json"
     },
     {
       "skill_id": "pdf_table_parser",
       "name": "PDF Table Parser SOP",
-      "version": "1.0.0",
       "description": "Safely read and parse complex tables from local PDF files. Extracts structured tabular data without executing any embedded scripts or macros. Pure local file operation.",
-      "author": "jade-core-team",
+      "version": "1.0.0",
       "tags": [
         "pdf",
         "table",
@@ -63,20 +1760,15 @@
         "data-extraction",
         "local"
       ],
-      "category": "jade.core",
-      "network_required": false,
-      "sandbox_level": "strict",
-      "node_count": 9,
-      "mcp_compatible": true,
-      "hash": "sha256:d2a623bb51f23adf",
+      "category": "standalone",
+      "signed": true,
       "source_path": "jade_skills/pdf_table_parser.json"
     },
     {
       "skill_id": "weather_api_query",
       "name": "Weather API Query SOP",
-      "version": "1.0.0",
       "description": "Query current weather data from free public APIs (wttr.in, Open-Meteo). Zero API key required. Deterministic, error-free weather retrieval with automatic fallback between providers.",
-      "author": "jade-core-team",
+      "version": "1.0.0",
       "tags": [
         "weather",
         "api",
@@ -84,20 +1776,15 @@
         "public",
         "query"
       ],
-      "category": "jade.core",
-      "network_required": true,
-      "sandbox_level": "strict",
-      "node_count": 10,
-      "mcp_compatible": true,
-      "hash": "sha256:9bb380529c8538eb",
+      "category": "standalone",
+      "signed": true,
       "source_path": "jade_skills/weather_api.json"
     },
     {
       "skill_id": "web_anti_crawl_bypass",
       "name": "Web Anti-Crawl Bypass SOP",
+      "description": "Standard operating procedure for bypassing common web anti-crawl mechanisms (Cloudflare, rate limiting) using ethical and compliant methods. Rotates headers, respects robots.txt, and uses exponential backoff.",
       "version": "1.0.0",
-      "description": "Standard operating procedure for bypassing common web anti-crawl mechanisms (Cloudflare, rate limiting) using ethical and compliant methods. Rotates headers, respects robots.txt, and uses exponential ",
-      "author": "jade-core-team",
       "tags": [
         "web",
         "anti-crawl",
@@ -105,613 +1792,9 @@
         "cloudflare",
         "http"
       ],
-      "category": "jade.core",
-      "network_required": true,
-      "sandbox_level": "strict",
-      "node_count": 10,
-      "mcp_compatible": true,
-      "hash": "sha256:05b32d68938af254",
+      "category": "standalone",
+      "signed": true,
       "source_path": "jade_skills/web_anti_crawl.json"
-    },
-    {
-      "skill_id": "base64_file_encode",
-      "name": "Base64 File Encoder",
-      "version": "1.0.0",
-      "description": "Read a file and encode its content to Base64 string",
-      "author": "jadegate-community",
-      "tags": [
-        "base64",
-        "encode",
-        "file",
-        "binary"
-      ],
-      "category": "jadegate.community",
-      "network_required": false,
-      "sandbox_level": "strict",
-      "node_count": 5,
-      "mcp_compatible": true,
-      "hash": "sha256:fa5f6b9f576b6fb0",
-      "source_path": "converted_skills/base64_file_encode.json"
-    },
-    {
-      "skill_id": "csv_data_analysis",
-      "name": "CSV Data Analysis",
-      "version": "1.0.0",
-      "description": "Read and analyze CSV files with column stats, filtering and sorting",
-      "author": "jadegate-community",
-      "tags": [
-        "csv",
-        "data",
-        "analysis",
-        "statistics"
-      ],
-      "category": "jadegate.community",
-      "network_required": false,
-      "sandbox_level": "strict",
-      "node_count": 6,
-      "mcp_compatible": true,
-      "hash": "sha256:0eeba386128a8628",
-      "source_path": "converted_skills/csv_data_analysis.json"
-    },
-    {
-      "skill_id": "discord_webhook_send",
-      "name": "Discord Webhook Sender",
-      "version": "1.0.0",
-      "description": "Send messages to Discord channels via webhook with embed support",
-      "author": "jadegate-community",
-      "tags": [
-        "discord",
-        "webhook",
-        "message",
-        "chat"
-      ],
-      "category": "jadegate.community",
-      "network_required": true,
-      "sandbox_level": "strict",
-      "node_count": 6,
-      "mcp_compatible": true,
-      "hash": "sha256:4928cf69a5041b15",
-      "source_path": "converted_skills/discord_webhook_send.json"
-    },
-    {
-      "skill_id": "dns_lookup",
-      "name": "DNS Lookup",
-      "version": "1.0.0",
-      "description": "Resolve domain name to IP addresses using DNS",
-      "author": "jadegate-community",
-      "tags": [
-        "dns",
-        "lookup",
-        "network",
-        "resolve"
-      ],
-      "category": "jadegate.community",
-      "network_required": false,
-      "sandbox_level": "strict",
-      "node_count": 4,
-      "mcp_compatible": true,
-      "hash": "sha256:d5f5c108a1de2251",
-      "source_path": "converted_skills/dns_lookup.json"
-    },
-    {
-      "skill_id": "docker_container_list",
-      "name": "Docker Container List",
-      "version": "1.0.0",
-      "description": "List running Docker containers via Docker socket API",
-      "author": "jadegate-community",
-      "tags": [
-        "docker",
-        "container",
-        "devops",
-        "list"
-      ],
-      "category": "jadegate.community",
-      "network_required": true,
-      "sandbox_level": "standard",
-      "node_count": 5,
-      "mcp_compatible": true,
-      "hash": "sha256:59f2b1a7b70b52f0",
-      "source_path": "converted_skills/docker_container_list.json"
-    },
-    {
-      "skill_id": "exa_semantic_search",
-      "name": "Exa AI Semantic Search",
-      "version": "1.0.0",
-      "description": "Search the web semantically using Exa AI API with neural search",
-      "author": "jadegate-community",
-      "tags": [
-        "search",
-        "semantic",
-        "exa",
-        "neural"
-      ],
-      "category": "jadegate.community",
-      "network_required": true,
-      "sandbox_level": "strict",
-      "node_count": 6,
-      "mcp_compatible": true,
-      "hash": "sha256:3bb236c661a1f778",
-      "source_path": "converted_skills/exa_semantic_search.json"
-    },
-    {
-      "skill_id": "git_clone_repo",
-      "name": "Git Clone Repository",
-      "version": "1.0.0",
-      "description": "Clone a git repository with branch selection and shallow clone support",
-      "author": "jadegate-community",
-      "tags": [
-        "git",
-        "clone",
-        "vcs",
-        "repository"
-      ],
-      "category": "jadegate.community",
-      "network_required": true,
-      "sandbox_level": "standard",
-      "node_count": 6,
-      "mcp_compatible": true,
-      "hash": "sha256:1b408ec57cea267b",
-      "source_path": "converted_skills/git_clone_repo.json"
-    },
-    {
-      "skill_id": "git_diff_summary",
-      "name": "Git Diff Summary",
-      "version": "1.0.0",
-      "description": "Get git diff and summarize changes using LLM",
-      "author": "jadegate-community",
-      "tags": [
-        "git",
-        "diff",
-        "summary",
-        "changes"
-      ],
-      "category": "jadegate.community",
-      "network_required": false,
-      "sandbox_level": "standard",
-      "node_count": 6,
-      "mcp_compatible": true,
-      "hash": "sha256:3f6d47abbfaea24b",
-      "source_path": "converted_skills/git_diff_summary.json"
-    },
-    {
-      "skill_id": "github_create_issue",
-      "name": "GitHub Issue Creator",
-      "version": "1.0.0",
-      "description": "Create a new issue on a GitHub repository via API",
-      "author": "jadegate-community",
-      "tags": [
-        "github",
-        "issue",
-        "api",
-        "repository"
-      ],
-      "category": "jadegate.community",
-      "network_required": true,
-      "sandbox_level": "strict",
-      "node_count": 6,
-      "mcp_compatible": true,
-      "hash": "sha256:d94e0d58e5ae0b31",
-      "source_path": "converted_skills/github_create_issue.json"
-    },
-    {
-      "skill_id": "hash_file_verify",
-      "name": "File Hash Verification",
-      "version": "1.0.0",
-      "description": "Compute and verify SHA-256 hash of a file for integrity checking",
-      "author": "jadegate-community",
-      "tags": [
-        "hash",
-        "sha256",
-        "verify",
-        "integrity"
-      ],
-      "category": "jadegate.community",
-      "network_required": false,
-      "sandbox_level": "strict",
-      "node_count": 7,
-      "mcp_compatible": true,
-      "hash": "sha256:363d5ae6b1813100",
-      "source_path": "converted_skills/hash_file_verify.json"
-    },
-    {
-      "skill_id": "http_health_check",
-      "name": "HTTP Health Check",
-      "version": "1.0.0",
-      "description": "Check if a website is up by sending HTTP GET and measuring response time",
-      "author": "jadegate-community",
-      "tags": [
-        "ping",
-        "health",
-        "uptime",
-        "monitor"
-      ],
-      "category": "jadegate.community",
-      "network_required": true,
-      "sandbox_level": "strict",
-      "node_count": 4,
-      "mcp_compatible": true,
-      "hash": "sha256:625dca96c348f8b9",
-      "source_path": "converted_skills/http_health_check.json"
-    },
-    {
-      "skill_id": "image_resize_convert",
-      "name": "Image Resize and Convert",
-      "version": "1.0.0",
-      "description": "Resize images and convert between formats (PNG, JPG, WebP)",
-      "author": "jadegate-community",
-      "tags": [
-        "image",
-        "resize",
-        "convert",
-        "format"
-      ],
-      "category": "jadegate.community",
-      "network_required": false,
-      "sandbox_level": "strict",
-      "node_count": 6,
-      "mcp_compatible": true,
-      "hash": "sha256:3a1107dc303049c4",
-      "source_path": "converted_skills/image_resize_convert.json"
-    },
-    {
-      "skill_id": "ip_geolocation",
-      "name": "IP Geolocation Lookup",
-      "version": "1.0.0",
-      "description": "Look up geographic location of an IP address using free API",
-      "author": "jadegate-community",
-      "tags": [
-        "ip",
-        "geolocation",
-        "location",
-        "network"
-      ],
-      "category": "jadegate.community",
-      "network_required": true,
-      "sandbox_level": "strict",
-      "node_count": 6,
-      "mcp_compatible": true,
-      "hash": "sha256:c60a3b4a096a4379",
-      "source_path": "converted_skills/ip_geolocation.json"
-    },
-    {
-      "skill_id": "json_data_transform",
-      "name": "JSON Data Transform",
-      "version": "1.0.0",
-      "description": "Parse, extract, and transform JSON data with JSONPath queries",
-      "author": "jadegate-community",
-      "tags": [
-        "json",
-        "transform",
-        "parse",
-        "extract"
-      ],
-      "category": "jadegate.community",
-      "network_required": false,
-      "sandbox_level": "strict",
-      "node_count": 5,
-      "mcp_compatible": true,
-      "hash": "sha256:0d5a492fe88e048a",
-      "source_path": "converted_skills/json_data_transform.json"
-    },
-    {
-      "skill_id": "log_error_analyzer",
-      "name": "Log Error Analyzer",
-      "version": "1.0.0",
-      "description": "Analyze log files to extract errors, warnings and generate summary",
-      "author": "jadegate-community",
-      "tags": [
-        "log",
-        "error",
-        "analysis",
-        "debug"
-      ],
-      "category": "jadegate.community",
-      "network_required": false,
-      "sandbox_level": "strict",
-      "node_count": 7,
-      "mcp_compatible": true,
-      "hash": "sha256:d921256455c7747c",
-      "source_path": "converted_skills/log_error_analyzer.json"
-    },
-    {
-      "skill_id": "notion_page_read",
-      "name": "Notion Page Reader",
-      "version": "1.0.0",
-      "description": "Read a Notion page content via official API with block parsing",
-      "author": "jadegate-community",
-      "tags": [
-        "notion",
-        "api",
-        "page",
-        "read"
-      ],
-      "category": "jadegate.community",
-      "network_required": true,
-      "sandbox_level": "strict",
-      "node_count": 7,
-      "mcp_compatible": true,
-      "hash": "sha256:53dbb922e64f9b6f",
-      "source_path": "converted_skills/notion_page_read.json"
-    },
-    {
-      "skill_id": "qr_code_generate",
-      "name": "QR Code Generator",
-      "version": "1.0.0",
-      "description": "Generate QR code image from text using public API",
-      "author": "jadegate-community",
-      "tags": [
-        "qrcode",
-        "generate",
-        "image",
-        "barcode"
-      ],
-      "category": "jadegate.community",
-      "network_required": true,
-      "sandbox_level": "strict",
-      "node_count": 6,
-      "mcp_compatible": true,
-      "hash": "sha256:a099c1ca1f977b4b",
-      "source_path": "converted_skills/qr_code_generate.json"
-    },
-    {
-      "skill_id": "rss_feed_reader",
-      "name": "RSS Feed Reader",
-      "version": "1.0.0",
-      "description": "Fetch and parse RSS/Atom feed with entry extraction",
-      "author": "jadegate-community",
-      "tags": [
-        "rss",
-        "feed",
-        "news",
-        "atom"
-      ],
-      "category": "jadegate.community",
-      "network_required": true,
-      "sandbox_level": "strict",
-      "node_count": 5,
-      "mcp_compatible": true,
-      "hash": "sha256:df785cfce8a2695a",
-      "source_path": "converted_skills/rss_feed_reader.json"
-    },
-    {
-      "skill_id": "slack_send_message",
-      "name": "Slack Message Sender",
-      "version": "1.0.0",
-      "description": "Send messages to Slack channels via webhook or API with formatting support",
-      "author": "jadegate-community",
-      "tags": [
-        "slack",
-        "message",
-        "chat",
-        "notification"
-      ],
-      "category": "jadegate.community",
-      "network_required": true,
-      "sandbox_level": "strict",
-      "node_count": 5,
-      "mcp_compatible": true,
-      "hash": "sha256:6ec7c5fa1146f730",
-      "source_path": "converted_skills/slack_send_message.json"
-    },
-    {
-      "skill_id": "sqlite_db_query",
-      "name": "SQLite Database Query",
-      "version": "1.0.0",
-      "description": "Execute read-only SQL queries on a local SQLite database file",
-      "author": "jadegate-community",
-      "tags": [
-        "database",
-        "sqlite",
-        "sql",
-        "query"
-      ],
-      "category": "jadegate.community",
-      "network_required": false,
-      "sandbox_level": "standard",
-      "node_count": 7,
-      "mcp_compatible": true,
-      "hash": "sha256:533de8e4590fd51e",
-      "source_path": "converted_skills/sqlite_db_query.json"
-    },
-    {
-      "skill_id": "ssh_remote_exec",
-      "name": "SSH Remote Command",
-      "version": "1.0.0",
-      "description": "Execute a command on a remote server via SSH proxy API",
-      "author": "jadegate-community",
-      "tags": [
-        "ssh",
-        "remote",
-        "server",
-        "command"
-      ],
-      "category": "jadegate.community",
-      "network_required": false,
-      "sandbox_level": "standard",
-      "node_count": 7,
-      "mcp_compatible": true,
-      "hash": "sha256:0ee211ddf6903a14",
-      "source_path": "converted_skills/ssh_remote_exec.json"
-    },
-    {
-      "skill_id": "ssl_cert_check",
-      "name": "SSL Certificate Check",
-      "version": "1.0.0",
-      "description": "Check SSL certificate validity and expiration for a domain",
-      "author": "jadegate-community",
-      "tags": [
-        "ssl",
-        "certificate",
-        "security",
-        "https"
-      ],
-      "category": "jadegate.community",
-      "network_required": true,
-      "sandbox_level": "strict",
-      "node_count": 5,
-      "mcp_compatible": true,
-      "hash": "sha256:6ac6fbc217e5f01e",
-      "source_path": "converted_skills/ssl_cert_check.json"
-    },
-    {
-      "skill_id": "telegram_send_msg",
-      "name": "Telegram Send Message",
-      "version": "1.0.0",
-      "description": "Send a message via Telegram Bot API",
-      "author": "jadegate-community",
-      "tags": [
-        "telegram",
-        "message",
-        "bot",
-        "chat"
-      ],
-      "category": "jadegate.community",
-      "network_required": true,
-      "sandbox_level": "strict",
-      "node_count": 6,
-      "mcp_compatible": true,
-      "hash": "sha256:f0143663b7d71046",
-      "source_path": "converted_skills/telegram_send_msg.json"
-    },
-    {
-      "skill_id": "text_sentiment",
-      "name": "Text Sentiment Analysis",
-      "version": "1.0.0",
-      "description": "Analyze sentiment of text using LLM classification (positive/negative/neutral)",
-      "author": "jadegate-community",
-      "tags": [
-        "sentiment",
-        "nlp",
-        "analysis",
-        "text"
-      ],
-      "category": "jadegate.community",
-      "network_required": false,
-      "sandbox_level": "strict",
-      "node_count": 4,
-      "mcp_compatible": true,
-      "hash": "sha256:87c67eb0aa759c51",
-      "source_path": "converted_skills/text_sentiment.json"
-    },
-    {
-      "skill_id": "text_translation",
-      "name": "Multi-Language Translation",
-      "version": "1.0.0",
-      "description": "Translate text between languages using free translation APIs with fallback",
-      "author": "jadegate-community",
-      "tags": [
-        "translate",
-        "language",
-        "i18n",
-        "multilingual"
-      ],
-      "category": "jadegate.community",
-      "network_required": true,
-      "sandbox_level": "strict",
-      "node_count": 10,
-      "mcp_compatible": true,
-      "hash": "sha256:a25a12b7938c1f8e",
-      "source_path": "converted_skills/text_translation.json"
-    },
-    {
-      "skill_id": "timezone_query",
-      "name": "Time Zone Query",
-      "version": "1.0.0",
-      "description": "Get current time in any timezone and convert between timezones",
-      "author": "jadegate-community",
-      "tags": [
-        "time",
-        "timezone",
-        "clock",
-        "convert"
-      ],
-      "category": "jadegate.community",
-      "network_required": false,
-      "sandbox_level": "strict",
-      "node_count": 4,
-      "mcp_compatible": true,
-      "hash": "sha256:3d8d69c1fccd0a9b",
-      "source_path": "converted_skills/timezone_query.json"
-    },
-    {
-      "skill_id": "web_search_query",
-      "name": "Web Search Query",
-      "version": "1.0.0",
-      "description": "Search the web using DuckDuckGo HTML with result extraction and fallback",
-      "author": "jadegate-community",
-      "tags": [
-        "search",
-        "web",
-        "duckduckgo",
-        "query"
-      ],
-      "category": "jadegate.community",
-      "network_required": true,
-      "sandbox_level": "strict",
-      "node_count": 6,
-      "mcp_compatible": true,
-      "hash": "sha256:806c45b0c4c0f7a3",
-      "source_path": "converted_skills/web_search_query.json"
-    },
-    {
-      "skill_id": "webpage_content_extract",
-      "name": "Webpage Content Extractor",
-      "version": "1.0.0",
-      "description": "Fetch a webpage and extract main content, removing navigation and ads",
-      "author": "jadegate-community",
-      "tags": [
-        "webpage",
-        "extract",
-        "content",
-        "readability"
-      ],
-      "category": "jadegate.community",
-      "network_required": true,
-      "sandbox_level": "strict",
-      "node_count": 7,
-      "mcp_compatible": true,
-      "hash": "sha256:677d2414bf03d512",
-      "source_path": "converted_skills/webpage_content_extract.json"
-    },
-    {
-      "skill_id": "webpage_screenshot",
-      "name": "Webpage Screenshot",
-      "version": "1.0.0",
-      "description": "Take a screenshot of a webpage using headless browser navigation",
-      "author": "jadegate-community",
-      "tags": [
-        "screenshot",
-        "webpage",
-        "capture",
-        "browser"
-      ],
-      "category": "jadegate.community",
-      "network_required": true,
-      "sandbox_level": "standard",
-      "node_count": 6,
-      "mcp_compatible": true,
-      "hash": "sha256:c6d6c161d25daaa0",
-      "source_path": "converted_skills/webpage_screenshot.json"
-    },
-    {
-      "skill_id": "whois_lookup",
-      "name": "WHOIS Domain Lookup",
-      "version": "1.0.0",
-      "description": "Query WHOIS information for a domain via public API",
-      "author": "jadegate-community",
-      "tags": [
-        "whois",
-        "domain",
-        "lookup",
-        "registrar"
-      ],
-      "category": "jadegate.community",
-      "network_required": true,
-      "sandbox_level": "strict",
-      "node_count": 6,
-      "mcp_compatible": true,
-      "hash": "sha256:7abcf12be0956bbb",
-      "source_path": "converted_skills/whois_lookup.json"
     }
   ]
 }
