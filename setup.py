@@ -2,8 +2,8 @@ from setuptools import setup, find_packages
 
 setup(
     name="jadegate",
-    version="0.1.0",
-    description="JadeGate - Deterministic Security for AI Agent Skills",
+    version="1.3.0",
+    description="Deterministic Security for AI Agent Skills — 151 verified skills with Ed25519 signature chain",
     long_description=open("README.md", encoding="utf-8").read() if __import__("os").path.exists("README.md") else "",
     long_description_content_type="text/markdown",
     author="JadeGate",
@@ -29,7 +29,7 @@ setup(
         ],
     },
     classifiers=[
-        "Development Status :: 3 - Alpha",
+        "Development Status :: 4 - Beta",
         "Intended Audience :: Developers",
         "License :: OSI Approved :: MIT License",
         "Programming Language :: Python :: 3",
