@@ -1,0 +1,8 @@
+{
+  "skill_file": "mcp_uptimerobot_status.json",
+  "signature": "jade-sig-LQwL4V6+sI7XyEU/X1baSfaUKxmKkPmDXoWmTKWQ9VhkFAyUyv8BLO0DQYSeRKMgMLDKo1YRE7zCUkgQKOeeDg==",
+  "public_key": "jade-pk-root-u9yg2vwkHJt/xCdQdqUcOJIpnYbbbK18V82IraZo2/8=",
+  "timestamp": 1771873588.8468027,
+  "layers_passed": 5,
+  "skill_hash": "cadc8f14ed3760811f87c8534bdb5e2a61b9b04fe4c7faad15e179124ffb2b0f"
+}

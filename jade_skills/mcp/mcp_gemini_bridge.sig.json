@@ -1,0 +1,8 @@
+{
+  "skill_file": "mcp_gemini_bridge.json",
+  "signature": "jade-sig-iAhiL1wiMGLTedkQqz26eQd9Y2QZaZpUa6mZ9ZwKBAhhtxbTrwhGwfnu8trMTlD/bpvI9O64rbE1AnZTqISBCg==",
+  "public_key": "jade-pk-root-u9yg2vwkHJt/xCdQdqUcOJIpnYbbbK18V82IraZo2/8=",
+  "timestamp": 1771873095.9933205,
+  "layers_passed": 5,
+  "skill_hash": "dc9745a80adfc845f23a49847fbe2d3b6976b9870dcb9aa6d1c9569a890203b2"
+}

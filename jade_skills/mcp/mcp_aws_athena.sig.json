@@ -1,0 +1,8 @@
+{
+  "skill_file": "mcp_aws_athena.json",
+  "signature": "jade-sig-OEq4aF609F6BptCDaso8ejbQoxYuX4eizcWoCneY9GLBhIUqml/7ipU3rdRyEUT86ZO42lXcs+QsXMDzxUqbCg==",
+  "public_key": "jade-pk-root-u9yg2vwkHJt/xCdQdqUcOJIpnYbbbK18V82IraZo2/8=",
+  "timestamp": 1771872887.2766557,
+  "layers_passed": 5,
+  "skill_hash": "388d41592684e43ef486156f31da71bcf2eb1dd12f457f6c2a5d2b597ff070d8"
+}

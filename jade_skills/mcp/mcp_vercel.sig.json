@@ -1,0 +1,8 @@
+{
+  "skill_file": "mcp_vercel.json",
+  "signature": "jade-sig-LV7L9VX/VrPsWE9Z0N5+ROriF/B4bd1Cq+aTSsz8ek29c6zQDS6P/rgoaAMEyhUBeRs5Ly0JzKRJ8SL6z5lTAg==",
+  "public_key": "jade-pk-root-u9yg2vwkHJt/xCdQdqUcOJIpnYbbbK18V82IraZo2/8=",
+  "timestamp": 1771873596.8376765,
+  "layers_passed": 5,
+  "skill_hash": "a9ce5caee95703300f911c685417ca675af7ddd2a6fd0ab0502dc0b09ac1003d"
+}

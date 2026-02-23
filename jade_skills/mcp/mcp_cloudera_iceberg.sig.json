@@ -1,0 +1,8 @@
+{
+  "skill_file": "mcp_cloudera_iceberg.json",
+  "signature": "jade-sig-8NsXDATXeRooR/wO9/LFQGJTjNJkhl1zqj+wUXgezs5L6C2pY1mIQ1dekKi606et5AaD9xA6HklDjpZJOfKfCw==",
+  "public_key": "jade-pk-root-u9yg2vwkHJt/xCdQdqUcOJIpnYbbbK18V82IraZo2/8=",
+  "timestamp": 1771872959.3051457,
+  "layers_passed": 5,
+  "skill_hash": "27ab8714be36b8a4718cf8218c1d84f8ffe5767544ef4c2daec4dccc70d8380c"
+}

@@ -1,0 +1,8 @@
+{
+  "skill_file": "api_rate_limiter.json",
+  "signature": "jade-sig-93swa1cFbvDKUiBIbV88r5XKZONgSF94imADRv1GECNTzI+xkT88ohAPUMXI2gBBtAdtroGK445KodpfO/ipDw==",
+  "public_key": "jade-pk-root-u9yg2vwkHJt/xCdQdqUcOJIpnYbbbK18V82IraZo2/8=",
+  "timestamp": 1771873649.1162062,
+  "layers_passed": 5,
+  "skill_hash": "da395b2c02ab75b922c36e32a028dc830bf8970d004b6f86e4178d29615e3857"
+}

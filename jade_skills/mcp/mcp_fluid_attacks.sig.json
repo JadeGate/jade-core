@@ -1,0 +1,8 @@
+{
+  "skill_file": "mcp_fluid_attacks.json",
+  "signature": "jade-sig-WVnWjnbeb8o2lE7R33yZ/973FVXLt2pJvhpeAV7cOquq8a6RIzRJg4IOHu8KXlCJv5LfEsW7k/bzW2dNYHkQCg==",
+  "public_key": "jade-pk-root-u9yg2vwkHJt/xCdQdqUcOJIpnYbbbK18V82IraZo2/8=",
+  "timestamp": 1771873081.2413669,
+  "layers_passed": 5,
+  "skill_hash": "88d485373e2f7ed04f8c1813568e3d45dbf5bc2ffa380a0c12e48d5d8182dfee"
+}

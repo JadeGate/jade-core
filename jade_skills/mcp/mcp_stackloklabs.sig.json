@@ -1,0 +1,8 @@
+{
+  "skill_file": "mcp_stackloklabs.json",
+  "signature": "jade-sig-eiZZdlKLLtxeOFcyzTUyxlmUpfG9m+BFiccmlr6wJvhQkGMOuaFU6Q02Ke/yYVaxO0AEh4kKp+DAEj1NXQ1RBw==",
+  "public_key": "jade-pk-root-u9yg2vwkHJt/xCdQdqUcOJIpnYbbbK18V82IraZo2/8=",
+  "timestamp": 1771873515.1562233,
+  "layers_passed": 5,
+  "skill_hash": "ac329d942f8dab0236cec8d874567386380967e1dc459263c67a080e220072e4"
+}

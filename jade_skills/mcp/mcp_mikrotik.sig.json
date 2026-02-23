@@ -1,0 +1,8 @@
+{
+  "skill_file": "mcp_mikrotik.json",
+  "signature": "jade-sig-Tg6Mf8z5/QKyPzn+dWs9yO2F6RZfdRNH4jxp5VtdQ1hjAJDIyGWMJ7wllQzj5QccTsArzbnNZvVa81VJ5Xt5CQ==",
+  "public_key": "jade-pk-root-u9yg2vwkHJt/xCdQdqUcOJIpnYbbbK18V82IraZo2/8=",
+  "timestamp": 1771873302.6368349,
+  "layers_passed": 5,
+  "skill_hash": "e9242549eab6b1075298f856a98b7c86244ec5c98a79ad95cd9df7cae35a54ec"
+}

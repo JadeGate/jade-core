@@ -1,0 +1,8 @@
+{
+  "skill_file": "mcp_microsoft_business_central.json",
+  "signature": "jade-sig-GbAHz9XHPzaobYzkEY1RR88K5wmApBEJyYIac14LEXVV3deqAxlMc10Tyk6WLKI6/a8XEjsR23kpqULjGNqUDQ==",
+  "public_key": "jade-pk-root-u9yg2vwkHJt/xCdQdqUcOJIpnYbbbK18V82IraZo2/8=",
+  "timestamp": 1771873298.8367677,
+  "layers_passed": 5,
+  "skill_hash": "ce853c408f33653f1402c3170e47aa60bd124ce7a05fab8e86c4a70ca3c651f8"
+}

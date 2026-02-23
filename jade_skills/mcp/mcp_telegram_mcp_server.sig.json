@@ -1,0 +1,8 @@
+{
+  "skill_file": "mcp_telegram_mcp_server.json",
+  "signature": "jade-sig-DPpGv4QVIM/IvWrv6lQ9XEuhXPCToNuXa41UZ3MAKD88aoPI94DlHpajMclTTNIfCZXVwtWRPQWQKj53O4GtAg==",
+  "public_key": "jade-pk-root-u9yg2vwkHJt/xCdQdqUcOJIpnYbbbK18V82IraZo2/8=",
+  "timestamp": 1771873543.2757413,
+  "layers_passed": 5,
+  "skill_hash": "54969dc9d328309e437f80e3d12cbdbeb56afb5a11a99b0106eba63aa5a90ebe"
+}

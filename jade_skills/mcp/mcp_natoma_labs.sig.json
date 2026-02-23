@@ -1,0 +1,8 @@
+{
+  "skill_file": "mcp_natoma_labs.json",
+  "signature": "jade-sig-pRzEtxKNuKSmPrC2sPooFP4D9ful/p84iVxJLEv5qj9qit6qRvfUMdVlmYL/OLMbIdrFIjpmBpt5UojMgWhYDQ==",
+  "public_key": "jade-pk-root-u9yg2vwkHJt/xCdQdqUcOJIpnYbbbK18V82IraZo2/8=",
+  "timestamp": 1771873327.1623921,
+  "layers_passed": 5,
+  "skill_hash": "d78f7a649751cf7f2de28b1f321a5edec26389d77b204adfeb461bde8769d557"
+}

@@ -1,0 +1,8 @@
+{
+  "skill_file": "mcp_magic_meal_kits.json",
+  "signature": "jade-sig-HApCiLkZk0NzOpj4zXvtF4F8jqfgdMyhKMAeuqIi5gSMv9AlZ3fnLB8o7q3WswhYytHx2BOwsO0pnbPWnZwwDg==",
+  "public_key": "jade-pk-root-u9yg2vwkHJt/xCdQdqUcOJIpnYbbbK18V82IraZo2/8=",
+  "timestamp": 1771873234.6122313,
+  "layers_passed": 5,
+  "skill_hash": "a36a5f0bd04271726611de452201f65358ef9a3f1f161a4add2a7f0807534c39"
+}

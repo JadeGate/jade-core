@@ -1,0 +1,8 @@
+{
+  "skill_file": "mcp_deepgram_transcribe.json",
+  "signature": "jade-sig-0pc8U221IoKMoQL4zuwdStXiM6XAnudSCostmHcLgDFV2H4xL6VwKdwB0pXytauQrNMKPoVC78BNHSI+f0wpCQ==",
+  "public_key": "jade-pk-root-u9yg2vwkHJt/xCdQdqUcOJIpnYbbbK18V82IraZo2/8=",
+  "timestamp": 1771873009.6690943,
+  "layers_passed": 5,
+  "skill_hash": "2db27276241c44339be0fbdf557e7988539e11eb8a2eb355add6881a1414096d"
+}

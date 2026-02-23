@@ -1,0 +1,8 @@
+{
+  "skill_file": "mcp_virtual_location_google_street_view_etc.json",
+  "signature": "jade-sig-TDs3535R8BH4YXD3joTAJ++nZPUjUlHVJSzDbs2yDZomda9+OnwyNOF2Sloq9s3dqMN4/CE+6Am+y9848C99Bw==",
+  "public_key": "jade-pk-root-u9yg2vwkHJt/xCdQdqUcOJIpnYbbbK18V82IraZo2/8=",
+  "timestamp": 1771873603.39744,
+  "layers_passed": 5,
+  "skill_hash": "a6024c9063b3543d96ec04f3f72b07ef49ca1eb597a0b364783c8e71bcc7a80a"
+}

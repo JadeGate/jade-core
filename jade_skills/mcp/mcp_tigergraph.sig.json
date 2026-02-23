@@ -1,0 +1,8 @@
+{
+  "skill_file": "mcp_tigergraph.json",
+  "signature": "jade-sig-/2vkTLZOwLbt9um6PEaPxjEKch+ROowW77S7V01TeNjmo59Pq0Xg8JVmfziIXgpbR4Xt6BHckUJR6XuGr3nzAg==",
+  "public_key": "jade-pk-root-u9yg2vwkHJt/xCdQdqUcOJIpnYbbbK18V82IraZo2/8=",
+  "timestamp": 1771873560.3243566,
+  "layers_passed": 5,
+  "skill_hash": "8f8c93f0963c51fe021a417e6f3b399bd3239248a5a4889f2f357feea1b9ddf3"
+}

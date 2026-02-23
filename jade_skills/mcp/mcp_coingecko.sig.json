@@ -1,0 +1,8 @@
+{
+  "skill_file": "mcp_coingecko.json",
+  "signature": "jade-sig-Jn88nfrnuvqZc9W2VMrgF13k/8n09ta0CtesdLxgPOvaMNxZ9pSFWjH5luUBk74bX6v+/QSehkm9QWa8RYjMBw==",
+  "public_key": "jade-pk-root-u9yg2vwkHJt/xCdQdqUcOJIpnYbbbK18V82IraZo2/8=",
+  "timestamp": 1771872971.3137317,
+  "layers_passed": 5,
+  "skill_hash": "e70f9f38fda9b401996fee0ae3f06e3b585dd734746cc2312428d7991f5cdd6d"
+}

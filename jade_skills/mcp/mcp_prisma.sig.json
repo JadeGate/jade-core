@@ -1,0 +1,8 @@
+{
+  "skill_file": "mcp_prisma.json",
+  "signature": "jade-sig-L73Is8OSUMC1LsqvVUHT+7nlHpv777uwf+c6LxRFEiR5OHJvAbNdEm5NvA7xIix0x8QqzBQ3MUUFbtXlf3ouDw==",
+  "public_key": "jade-pk-root-u9yg2vwkHJt/xCdQdqUcOJIpnYbbbK18V82IraZo2/8=",
+  "timestamp": 1771873418.3595705,
+  "layers_passed": 5,
+  "skill_hash": "a50cc0998f8a46510d6b27c9cea9d217cb4577c689f011cbccb96059c9e892c6"
+}

@@ -1,0 +1,8 @@
+{
+  "skill_file": "mcp_unifi_dream_machine.json",
+  "signature": "jade-sig-Tq/UNFl+fLokmuocFluK1DuqUprhFWEE4FND2io27gH5wu+ecJ8ekggY7mriBdOvYqgMzOI4TIuPKNJCyt52Cw==",
+  "public_key": "jade-pk-root-u9yg2vwkHJt/xCdQdqUcOJIpnYbbbK18V82IraZo2/8=",
+  "timestamp": 1771873582.1356933,
+  "layers_passed": 5,
+  "skill_hash": "dde7fefd0e90f4930d3a75e3ba4b6c4853808f098cbd7e19ce0a6c58cc586782"
+}

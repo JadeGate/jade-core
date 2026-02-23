@@ -1,0 +1,8 @@
+{
+  "skill_file": "mcp_proxymock.json",
+  "signature": "jade-sig-Vfvb66OBSLy7GYwmwwEO6p+2SSTVOgXLHBO+2tqHgqsxNhyTRT+rF6efpmJvk+du0aWx8kN5niAycMX8xiH+Bg==",
+  "public_key": "jade-pk-root-u9yg2vwkHJt/xCdQdqUcOJIpnYbbbK18V82IraZo2/8=",
+  "timestamp": 1771873424.6089878,
+  "layers_passed": 5,
+  "skill_hash": "1e54777a6c9b585ff8c10628c0fc301f93b3bd53b1f32a5cf0a7b9d5c720a015"
+}

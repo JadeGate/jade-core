@@ -1,0 +1,8 @@
+{
+  "skill_file": "mcp_raindrop_io.json",
+  "signature": "jade-sig-f3sUCeJ6fL1Ttj1Ksbt7onauCPx53zta+jNO6bq/gGHk6IU+QqvJcCt8HvqhbsnsXqn8SyQEA5P0ekdg+N/WAg==",
+  "public_key": "jade-pk-root-u9yg2vwkHJt/xCdQdqUcOJIpnYbbbK18V82IraZo2/8=",
+  "timestamp": 1771873443.2655623,
+  "layers_passed": 5,
+  "skill_hash": "bcbdd5fbb8ffd7c5b44d15fd46ecbe91d4bfd9feec14681047c9e2067ae0f013"
+}

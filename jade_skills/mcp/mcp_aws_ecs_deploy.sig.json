@@ -1,0 +1,8 @@
+{
+  "skill_file": "mcp_aws_ecs_deploy.json",
+  "signature": "jade-sig-lXq8zer7YPEP/eavKXeaoPfDyAEgys3JwS6wRnI0iSpjwxQ8Q4wIoyQRweqWIzEUhn5yTbNklwFcgCl+rMmcBg==",
+  "public_key": "jade-pk-root-u9yg2vwkHJt/xCdQdqUcOJIpnYbbbK18V82IraZo2/8=",
+  "timestamp": 1771872890.6973972,
+  "layers_passed": 5,
+  "skill_hash": "bedd7f0dd3487686fafe9826fb6a3bc8b4d2a75bc57ac7bead99687a9ed7a6b7"
+}

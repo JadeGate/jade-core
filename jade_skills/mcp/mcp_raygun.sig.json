@@ -1,0 +1,8 @@
+{
+  "skill_file": "mcp_raygun.json",
+  "signature": "jade-sig-L6+Uv64C2o4CymkNOmvxp41f34S1O98dlKXylNLNlZ/Xk6cruyKwCZ9E/7Gv77TwpxMwiDtuiShzB+vDgHUZCg==",
+  "public_key": "jade-pk-root-u9yg2vwkHJt/xCdQdqUcOJIpnYbbbK18V82IraZo2/8=",
+  "timestamp": 1771873445.1946826,
+  "layers_passed": 5,
+  "skill_hash": "f60c34092bb55fd1ec6401246925926ed7394a015f5a50e6cb738c95b3547e13"
+}

@@ -1,0 +1,8 @@
+{
+  "skill_file": "mcp_pharos.json",
+  "signature": "jade-sig-OmT/fNyPmVin2aT8y0HLQJLd5/X+GaKuSEMrYRe5x3zcDdsSdzh1ss6XLsYuV8XAWko7o+qhp4edZY/qp97fCA==",
+  "public_key": "jade-pk-root-u9yg2vwkHJt/xCdQdqUcOJIpnYbbbK18V82IraZo2/8=",
+  "timestamp": 1771873398.8994503,
+  "layers_passed": 5,
+  "skill_hash": "d5ecbb939a6b5ea6e2c7a709c9e624cb7c47c46c43c72f727e13c8a56abe6846"
+}

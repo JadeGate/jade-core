@@ -1,0 +1,8 @@
+{
+  "skill_file": "mcp_newrelic_query.json",
+  "signature": "jade-sig-23osmV7qWNDJAFa1Y5aSyxUFayfZwJ+2c4F2k6HLuGDb7nFO7pVkRtnEdiA3MZaVW2WzsmB2AocOzRrURrGiCQ==",
+  "public_key": "jade-pk-root-u9yg2vwkHJt/xCdQdqUcOJIpnYbbbK18V82IraZo2/8=",
+  "timestamp": 1771873338.0113893,
+  "layers_passed": 5,
+  "skill_hash": "dd26dd7b16707944f55b4d83151c24f9a5ec66099cddf353678a4f02528f207b"
+}

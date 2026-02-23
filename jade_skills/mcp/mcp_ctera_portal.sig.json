@@ -1,0 +1,8 @@
+{
+  "skill_file": "mcp_ctera_portal.json",
+  "signature": "jade-sig-0T7e89ArIv5saz00k3dyqU+J9X3wchSHBKntDcdLfwGjLGLJAn74CUGB9UweR/dHdBkw0BXrxBtmikdY+8CDCg==",
+  "public_key": "jade-pk-root-u9yg2vwkHJt/xCdQdqUcOJIpnYbbbK18V82IraZo2/8=",
+  "timestamp": 1771872994.302704,
+  "layers_passed": 5,
+  "skill_hash": "78454abd6bfa9bcfb5a93966cd0543533103f818de13fb6bfab2536b510f41a5"
+}

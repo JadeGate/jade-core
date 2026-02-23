@@ -1,0 +1,8 @@
+{
+  "skill_file": "mcp_locust.json",
+  "signature": "jade-sig-LCpGNaYbojpXTvvqL5PNGtXmLl04HenWV90xVXE6SzhiXPntJgdiGhjYwvtpAGXvCvn3JudGd+1MzdIomozSBg==",
+  "public_key": "jade-pk-root-u9yg2vwkHJt/xCdQdqUcOJIpnYbbbK18V82IraZo2/8=",
+  "timestamp": 1771873226.9880073,
+  "layers_passed": 5,
+  "skill_hash": "31e05efa486583dafc7cb432657ddcd1c4d76c5894b6c6eb09996853dac88877"
+}

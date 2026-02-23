@@ -1,0 +1,8 @@
+{
+  "skill_file": "mcp_oxylabs.json",
+  "signature": "jade-sig-ny87Tgky7ZHUYv8HoOjvnrNO14J8pNqXTIh6kvDeQgWH7+LeExBRmkkv6gIelOrSW95JS68mh03ameXgAvfYDg==",
+  "public_key": "jade-pk-root-u9yg2vwkHJt/xCdQdqUcOJIpnYbbbK18V82IraZo2/8=",
+  "timestamp": 1771873381.0968068,
+  "layers_passed": 5,
+  "skill_hash": "1b9add63eb817a8f28be93a0640e081c0e9ee6805f6f7391cdc62ff36eb61fd0"
+}

@@ -1,0 +1,8 @@
+{
+  "skill_file": "mcp_dune_analytics_mcp.json",
+  "signature": "jade-sig-he89o96ZSLSaCpnGWkPPcqpKMYi118mhN4G0GXvxDB45xBUt46aHliLzmwiGYyIThXTW0m4SHXqzJsWlc3PtDg==",
+  "public_key": "jade-pk-root-u9yg2vwkHJt/xCdQdqUcOJIpnYbbbK18V82IraZo2/8=",
+  "timestamp": 1771873037.2928343,
+  "layers_passed": 5,
+  "skill_hash": "92ae4c43c8fca88e34f34177b0de90b103100d5afb42f3c3e56e7c5cb55fc32a"
+}

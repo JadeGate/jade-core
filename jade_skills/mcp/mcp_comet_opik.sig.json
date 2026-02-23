@@ -1,0 +1,8 @@
+{
+  "skill_file": "mcp_comet_opik.json",
+  "signature": "jade-sig-eLbSDpg8aA85sFGnCldp9Rkz1s9dw0bWvT78HdChf81+2FY5Hg6774vA31+JzdUWfljbNaW8XO3NADv5DTqeBQ==",
+  "public_key": "jade-pk-root-u9yg2vwkHJt/xCdQdqUcOJIpnYbbbK18V82IraZo2/8=",
+  "timestamp": 1771872972.761509,
+  "layers_passed": 5,
+  "skill_hash": "cd8676702e3209e5c598d84c90a6aace03219423e3d967333a2d0fbeb8ab1a97"
+}

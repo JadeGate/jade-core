@@ -1,0 +1,8 @@
+{
+  "skill_file": "mcp_nasa_planetary_data_system_pds_mcp_server.json",
+  "signature": "jade-sig-sENdwnmnzZcIjoyqRGOFrs5iI782R/UmUCYPNdsudTmVEQs5ajEsbWuoTH5BiFPaJBFnQzqtA34BHRkNo7s9CA==",
+  "public_key": "jade-pk-root-u9yg2vwkHJt/xCdQdqUcOJIpnYbbbK18V82IraZo2/8=",
+  "timestamp": 1771873325.7341323,
+  "layers_passed": 5,
+  "skill_hash": "7459f122219fb2a108fae2e0ac23f73ec4a632c89a04ac2c8105e6bf5004cce8"
+}

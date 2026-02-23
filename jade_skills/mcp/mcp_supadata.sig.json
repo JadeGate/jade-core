@@ -1,0 +1,8 @@
+{
+  "skill_file": "mcp_supadata.json",
+  "signature": "jade-sig-4ZH9ogtiy+DrM84nHOfvCiozQMSGrt3CcMp17XAwtZHIcTNDDcuzYgYGqdaAzpTPSCApj0MZImfW48ixBvePBQ==",
+  "public_key": "jade-pk-root-u9yg2vwkHJt/xCdQdqUcOJIpnYbbbK18V82IraZo2/8=",
+  "timestamp": 1771873533.3245351,
+  "layers_passed": 5,
+  "skill_hash": "383709d8c367ae93de42dfd162f5ffb6ca55bfcd42b159e92274e0631fc8dfb2"
+}

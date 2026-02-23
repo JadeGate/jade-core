@@ -1,0 +1,8 @@
+{
+  "skill_file": "dependency_audit.json",
+  "signature": "jade-sig-Vcb4bxsb9anz0yT3T2+SUct5D44f4Ip8+CnRg/r4i9N5mUuK5EF2oAIxvYs1qoSkvYjUcvc7pTZ4rvKry5ILAg==",
+  "public_key": "jade-pk-root-u9yg2vwkHJt/xCdQdqUcOJIpnYbbbK18V82IraZo2/8=",
+  "timestamp": 1771873655.3064897,
+  "layers_passed": 5,
+  "skill_hash": "fbcc70351c739cffb06d65908cb5c80e1f1945f0fed87abb300b90b717150138"
+}

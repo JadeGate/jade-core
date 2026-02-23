@@ -1,0 +1,8 @@
+{
+  "skill_file": "mcp_teradata.json",
+  "signature": "jade-sig-6Ow55cOCYrFl/t/SIVGnVy0rD3fD/I7hVN2zDcBh79cSj3NUw61NpvRd7ZybUKnLJLUI5ZqfOXZz2pCINjS0Dw==",
+  "public_key": "jade-pk-root-u9yg2vwkHJt/xCdQdqUcOJIpnYbbbK18V82IraZo2/8=",
+  "timestamp": 1771873546.617443,
+  "layers_passed": 5,
+  "skill_hash": "8390fdd95880c1c2d72aa88a1af0261d8ee67eddc552fd50a575598dede4fedd"
+}

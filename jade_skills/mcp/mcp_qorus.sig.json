@@ -1,0 +1,8 @@
+{
+  "skill_file": "mcp_qorus.json",
+  "signature": "jade-sig-qRf0ngp79XulkdVdMXm6fy60MFKCzzrJEQMQB/+wH7DhKnZ6CeekI1gIlowa1lTskSdlhIBC5230qkxLaSChBQ==",
+  "public_key": "jade-pk-root-u9yg2vwkHJt/xCdQdqUcOJIpnYbbbK18V82IraZo2/8=",
+  "timestamp": 1771873435.1289701,
+  "layers_passed": 5,
+  "skill_hash": "c2400830bee05320366a32607b60a3a0f90bb10ea77098bdd404f1ebc2f722d0"
+}

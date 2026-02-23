@@ -1,0 +1,8 @@
+{
+  "skill_file": "mcp_market_fiyati.json",
+  "signature": "jade-sig-hXfJsnNWHZ7mm9sv4BBvGcHS3waOpyuVQY4ikiAeGfWNEOPjLtRBjRhpdBR2LYGueihnhYuOodWwiSTiCmjRCQ==",
+  "public_key": "jade-pk-root-u9yg2vwkHJt/xCdQdqUcOJIpnYbbbK18V82IraZo2/8=",
+  "timestamp": 1771873242.3047147,
+  "layers_passed": 5,
+  "skill_hash": "f0575e8b70a0af239eaaab7a4a8c40e33a3c966a9fda643b33d0ab22e87d7a4e"
+}

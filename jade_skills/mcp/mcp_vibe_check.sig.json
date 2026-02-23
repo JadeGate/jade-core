@@ -1,0 +1,8 @@
+{
+  "skill_file": "mcp_vibe_check.json",
+  "signature": "jade-sig-DLQfS7nZSxqkkCFjIdEQsLIp6HKT5SDQAGyGg16N2JdZlUieKfxgNi3fZ+rqXjynyP/VbIq8rncKWN93Ty1GDA==",
+  "public_key": "jade-pk-root-u9yg2vwkHJt/xCdQdqUcOJIpnYbbbK18V82IraZo2/8=",
+  "timestamp": 1771873599.6300647,
+  "layers_passed": 5,
+  "skill_hash": "1d7f0f643a99a4b578515a310bef76a4ffb469e6f2ca37c3d8fbc6bba207232f"
+}

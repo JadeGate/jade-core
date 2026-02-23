@@ -1,0 +1,8 @@
+{
+  "skill_file": "mcp_moorcheh.json",
+  "signature": "jade-sig-O/1wyTnf+1guJPDORC2OM4Fjv4JDpecV9dUN6H6SKQqX6zz4MmMz1Kccl+CZSzxkPSFgGnHa664QAAzWZGBCAA==",
+  "public_key": "jade-pk-root-u9yg2vwkHJt/xCdQdqUcOJIpnYbbbK18V82IraZo2/8=",
+  "timestamp": 1771873314.690589,
+  "layers_passed": 5,
+  "skill_hash": "ead25eae0067b2d354f36acbe64649ca41d4a2c09b50e981c2a07b63137ff54d"
+}

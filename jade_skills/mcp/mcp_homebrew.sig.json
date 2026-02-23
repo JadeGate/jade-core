@@ -1,0 +1,8 @@
+{
+  "skill_file": "mcp_homebrew.json",
+  "signature": "jade-sig-RfghfEk0TEuz3r+U5NQ9gEaGUYobf0sMo8YNdv2JbzIUs44KoL/B1HXLPzZzPxS3mGGMHnip4sWZQKiESKK/BQ==",
+  "public_key": "jade-pk-root-u9yg2vwkHJt/xCdQdqUcOJIpnYbbbK18V82IraZo2/8=",
+  "timestamp": 1771873145.12556,
+  "layers_passed": 5,
+  "skill_hash": "a46bcb12e5fa4dc929d2da954b73a9b67c60db8fe3559c9b12eb2c08c588d6d3"
+}

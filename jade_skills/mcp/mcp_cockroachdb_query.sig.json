@@ -1,0 +1,8 @@
+{
+  "skill_file": "mcp_cockroachdb_query.json",
+  "signature": "jade-sig-95aM5gbOnf7ux7pvILVhIYP2KdigD7lLtEVRymEW7BwRjhFujh1KsjXBAMQuux9FYh9giVIkP4IZlTo7MTf0AQ==",
+  "public_key": "jade-pk-root-u9yg2vwkHJt/xCdQdqUcOJIpnYbbbK18V82IraZo2/8=",
+  "timestamp": 1771872964.5722156,
+  "layers_passed": 5,
+  "skill_hash": "dd360608701e80973e64b06ca5a47875d6461f217f6f7f2658389c80fc5f64ca"
+}

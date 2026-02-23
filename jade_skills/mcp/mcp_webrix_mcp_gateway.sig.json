@@ -1,0 +1,8 @@
+{
+  "skill_file": "mcp_webrix_mcp_gateway.json",
+  "signature": "jade-sig-sX31GuSrwiGuuYN5SUvccDWJnrbVYMPhS1Ahgmc+bn2Y1KTElo0kTfhpL/AGC4jPNa6uFqLcqwXspsgyN2/wCQ==",
+  "public_key": "jade-pk-root-u9yg2vwkHJt/xCdQdqUcOJIpnYbbbK18V82IraZo2/8=",
+  "timestamp": 1771873613.3833423,
+  "layers_passed": 5,
+  "skill_hash": "7fbf4c484ad8d025fb9bd2c756c1d5c4e2a8fa9d67ed14546a20b32d7acbc999"
+}

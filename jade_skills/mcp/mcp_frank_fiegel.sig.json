@@ -1,0 +1,8 @@
+{
+  "skill_file": "mcp_frank_fiegel.json",
+  "signature": "jade-sig-DaK6d54Zg/xI5hmCDy2yHkO0Qx3doikZTB/7Is/3QB2fiMJRNtNFQg9zjdwQaMCJrvBD7jsOQe8ZRz0UkIqLCQ==",
+  "public_key": "jade-pk-root-u9yg2vwkHJt/xCdQdqUcOJIpnYbbbK18V82IraZo2/8=",
+  "timestamp": 1771873086.4958663,
+  "layers_passed": 5,
+  "skill_hash": "d55c6612dfa90a32e471cfaf3a20c35699c1ccf74f1351f351e95c31c1df5eb4"
+}

@@ -1,0 +1,8 @@
+{
+  "skill_file": "mcp_kukapay_mcp_servers.json",
+  "signature": "jade-sig-DHDAonp/6vK63gcZ6t8jlcngpQy4mxOqPyTbyvxdSgq0Jbt2JZ8ydvbCIMTK+N336knNI2Ae2gUFhM+oM+/3BQ==",
+  "public_key": "jade-pk-root-u9yg2vwkHJt/xCdQdqUcOJIpnYbbbK18V82IraZo2/8=",
+  "timestamp": 1771873202.9865463,
+  "layers_passed": 5,
+  "skill_hash": "c803448a9e009f6776952b96589623e3478a59231f429f16ffbe3d0bc7dd6079"
+}

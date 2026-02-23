@@ -1,0 +1,8 @@
+{
+  "skill_file": "mcp_memalot.json",
+  "signature": "jade-sig-jXKi4Q7G97bPiPhuOyAdT4gEC8Vz6mGJywR89U59jl7xwhjRULUtYFf1OhZcuK5oV93EF4t6nhFDy2XSKb74AA==",
+  "public_key": "jade-pk-root-u9yg2vwkHJt/xCdQdqUcOJIpnYbbbK18V82IraZo2/8=",
+  "timestamp": 1771873290.2595005,
+  "layers_passed": 5,
+  "skill_hash": "607e16f76a4f8080be3def0d3e10aa420e72e26342515da1c101dbb3076a6cae"
+}

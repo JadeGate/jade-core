@@ -1,0 +1,8 @@
+{
+  "skill_file": "mcp_sunra_ai.json",
+  "signature": "jade-sig-U+ozTFbpG2b6YwNUs0LDAve5apW3IwR/8wlBy9QS/ne0JcvT8QkAP253BOL5QoAM/3SFSQZWGTsFMyhBoEXSBA==",
+  "public_key": "jade-pk-root-u9yg2vwkHJt/xCdQdqUcOJIpnYbbbK18V82IraZo2/8=",
+  "timestamp": 1771873531.443996,
+  "layers_passed": 5,
+  "skill_hash": "6547318ff04ef682a0f221fd66d3aa08b52b4a7feb15e324ac65a1833f143dd0"
+}

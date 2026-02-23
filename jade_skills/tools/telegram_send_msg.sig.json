@@ -1,15 +1,8 @@
 {
-  "jade_signature": {
-    "version": "1.0.0",
-    "skill_id": "telegram_send_msg",
-    "content_hash": "sha256:f0143663b7d71046cc045e5d8ff63acbbfb163fe754ae1b148c435f6014ca441",
-    "signature": "jade-sig-sSB2Y8oE+UWHdrFfcC3nj616hhvWjSuG3xaRjplKJ81UuAKNouXYOv4bzTPhxRzjIMsceqmam+x55fFo7YolDA==",
-    "signer": {
-      "public_key": "jade-pk-root-o0p0Em+ufryyPQFFdKHEdSbWOPCqiGhUwwC9AjYJb/U=",
-      "fingerprint": "SHA256:HU0Dpg+xFPNxCURZhG9eX6Yx+ynMlbincaJxIRUJt98=",
-      "role": "root"
-    },
-    "timestamp": "2026-02-22T16:18:15Z",
-    "expires": "2027-02-22T16:18:15Z"
-  }
+  "skill_file": "telegram_send_msg.json",
+  "signature": "jade-sig-5hWehIuCQHZzZTO9TekwkmXWw4wdgRG0DVsUnTMFj8ojhtuYEE40bSdBmS50SNXD5UVM/ZuP1PCu2yj5qpNtBQ==",
+  "public_key": "jade-pk-root-u9yg2vwkHJt/xCdQdqUcOJIpnYbbbK18V82IraZo2/8=",
+  "timestamp": 1771873684.5876334,
+  "layers_passed": 5,
+  "skill_hash": "2f7dd2a31293aacacee1cf4cbee394b15e7d9815447f4720adcca17c684c9ef1"
 }

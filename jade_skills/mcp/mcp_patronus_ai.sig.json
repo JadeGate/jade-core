@@ -1,0 +1,8 @@
+{
+  "skill_file": "mcp_patronus_ai.json",
+  "signature": "jade-sig-BjQbFsCS71ZZVl/AM2K1D5RvnT8PK2eEQwpeVirPxPThuNb4dOQXRwunPMiKAniGtz/sU8qD2uBTEZUgYkz2Bg==",
+  "public_key": "jade-pk-root-u9yg2vwkHJt/xCdQdqUcOJIpnYbbbK18V82IraZo2/8=",
+  "timestamp": 1771873389.1964185,
+  "layers_passed": 5,
+  "skill_hash": "af114c5547c93f29f4cf62988d739dde08b45ca1dcf0d5024cdb71bbf7b0a771"
+}

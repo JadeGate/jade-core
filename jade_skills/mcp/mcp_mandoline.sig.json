@@ -1,0 +1,8 @@
+{
+  "skill_file": "mcp_mandoline.json",
+  "signature": "jade-sig-Td5iIwrB53agkdW2n44p8Hnvn0QiR7jhNQQBLe4k65DKIGMf64fG2KkJtLX82aprQEax58UN1+z9wzY3eAKDCg==",
+  "public_key": "jade-pk-root-u9yg2vwkHJt/xCdQdqUcOJIpnYbbbK18V82IraZo2/8=",
+  "timestamp": 1771873239.4376962,
+  "layers_passed": 5,
+  "skill_hash": "0bd14d0e00d911c26e4a8ba808f38267f816bee62b4b096d1b3e9f2ff5028def"
+}

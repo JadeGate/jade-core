@@ -1,0 +1,8 @@
+{
+  "skill_file": "mcp_microsoft_teams.json",
+  "signature": "jade-sig-94E/bveQSxMRaQ0moSI4DJsIBbozgcCh/41tkUFRsEU26npMnTwz+4ESGawaWczNKIDQu0WigLzC6f0VwvSQCg==",
+  "public_key": "jade-pk-root-u9yg2vwkHJt/xCdQdqUcOJIpnYbbbK18V82IraZo2/8=",
+  "timestamp": 1771873300.7216814,
+  "layers_passed": 5,
+  "skill_hash": "4c46febf73fde616c769d2900beff5bfa876f07000ed04985e600075b7ccc6c9"
+}

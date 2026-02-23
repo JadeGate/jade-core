@@ -1,0 +1,8 @@
+{
+  "skill_file": "mcp_golang_filesystem_server.json",
+  "signature": "jade-sig-VaMsXj3RePZA6hVsgqDLlZas7i4BREZyR8JbdQB/ny6vP7hL3OkNg/DWNzg4wIBzlGqmpnBSzK9UctNWkSu6DQ==",
+  "public_key": "jade-pk-root-u9yg2vwkHJt/xCdQdqUcOJIpnYbbbK18V82IraZo2/8=",
+  "timestamp": 1771873116.4408817,
+  "layers_passed": 5,
+  "skill_hash": "e89b78e637f1ea0747bd0fcfac855618f12206789f9fea6d71936df8fdc8ce7b"
+}

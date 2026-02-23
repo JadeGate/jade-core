@@ -1,0 +1,8 @@
+{
+  "skill_file": "mcp_openai_gpt_image.json",
+  "signature": "jade-sig-crRed2JQ3txC4RMpHSzw87OsWWml/By0mZ3cFr69oGtVkudlAQcK0uJp1ab3IEsfPFU0T8Dtr5bX8EUejxX6DA==",
+  "public_key": "jade-pk-root-u9yg2vwkHJt/xCdQdqUcOJIpnYbbbK18V82IraZo2/8=",
+  "timestamp": 1771873362.4079897,
+  "layers_passed": 5,
+  "skill_hash": "4af2f9caa56cd2dbf3c3cca307decd53f49a962d602d0c34899a55f7248b6ce3"
+}

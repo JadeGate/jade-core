@@ -1,0 +1,8 @@
+{
+  "skill_file": "mcp_tmd_earthquake.json",
+  "signature": "jade-sig-HNTOrizj1yjtojo+EgEiK6plprqFv8I+CHaQos/sQQy/T+eXtqimDEgylCyF7YgQqS1GP6xMGv2o5CdFTvWlBA==",
+  "public_key": "jade-pk-root-u9yg2vwkHJt/xCdQdqUcOJIpnYbbbK18V82IraZo2/8=",
+  "timestamp": 1771873564.5585027,
+  "layers_passed": 5,
+  "skill_hash": "c5015690e5071519eee47723fad92a13801b5e5236abc4e9c60dbd631573acf1"
+}

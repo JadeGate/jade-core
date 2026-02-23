@@ -1,0 +1,8 @@
+{
+  "skill_file": "mcp_foobara_mcp_connector.json",
+  "signature": "jade-sig-EGnh6OD+zRV3oVmE486PML+bArkLWcqf1Cniui5/8WKKFGrocZdK8QLCLIB/csqRJnMKATLrAgrsyV+0dPXdBQ==",
+  "public_key": "jade-pk-root-u9yg2vwkHJt/xCdQdqUcOJIpnYbbbK18V82IraZo2/8=",
+  "timestamp": 1771873083.6248028,
+  "layers_passed": 5,
+  "skill_hash": "c267fc574be34c3fcb0b7c7b58f2ca69fbd8438e9c3cec189e3f12436f29d8f9"
+}

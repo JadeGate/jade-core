@@ -1,0 +1,8 @@
+{
+  "skill_file": "mcp_cloudbees_ci.json",
+  "signature": "jade-sig-3010ggiQw8uEwSotzbyW7Z6ndpyboqm4TkPe2a4wVtPWhgt5JSFlGZ1Uc7VHpak4B9EHaU88zQZyvAU0bARABQ==",
+  "public_key": "jade-pk-root-u9yg2vwkHJt/xCdQdqUcOJIpnYbbbK18V82IraZo2/8=",
+  "timestamp": 1771872957.876382,
+  "layers_passed": 5,
+  "skill_hash": "c564cccd84054731746bfd0fe7a8f44392745f1f53c519be78019cf4e246fbab"
+}

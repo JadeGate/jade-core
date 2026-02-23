@@ -1,0 +1,8 @@
+{
+  "skill_file": "mcp_arize_phoenix.json",
+  "signature": "jade-sig-edE1Gy5MXGpsBB8t+H1G3HVVll+yYRXw9tqsTGIrBBruX4c16F0YpsMOLJ2cTIBreZwA+noI464G/gYiYY99DQ==",
+  "public_key": "jade-pk-root-u9yg2vwkHJt/xCdQdqUcOJIpnYbbbK18V82IraZo2/8=",
+  "timestamp": 1771872872.9862423,
+  "layers_passed": 5,
+  "skill_hash": "423084c56ee8b11b4d79cfe6786191220a5c850aa3c48da7330e57ff0cc2dcd1"
+}

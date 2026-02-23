@@ -1,0 +1,8 @@
+{
+  "skill_file": "mcp_placid_app.json",
+  "signature": "jade-sig-ynO0Fz+utztdzHZ7NtT1gO3gsP57ZCu1KkAaKXXozK60x6/r+kA3cdmeFG2qARD4NgQ3niVTdDDg/U7rZznsBQ==",
+  "public_key": "jade-pk-root-u9yg2vwkHJt/xCdQdqUcOJIpnYbbbK18V82IraZo2/8=",
+  "timestamp": 1771873405.089546,
+  "layers_passed": 5,
+  "skill_hash": "8d33b6c584f12153d621c47feed7b7bef1bba01edf36fba238b86fff37398a46"
+}

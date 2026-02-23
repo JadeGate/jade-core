@@ -1,0 +1,8 @@
+{
+  "skill_file": "mcp_growi.json",
+  "signature": "jade-sig-CIDWQ/miHHHZ86zRJrk6/SW0Tu1CbAocYzetao2REuAziW+I1xnW6Ub51MIdfNxK2ixj2mva0Lk4uV1AXVtYAA==",
+  "public_key": "jade-pk-root-u9yg2vwkHJt/xCdQdqUcOJIpnYbbbK18V82IraZo2/8=",
+  "timestamp": 1771873132.3136432,
+  "layers_passed": 5,
+  "skill_hash": "883361e35c1bbd4d30831d525cd57fa514546bb4b7c3b6d7909651c7b947ad32"
+}

@@ -1,0 +1,8 @@
+{
+  "skill_file": "mcp_freshdesk_tickets.json",
+  "signature": "jade-sig-Da8u0ha0gMVU+6AsedFxTHdnJ8Z1VkzxD6dzEPDa3os7MdU6rFr29JqlgeJPInJdSBZEMnl+93XyvJj2dqvcCg==",
+  "public_key": "jade-pk-root-u9yg2vwkHJt/xCdQdqUcOJIpnYbbbK18V82IraZo2/8=",
+  "timestamp": 1771873087.9402819,
+  "layers_passed": 5,
+  "skill_hash": "37531d187038e01bfbc62c11991b97b308e33ed06069271396f2a3b84cda1efa"
+}

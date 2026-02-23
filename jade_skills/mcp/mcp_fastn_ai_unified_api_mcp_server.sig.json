@@ -1,0 +1,8 @@
+{
+  "skill_file": "mcp_fastn_ai_unified_api_mcp_server.json",
+  "signature": "jade-sig-gW9dXay/3oHZcDUc2EL1+hvIMSW/6rt+H/QQ9tIgjRdA24p6tL8CvhcitDB4oAm8bmWxKrGWl9gyENW2/u8BDg==",
+  "public_key": "jade-pk-root-u9yg2vwkHJt/xCdQdqUcOJIpnYbbbK18V82IraZo2/8=",
+  "timestamp": 1771873065.1170774,
+  "layers_passed": 5,
+  "skill_hash": "d1320ccc9466771b3c691bd2aec3ce5e2cb204dd1c3f1636d678924f736fff54"
+}

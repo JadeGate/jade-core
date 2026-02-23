@@ -1,0 +1,8 @@
+{
+  "skill_file": "mcp_turix_computer_automation_mcp.json",
+  "signature": "jade-sig-o1QV3lRMd22XxTj/QTavS/nU8IlLr5tWAJYZ7YHGnCvl+P7a0izC4ugO2lvkIoDXnMZQYB7aCxHh3eDsXMqXAA==",
+  "public_key": "jade-pk-root-u9yg2vwkHJt/xCdQdqUcOJIpnYbbbK18V82IraZo2/8=",
+  "timestamp": 1771873576.415476,
+  "layers_passed": 5,
+  "skill_hash": "fe30a05efb9447c2b02a8fec761316b86511352f6f50277c60d69bfea51c1edc"
+}

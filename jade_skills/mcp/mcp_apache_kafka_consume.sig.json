@@ -1,0 +1,8 @@
+{
+  "skill_file": "mcp_apache_kafka_consume.json",
+  "signature": "jade-sig-EPgQmOqv1GCEvto+DIlyvSWk5xTdhUTwNn1tpjMFmAhvydBOisTsLNvQEhAA/PP65tPCuPWLkc2MrQfWCKtxBQ==",
+  "public_key": "jade-pk-root-u9yg2vwkHJt/xCdQdqUcOJIpnYbbbK18V82IraZo2/8=",
+  "timestamp": 1771872861.5829124,
+  "layers_passed": 5,
+  "skill_hash": "36673f6103d129a4d90e4e3cdc40d41bf83a3828c588fb177cd7557e2503402e"
+}

@@ -1,0 +1,8 @@
+{
+  "skill_file": "mcp_tripadvisor.json",
+  "signature": "jade-sig-p9Y5HuassRu0qFrTJo8RH/NpTjHge4+bmMB33cTJHEf4fEfxfF0Ydu9hBiWxCskVbMHMVfJEsnfxhlzVCQemBg==",
+  "public_key": "jade-pk-root-u9yg2vwkHJt/xCdQdqUcOJIpnYbbbK18V82IraZo2/8=",
+  "timestamp": 1771873574.911098,
+  "layers_passed": 5,
+  "skill_hash": "30a0314faf2f3774d1b8e99662a05df53b373ca98244d3419ff09ea4e4098184"
+}

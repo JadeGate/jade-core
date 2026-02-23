@@ -1,0 +1,8 @@
+{
+  "skill_file": "mcp_apple_books.json",
+  "signature": "jade-sig-X+ZrdOTLyrad0w++pGXVjNsmedLfrIESRi4nE4cDKK6/Meyd8+RKAs/2YK6C9dqM6dRsHeGh0pmGoWcRtVRkAw==",
+  "public_key": "jade-pk-root-u9yg2vwkHJt/xCdQdqUcOJIpnYbbbK18V82IraZo2/8=",
+  "timestamp": 1771872866.8067396,
+  "layers_passed": 5,
+  "skill_hash": "ec9185b34310c0b2c1f0b3087f65120f7692f121d63c22b6ac470553b37f2a16"
+}

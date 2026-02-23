@@ -1,0 +1,8 @@
+{
+  "skill_file": "mcp_endor_labs.json",
+  "signature": "jade-sig-hw5sJ1dr5JW6Cj5v4kvOp7GI0/BSMKOASmMhPTy6inoSnxk+qUXJe1x2ABxL7HFkf+q0DCScQ3edgZS4g4aRDQ==",
+  "public_key": "jade-pk-root-u9yg2vwkHJt/xCdQdqUcOJIpnYbbbK18V82IraZo2/8=",
+  "timestamp": 1771873048.8738644,
+  "layers_passed": 5,
+  "skill_hash": "b77f402c10add0f1ab5149da694e14fa867b7af03897713091cacc50c8dec8dd"
+}

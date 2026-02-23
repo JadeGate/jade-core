@@ -1,0 +1,8 @@
+{
+  "skill_file": "mcp_ai_endurance.json",
+  "signature": "jade-sig-STNTRd2PM37PZYji9vF5swZPN4YhsVLx3+pMIqSjtubi03Ud2ZvqHbLU+UgU7AiS4H1hLP8HCq0WraGVdBDDDQ==",
+  "public_key": "jade-pk-root-u9yg2vwkHJt/xCdQdqUcOJIpnYbbbK18V82IraZo2/8=",
+  "timestamp": 1771872840.1936016,
+  "layers_passed": 5,
+  "skill_hash": "8e5dcc7eaac1c61cc76670e431dc85c7bc79801d41e4c10f1e32fa90069bdd00"
+}

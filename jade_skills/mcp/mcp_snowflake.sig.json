@@ -1,0 +1,8 @@
+{
+  "skill_file": "mcp_snowflake.json",
+  "signature": "jade-sig-a0w+cm8JFaFgtkdQiCaetU2ZT+0ZCu/1f4xRmcBHNtIe7texxJ6m+KHu8A3giATugLc6f/fY/kcoFKFOwSw6DA==",
+  "public_key": "jade-pk-root-u9yg2vwkHJt/xCdQdqUcOJIpnYbbbK18V82IraZo2/8=",
+  "timestamp": 1771873497.893367,
+  "layers_passed": 5,
+  "skill_hash": "2a3333f110edd588968e23a4531938809595bf596954e6e6d95b5655bc376dd7"
+}

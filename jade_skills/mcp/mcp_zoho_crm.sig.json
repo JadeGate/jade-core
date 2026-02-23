@@ -1,0 +1,8 @@
+{
+  "skill_file": "mcp_zoho_crm.json",
+  "signature": "jade-sig-VmStrZ7BGovRopTpmEuJ+lkc/66D2sRqZCzNnh8tQjXoXoN8ngxgJBU0Ktl5MjNzdaaDntes2R2iwyAYHe0hAA==",
+  "public_key": "jade-pk-root-u9yg2vwkHJt/xCdQdqUcOJIpnYbbbK18V82IraZo2/8=",
+  "timestamp": 1771873645.3650334,
+  "layers_passed": 5,
+  "skill_hash": "4ecbca8cc5308bb38ba8725d2c6ed6a0fe2b0191b400e1ea582a3910a20113c7"
+}

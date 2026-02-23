@@ -1,0 +1,8 @@
+{
+  "skill_file": "mcp_ios_simulator.json",
+  "signature": "jade-sig-5Bt4Z3yrBrwwW2FQKGU66Yv8jvB5RHNf8UXp+EVXBqYhaP0XkyeUs9AteupVFLqsXXQAuNvrqvrJgsGm3dzXAQ==",
+  "public_key": "jade-pk-root-u9yg2vwkHJt/xCdQdqUcOJIpnYbbbK18V82IraZo2/8=",
+  "timestamp": 1771873167.4138992,
+  "layers_passed": 5,
+  "skill_hash": "3f552f4416cb4588c5de0a8f70f09dd4a8aff51689b7ffdfce313f6fcd827c5e"
+}

@@ -1,0 +1,8 @@
+{
+  "skill_file": "mcp_actor_critic_thinking.json",
+  "signature": "jade-sig-17slfiSvt7QJttFMrEIzxwck/ODQXPcnIoZJdS2aKfDyyI3r/WbOlLpfOUl741BcQ3iLGZbPt2d+ZeDADAgWBg==",
+  "public_key": "jade-pk-root-u9yg2vwkHJt/xCdQdqUcOJIpnYbbbK18V82IraZo2/8=",
+  "timestamp": 1771872831.7309783,
+  "layers_passed": 5,
+  "skill_hash": "1104fc8dc320248958d4bc3f51a6916eefb7b6a2d3da55a7dfc848fe7fa0dd70"
+}

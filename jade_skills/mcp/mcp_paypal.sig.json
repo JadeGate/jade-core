@@ -1,0 +1,8 @@
+{
+  "skill_file": "mcp_paypal.json",
+  "signature": "jade-sig-SIsnsyV5D3IiQrwrwgteKNOJxmSnkcJRemBWVCzlPvFLY6Uxph7rPBc21BSHF/dSl/AQFrSr1973JP96e7abAQ==",
+  "public_key": "jade-pk-root-u9yg2vwkHJt/xCdQdqUcOJIpnYbbbK18V82IraZo2/8=",
+  "timestamp": 1771873390.627278,
+  "layers_passed": 5,
+  "skill_hash": "e27954f94191a09868582ca8eec98bbab2a42e996cb0956e2fb60f1bd655345c"
+}

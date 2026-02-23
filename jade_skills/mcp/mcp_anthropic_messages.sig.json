@@ -1,0 +1,8 @@
+{
+  "skill_file": "mcp_anthropic_messages.json",
+  "signature": "jade-sig-ye9Aqy1IIcGS+jKqFfErW3NPQUlQ0KTT/suRbYOFGjSIc+2XO6gUM7caO8sntDNte7/i2CnHrJiaMbGMxXOLCQ==",
+  "public_key": "jade-pk-root-u9yg2vwkHJt/xCdQdqUcOJIpnYbbbK18V82IraZo2/8=",
+  "timestamp": 1771872857.3425293,
+  "layers_passed": 5,
+  "skill_hash": "fd3bf76ab4b8f4a88e85961bc3e71fba9dc70e38e6779e7ac0ae6cb379c3c8e2"
+}

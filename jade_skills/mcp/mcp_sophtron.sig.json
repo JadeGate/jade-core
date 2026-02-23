@@ -1,0 +1,8 @@
+{
+  "skill_file": "mcp_sophtron.json",
+  "signature": "jade-sig-TyBXQ93M9uuLQVsY5Gjp9ybxt66tnWxrS8IoS7leJzernYZLDrYFkj66vs9/HvA/wv9cdk1sKO/XmIiw4owOBg==",
+  "public_key": "jade-pk-root-u9yg2vwkHJt/xCdQdqUcOJIpnYbbbK18V82IraZo2/8=",
+  "timestamp": 1771873503.6073666,
+  "layers_passed": 5,
+  "skill_hash": "21af7becdbdad4f86580e4a1b65b557635b5c45edfc63ecb40cc89a5ca8f8aad"
+}

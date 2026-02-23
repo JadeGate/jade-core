@@ -1,0 +1,8 @@
+{
+  "skill_file": "mcp_apimatic_mcp.json",
+  "signature": "jade-sig-B8dB9lJcRBFASOMVpae4+/d/qG7M6teqMn+P9iIt52aEaQfR7iqgRu9l5lEHZMzNAE0+f1JIRNnbZjKuWoj/Bw==",
+  "public_key": "jade-pk-root-u9yg2vwkHJt/xCdQdqUcOJIpnYbbbK18V82IraZo2/8=",
+  "timestamp": 1771872864.4227228,
+  "layers_passed": 5,
+  "skill_hash": "d4377f8ecd27ea6e332a1eba87e0ecdb0655a21aa8e5e00746a29d06d6a6b589"
+}

@@ -1,0 +1,8 @@
+{
+  "skill_file": "mcp_alby_bitcoin_payments.json",
+  "signature": "jade-sig-539COfIzmQ5/ehZAtOxT+gHEk1xjjJkNa5yGdf1HWGU7n3eZpi/35n8XG1sZVyMxXbyb3G3Dq3/hs1uca+5mDQ==",
+  "public_key": "jade-pk-root-u9yg2vwkHJt/xCdQdqUcOJIpnYbbbK18V82IraZo2/8=",
+  "timestamp": 1771872845.3819864,
+  "layers_passed": 5,
+  "skill_hash": "ad02864a56f06b85265b4e287116f2be8ca2610aee6f514b65a34e27620720e2"
+}

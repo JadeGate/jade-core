@@ -1,0 +1,8 @@
+{
+  "skill_file": "mcp_cloudflare_waf.json",
+  "signature": "jade-sig-cjJNUDPTGpjXc9Uk+U6sAHqDs3DSDpHKijZjILkkz4KvSHxeuBBMifATeKIx1karZ4n7jhf2BSukgaulYnQsBg==",
+  "public_key": "jade-pk-root-u9yg2vwkHJt/xCdQdqUcOJIpnYbbbK18V82IraZo2/8=",
+  "timestamp": 1771872961.208824,
+  "layers_passed": 5,
+  "skill_hash": "2586f567c53d9e85bbd0ab43d169bcac984e48580c538061785b2fc23519b667"
+}

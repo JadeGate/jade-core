@@ -1,0 +1,8 @@
+{
+  "skill_file": "mcp_fly_deploy.json",
+  "signature": "jade-sig-RGQuTKZWvtDcqS1Pl2YzTFkbzMVCLgUtBtdTgV6+Suk7uQr4nLhmtiIAvSAsvqqVqCnlKsWetX3nqcpqwnSKCg==",
+  "public_key": "jade-pk-root-u9yg2vwkHJt/xCdQdqUcOJIpnYbbbK18V82IraZo2/8=",
+  "timestamp": 1771873082.1778657,
+  "layers_passed": 5,
+  "skill_hash": "fc12bd189ee4f572fe0180cf1276ce98377d705f9ab895356d80afc9949acd22"
+}

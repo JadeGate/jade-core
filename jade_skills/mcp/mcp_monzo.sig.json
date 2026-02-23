@@ -1,0 +1,8 @@
+{
+  "skill_file": "mcp_monzo.json",
+  "signature": "jade-sig-15Ekqv+Wbqkh+lM0NMWdrxvsbe31GgvWSX1gDqT9J6kVJfMXN2gpyTTZ2Yt1F3CCZXJ1uAIqYyx+A34jozENBA==",
+  "public_key": "jade-pk-root-u9yg2vwkHJt/xCdQdqUcOJIpnYbbbK18V82IraZo2/8=",
+  "timestamp": 1771873314.2157347,
+  "layers_passed": 5,
+  "skill_hash": "db14546276b2508e21809264bf074053405f9d34ebfccf4388c8602fcb3acc9d"
+}

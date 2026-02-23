@@ -1,0 +1,8 @@
+{
+  "skill_file": "mcp_microsoft_clarity.json",
+  "signature": "jade-sig-TPflcP7VdvG8lMhl3E0FFhslvaCAIUTbwj2X12rQ3OPS6NWZbJGXZuDa8++FbpiTcka3KRk4G40cpv/I9defCA==",
+  "public_key": "jade-pk-root-u9yg2vwkHJt/xCdQdqUcOJIpnYbbbK18V82IraZo2/8=",
+  "timestamp": 1771873299.3170726,
+  "layers_passed": 5,
+  "skill_hash": "713f9133f7388271bef78345f8c7df133f14c14e12c7d676cebe6d48cef9d435"
+}

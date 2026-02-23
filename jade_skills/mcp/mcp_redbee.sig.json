@@ -1,0 +1,8 @@
+{
+  "skill_file": "mcp_redbee.json",
+  "signature": "jade-sig-Oy1zxOSLKKQ6ZeUGS7fQ18lFdDW0Rd41RA0zvzu14uk7jEnblQNKi2LYmqSbFOKihdWCLc0EzFDmf9MeVMrACA==",
+  "public_key": "jade-pk-root-u9yg2vwkHJt/xCdQdqUcOJIpnYbbbK18V82IraZo2/8=",
+  "timestamp": 1771873448.1449542,
+  "layers_passed": 5,
+  "skill_hash": "744f244d3f945259ad0349af72fc00d274f180f2c91ffc9a8f8ab0ca9966dcbb"
+}

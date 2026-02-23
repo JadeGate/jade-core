@@ -1,0 +1,8 @@
+{
+  "skill_file": "mcp_cassandra_query.json",
+  "signature": "jade-sig-gBHxhb2dKasflZuHwGNmk1mURvDCNpbSNbCrRBXkcns0y35J2XBNC3BU+t3ta2xyPXXL6VknCuKvoYCuEPcnCw==",
+  "public_key": "jade-pk-root-u9yg2vwkHJt/xCdQdqUcOJIpnYbbbK18V82IraZo2/8=",
+  "timestamp": 1771872940.054825,
+  "layers_passed": 5,
+  "skill_hash": "5b3f595d154e37a96fcf5bbb78ccf1d6fb40c55425b6e7a1398b6b0ffe55352e"
+}

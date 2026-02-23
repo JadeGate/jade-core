@@ -1,0 +1,8 @@
+{
+  "skill_file": "mcp_oracle_cloud_infrastructure_oci.json",
+  "signature": "jade-sig-V2bf2+ZACeDHd5sIaIwQgUM468i+QGzm3gRQ1S0ymzDsGU331zLXZ5TmGak2RubaDrkruj+Sz0qQMSs1BSteBg==",
+  "public_key": "jade-pk-root-u9yg2vwkHJt/xCdQdqUcOJIpnYbbbK18V82IraZo2/8=",
+  "timestamp": 1771873378.6988683,
+  "layers_passed": 5,
+  "skill_hash": "071175a7dc79ae179a9cbd182aefbe02b040e1a318b10ec69ce39ea1d23a1af9"
+}

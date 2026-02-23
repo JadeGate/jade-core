@@ -1,0 +1,8 @@
+{
+  "skill_file": "mcp_baidu_ai_search.json",
+  "signature": "jade-sig-KAebSjA8Y9pq+vt/Z0kW6qE1chGv9w/C+hY1CTGwUyus2xxbH9yrnJOtmNWLgjFdqKfdji0TtqRB/Jgiso7eAQ==",
+  "public_key": "jade-pk-root-u9yg2vwkHJt/xCdQdqUcOJIpnYbbbK18V82IraZo2/8=",
+  "timestamp": 1771872906.8988771,
+  "layers_passed": 5,
+  "skill_hash": "c8c7adca091c318b0183a5877b4544cf99b338c6d11076334ddae783402c3633"
+}

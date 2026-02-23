@@ -1,0 +1,8 @@
+{
+  "skill_file": "mcp_tavily.json",
+  "signature": "jade-sig-kTQUQcpcqKKVnWDKaRjbolz5405taRQ5og3NN9FdEYCaOqRgD1t6jY2eVG/o7wUdUEJI2nnfvHlkydqA7MoCCw==",
+  "public_key": "jade-pk-root-u9yg2vwkHJt/xCdQdqUcOJIpnYbbbK18V82IraZo2/8=",
+  "timestamp": 1771873539.005495,
+  "layers_passed": 5,
+  "skill_hash": "7b7ecb92dc552d16914eff6b182916bc75b7943597e58f193ce9f8be02991f0b"
+}

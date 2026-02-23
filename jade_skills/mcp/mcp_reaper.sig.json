@@ -1,0 +1,8 @@
+{
+  "skill_file": "mcp_reaper.json",
+  "signature": "jade-sig-UJa9aJqLjGM/siX1Xry9gMFkDvBC3dUA40gxY8UHTQxER8LNw9FoBscdXEYMAAv/TlQP3GmByguTqKXTXihRBQ==",
+  "public_key": "jade-pk-root-u9yg2vwkHJt/xCdQdqUcOJIpnYbbbK18V82IraZo2/8=",
+  "timestamp": 1771873446.7171786,
+  "layers_passed": 5,
+  "skill_hash": "893e08fbeaa359a36a0847b04e928692d0a6e21344b85c69f7f202e8311c2773"
+}

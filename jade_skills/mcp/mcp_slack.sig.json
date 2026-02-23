@@ -1,0 +1,8 @@
+{
+  "skill_file": "mcp_slack.json",
+  "signature": "jade-sig-zhn5880eCAZOREW27hebWjp5aUv9FXUSXT2MRTSEd2ugMC43IbfqwY12lpKw0AAdhfeyhg9waHW1PDJD1sVOBg==",
+  "public_key": "jade-pk-root-u9yg2vwkHJt/xCdQdqUcOJIpnYbbbK18V82IraZo2/8=",
+  "timestamp": 1771873494.482415,
+  "layers_passed": 5,
+  "skill_hash": "2b77f295de890a7553e7129c4ab13a693195fbbd7cd5a2f2a4be5c0bf6b3eddb"
+}

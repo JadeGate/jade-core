@@ -1,0 +1,8 @@
+{
+  "skill_file": "mcp_webflow.json",
+  "signature": "jade-sig-/lbxSCvjWisV6VKzlWK2qcbqDmE6/YwQIiNUauYZndB4vSDksirszIRLDPtKDIbU0TmIwoUWZH+W3lMqUav7Cg==",
+  "public_key": "jade-pk-root-u9yg2vwkHJt/xCdQdqUcOJIpnYbbbK18V82IraZo2/8=",
+  "timestamp": 1771873612.3943973,
+  "layers_passed": 5,
+  "skill_hash": "fa39278ed6000098079cd32ee9b543a4754eabcceca6e7ea90fccfff199625e5"
+}

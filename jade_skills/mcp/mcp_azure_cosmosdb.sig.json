@@ -1,0 +1,8 @@
+{
+  "skill_file": "mcp_azure_cosmosdb.json",
+  "signature": "jade-sig-q3lPpJcBFeKQRe9e6y00+UR6W59Q9WeHSqSLO6DvZ4y5Ew5brQe/glEWXcZAOFNXDy1wiMLTSbZ7BmGsEmliCw==",
+  "public_key": "jade-pk-root-u9yg2vwkHJt/xCdQdqUcOJIpnYbbbK18V82IraZo2/8=",
+  "timestamp": 1771872901.6399782,
+  "layers_passed": 5,
+  "skill_hash": "1429f15da98d2bd1278f4ae1c8ce51c526b97061d49ee37567ad16298e412d1a"
+}

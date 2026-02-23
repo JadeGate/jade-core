@@ -1,0 +1,8 @@
+{
+  "skill_file": "mcp_heroku.json",
+  "signature": "jade-sig-QldQDOjq3IwPrzi+PsT6mBgi2j2fx/wN3XGWp/RfICWLr6wtP2p2GdZq8KZ/VhUE80Jh3CDw4gz+e2mVv/hlDQ==",
+  "public_key": "jade-pk-root-u9yg2vwkHJt/xCdQdqUcOJIpnYbbbK18V82IraZo2/8=",
+  "timestamp": 1771873139.4495864,
+  "layers_passed": 5,
+  "skill_hash": "e196990e623adfdd815d3c4a76323f026333947031e7571a053f54a71eea6ca2"
+}

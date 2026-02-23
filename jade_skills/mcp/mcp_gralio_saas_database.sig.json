@@ -1,0 +1,8 @@
+{
+  "skill_file": "mcp_gralio_saas_database.json",
+  "signature": "jade-sig-rMXEzFAiZQuFMi33l30xzkGquL9buuoymawHpMnZGtOSCkMCldPpfAcBh2ts+WOTbmFJE039opVclqv2gpeDAw==",
+  "public_key": "jade-pk-root-u9yg2vwkHJt/xCdQdqUcOJIpnYbbbK18V82IraZo2/8=",
+  "timestamp": 1771873127.991946,
+  "layers_passed": 5,
+  "skill_hash": "57270445acefaa0c62bc6f9b801c275aec606c142c1b510a3ffb600989721cc1"
+}

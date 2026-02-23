@@ -1,0 +1,8 @@
+{
+  "skill_file": "mcp_fitbit_mcp_server.json",
+  "signature": "jade-sig-A1yo2gnk09Mryd/zTodebG7J5jSqvLMcqhIPAEUE0dWnCM18ViXYFbfw9dpPUG+UCP6a1sLfOYkcufBgc0oJDQ==",
+  "public_key": "jade-pk-root-u9yg2vwkHJt/xCdQdqUcOJIpnYbbbK18V82IraZo2/8=",
+  "timestamp": 1771873078.8241103,
+  "layers_passed": 5,
+  "skill_hash": "cec1ec08dae45dd1829a30d870fad6e4155e97273003524115cb2135699510f4"
+}

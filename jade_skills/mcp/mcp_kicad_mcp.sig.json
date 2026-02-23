@@ -1,0 +1,8 @@
+{
+  "skill_file": "mcp_kicad_mcp.json",
+  "signature": "jade-sig-grwI7gLdl/sjmAM4TQD5tD2M0lSpwvZYiLifq+X8KepBTCTaSAcA8uQV754kur5L21GE8YN4Y+kjz/xtF8FSAQ==",
+  "public_key": "jade-pk-root-u9yg2vwkHJt/xCdQdqUcOJIpnYbbbK18V82IraZo2/8=",
+  "timestamp": 1771873191.827844,
+  "layers_passed": 5,
+  "skill_hash": "a66fdd1347d4ef7ebad7ab62c06c7bcf13a833e58ecfd695b471e71f3da31c39"
+}

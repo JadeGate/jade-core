@@ -1,0 +1,8 @@
+{
+  "skill_file": "mcp_travel_planner.json",
+  "signature": "jade-sig-5TtIu430R8r+GAsWD87n3/i/QFkW9i4TOcB3UFYm5yfT+uOizt9d1a90BZJ1qx7JWTRgH0ZhYl7YGiUB/Kn7Aw==",
+  "public_key": "jade-pk-root-u9yg2vwkHJt/xCdQdqUcOJIpnYbbbK18V82IraZo2/8=",
+  "timestamp": 1771873572.0933297,
+  "layers_passed": 5,
+  "skill_hash": "605e1b8e5c15f9612fdb29cefafa414b0ec0a09247e60652cef292c402e74195"
+}

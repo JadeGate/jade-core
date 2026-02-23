@@ -1,0 +1,8 @@
+{
+  "skill_file": "mcp_mulesoft.json",
+  "signature": "jade-sig-JPczahf02RNwatx9lmNqL4q2rlC1L4+Sd3W39Y7AseBJg05R0Ox26tpKrHM4eZy+GiltKgca2ABvt3CI8N9uBQ==",
+  "public_key": "jade-pk-root-u9yg2vwkHJt/xCdQdqUcOJIpnYbbbK18V82IraZo2/8=",
+  "timestamp": 1771873318.0357301,
+  "layers_passed": 5,
+  "skill_hash": "2fdd56512fe6fdb51851a4a0d5f5157e04c9725af1f6efbbf70ec63255d9ef51"
+}

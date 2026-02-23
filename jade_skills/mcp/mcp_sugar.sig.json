@@ -1,0 +1,8 @@
+{
+  "skill_file": "mcp_sugar.json",
+  "signature": "jade-sig-+V2iFndm7Zy7xIXj8zpDP+QBItoDrKumGn72CHe8CnuvZlTKUkRkh6onI5V7USdg9/7Ilky7yVcTcnUZGLdEBw==",
+  "public_key": "jade-pk-root-u9yg2vwkHJt/xCdQdqUcOJIpnYbbbK18V82IraZo2/8=",
+  "timestamp": 1771873530.9640503,
+  "layers_passed": 5,
+  "skill_hash": "24c52808a1e15504d24d78c1b43c1b2e12da5ee90bb712df9e65ec6113a9e3e2"
+}

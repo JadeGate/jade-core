@@ -1,0 +1,8 @@
+{
+  "skill_file": "cron_scheduler.json",
+  "signature": "jade-sig-quX3Wpzfu+mroT5RB1lLpdYdSkTosAVWXM84qWwTNXKb1R0rleOA5pbK71DF1DiRiijgw9qzn2kKJePbVm8BDg==",
+  "public_key": "jade-pk-root-u9yg2vwkHJt/xCdQdqUcOJIpnYbbbK18V82IraZo2/8=",
+  "timestamp": 1771873652.4610002,
+  "layers_passed": 5,
+  "skill_hash": "a3b89531546ac7a649dd87c63df24157a37de0d4b748d7d11293b92453fbf3a0"
+}

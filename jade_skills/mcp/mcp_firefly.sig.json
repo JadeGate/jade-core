@@ -1,0 +1,8 @@
+{
+  "skill_file": "mcp_firefly.json",
+  "signature": "jade-sig-RA+1t9OHPao/38pn+4aX1WjfBS2oy7n44EUefPNyZBgj8C3pvpebw8kETc32y1hzRKiO2t1A5/gIkt4fCFqaDQ==",
+  "public_key": "jade-pk-root-u9yg2vwkHJt/xCdQdqUcOJIpnYbbbK18V82IraZo2/8=",
+  "timestamp": 1771873077.403719,
+  "layers_passed": 5,
+  "skill_hash": "6c9ba1bfeb7500f3286adcf462f64036bbd610aac347f50868dd2200b54d3792"
+}

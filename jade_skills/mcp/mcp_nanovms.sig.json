@@ -1,0 +1,8 @@
+{
+  "skill_file": "mcp_nanovms.json",
+  "signature": "jade-sig-LWO6kPuOTnsgwNVSK5nFtBavx2RZdXrGvffRYInsEciXE21at8keuIw3ZvsAhoUa+yt79mDZUnNzpxOtNONmCw==",
+  "public_key": "jade-pk-root-u9yg2vwkHJt/xCdQdqUcOJIpnYbbbK18V82IraZo2/8=",
+  "timestamp": 1771873324.2666004,
+  "layers_passed": 5,
+  "skill_hash": "030f9310feaa00cb48228d6f3d71a185bee098186f0c449024cefeb9550a8a30"
+}

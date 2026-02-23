@@ -1,0 +1,8 @@
+{
+  "skill_file": "mcp_frankfurtermcp.json",
+  "signature": "jade-sig-xHxam89JvvMQ7KuWOHIg4DvTF35URpYc1L3OIaqFY3t6zXIKU2KG750DOmFOo77C9qvt7P/NLG9Xy6Ba2Y7KDQ==",
+  "public_key": "jade-pk-root-u9yg2vwkHJt/xCdQdqUcOJIpnYbbbK18V82IraZo2/8=",
+  "timestamp": 1771873086.9788072,
+  "layers_passed": 5,
+  "skill_hash": "29d8d4f2bd9ef0ed2a499d0f2532cc2912af25353e7dd5a7b64cae5f1101a69a"
+}

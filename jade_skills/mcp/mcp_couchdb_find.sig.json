@@ -1,0 +1,8 @@
+{
+  "skill_file": "mcp_couchdb_find.json",
+  "signature": "jade-sig-KoNaMMSYlAytIhvSChNTFeKozO5ogg8NB8npCudk/1f1WYNmWsQ9hYvFvisS2wKXKn1Zhp3JQsL7NTmyCjO3Cg==",
+  "public_key": "jade-pk-root-u9yg2vwkHJt/xCdQdqUcOJIpnYbbbK18V82IraZo2/8=",
+  "timestamp": 1771872986.6291525,
+  "layers_passed": 5,
+  "skill_hash": "9c292c1fcf8027cf104770f250ccbccf4f2a4c9c7be8cb84d6b0841b2a43e2ef"
+}

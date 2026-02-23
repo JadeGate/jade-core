@@ -1,15 +1,8 @@
 {
-  "jade_signature": {
-    "version": "1.0.0",
-    "skill_id": "slack_send_message",
-    "content_hash": "sha256:6ec7c5fa1146f7303ec4930d79742b3a6edecabed4fcd297eaee272fb44ac297",
-    "signature": "jade-sig-N+E8B8cLCswrERetVaS1r/2e61spbufNFPggipIouXvnJRaL8+1fnGJLuPN5pWt8IvYIz5cniJY3ubERJN95Cg==",
-    "signer": {
-      "public_key": "jade-pk-root-o0p0Em+ufryyPQFFdKHEdSbWOPCqiGhUwwC9AjYJb/U=",
-      "fingerprint": "SHA256:HU0Dpg+xFPNxCURZhG9eX6Yx+ynMlbincaJxIRUJt98=",
-      "role": "root"
-    },
-    "timestamp": "2026-02-22T16:18:14Z",
-    "expires": "2027-02-22T16:18:14Z"
-  }
+  "skill_file": "slack_send_message.json",
+  "signature": "jade-sig-+WQDLj3lARGe4jJ2HzdAbubBHYpZCaji3oHbvnJzkO/clPlXYBxrfbVF4xCeHAh1Cx6kE8aHU69Ej72oEZeLCw==",
+  "public_key": "jade-pk-root-u9yg2vwkHJt/xCdQdqUcOJIpnYbbbK18V82IraZo2/8=",
+  "timestamp": 1771873679.8715498,
+  "layers_passed": 5,
+  "skill_hash": "9734d7971095430c1fc9e22bd36dd73e8517de71971ec0e6ec782b8ea467b3a7"
 }

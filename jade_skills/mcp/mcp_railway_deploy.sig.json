@@ -1,0 +1,8 @@
+{
+  "skill_file": "mcp_railway_deploy.json",
+  "signature": "jade-sig-pJLnViRiXfUvnRjIbTAZDo5pS9DCqE1JOihLHvZGHhixXPUafysBQQZHQBb/IhKGstyOxvNrpVLpAGhN6DSJDw==",
+  "public_key": "jade-pk-root-u9yg2vwkHJt/xCdQdqUcOJIpnYbbbK18V82IraZo2/8=",
+  "timestamp": 1771873442.7748072,
+  "layers_passed": 5,
+  "skill_hash": "67f02378024e968e2c72b5f2210bf10cbf7386dcf7c3a3bb99f6c1e6bcfdf026"
+}

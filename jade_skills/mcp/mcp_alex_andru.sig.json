@@ -1,0 +1,8 @@
+{
+  "skill_file": "mcp_alex_andru.json",
+  "signature": "jade-sig-r+PqhZU7QE9ME+FNHm/PLGDDiojQy7s+W55YmkLVMKjPTmgftw6AIDf1M+zOSQF+Bq/7CjV1o7i7zAsS461NDw==",
+  "public_key": "jade-pk-root-u9yg2vwkHJt/xCdQdqUcOJIpnYbbbK18V82IraZo2/8=",
+  "timestamp": 1771872845.8429885,
+  "layers_passed": 5,
+  "skill_hash": "d9a2b347b77d52778881899946d3a6e20df799ac26c3642ce6c6d8698b0c2b3a"
+}

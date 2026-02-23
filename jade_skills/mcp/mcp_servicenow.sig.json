@@ -1,0 +1,8 @@
+{
+  "skill_file": "mcp_servicenow.json",
+  "signature": "jade-sig-8lult1Pg2RDZJW7/9MNYcngKQ0gF2/MXJaXcpj3CM+/2Af6FRsQEIIdDAQwtuO4WhTQRxd/CmHJMaOxeuI0cCw==",
+  "public_key": "jade-pk-root-u9yg2vwkHJt/xCdQdqUcOJIpnYbbbK18V82IraZo2/8=",
+  "timestamp": 1771873486.245248,
+  "layers_passed": 5,
+  "skill_hash": "c40e9d73cbf5c37869ac7e64308d8797c40e4eaeef8d5762b84b8f3cbcd878a9"
+}

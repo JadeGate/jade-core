@@ -1,0 +1,8 @@
+{
+  "skill_file": "mcp_docker.json",
+  "signature": "jade-sig-UZstIVuzFRSNEZtOWyPE39AkEwmiMlJxhh261+pSn/9EzNZp7jYLq4JX6spEawyg8cvZGqUV36O9VSZB9iKSCA==",
+  "public_key": "jade-pk-root-u9yg2vwkHJt/xCdQdqUcOJIpnYbbbK18V82IraZo2/8=",
+  "timestamp": 1771873028.2135234,
+  "layers_passed": 5,
+  "skill_hash": "604e4c6f24a7f52c8d8d501b7f44903a437b7b7976eb9c9ca5cf41cec568a581"
+}

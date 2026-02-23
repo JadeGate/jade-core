@@ -1,0 +1,8 @@
+{
+  "skill_file": "mcp_sonarqube.json",
+  "signature": "jade-sig-N5HsN10XnVN8NJo/cw6bRqJIZhjuGAd0MRQuC8xTf1z/4YGnx2q6X5AsaOn8SSNLVc5G1mq3xRIROT/vEqIrCQ==",
+  "public_key": "jade-pk-root-u9yg2vwkHJt/xCdQdqUcOJIpnYbbbK18V82IraZo2/8=",
+  "timestamp": 1771873502.6570823,
+  "layers_passed": 5,
+  "skill_hash": "b49bf1c5d8d98b49d69ca11d28dc99a4d54ae47974738e7e37a78047c9f8a469"
+}

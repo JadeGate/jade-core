@@ -1,0 +1,8 @@
+{
+  "skill_file": "mcp_zendesk_tickets.json",
+  "signature": "jade-sig-8ag1S7qAr88yg2Qmqj+dLaHMaN61KPABT5XcHzA1IX081nlYjhMJLKVNrxOBTLhygaq/myVqSa1tJGkGZyoYAw==",
+  "public_key": "jade-pk-root-u9yg2vwkHJt/xCdQdqUcOJIpnYbbbK18V82IraZo2/8=",
+  "timestamp": 1771873642.0995615,
+  "layers_passed": 5,
+  "skill_hash": "072dfab9ee1ee714653d1bd025645e6f74b0380ade5ed2078ef934244606d228"
+}

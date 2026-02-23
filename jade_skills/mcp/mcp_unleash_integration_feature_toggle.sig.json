@@ -1,0 +1,8 @@
+{
+  "skill_file": "mcp_unleash_integration_feature_toggle.json",
+  "signature": "jade-sig-tByb4Pth8nN8BSYeQkxqWdqneWEDs7wRoxrFLiO8OCOJfEhhsrDpeYszr7jJZ2xHYQQU1MYn8qVNFrE5nv6EBA==",
+  "public_key": "jade-pk-root-u9yg2vwkHJt/xCdQdqUcOJIpnYbbbK18V82IraZo2/8=",
+  "timestamp": 1771873586.4917614,
+  "layers_passed": 5,
+  "skill_hash": "0366c5d9c1db09150580e330139c2848c8bc8aff96f0d5fd6975a68f16b66a8f"
+}

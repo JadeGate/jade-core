@@ -1,0 +1,8 @@
+{
+  "skill_file": "mcp_jupyter_notebook.json",
+  "signature": "jade-sig-k0CXteWiXtS9a9o8vhKBEnajx6w5IgUjw6M5C1UFc0WlUqiy6JJOvaPA2rpd9EXzCwIViGBE0bT+sMnbvC79Cg==",
+  "public_key": "jade-pk-root-u9yg2vwkHJt/xCdQdqUcOJIpnYbbbK18V82IraZo2/8=",
+  "timestamp": 1771873182.041512,
+  "layers_passed": 5,
+  "skill_hash": "2730567d0b0a1e4e6650342dca8a0304037fe8470cbc1ea1a4f43c5cbe06dffe"
+}

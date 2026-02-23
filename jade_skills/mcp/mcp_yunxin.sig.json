@@ -1,0 +1,8 @@
+{
+  "skill_file": "mcp_yunxin.json",
+  "signature": "jade-sig-7xMmR03A6j/OFngQwmrqbXVMfX2fVoOA5Ae2ZXMIREWXSJltk2DkOKFTP1M8pxDfMsPR8FmhazmHzmHhE+a/Dw==",
+  "public_key": "jade-pk-root-u9yg2vwkHJt/xCdQdqUcOJIpnYbbbK18V82IraZo2/8=",
+  "timestamp": 1771873639.290658,
+  "layers_passed": 5,
+  "skill_hash": "eea6113716478d287be29985263798a9b9f7903ff4d4d4bc807ee9a8a3751e9e"
+}

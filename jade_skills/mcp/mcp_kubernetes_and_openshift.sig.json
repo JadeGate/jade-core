@@ -1,0 +1,8 @@
+{
+  "skill_file": "mcp_kubernetes_and_openshift.json",
+  "signature": "jade-sig-GVbTLZQLzimWrcu+deMrhZYIB6nA9x0ppi6KvLNvy+fRtZOIMwFe48YNKZGwWeTJgp3KIIGzQoIcMIZKATTWCA==",
+  "public_key": "jade-pk-root-u9yg2vwkHJt/xCdQdqUcOJIpnYbbbK18V82IraZo2/8=",
+  "timestamp": 1771873201.551356,
+  "layers_passed": 5,
+  "skill_hash": "845f05b9e858f02660549bf6a00c7106bf8315c50def6e90fb3c65b3b610128f"
+}

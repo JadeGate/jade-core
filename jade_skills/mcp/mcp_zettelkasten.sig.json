@@ -1,0 +1,8 @@
+{
+  "skill_file": "mcp_zettelkasten.json",
+  "signature": "jade-sig-hYPVoDZHL/mcZm1Xpj7HKhEZmx479vgdnHBp8bjfqAg/TJFh7StpHVruUOWv0J6loX5O7iT3jEpallbPqADyDw==",
+  "public_key": "jade-pk-root-u9yg2vwkHJt/xCdQdqUcOJIpnYbbbK18V82IraZo2/8=",
+  "timestamp": 1771873643.0260584,
+  "layers_passed": 5,
+  "skill_hash": "f9324744c65324eaa01d21c395ac8de2a843405031bb12ce91a79b52e9ec23c9"
+}

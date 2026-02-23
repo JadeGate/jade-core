@@ -1,15 +1,8 @@
 {
-  "jade_signature": {
-    "version": "1.0.0",
-    "skill_id": "mcp_shopify_products",
-    "content_hash": "sha256:298c15260d0c6aa75c52c13622fb964921f29beacc119f66336775d879d9a214",
-    "signature": "jade-sig-Jv5NulTRdAHG2zYpuKct+RjDKJTlczaXf0/ugbbXr4mVylODU4qY2MxMBZgO+z6edtTd+q3eEmsAro/zUi3IAw==",
-    "signer": {
-      "public_key": "jade-pk-root-o0p0Em+ufryyPQFFdKHEdSbWOPCqiGhUwwC9AjYJb/U=",
-      "fingerprint": "SHA256:HU0Dpg+xFPNxCURZhG9eX6Yx+ynMlbincaJxIRUJt98=",
-      "role": "root"
-    },
-    "timestamp": "2026-02-22T16:17:56Z",
-    "expires": "2027-02-22T16:17:56Z"
-  }
+  "skill_file": "mcp_shopify_products.json",
+  "signature": "jade-sig-P9b/KI/LSkj9ZC9uCZsc7CjlIKyVVYhyjAsdRFSxwlyxBGD6KYnkQLx5Rh6lRjM6Bzj3+j1jBgbTfgqhc/pIDQ==",
+  "public_key": "jade-pk-root-u9yg2vwkHJt/xCdQdqUcOJIpnYbbbK18V82IraZo2/8=",
+  "timestamp": 1771873490.092929,
+  "layers_passed": 5,
+  "skill_hash": "463fcbc6f9707795a07679c03c0cf3dd9b07c3fb649f59eabf13c80ab950e58e"
 }

@@ -1,0 +1,8 @@
+{
+  "skill_file": "mcp_apple_calendar.json",
+  "signature": "jade-sig-SYq32x+qN8AhoRB6zD5BLEQJ+aRIhY++utnnXrPR/JsLGPu8reDcoiT18KuNrugG6VJvLbiuj+0hXuP8uk0GBA==",
+  "public_key": "jade-pk-root-u9yg2vwkHJt/xCdQdqUcOJIpnYbbbK18V82IraZo2/8=",
+  "timestamp": 1771872867.2873607,
+  "layers_passed": 5,
+  "skill_hash": "5ad223b653a6b019e98b4fb04368f342c1b69afbbf8537e7ec47ad757e0c6f98"
+}

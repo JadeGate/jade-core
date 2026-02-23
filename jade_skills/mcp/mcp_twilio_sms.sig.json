@@ -1,15 +1,8 @@
 {
-  "jade_signature": {
-    "version": "1.0.0",
-    "skill_id": "mcp_twilio_sms",
-    "content_hash": "sha256:18ecd3aa1faca4657365272c834029ea1ece1e228866b05647f129ebd298c76e",
-    "signature": "jade-sig-Av/3PkkrzdSjz/sjZfSVRulboDHdIug95ucFHtW0TfUU1v7cI5Cb6qDQvd7PpH7VxA33Wt5qnX0nW7VkqHlyBA==",
-    "signer": {
-      "public_key": "jade-pk-root-o0p0Em+ufryyPQFFdKHEdSbWOPCqiGhUwwC9AjYJb/U=",
-      "fingerprint": "SHA256:HU0Dpg+xFPNxCURZhG9eX6Yx+ynMlbincaJxIRUJt98=",
-      "role": "root"
-    },
-    "timestamp": "2026-02-22T16:18:00Z",
-    "expires": "2027-02-22T16:18:00Z"
-  }
+  "skill_file": "mcp_twilio_sms.json",
+  "signature": "jade-sig-IXm8EQRvTDjPdZiMBp4mIlzP5omgWV5cQvnJf+voOyXZe3vxoynRVwYUg8ELr/I74f07l0W34u/0QgkREBnEDA==",
+  "public_key": "jade-pk-root-u9yg2vwkHJt/xCdQdqUcOJIpnYbbbK18V82IraZo2/8=",
+  "timestamp": 1771873578.3559847,
+  "layers_passed": 5,
+  "skill_hash": "40007d774696ed62344e2fd115446d998052c8f3835f04f4a4bb435a829dac5a"
 }

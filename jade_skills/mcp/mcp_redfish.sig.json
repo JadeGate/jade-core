@@ -1,0 +1,8 @@
+{
+  "skill_file": "mcp_redfish.json",
+  "signature": "jade-sig-ygNC5Oy2Zw+p0UsZH4LvMNQIOWM2pjO/yCzSXc295+lHGQ+3F83DVl9WRexfd9NfJ4cO+sh2D+nn3kF7268IBA==",
+  "public_key": "jade-pk-root-u9yg2vwkHJt/xCdQdqUcOJIpnYbbbK18V82IraZo2/8=",
+  "timestamp": 1771873449.0865722,
+  "layers_passed": 5,
+  "skill_hash": "c70594a53c3ee4f88363896ec8e433299a5ceee6cae8e09563edc011529d774b"
+}

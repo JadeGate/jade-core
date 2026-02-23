@@ -1,0 +1,8 @@
+{
+  "skill_file": "mcp_snyk_vulnerabilities.json",
+  "signature": "jade-sig-KhlTJaREcn9bSvcCph7lCaKV3+um3iPLK4VILo645ICtCc5sGmEmzk5xtMjktAkxJUDApWNlLVrSIXCzBggxBg==",
+  "public_key": "jade-pk-root-u9yg2vwkHJt/xCdQdqUcOJIpnYbbbK18V82IraZo2/8=",
+  "timestamp": 1771873499.8220637,
+  "layers_passed": 5,
+  "skill_hash": "05a54ace8ed2f4b9f1f6634b8314dee524755f71f0fd6ca61154927faf16e3d3"
+}

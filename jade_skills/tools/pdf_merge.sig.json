@@ -1,0 +1,8 @@
+{
+  "skill_file": "pdf_merge.json",
+  "signature": "jade-sig-m+GcOaHO6y4gCOeOWEHqtXHl/Cj/RAsElw1cjmcdn0NpbahLNuIiXVkCCkouqhAyfsDZmqIKTcTaODhaDOvZBQ==",
+  "public_key": "jade-pk-root-u9yg2vwkHJt/xCdQdqUcOJIpnYbbbK18V82IraZo2/8=",
+  "timestamp": 1771873673.7115881,
+  "layers_passed": 5,
+  "skill_hash": "db48faf399e1e3d073566429a978fbf097d5a3bf5549fe4c86f980d3b75577e3"
+}

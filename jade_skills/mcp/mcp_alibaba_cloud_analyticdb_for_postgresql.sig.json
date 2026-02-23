@@ -1,0 +1,8 @@
+{
+  "skill_file": "mcp_alibaba_cloud_analyticdb_for_postgresql.json",
+  "signature": "jade-sig-TvjICCBaS/tBa6VDPDesWq5ME3Fx18L9WXqk9FYsiQkD4pqWkyfgR9uCD++rLJhXJ+rJQHhGWc/uuci9xH9aBg==",
+  "public_key": "jade-pk-root-u9yg2vwkHJt/xCdQdqUcOJIpnYbbbK18V82IraZo2/8=",
+  "timestamp": 1771872847.7621927,
+  "layers_passed": 5,
+  "skill_hash": "70f2f3ce074abf522cf6feebb414525e7559da85d737c844b512c6b182b8850a"
+}

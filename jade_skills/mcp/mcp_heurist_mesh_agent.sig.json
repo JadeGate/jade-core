@@ -1,0 +1,8 @@
+{
+  "skill_file": "mcp_heurist_mesh_agent.json",
+  "signature": "jade-sig-rNwQZvQp/9fps0txPMQbyzeTYWmtjeu9xf+s6XetAKPR5D9a9AiDOkQ05m7x0xa0YH21NbVXCpghqRxu6OeHCg==",
+  "public_key": "jade-pk-root-u9yg2vwkHJt/xCdQdqUcOJIpnYbbbK18V82IraZo2/8=",
+  "timestamp": 1771873139.9170845,
+  "layers_passed": 5,
+  "skill_hash": "10752ec423b04bb6eb3ec50abf2d3d915fe6ba1710330c25cf45fafa054cdf2f"
+}

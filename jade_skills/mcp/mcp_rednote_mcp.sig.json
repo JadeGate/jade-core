@@ -1,0 +1,8 @@
+{
+  "skill_file": "mcp_rednote_mcp.json",
+  "signature": "jade-sig-jnNVb5UOhHYRx3+RCnZK10JKMwU5bwtts20XNKinWWJbJWJWPW0F+DEbbUPKsychdE0+T69l9XcLiYnMrVLvAg==",
+  "public_key": "jade-pk-root-u9yg2vwkHJt/xCdQdqUcOJIpnYbbbK18V82IraZo2/8=",
+  "timestamp": 1771873451.4426816,
+  "layers_passed": 5,
+  "skill_hash": "ef592be7b1a0883dd38ff00dfa6d4af1ae2d9a603b654f3bfd6e92f598e5aba9"
+}

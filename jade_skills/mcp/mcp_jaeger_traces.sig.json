@@ -1,0 +1,8 @@
+{
+  "skill_file": "mcp_jaeger_traces.json",
+  "signature": "jade-sig-qLm9eBleCFvRIE62nVxVzJgeLadF875JRLwrCyTidijegCPWS08P+1QdwcDkXJcCaOKZfqB2kEz52sPXqDDCCg==",
+  "public_key": "jade-pk-root-u9yg2vwkHJt/xCdQdqUcOJIpnYbbbK18V82IraZo2/8=",
+  "timestamp": 1771873172.114334,
+  "layers_passed": 5,
+  "skill_hash": "4033beccc96507f231f10fc831c8e76c4f4d53a84621d8383a2c169cacdcc15a"
+}

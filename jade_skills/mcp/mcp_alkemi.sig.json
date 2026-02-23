@@ -1,0 +1,8 @@
+{
+  "skill_file": "mcp_alkemi.json",
+  "signature": "jade-sig-ydC4YCZPWcfPL2oRowJHMYWXkcTnO7aqwcMJWzJJ0TiIWjZ4X7VQ2G9npDcSK9kaFR7rx5MaDqsfbWYBK0rvDg==",
+  "public_key": "jade-pk-root-u9yg2vwkHJt/xCdQdqUcOJIpnYbbbK18V82IraZo2/8=",
+  "timestamp": 1771872850.6921456,
+  "layers_passed": 5,
+  "skill_hash": "1f20fe6c496ca0fad0367edb0cc301ced89845467f01ceff5b22aa2f4a7fba78"
+}

@@ -1,0 +1,8 @@
+{
+  "skill_file": "mcp_crowdstrike_alerts.json",
+  "signature": "jade-sig-sjtvWMC9YtkL029CruFQ/M4IoUcv7pn6YK/CXneGwxfyBN41KdaBwToLP0U/LHWBuTQZwwhVrVLwrc2OsakbCw==",
+  "public_key": "jade-pk-root-u9yg2vwkHJt/xCdQdqUcOJIpnYbbbK18V82IraZo2/8=",
+  "timestamp": 1771872990.4767857,
+  "layers_passed": 5,
+  "skill_hash": "1b37324a3b235f886fd23a30c51686229b5898e47b0651d03d2224ec04ba1d57"
+}

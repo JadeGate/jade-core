@@ -1,0 +1,8 @@
+{
+  "skill_file": "mcp_razorpay.json",
+  "signature": "jade-sig-+GA0waCXkbpk0fsjgHdRry/Iqe0L2gY2OC+p8Ux12gQ5ofHySDdpQpOG5BsDGj0CQANX7ojMWGq9sgLRQIXhAw==",
+  "public_key": "jade-pk-root-u9yg2vwkHJt/xCdQdqUcOJIpnYbbbK18V82IraZo2/8=",
+  "timestamp": 1771873445.6779308,
+  "layers_passed": 5,
+  "skill_hash": "f75709ba460ea953f98266c805e1784367053d1934e6285f93380fad8f6f9e15"
+}

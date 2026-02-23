@@ -1,15 +1,8 @@
 {
-  "jade_signature": {
-    "version": "1.0.0",
-    "skill_id": "html_sanitizer",
-    "content_hash": "sha256:eac61105c4ad6db99c8be39e5f241428ae65b7cce9a5d3f2b9759a1d837e2d86",
-    "signature": "jade-sig-PYYoqgcIUmLF855/QiImIYGSnTGbQE5ebammryHVr7LKJT8XH9bndE7FoTfuAc7fKuMjCYlwDazvA4zHpjIoCQ==",
-    "signer": {
-      "public_key": "jade-pk-root-o0p0Em+ufryyPQFFdKHEdSbWOPCqiGhUwwC9AjYJb/U=",
-      "fingerprint": "SHA256:HU0Dpg+xFPNxCURZhG9eX6Yx+ynMlbincaJxIRUJt98=",
-      "role": "root"
-    },
-    "timestamp": "2026-02-22T17:50:22Z",
-    "expires": "2027-02-22T17:50:22Z"
-  }
+  "skill_file": "html_sanitizer.json",
+  "signature": "jade-sig-n6RIMzE2nlJwOclrt38o1q+scJuaQ+DRTWKiiF81+S2VbtV7YrftwVkhF4ZRh4hEtDkzjieUhhhpMtu3SvVbBg==",
+  "public_key": "jade-pk-root-u9yg2vwkHJt/xCdQdqUcOJIpnYbbbK18V82IraZo2/8=",
+  "timestamp": 1771873663.768344,
+  "layers_passed": 5,
+  "skill_hash": "1d9b66e991ce4e84d8c3bd719d657db92de2b157c6f61faa30bb0826d6e98459"
 }

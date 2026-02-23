@@ -1,0 +1,8 @@
+{
+  "skill_file": "redis_cache_clear.json",
+  "signature": "jade-sig-qTqYxW28nm4NzBrw/x6nngUoNy9TugxtoGsDKZC6yVlWC2CBArOIBDTriWfyQyhAQlzrb/Luw1RUYm51c5PlCw==",
+  "public_key": "jade-pk-root-u9yg2vwkHJt/xCdQdqUcOJIpnYbbbK18V82IraZo2/8=",
+  "timestamp": 1771873676.1197808,
+  "layers_passed": 5,
+  "skill_hash": "53d6065a81440c62f23997f76e4dea228e44e6f22e3cbd638b6ed282a46c5fe2"
+}

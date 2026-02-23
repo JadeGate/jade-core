@@ -1,0 +1,8 @@
+{
+  "skill_file": "mcp_thinq_connect.json",
+  "signature": "jade-sig-zTvCCyfGk6Xam0aKgsZp+5v/sMCxji2e33btBcnWthMIEvTrOwK2umsd6dE/2whEnSyI+Bs4sTSgvviEbR8ODw==",
+  "public_key": "jade-pk-root-u9yg2vwkHJt/xCdQdqUcOJIpnYbbbK18V82IraZo2/8=",
+  "timestamp": 1771873555.6370153,
+  "layers_passed": 5,
+  "skill_hash": "34d16a7e7b53438938873d6e0bcb851e2a15f767b1244166e9b6e72f928ec963"
+}

@@ -1,0 +1,8 @@
+{
+  "skill_file": "mcp_deno_deploy.json",
+  "signature": "jade-sig-usxsICKxZvRPE5XfitL9xRFnNXUw0BVwl3soliWxDPqiCh+Mdc5Tmt7vsgFbwqY+9mexjw6smgbtLmb+8gvyAw==",
+  "public_key": "jade-pk-root-u9yg2vwkHJt/xCdQdqUcOJIpnYbbbK18V82IraZo2/8=",
+  "timestamp": 1771873013.934022,
+  "layers_passed": 5,
+  "skill_hash": "ea96a48a73c967a746d6cf69c5fc87128fbaa0940ed806ebb251f5fdce3c2425"
+}

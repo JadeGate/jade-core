@@ -1,0 +1,8 @@
+{
+  "skill_file": "mcp_motherduck.json",
+  "signature": "jade-sig-32W3abXjPFBFxXsrikfsc9Im+kBNaD4dJw+1/IpGMHnRsqBphRkULhqq5CZxdP6YjcPTOBK9B5sIVEb2Gv3PCw==",
+  "public_key": "jade-pk-root-u9yg2vwkHJt/xCdQdqUcOJIpnYbbbK18V82IraZo2/8=",
+  "timestamp": 1771873315.6666124,
+  "layers_passed": 5,
+  "skill_hash": "815c259c26918a9f77dbc9dbbb7b19f76ade99f1a8e6eff68962ae14c2c4e42b"
+}

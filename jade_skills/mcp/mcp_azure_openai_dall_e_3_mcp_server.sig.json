@@ -1,0 +1,8 @@
+{
+  "skill_file": "mcp_azure_openai_dall_e_3_mcp_server.json",
+  "signature": "jade-sig-nCuOiUmJ8kuh6QRJtN8HuLEp28pTTHd9F1UXHRD/QSYtSm5HweXGfrRstwY8JH/3F5eRRcjtBiKYpiFtCi8ZCg==",
+  "public_key": "jade-pk-root-u9yg2vwkHJt/xCdQdqUcOJIpnYbbbK18V82IraZo2/8=",
+  "timestamp": 1771872905.0018847,
+  "layers_passed": 5,
+  "skill_hash": "ce822c28f8ea9708d1fd9cd9e7e39d0aed28e32adc84fe618ef0a3cac2d9885f"
+}

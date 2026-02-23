@@ -1,0 +1,8 @@
+{
+  "skill_file": "mcp_openlink_sqlalchemy_pyodbc.json",
+  "signature": "jade-sig-pjhbN3mX9h8v7/beGK0mwalHiau5/LRi3h6pulmBIq9qj64kCAfoQBf0gFTdQFRt52Gd+swBymI5KaIHHGr/DQ==",
+  "public_key": "jade-pk-root-u9yg2vwkHJt/xCdQdqUcOJIpnYbbbK18V82IraZo2/8=",
+  "timestamp": 1771873369.166251,
+  "layers_passed": 5,
+  "skill_hash": "ba4471235b8b5e7c5418f3daa96b0201e6532e17cc7713e802f275bf99e1fe64"
+}

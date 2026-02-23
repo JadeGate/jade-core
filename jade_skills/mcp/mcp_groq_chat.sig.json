@@ -1,0 +1,8 @@
+{
+  "skill_file": "mcp_groq_chat.json",
+  "signature": "jade-sig-hKKzpAJF4toWmuAIpVz6Wb+I97LBx+alfsRBldfBXO4aj9O4v2X/0XpLGtTFmlhCsCrh7qqdhsXCEAo+YI21Aw==",
+  "public_key": "jade-pk-root-u9yg2vwkHJt/xCdQdqUcOJIpnYbbbK18V82IraZo2/8=",
+  "timestamp": 1771873131.8257244,
+  "layers_passed": 5,
+  "skill_hash": "e1f855f053a318526f8384459b25f50ae9ae92f91fcc438461a9db31fd4512a5"
+}

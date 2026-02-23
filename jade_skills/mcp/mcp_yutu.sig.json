@@ -1,0 +1,8 @@
+{
+  "skill_file": "mcp_yutu.json",
+  "signature": "jade-sig-IYdYknOgdmwsR0Fv3fwTDCx7aPnszq3MIIkjwL+9BzDhJJ6XV8kbVF6o4tJTNOkDCrcA47NC4tZLle4LwDLQDQ==",
+  "public_key": "jade-pk-root-u9yg2vwkHJt/xCdQdqUcOJIpnYbbbK18V82IraZo2/8=",
+  "timestamp": 1771873639.759784,
+  "layers_passed": 5,
+  "skill_hash": "04a6d5d25eb216af34566fd40d3c168e16a0100a833b2117e0910d12db90d471"
+}

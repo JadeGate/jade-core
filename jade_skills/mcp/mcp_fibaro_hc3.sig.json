@@ -1,0 +1,8 @@
+{
+  "skill_file": "mcp_fibaro_hc3.json",
+  "signature": "jade-sig-SlBKrVxdRYrNKFvkUPj9aA6Dt1PCS0JKfi1E6h8OQUtNYhl1V4u9QENZjBA02kFopfCGotkIva+Lcupp+j1mCw==",
+  "public_key": "jade-pk-root-u9yg2vwkHJt/xCdQdqUcOJIpnYbbbK18V82IraZo2/8=",
+  "timestamp": 1771873069.8306777,
+  "layers_passed": 5,
+  "skill_hash": "086541d1de0ed39170d5411cb23ad76a5b2d202a0494de375e986bfffe94ff3a"
+}

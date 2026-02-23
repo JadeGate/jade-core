@@ -1,0 +1,8 @@
+{
+  "skill_file": "mcp_tatum.json",
+  "signature": "jade-sig-pwGP8eugsVZmbr3UxgEg9feFg2Klyw+4GiLWaVOykyg2maHDEGv7iN4f1MQhsSOclT6TLQaG+KNl/rIE/AHjAw==",
+  "public_key": "jade-pk-root-u9yg2vwkHJt/xCdQdqUcOJIpnYbbbK18V82IraZo2/8=",
+  "timestamp": 1771873538.5432322,
+  "layers_passed": 5,
+  "skill_hash": "945ebc545532cba07954ca91262cb0e541f30a04abd0dc5c61a41831733b58cb"
+}

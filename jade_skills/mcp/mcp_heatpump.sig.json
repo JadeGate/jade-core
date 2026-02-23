@@ -1,0 +1,8 @@
+{
+  "skill_file": "mcp_heatpump.json",
+  "signature": "jade-sig-B3qVCdy0jIKHYNGFfWFHWU0hwemrqMqoHQ5ntoS2yAVcOn2OFcaryVUcM6odX6zUINZEn17jQC3umU5FgopODw==",
+  "public_key": "jade-pk-root-u9yg2vwkHJt/xCdQdqUcOJIpnYbbbK18V82IraZo2/8=",
+  "timestamp": 1771873137.0648665,
+  "layers_passed": 5,
+  "skill_hash": "3ae7b335a075cf4328e49ac6f0f621ff0367275bf854bd5a143d430ecbe144b5"
+}

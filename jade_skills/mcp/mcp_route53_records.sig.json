@@ -1,0 +1,8 @@
+{
+  "skill_file": "mcp_route53_records.json",
+  "signature": "jade-sig-O4lVrlcrqf/dwAPFZv5j4GLYZLtrLzP/XpgPRN2FHt4Qm2GacHEwfkXEvjDPN32n0A90cppvlccZhEWezl77CA==",
+  "public_key": "jade-pk-root-u9yg2vwkHJt/xCdQdqUcOJIpnYbbbK18V82IraZo2/8=",
+  "timestamp": 1771873463.8746517,
+  "layers_passed": 5,
+  "skill_hash": "14467d551a912cfbf056a8819f9255a9c434cd0199a3baa1ec91eb6e53df22c9"
+}

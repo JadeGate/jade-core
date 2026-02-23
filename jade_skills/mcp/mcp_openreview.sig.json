@@ -1,0 +1,8 @@
+{
+  "skill_file": "mcp_openreview.json",
+  "signature": "jade-sig-XDAmwEvxCg4GIl0aFSMveLaMUKwium9L7NciKt93ZpUHPOm2VnWLci2Q37wFBpBQWrAxpSG6saDOhFY9xhgXBA==",
+  "public_key": "jade-pk-root-u9yg2vwkHJt/xCdQdqUcOJIpnYbbbK18V82IraZo2/8=",
+  "timestamp": 1771873371.083022,
+  "layers_passed": 5,
+  "skill_hash": "3de2b2ba569e4ff5cb10578a334efda03769eff0781ca83bd420d4ec1ef3f64e"
+}

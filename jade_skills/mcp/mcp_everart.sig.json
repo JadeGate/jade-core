@@ -1,0 +1,8 @@
+{
+  "skill_file": "mcp_everart.json",
+  "signature": "jade-sig-jH8VOEahil7bfCZNE2ocIlybX8PZ31Mm0dPbEAYw7FzcxclbuLcdPMhAIMxeXNLTGGAH9d8ZsiHVjoHbpOmEBw==",
+  "public_key": "jade-pk-root-u9yg2vwkHJt/xCdQdqUcOJIpnYbbbK18V82IraZo2/8=",
+  "timestamp": 1771873053.1651068,
+  "layers_passed": 5,
+  "skill_hash": "e77b46688cf3c57a7642be2171644c092cf319b26dd77bde3f1b60703c1e97fd"
+}

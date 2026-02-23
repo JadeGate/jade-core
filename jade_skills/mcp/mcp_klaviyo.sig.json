@@ -1,0 +1,8 @@
+{
+  "skill_file": "mcp_klaviyo.json",
+  "signature": "jade-sig-VuqVa65+ZUhIVQ+hKnos21vXX0XTYvN3Pi27sNw7ZVlVfc6w+qWoYOHu4S0OAMEB3r/LwZa1hK1gAQ17hlHDAw==",
+  "public_key": "jade-pk-root-u9yg2vwkHJt/xCdQdqUcOJIpnYbbbK18V82IraZo2/8=",
+  "timestamp": 1771873196.1092677,
+  "layers_passed": 5,
+  "skill_hash": "aff420c39725727319d70529b3c863e393346692d1b5611fa270d9a1407f8dc0"
+}

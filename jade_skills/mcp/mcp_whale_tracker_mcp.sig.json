@@ -1,0 +1,8 @@
+{
+  "skill_file": "mcp_whale_tracker_mcp.json",
+  "signature": "jade-sig-GFZcnP6j7xCJrr2bRw80A3Y6F3SS5+RiSyqYLzgYsePx7BCjhCkf6JjXSrklEESbaorYiB30WCT3whIxNdO3Aw==",
+  "public_key": "jade-pk-root-u9yg2vwkHJt/xCdQdqUcOJIpnYbbbK18V82IraZo2/8=",
+  "timestamp": 1771873615.300702,
+  "layers_passed": 5,
+  "skill_hash": "9a1260f828df7eaec0b03de4238d030a500b566679640a478644798c643f2605"
+}

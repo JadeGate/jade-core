@@ -1,0 +1,8 @@
+{
+  "skill_file": "docker_compose_up.json",
+  "signature": "jade-sig-ywyJZOJiGqRbh50mZL+ticrNPNhju883JuEBSXtMT73LQ+/oI/qa2MjIDeGHe2fY9F9BL3mTgrYQzctSUya5DA==",
+  "public_key": "jade-pk-root-u9yg2vwkHJt/xCdQdqUcOJIpnYbbbK18V82IraZo2/8=",
+  "timestamp": 1771873656.7202482,
+  "layers_passed": 5,
+  "skill_hash": "aa0a1b4cfd7cdc6d3109515aaa0f12edf85f17eecea958441ded828db1025492"
+}

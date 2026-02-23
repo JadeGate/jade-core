@@ -1,0 +1,8 @@
+{
+  "skill_file": "mcp_kubernetes.json",
+  "signature": "jade-sig-BJ8dRbnmf/KA3N+Q7qxmDFUFSkOdUoOl2ngxhqwREzbuDKebXtgzL5CPl0ZvlQLBVlm1+PguCDl9/TRNIekdBA==",
+  "public_key": "jade-pk-root-u9yg2vwkHJt/xCdQdqUcOJIpnYbbbK18V82IraZo2/8=",
+  "timestamp": 1771873201.0724502,
+  "layers_passed": 5,
+  "skill_hash": "41ec9a776751285e4bf0737ff92209042d1f99547a8ea3505c19d4802f56334d"
+}

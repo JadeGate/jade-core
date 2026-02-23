@@ -1,0 +1,8 @@
+{
+  "skill_file": "mcp_simple_loki_mcp.json",
+  "signature": "jade-sig-7H4mW5UXOutTt/zB5Tdsb0Btzp2WpyyjwgbB2PN/0s9ImsyIB5KHtFCbivfcqJw2SIbLcdq5Q+C745A12hm5AA==",
+  "public_key": "jade-pk-root-u9yg2vwkHJt/xCdQdqUcOJIpnYbbbK18V82IraZo2/8=",
+  "timestamp": 1771873492.064998,
+  "layers_passed": 5,
+  "skill_hash": "69462bc94b0f2e86a9f84d5845ebebe0c4f8e74ecedf2964d7c3b1eefe7f0097"
+}

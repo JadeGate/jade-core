@@ -1,0 +1,8 @@
+{
+  "skill_file": "mcp_reltio.json",
+  "signature": "jade-sig-CmkzCYQKbfG6VJ/G3LlXtTB0H2ICzHWmuRxVLxwTTznfc8oqVfx1MMjfZlrpSLWqa9IXDS7uA+MWqq3dmLj5Dg==",
+  "public_key": "jade-pk-root-u9yg2vwkHJt/xCdQdqUcOJIpnYbbbK18V82IraZo2/8=",
+  "timestamp": 1771873453.3596754,
+  "layers_passed": 5,
+  "skill_hash": "695016a7ab19be9e885bccda2a33df820f68b92edf7cc53d7bb95f90f8882aad"
+}

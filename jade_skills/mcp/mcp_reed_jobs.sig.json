@@ -1,0 +1,8 @@
+{
+  "skill_file": "mcp_reed_jobs.json",
+  "signature": "jade-sig-fvHuw1K6MRMyBZMPqfUNAdth4QCl1+6uhQYQYlNpfdrSdS1uDIk3652MyGpYsm0Kn+PmaHGlBgnwwzOofYldDQ==",
+  "public_key": "jade-pk-root-u9yg2vwkHJt/xCdQdqUcOJIpnYbbbK18V82IraZo2/8=",
+  "timestamp": 1771873451.921768,
+  "layers_passed": 5,
+  "skill_hash": "5be44b0625ed58b0c30f081a6a0ab7d4f297568b6a3c70c5cd5bce589b137fc6"
+}

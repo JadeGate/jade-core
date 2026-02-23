@@ -1,0 +1,8 @@
+{
+  "skill_file": "mcp_congress_gov_api.json",
+  "signature": "jade-sig-BBddiGzC90XGEGQM3mZQvepMsgQ/mR/0BlTMliFuCZfk/hGULlUOl7/PqSxUxsRoLHnwJWpYwhP466u0GbPECA==",
+  "public_key": "jade-pk-root-u9yg2vwkHJt/xCdQdqUcOJIpnYbbbK18V82IraZo2/8=",
+  "timestamp": 1771872978.5103729,
+  "layers_passed": 5,
+  "skill_hash": "509743e81718bb811b0f42dd9504c806976487a9216a46f5a57c327bbab286fa"
+}

@@ -1,15 +1,8 @@
 {
-  "jade_signature": {
-    "version": "1.0.0",
-    "skill_id": "mcp_airtable_records",
-    "content_hash": "sha256:c49e029760f678167a675314e40df9f466f384e3cac26ff5f34036c9a4dc163f",
-    "signature": "jade-sig-GyVZMIT0AD62XMps2cwOhFJtOFFUj5TWwsTPfAPKdVm6vV50Qbyh2ksxnSQRQVdxcTrujmWPvZbvip0XLYClAA==",
-    "signer": {
-      "public_key": "jade-pk-root-o0p0Em+ufryyPQFFdKHEdSbWOPCqiGhUwwC9AjYJb/U=",
-      "fingerprint": "SHA256:HU0Dpg+xFPNxCURZhG9eX6Yx+ynMlbincaJxIRUJt98=",
-      "role": "root"
-    },
-    "timestamp": "2026-02-22T16:17:33Z",
-    "expires": "2027-02-22T16:17:33Z"
-  }
+  "skill_file": "mcp_airtable_records.json",
+  "signature": "jade-sig-QaXcGSchUyd6pEKR5ZdqrJp312B8H7u/My/nKqdP+14ueq9JCzEpj5KP2Ee4bTMf3NyAUQWCOmQhDndYdcbUDg==",
+  "public_key": "jade-pk-root-u9yg2vwkHJt/xCdQdqUcOJIpnYbbbK18V82IraZo2/8=",
+  "timestamp": 1771872843.4947827,
+  "layers_passed": 5,
+  "skill_hash": "86e8dac9b5f6b9a6d564e5a4e6885f0d06dcaf0a77505b8a19453cbb35c850c4"
 }

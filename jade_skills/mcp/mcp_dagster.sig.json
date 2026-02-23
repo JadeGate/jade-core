@@ -1,0 +1,8 @@
+{
+  "skill_file": "mcp_dagster.json",
+  "signature": "jade-sig-vYNeOZkZ/MPvKlAFGHYRvQwM+kZMr/VlmNwAmx0QE/4cJEHoglIO30JnO2u8+hzMyhV4Fmkif1gSND8LEdE8Cw==",
+  "public_key": "jade-pk-root-u9yg2vwkHJt/xCdQdqUcOJIpnYbbbK18V82IraZo2/8=",
+  "timestamp": 1771872998.1083758,
+  "layers_passed": 5,
+  "skill_hash": "3c678cbab898ddfc3fb0a0ce85dfbb8cb45d0ab0f634589797fd04fbb9706d2c"
+}

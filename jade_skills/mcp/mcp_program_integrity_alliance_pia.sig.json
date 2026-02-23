@@ -1,0 +1,8 @@
+{
+  "skill_file": "mcp_program_integrity_alliance_pia.json",
+  "signature": "jade-sig-44AExIgh2GqYccQni6bMzOLBEFGL2RAUf/bHdhBCb8ej8RTzEx4MT9TFS5bysly5hkOiH9HBVccT9M6dnyONDg==",
+  "public_key": "jade-pk-root-u9yg2vwkHJt/xCdQdqUcOJIpnYbbbK18V82IraZo2/8=",
+  "timestamp": 1771873421.2283986,
+  "layers_passed": 5,
+  "skill_hash": "2ae95da54bad6bb808264bc9df1661a9f455146532679fd3118cf37781d29a07"
+}

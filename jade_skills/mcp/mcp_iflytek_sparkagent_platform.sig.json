@@ -1,0 +1,8 @@
+{
+  "skill_file": "mcp_iflytek_sparkagent_platform.json",
+  "signature": "jade-sig-ZyoJ0dpUHc29oRIwLRuMo+tOWdBovW+FTNRbawrdP05LyhDVXctYOP3FC2kncuEtsCE2CRP1om8YynoNVKdMAA==",
+  "public_key": "jade-pk-root-u9yg2vwkHJt/xCdQdqUcOJIpnYbbbK18V82IraZo2/8=",
+  "timestamp": 1771873155.088139,
+  "layers_passed": 5,
+  "skill_hash": "555dddda02b01fd93c0e3aec7774a61ad50172c2eef75f4a41f5ebac32fd0d2a"
+}

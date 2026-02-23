@@ -1,0 +1,8 @@
+{
+  "skill_file": "mcp_thales_ciphertrust_manager_mcp_server.json",
+  "signature": "jade-sig-JF7FQz5B6tfLSRh8DJ5x1j5GFjh+YiyDV65/TiOOcag0OqrKKmv6wjupiIufGm6pteLbAjWD+I3xOyWIIk9oAg==",
+  "public_key": "jade-pk-root-u9yg2vwkHJt/xCdQdqUcOJIpnYbbbK18V82IraZo2/8=",
+  "timestamp": 1771873551.8106565,
+  "layers_passed": 5,
+  "skill_hash": "2e9196cde0c30d2391a93d37a49c62c20fc300448af1b7cde56ca1d8311c2d40"
+}

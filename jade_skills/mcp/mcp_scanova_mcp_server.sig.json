@@ -1,0 +1,8 @@
+{
+  "skill_file": "mcp_scanova_mcp_server.json",
+  "signature": "jade-sig-boTZa2eIeiErJRiCpRn/pJ0yuYUHGCOvJXhq5xHqMiR8fF0gMazJ1P+/YPRwQQtRvGr5Lviz59OJsGErrTc8Bw==",
+  "public_key": "jade-pk-root-u9yg2vwkHJt/xCdQdqUcOJIpnYbbbK18V82IraZo2/8=",
+  "timestamp": 1771873472.3332398,
+  "layers_passed": 5,
+  "skill_hash": "e2d752dff83a99e88dcfb64d5937613e79f8779eda875b5378ff57070ff213b2"
+}

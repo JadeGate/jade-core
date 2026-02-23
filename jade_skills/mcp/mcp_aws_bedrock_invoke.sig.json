@@ -1,0 +1,8 @@
+{
+  "skill_file": "mcp_aws_bedrock_invoke.json",
+  "signature": "jade-sig-ksH8OQaYRnlyF2V0A3l9ljsGcYmaG4O6ZAondAKUieA/HajofqbUWtCBGTg+eWa1tEpKltxdjcUvo0KbFmeNDw==",
+  "public_key": "jade-pk-root-u9yg2vwkHJt/xCdQdqUcOJIpnYbbbK18V82IraZo2/8=",
+  "timestamp": 1771872887.7545161,
+  "layers_passed": 5,
+  "skill_hash": "1c601c1154ba913dd383f19d1bdf77b5299f8a16fa1e17b275459506f63c5ece"
+}

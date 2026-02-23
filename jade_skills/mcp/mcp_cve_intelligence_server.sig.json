@@ -1,0 +1,8 @@
+{
+  "skill_file": "mcp_cve_intelligence_server.json",
+  "signature": "jade-sig-c+fOPrYJoLtW6YjVEiEcRwp0hpUWVUB+o5B2qhFkX8WFZOSzLmYbRoGBC3hkeCnTjRKXD6nm2AGwENQOqyHtBQ==",
+  "public_key": "jade-pk-root-u9yg2vwkHJt/xCdQdqUcOJIpnYbbbK18V82IraZo2/8=",
+  "timestamp": 1771872996.7018836,
+  "layers_passed": 5,
+  "skill_hash": "719e52556ab370cbb3633f9371496e348e80c1965315cbabfd857ee2e4f95c92"
+}

@@ -1,0 +1,8 @@
+{
+  "skill_file": "mcp_flutterwave.json",
+  "signature": "jade-sig-Kat7OGgz+FOOt5apwdUxheL20369+vd2MDcbrpkNzIzLHYj5fpzkiAQDqriqwCe8S98P2+Fbty2z32IM4JftBA==",
+  "public_key": "jade-pk-root-u9yg2vwkHJt/xCdQdqUcOJIpnYbbbK18V82IraZo2/8=",
+  "timestamp": 1771873081.72039,
+  "layers_passed": 5,
+  "skill_hash": "ab67d94bcfe670459f301c5a3ac171c6abe433250b48b610825ce3b1a63eb354"
+}

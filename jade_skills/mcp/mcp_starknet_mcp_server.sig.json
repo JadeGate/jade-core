@@ -1,0 +1,8 @@
+{
+  "skill_file": "mcp_starknet_mcp_server.json",
+  "signature": "jade-sig-Z10TRotYH1fIzdA/OG+7AVXtdCs+Y5wxvdTUp54M1OWbOuqYdSiksK6BliRBWLzPzb0gAHw9X7LN78bg/YbBCw==",
+  "public_key": "jade-pk-root-u9yg2vwkHJt/xCdQdqUcOJIpnYbbbK18V82IraZo2/8=",
+  "timestamp": 1771873517.532821,
+  "layers_passed": 5,
+  "skill_hash": "b1349aeb85ef5a80dcb06e607f4cd5e5d93bcb57c8d466612dfbdbe48110fe0c"
+}

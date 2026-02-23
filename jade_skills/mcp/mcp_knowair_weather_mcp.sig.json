@@ -1,0 +1,8 @@
+{
+  "skill_file": "mcp_knowair_weather_mcp.json",
+  "signature": "jade-sig-Lw4Rd6eTzw7ejPJ3lkqQFLMadjdGJTHTd5ucXnbzrwGTID4KdBM8+HHGkCyhqEiHYaqs4p+7FFhKadCtVDjvBQ==",
+  "public_key": "jade-pk-root-u9yg2vwkHJt/xCdQdqUcOJIpnYbbbK18V82IraZo2/8=",
+  "timestamp": 1771873198.160579,
+  "layers_passed": 5,
+  "skill_hash": "9e0cbea924c848bf5a0d32e71800e3ad76374112bcf7faeee0566c1afae62760"
+}

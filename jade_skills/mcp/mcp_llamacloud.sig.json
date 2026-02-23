@@ -1,0 +1,8 @@
+{
+  "skill_file": "mcp_llamacloud.json",
+  "signature": "jade-sig-hmS5ej2IYb8HMXybmD3gzEWovCXibNOfTU+BkM5678m2H+zL2F3oS7INBhElQ6wYG8hqbkyBUf8lcmHnT6PkAQ==",
+  "public_key": "jade-pk-root-u9yg2vwkHJt/xCdQdqUcOJIpnYbbbK18V82IraZo2/8=",
+  "timestamp": 1771873224.1304195,
+  "layers_passed": 5,
+  "skill_hash": "50da20f3ec26c150b7117230efc24f3b59206e35437a29dbd02356481873f255"
+}

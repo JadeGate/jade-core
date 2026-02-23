@@ -1,0 +1,8 @@
+{
+  "skill_file": "mcp_createveai_nexus.json",
+  "signature": "jade-sig-5Bt3AaHIkpX6GucE73BRsbLxcTgPnMvQiNsr6NXo4HJXRlC6ip3+g6SzVWHn/nBAjI0RSxavEe0oJ8I5mJYnAQ==",
+  "public_key": "jade-pk-root-u9yg2vwkHJt/xCdQdqUcOJIpnYbbbK18V82IraZo2/8=",
+  "timestamp": 1771872988.534395,
+  "layers_passed": 5,
+  "skill_hash": "0a74c827d76e022983cb1e3a097a864ea2169d4c25752d753d3db70438178f41"
+}

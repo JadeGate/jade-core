@@ -1,0 +1,8 @@
+{
+  "skill_file": "mcp_aws_cloudwatch_logs.json",
+  "signature": "jade-sig-JmEt+Exvks9h8Ik2BYUMQs5vRbUH8Qpux8VyWU2Hici9c9/KhqGuct5LtTkrhR7/3YkB/rIEiu6SElJfvMHOAA==",
+  "public_key": "jade-pk-root-u9yg2vwkHJt/xCdQdqUcOJIpnYbbbK18V82IraZo2/8=",
+  "timestamp": 1771872888.2274308,
+  "layers_passed": 5,
+  "skill_hash": "1b45db0eb6644309e833ca4ca003b9a0169902acc326a0fff3c4df5f9a35217e"
+}

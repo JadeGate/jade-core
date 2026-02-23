@@ -1,0 +1,8 @@
+{
+  "skill_file": "mcp_prometheus.json",
+  "signature": "jade-sig-X44YREu32DfVeX7xVAbZT5EtEeUbvoBBGP37m5SFYHgLhcWKE184/vmWOyuC6/VYqAMuArkEQVZiA/wEGldUBQ==",
+  "public_key": "jade-pk-root-u9yg2vwkHJt/xCdQdqUcOJIpnYbbbK18V82IraZo2/8=",
+  "timestamp": 1771873422.1809065,
+  "layers_passed": 5,
+  "skill_hash": "f3574acc9266bbe75e5cb00e98c3a666786349ace84278b23748d2379a8a47ed"
+}

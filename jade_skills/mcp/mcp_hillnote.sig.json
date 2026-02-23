@@ -1,0 +1,8 @@
+{
+  "skill_file": "mcp_hillnote.json",
+  "signature": "jade-sig-sCexF1oKX/R7XaTVi56eqYOppMnRZ2aksJNn/1n16jTAP6RfJzCqMyS2TeQEsYNGeFQT3xvCVwuzuwL/En0JDg==",
+  "public_key": "jade-pk-root-u9yg2vwkHJt/xCdQdqUcOJIpnYbbbK18V82IraZo2/8=",
+  "timestamp": 1771873141.7982733,
+  "layers_passed": 5,
+  "skill_hash": "06c65b00876fbdf982adb91bf5010b4d139433cf0706c1b22f4b5bf88877a2c2"
+}

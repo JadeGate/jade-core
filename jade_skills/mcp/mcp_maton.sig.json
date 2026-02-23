@@ -1,0 +1,8 @@
+{
+  "skill_file": "mcp_maton.json",
+  "signature": "jade-sig-312zUGy8u5tEkzB6jv2lnwKtL2rFWkYPVse8gzK++/EdWBiq3/d6dKGuqiCA72S0zylkRFnXMB2UtGSIU/SyDg==",
+  "public_key": "jade-pk-root-u9yg2vwkHJt/xCdQdqUcOJIpnYbbbK18V82IraZo2/8=",
+  "timestamp": 1771873245.200257,
+  "layers_passed": 5,
+  "skill_hash": "0c2a3aab7c8e48c6cd7ea93bc3a79c6a816683ae0fa50b6590b7bf05c8086803"
+}

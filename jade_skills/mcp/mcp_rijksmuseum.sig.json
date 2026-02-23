@@ -1,0 +1,8 @@
+{
+  "skill_file": "mcp_rijksmuseum.json",
+  "signature": "jade-sig-Wtq1CjlXDTL/UzJul+wctnnDAfMRdtJ2pLbK8HfTU547iZoNnokzsTSoSWH/EQQsmiMwWFpd49S/I+55lCUABw==",
+  "public_key": "jade-pk-root-u9yg2vwkHJt/xCdQdqUcOJIpnYbbbK18V82IraZo2/8=",
+  "timestamp": 1771873459.5645638,
+  "layers_passed": 5,
+  "skill_hash": "b8a527d96d5f729fc1e45f059f215583695b4a541b4d4f87679045cb4fc8b102"
+}

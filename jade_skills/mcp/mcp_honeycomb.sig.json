@@ -1,0 +1,8 @@
+{
+  "skill_file": "mcp_honeycomb.json",
+  "signature": "jade-sig-aAPZl1ExeoxaEzBZqtkbXkKS6E8+4mkuv9go78IQhyXd5G+JdSWGP0gH2PsMY7OEsNOnOw5XsCNZnUs4Mx45BQ==",
+  "public_key": "jade-pk-root-u9yg2vwkHJt/xCdQdqUcOJIpnYbbbK18V82IraZo2/8=",
+  "timestamp": 1771873145.600582,
+  "layers_passed": 5,
+  "skill_hash": "34c4f4ad0be63850afa519648a5d0084ed114df3d9a0d2e00ed34f3abcc60fce"
+}

@@ -1,0 +1,8 @@
+{
+  "skill_file": "mcp_world_bank_data_api.json",
+  "signature": "jade-sig-LK+o30Lzz5t0DLCcbG+fxbTV+EM5sQDGKHpCe0CJoxOrXEbUqGPnPOQG4YS5+tJQAljuwuMXcWRFyLzWHZIBAg==",
+  "public_key": "jade-pk-root-u9yg2vwkHJt/xCdQdqUcOJIpnYbbbK18V82IraZo2/8=",
+  "timestamp": 1771873627.1098428,
+  "layers_passed": 5,
+  "skill_hash": "e73b243082c6b33f890e844066c1c3e96a5f5234ff90be42e3f4c13b4e797855"
+}

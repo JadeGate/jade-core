@@ -1,15 +1,8 @@
 {
-  "jade_signature": {
-    "version": "1.0.0",
-    "skill_id": "ssh_remote_exec",
-    "content_hash": "sha256:0ee211ddf6903a140d5a8788cf7deb3155b3d60ef746454d97b98dcf173a412b",
-    "signature": "jade-sig-E7FlV7ePa0/fBNxlcYTGJchwbCvNOcQaJrlDO2O44m5/48HFtfqawdAqjHw7USreJOzQwB+Yemf4F9mNAPVXCw==",
-    "signer": {
-      "public_key": "jade-pk-root-o0p0Em+ufryyPQFFdKHEdSbWOPCqiGhUwwC9AjYJb/U=",
-      "fingerprint": "SHA256:HU0Dpg+xFPNxCURZhG9eX6Yx+ynMlbincaJxIRUJt98=",
-      "role": "root"
-    },
-    "timestamp": "2026-02-22T16:18:14Z",
-    "expires": "2027-02-22T16:18:14Z"
-  }
+  "skill_file": "ssh_remote_exec.json",
+  "signature": "jade-sig-FLVu+KN7KKTjkrjTk3umnw0lRwsyZoDg0uQKfMbghFeAxGjnMgrOkLj9dL1goH/tEgvPHjYBFQlC3rE7w3QRBA==",
+  "public_key": "jade-pk-root-u9yg2vwkHJt/xCdQdqUcOJIpnYbbbK18V82IraZo2/8=",
+  "timestamp": 1771873681.7436259,
+  "layers_passed": 5,
+  "skill_hash": "53f18638cbe439fbf561ef25c103649288ba8f9489b6bda0526a45d311e22158"
 }

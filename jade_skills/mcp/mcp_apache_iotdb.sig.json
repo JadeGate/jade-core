@@ -1,0 +1,8 @@
+{
+  "skill_file": "mcp_apache_iotdb.json",
+  "signature": "jade-sig-BacctVRcdIpPFCf1VXYiFmmAIzdH51ja6pmINrp9UCxO/hoYM+E9mhj0iIeqxb2uEaM16TiKkqizlK5vAHl4AQ==",
+  "public_key": "jade-pk-root-u9yg2vwkHJt/xCdQdqUcOJIpnYbbbK18V82IraZo2/8=",
+  "timestamp": 1771872861.1176946,
+  "layers_passed": 5,
+  "skill_hash": "7a5f38db984f48f564f5ad34b3952ad2e850e63b8df0720547565beea618a59a"
+}

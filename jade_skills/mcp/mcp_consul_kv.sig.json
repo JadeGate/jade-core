@@ -1,0 +1,8 @@
+{
+  "skill_file": "mcp_consul_kv.json",
+  "signature": "jade-sig-Ph1Tc6EiCaWgAdkzQqYvY3ppNqAYgN5ukjKZZo5hJ/arKFvZK2ylXWYIRiQZwOUuldlrpwYzpGI4WTXj661UAg==",
+  "public_key": "jade-pk-root-u9yg2vwkHJt/xCdQdqUcOJIpnYbbbK18V82IraZo2/8=",
+  "timestamp": 1771872979.9519153,
+  "layers_passed": 5,
+  "skill_hash": "0ff0ff8c51e2fde6af2ce34081b4d1b1597643de2844ec03fe3504352198b7ae"
+}

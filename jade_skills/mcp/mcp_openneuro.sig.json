@@ -1,0 +1,8 @@
+{
+  "skill_file": "mcp_openneuro.json",
+  "signature": "jade-sig-62Yr9MfrV8B84uot3cF6dEl7yXheMUouidvcgcURBYuw5jUBUAF3OlClBmCdXOzcIcAAaxWzGnBVF7y5tKkLBA==",
+  "public_key": "jade-pk-root-u9yg2vwkHJt/xCdQdqUcOJIpnYbbbK18V82IraZo2/8=",
+  "timestamp": 1771873370.5908933,
+  "layers_passed": 5,
+  "skill_hash": "02851253dc60801307683acc74558a8fa84c51a406a8a3b196fb324bb30f57b4"
+}

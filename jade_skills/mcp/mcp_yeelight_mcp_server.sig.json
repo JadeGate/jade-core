@@ -1,0 +1,8 @@
+{
+  "skill_file": "mcp_yeelight_mcp_server.json",
+  "signature": "jade-sig-g8C+FY2sxWhHXtHP8HArKcL+0zBRUVN4HVI1KYqdO1gjCY8NtUgh3iOPEHOqOquuglHZ4xBDSOd1kjmgY9QjCg==",
+  "public_key": "jade-pk-root-u9yg2vwkHJt/xCdQdqUcOJIpnYbbbK18V82IraZo2/8=",
+  "timestamp": 1771873633.1906946,
+  "layers_passed": 5,
+  "skill_hash": "83f3b6f581567c795b001dd1199cc505e78484e41924daf8edcaa02e35e5d0db"
+}

@@ -1,0 +1,8 @@
+{
+  "skill_file": "k8s_port_forward.json",
+  "signature": "jade-sig-N+VtfDQ8HMOsAIbPfBS2Fk7yhVXFwpmH2FiCE0znWgeSBDpRALj1EZKm9ZPUU226Sk1cHY2v1UFFH/Dah9lIBQ==",
+  "public_key": "jade-pk-root-u9yg2vwkHJt/xCdQdqUcOJIpnYbbbK18V82IraZo2/8=",
+  "timestamp": 1771873669.4867384,
+  "layers_passed": 5,
+  "skill_hash": "638ce86f5a997f27656c8f967263b4bf97aa8ccd343f80ac35c37f611576fe02"
+}

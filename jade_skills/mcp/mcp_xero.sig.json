@@ -1,0 +1,8 @@
+{
+  "skill_file": "mcp_xero.json",
+  "signature": "jade-sig-TE/9Ecx9+2B5Ec6n8CuH2FWKFjvW0hh0Qima6I7j2r4u/sAth+TGsQ9x7RuiTFzJkXl0sKtYaiozZgSxrkzAAQ==",
+  "public_key": "jade-pk-root-u9yg2vwkHJt/xCdQdqUcOJIpnYbbbK18V82IraZo2/8=",
+  "timestamp": 1771873629.9291174,
+  "layers_passed": 5,
+  "skill_hash": "320b81d478736e180185b0c6ff68ce2350b9aa9e43cf3a78cb136c58a52debc2"
+}

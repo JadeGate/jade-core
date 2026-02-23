@@ -1,0 +1,8 @@
+{
+  "skill_file": "mcp_spotify.json",
+  "signature": "jade-sig-yZgvbKz4G1wIdHW4FUgTf/t4OlZR+x7jeDbXaUcKfRCNxZUQJJgmRehyPzyRArcXFrwXMYQRNaoUZggmbAcFDw==",
+  "public_key": "jade-pk-root-u9yg2vwkHJt/xCdQdqUcOJIpnYbbbK18V82IraZo2/8=",
+  "timestamp": 1771873506.4485068,
+  "layers_passed": 5,
+  "skill_hash": "1f8b7dd5a7ea633e0fe99c4dad92dd7e766f42f8f06df864f0a451c4d3cce631"
+}

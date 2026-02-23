@@ -1,0 +1,8 @@
+{
+  "skill_file": "mcp_gmail_headless.json",
+  "signature": "jade-sig-ZljbeWrln/Ol5JVPWr04UxMPb/85QGVZo+R+g7JmN3MAzXeZxRlEKCCRGP4HUZC9xAFTF6OT/IZso+g6zHPLAw==",
+  "public_key": "jade-pk-root-u9yg2vwkHJt/xCdQdqUcOJIpnYbbbK18V82IraZo2/8=",
+  "timestamp": 1771873112.6441565,
+  "layers_passed": 5,
+  "skill_hash": "521b92a42effe2df5995dd3b2ccb5671d22dee8b15844efaafd594c109800d1e"
+}

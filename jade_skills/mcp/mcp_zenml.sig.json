@@ -1,0 +1,8 @@
+{
+  "skill_file": "mcp_zenml.json",
+  "signature": "jade-sig-7pEw7u4gZPd+wZP5aaloDTvBjAUGSx4ZCnV/G2DUCsSd8cRrxk/V+D/Sqv6+QqmvWto7K+jC0I6wHa3oG9vMAQ==",
+  "public_key": "jade-pk-root-u9yg2vwkHJt/xCdQdqUcOJIpnYbbbK18V82IraZo2/8=",
+  "timestamp": 1771873642.557743,
+  "layers_passed": 5,
+  "skill_hash": "00ed2bd9e3b4bb7e83d8e35ff9374e904f7cde489479d6561a2be313aa66a2fd"
+}

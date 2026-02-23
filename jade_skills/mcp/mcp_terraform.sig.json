@@ -1,0 +1,8 @@
+{
+  "skill_file": "mcp_terraform.json",
+  "signature": "jade-sig-LQozI64y0lTV93jMNOUuFranxQM09Ix+mP9NAkpSFoXvoiwxg9B2WYJWvwrW5aG8vwzJ4X6lM2LB+EAu2D1FBw==",
+  "public_key": "jade-pk-root-u9yg2vwkHJt/xCdQdqUcOJIpnYbbbK18V82IraZo2/8=",
+  "timestamp": 1771873547.5631974,
+  "layers_passed": 5,
+  "skill_hash": "0d72ed020b47ba0c8aeb97b6c652a2df97dc0ede9539cd5068d648e0e3fff715"
+}

@@ -1,0 +1,8 @@
+{
+  "skill_file": "tar_archive.json",
+  "signature": "jade-sig-AqevhzBAVJ59qy6edWtYpvFg2LgMHRgI6ghKkW7VRI+PV2DlmJvnP43GDbgOX6tcQEnwJ4WT/QikxVTZiXzeCg==",
+  "public_key": "jade-pk-root-u9yg2vwkHJt/xCdQdqUcOJIpnYbbbK18V82IraZo2/8=",
+  "timestamp": 1771873683.6413958,
+  "layers_passed": 5,
+  "skill_hash": "bc2bd0b63f339c74e56048a631014d352b6d3feac0b659990f3498e91e8637c6"
+}

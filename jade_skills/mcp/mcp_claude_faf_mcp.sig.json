@@ -1,0 +1,8 @@
+{
+  "skill_file": "mcp_claude_faf_mcp.json",
+  "signature": "jade-sig-2adSKT1771y6ewhi9AMzM+LIOpOeTyKSrRFVdnmqRqwU41SWIlPXIKk0mrpQZse2Ry+OccuFoXily5PhMQLEBA==",
+  "public_key": "jade-pk-root-u9yg2vwkHJt/xCdQdqUcOJIpnYbbbK18V82IraZo2/8=",
+  "timestamp": 1771872951.1630208,
+  "layers_passed": 5,
+  "skill_hash": "5b5822c9d780df9622d7eb48ec37c172d639fc04dfaca5b0dc3f846d9731c72d"
+}

@@ -1,0 +1,8 @@
+{
+  "skill_file": "mcp_ipybox.json",
+  "signature": "jade-sig-B4GX6ruRasZW+KLGOeHHtD2Ci9NGsaAp+yypaEn2ADBnf9igotkZcNOaL8t/7PWSLufmFYJ4L6ssWJ8//qyxCA==",
+  "public_key": "jade-pk-root-u9yg2vwkHJt/xCdQdqUcOJIpnYbbbK18V82IraZo2/8=",
+  "timestamp": 1771873168.8225577,
+  "layers_passed": 5,
+  "skill_hash": "4a4fa0566b15b5f7c22de22e3df1f6d1a2d7ade20cc9114f5bd8c2c61fa65ff8"
+}

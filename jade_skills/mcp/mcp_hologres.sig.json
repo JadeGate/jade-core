@@ -1,0 +1,8 @@
+{
+  "skill_file": "mcp_hologres.json",
+  "signature": "jade-sig-zANjDycRTgjowuh3q/rwZaAq+7tBHhLe4WHv4BustSfXfkPOFQ8cEKAZ0y8uTB8dm2gnRs2ZQtd9vfAiOJ/YDQ==",
+  "public_key": "jade-pk-root-u9yg2vwkHJt/xCdQdqUcOJIpnYbbbK18V82IraZo2/8=",
+  "timestamp": 1771873144.179389,
+  "layers_passed": 5,
+  "skill_hash": "792b6aaca269cf0374a839472654f89fdfc4b950d211d39250e3ec63add1ec6a"
+}

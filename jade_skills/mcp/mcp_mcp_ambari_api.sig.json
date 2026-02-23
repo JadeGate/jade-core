@@ -1,0 +1,8 @@
+{
+  "skill_file": "mcp_mcp_ambari_api.json",
+  "signature": "jade-sig-xaLyxZB99uazQtVLMg8xph1g5KMgI+JjpyLhYPv3e5w5Tj5khSB/IsxxfBN8DAwwIjuIqRoAqoMFqGCNnMNfBA==",
+  "public_key": "jade-pk-root-u9yg2vwkHJt/xCdQdqUcOJIpnYbbbK18V82IraZo2/8=",
+  "timestamp": 1771873248.589767,
+  "layers_passed": 5,
+  "skill_hash": "40b657739418d06d84ba78dc69617c9eb4ce3eac31ab98ccfeffd0246da3b284"
+}

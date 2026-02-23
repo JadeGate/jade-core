@@ -1,0 +1,8 @@
+{
+  "skill_file": "mcp_foxy_contexts.json",
+  "signature": "jade-sig-dFE7xJNxNiYM8tgiBKA5nKPgciQCPVTHla23xBF+k1iRsmmb5WRPNOZzZ/fYrZ77SjbF0tMIT/IOQrimexiODg==",
+  "public_key": "jade-pk-root-u9yg2vwkHJt/xCdQdqUcOJIpnYbbbK18V82IraZo2/8=",
+  "timestamp": 1771873085.543205,
+  "layers_passed": 5,
+  "skill_hash": "b7c6ad242e20241ab86613a638457762019f6b73656ca727806aa5d8a05ba506"
+}

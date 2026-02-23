@@ -1,0 +1,8 @@
+{
+  "skill_file": "mcp_gitea.json",
+  "signature": "jade-sig-eY5poEbMBKzOzz3k4JsRhyDiFTkUwNpmcVd+miOzA1C7YFO9DhhZfkV+UyuZLeKOQ26osUGlX/TZCTpFsyjADQ==",
+  "public_key": "jade-pk-root-u9yg2vwkHJt/xCdQdqUcOJIpnYbbbK18V82IraZo2/8=",
+  "timestamp": 1771873100.2485156,
+  "layers_passed": 5,
+  "skill_hash": "d8acac734ff0c6d63ef608622420157b44e03a6eba1749f7a755e1595f8d9f49"
+}

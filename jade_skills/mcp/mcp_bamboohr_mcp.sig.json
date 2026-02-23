@@ -1,0 +1,8 @@
+{
+  "skill_file": "mcp_bamboohr_mcp.json",
+  "signature": "jade-sig-cXsjufVpSq5NwQadLyhPZ7DOF4DRu1UCtFb43PxxmKvlX1hgryuddWobKgpqYxyI/hWcAloIaJtLkM5oCz/6CA==",
+  "public_key": "jade-pk-root-u9yg2vwkHJt/xCdQdqUcOJIpnYbbbK18V82IraZo2/8=",
+  "timestamp": 1771872907.8404467,
+  "layers_passed": 5,
+  "skill_hash": "addd536e5ac1e3a05bbff06c877b8aa73219641aee21c16947ad1c2278f0024a"
+}

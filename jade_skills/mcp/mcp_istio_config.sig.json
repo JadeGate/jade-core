@@ -1,0 +1,8 @@
+{
+  "skill_file": "mcp_istio_config.json",
+  "signature": "jade-sig-snVQvgo/RO+c/fsQ21VAnSibeDwCDoYWg7Au9NjujKHl/w43n9BigcYlFWWb/ZAHwK7hgpk78AnMkxFnxnhUDw==",
+  "public_key": "jade-pk-root-u9yg2vwkHJt/xCdQdqUcOJIpnYbbbK18V82IraZo2/8=",
+  "timestamp": 1771873169.7764528,
+  "layers_passed": 5,
+  "skill_hash": "359af0dc805535356242cd1a441ee853593da4feebe7505506e3f3890d9fc8e2"
+}

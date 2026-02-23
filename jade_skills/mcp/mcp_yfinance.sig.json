@@ -1,0 +1,8 @@
+{
+  "skill_file": "mcp_yfinance.json",
+  "signature": "jade-sig-ARlQ8rSvVvsvEloo3X/Ej3F+baSqYwti+U3cTfoDDiIajHl3yYMLClZc+WqDT4cBxaA5QUTKh0po9FYdN1KzCA==",
+  "public_key": "jade-pk-root-u9yg2vwkHJt/xCdQdqUcOJIpnYbbbK18V82IraZo2/8=",
+  "timestamp": 1771873634.5955758,
+  "layers_passed": 5,
+  "skill_hash": "30781dfbd89b205ea0745983b932a91c17cbda2039dc40ce81fa48b0bf61339d"
+}

@@ -1,0 +1,8 @@
+{
+  "skill_file": "mcp_kluster_ai.json",
+  "signature": "jade-sig-0aK5QCM4qWsAnj1m7584B4gpiQ2W5y+N5r+g83IAoxW/O9bPMMbl131CvgB7mlgMrPHzGijVJlvNe/1GUoNBCQ==",
+  "public_key": "jade-pk-root-u9yg2vwkHJt/xCdQdqUcOJIpnYbbbK18V82IraZo2/8=",
+  "timestamp": 1771873196.670283,
+  "layers_passed": 5,
+  "skill_hash": "821374f5ad3875aaba9e7e43cf903b6bdd4c2400468a9dcd3af8a334dd38b674"
+}

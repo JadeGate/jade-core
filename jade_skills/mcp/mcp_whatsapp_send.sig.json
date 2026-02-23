@@ -1,0 +1,8 @@
+{
+  "skill_file": "mcp_whatsapp_send.json",
+  "signature": "jade-sig-qKb8nFJtri+16IG9ZLjC9PtPjCH/NeCE4u8ZvoA7r4gyJ/5U8vLOqZpRmHktd9Zoxsz9xIoMUtO8+G1R0TmrDA==",
+  "public_key": "jade-pk-root-u9yg2vwkHJt/xCdQdqUcOJIpnYbbbK18V82IraZo2/8=",
+  "timestamp": 1771873616.7057703,
+  "layers_passed": 5,
+  "skill_hash": "1e815e4554a553f057a253620c0f3023877c991d385984394ca7855ae2dbce5e"
+}

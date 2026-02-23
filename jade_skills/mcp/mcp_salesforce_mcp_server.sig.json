@@ -1,0 +1,8 @@
+{
+  "skill_file": "mcp_salesforce_mcp_server.json",
+  "signature": "jade-sig-GXDqO4YE4hDztbR768Lo9b83kXa3NNY/i36l2Bqvw5CJRkH1zrydO1D8a60Ip4+YToLds9Bb8w8KUejSNpctDw==",
+  "public_key": "jade-pk-root-u9yg2vwkHJt/xCdQdqUcOJIpnYbbbK18V82IraZo2/8=",
+  "timestamp": 1771873470.4879992,
+  "layers_passed": 5,
+  "skill_hash": "18e27e8b9ea2eb1692f6b88b0cdab29b5716ab069684780b2c984dde42740d7c"
+}

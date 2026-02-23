@@ -1,0 +1,8 @@
+{
+  "skill_file": "mcp_microsoft_365_files_sharepoint_onedrive.json",
+  "signature": "jade-sig-CIBScf8cp1dYaf+APKTJn8Z14AR68fJNlaNG546NkIMuTmiksK0h0QcEDD4YYnB6b7xNg75q0M1E1n6bSDIDDQ==",
+  "public_key": "jade-pk-root-u9yg2vwkHJt/xCdQdqUcOJIpnYbbbK18V82IraZo2/8=",
+  "timestamp": 1771873298.3572447,
+  "layers_passed": 5,
+  "skill_hash": "e4b96a8c7eda4227c7247217f3a911ae95ee9f170017e19147032848e5692299"
+}

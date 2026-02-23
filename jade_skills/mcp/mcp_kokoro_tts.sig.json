@@ -1,0 +1,8 @@
+{
+  "skill_file": "mcp_kokoro_tts.json",
+  "signature": "jade-sig-n0mhP5T/kP3WS7NQJMq4q4+3pt4/0EzJ9yeGe90sCCPvQ55u/J3IbUR7VGdZ45Yx9kiDccCNQNt7U824ohstDA==",
+  "public_key": "jade-pk-root-u9yg2vwkHJt/xCdQdqUcOJIpnYbbbK18V82IraZo2/8=",
+  "timestamp": 1771873198.6506257,
+  "layers_passed": 5,
+  "skill_hash": "17d7d39398f6597f8cb371fc5bd44ef70b04d1edf289c68ca64872ae66600f32"
+}

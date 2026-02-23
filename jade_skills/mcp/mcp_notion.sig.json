@@ -1,0 +1,8 @@
+{
+  "skill_file": "mcp_notion.json",
+  "signature": "jade-sig-uyU8iekXrc2b8yRIbBTiPq7nTykWDLg3kOgOHxAAHCYmYFLskCRTXRAkXXJ+V1VQRilieD6cnxpEQCH1smsPAw==",
+  "public_key": "jade-pk-root-u9yg2vwkHJt/xCdQdqUcOJIpnYbbbK18V82IraZo2/8=",
+  "timestamp": 1771873343.288194,
+  "layers_passed": 5,
+  "skill_hash": "16b4acbfb64913e873a23b091678d33ec6f49f4a9afa0e1e921e84161a18eccd"
+}

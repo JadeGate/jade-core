@@ -1,0 +1,8 @@
+{
+  "skill_file": "mcp_vscode_ai_model_detector.json",
+  "signature": "jade-sig-zU0tZ1yCtxst2m8bDp8fZqSPskVHLXxLDEbxhVNNtrXcgnrm2Kax9GyTWpp79rAKtKBC9LLyIW6V0zyGiuUdDg==",
+  "public_key": "jade-pk-root-u9yg2vwkHJt/xCdQdqUcOJIpnYbbbK18V82IraZo2/8=",
+  "timestamp": 1771873607.1407259,
+  "layers_passed": 5,
+  "skill_hash": "7aa29daaf6fd9ba04c4e309dfcd93c65a585a9ee1a0ac3e14e37eb83921f8e4d"
+}

@@ -1,0 +1,8 @@
+{
+  "skill_file": "mcp_midjourney_imagine.json",
+  "signature": "jade-sig-V07GKnQlLESVU8fjhaHhCpcewQ2pmbk7BrWbNTHtKabp/lrN1qcTfjJnWcl/yNfQ/KUTFDKk/TrjNUMAsWWuCA==",
+  "public_key": "jade-pk-root-u9yg2vwkHJt/xCdQdqUcOJIpnYbbbK18V82IraZo2/8=",
+  "timestamp": 1771873301.2006772,
+  "layers_passed": 5,
+  "skill_hash": "ac68dd5545f8587903b9bc39c1d63806ce11154eba1e62a20b444791d5dbb88e"
+}

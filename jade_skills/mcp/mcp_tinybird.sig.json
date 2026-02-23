@@ -1,0 +1,8 @@
+{
+  "skill_file": "mcp_tinybird.json",
+  "signature": "jade-sig-wDrJow3eXWIDNNlNJ6P8z+k08EOB4CSdw/M56vPJqWvUS9g9Nh5rKS52j2S6jyGUmmUPqtxhcj48k/pCNbC/CQ==",
+  "public_key": "jade-pk-root-u9yg2vwkHJt/xCdQdqUcOJIpnYbbbK18V82IraZo2/8=",
+  "timestamp": 1771873563.1263766,
+  "layers_passed": 5,
+  "skill_hash": "9f0c438ad134341c2c2de7affa6229fed98eb8828add8779e588dac4f7151abf"
+}

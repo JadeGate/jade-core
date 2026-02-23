@@ -1,0 +1,8 @@
+{
+  "skill_file": "mcp_deepseek_thinker_mcp.json",
+  "signature": "jade-sig-hjrCofCZ3/XoQSNGQed6lQFIoEfs3360vpdSBVhnemGCFFC0p5Joz289l8TkTOGvJoz2tvJocfTMUlmKsuJ0BA==",
+  "public_key": "jade-pk-root-u9yg2vwkHJt/xCdQdqUcOJIpnYbbbK18V82IraZo2/8=",
+  "timestamp": 1771873012.009983,
+  "layers_passed": 5,
+  "skill_hash": "963bb75a137e73b8df1e1445f5d286d9852006a35f702a074b29ebbe7f5aac68"
+}

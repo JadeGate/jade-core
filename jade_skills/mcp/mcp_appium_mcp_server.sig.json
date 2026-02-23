@@ -1,0 +1,8 @@
+{
+  "skill_file": "mcp_appium_mcp_server.json",
+  "signature": "jade-sig-MBi+mEjW4lnfO8Wh7WnvPGoEd8nw91CH4wvHfwmFP5X4eSUD2ip0MrAhmJYHUR6wb/Vm4wL3Ho6VdQhgCWI6BQ==",
+  "public_key": "jade-pk-root-u9yg2vwkHJt/xCdQdqUcOJIpnYbbbK18V82IraZo2/8=",
+  "timestamp": 1771872866.3290732,
+  "layers_passed": 5,
+  "skill_hash": "f14c8727931bf96b166c21a38a2e483d2a01cbe4112ec32c5057963afabfb012"
+}

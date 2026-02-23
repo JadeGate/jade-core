@@ -1,0 +1,8 @@
+{
+  "skill_file": "mcp_trello_cards.json",
+  "signature": "jade-sig-7lfLvKmiD/XCp6ZtwqXy1i49EnFLnI1KWzLKfvaZOtgtp3Br9g37+8gXh/zd+j4QRWtpuXvkqaPfOfzciOdFDQ==",
+  "public_key": "jade-pk-root-u9yg2vwkHJt/xCdQdqUcOJIpnYbbbK18V82IraZo2/8=",
+  "timestamp": 1771873573.524933,
+  "layers_passed": 5,
+  "skill_hash": "076a621f99f02bccb0f90459b3a2eab0dd7c6bf9ed7927a84d501f86f5c440f9"
+}

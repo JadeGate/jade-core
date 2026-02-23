@@ -1,0 +1,8 @@
+{
+  "skill_file": "mcp_bankless_onchain.json",
+  "signature": "jade-sig-NkGtSbOjCAejQPb5povnKdzADsjuUjPcgfDgo/ZF0T8kxIvKfYgQwRXvu4JTJW7K9Tomkq9ANo1mFE5EfZx8BA==",
+  "public_key": "jade-pk-root-u9yg2vwkHJt/xCdQdqUcOJIpnYbbbK18V82IraZo2/8=",
+  "timestamp": 1771872908.3092196,
+  "layers_passed": 5,
+  "skill_hash": "25d01df30b577427889074caa2b8c000e4b3bbab2c521f56a3d483a60e266974"
+}

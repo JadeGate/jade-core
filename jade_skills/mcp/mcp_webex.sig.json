@@ -1,0 +1,8 @@
+{
+  "skill_file": "mcp_webex.json",
+  "signature": "jade-sig-DAMdYYQqscnUyZe25A9F3+x1QcFaXpSPdd5Fc0GYQsF+RGVax0S284fUuAWeLKeGrhIAX1u6JqMSNhWEgKc2Cw==",
+  "public_key": "jade-pk-root-u9yg2vwkHJt/xCdQdqUcOJIpnYbbbK18V82IraZo2/8=",
+  "timestamp": 1771873611.9178126,
+  "layers_passed": 5,
+  "skill_hash": "171e589d4cd95bcf70f2818438b5acbb8dd74de16f7ab1fd6a400e9f80fff2f9"
+}

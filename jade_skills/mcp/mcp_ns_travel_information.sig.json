@@ -1,0 +1,8 @@
+{
+  "skill_file": "mcp_ns_travel_information.json",
+  "signature": "jade-sig-JMnqTlDfm4CkoyAwSuHI8W214hGnt+oqLcoJ9rIcYHxQ/V8NlequzCus8G3mKNm0I+H7rthT+T5k3NJ89VGgBA==",
+  "public_key": "jade-pk-root-u9yg2vwkHJt/xCdQdqUcOJIpnYbbbK18V82IraZo2/8=",
+  "timestamp": 1771873345.657894,
+  "layers_passed": 5,
+  "skill_hash": "522a506374c25f452496626e17ca8930c423bf5a5abe5aa06a2a8a4674cd0b8e"
+}

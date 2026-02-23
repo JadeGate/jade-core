@@ -1,0 +1,8 @@
+{
+  "skill_file": "mcp_tyk_api_management.json",
+  "signature": "jade-sig-blkH3zUPmZrqV/j5jiy7i6OE+JJHlId60JbDIIju6Mafx9GTrNFq3IiUnkJi43ZD5gqI/ynPYpwoo7LsZ4x+Aw==",
+  "public_key": "jade-pk-root-u9yg2vwkHJt/xCdQdqUcOJIpnYbbbK18V82IraZo2/8=",
+  "timestamp": 1771873579.796383,
+  "layers_passed": 5,
+  "skill_hash": "561b3db6a33bde3e96fd3c2cfc30d838ef890d23090f1504eaf5375af036c1f3"
+}

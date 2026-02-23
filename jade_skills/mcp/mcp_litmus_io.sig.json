@@ -1,0 +1,8 @@
+{
+  "skill_file": "mcp_litmus_io.json",
+  "signature": "jade-sig-ATXvShNvAjVz8RGsAaza4iz5vfecPR0WCVmAtjzU4fpJZKcpdHnEOer2+MH9V3GZiJuRNbFSexIlXDQBV1glCA==",
+  "public_key": "jade-pk-root-u9yg2vwkHJt/xCdQdqUcOJIpnYbbbK18V82IraZo2/8=",
+  "timestamp": 1771873223.170028,
+  "layers_passed": 5,
+  "skill_hash": "dbe9a414fc406e51e1400f3e01415989edba331760b1581ea8661f559de847fb"
+}

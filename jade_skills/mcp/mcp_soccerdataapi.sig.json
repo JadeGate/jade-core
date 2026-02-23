@@ -1,0 +1,8 @@
+{
+  "skill_file": "mcp_soccerdataapi.json",
+  "signature": "jade-sig-OMESeCBrIg9ZDVDaLS9DAe8+xSGSf08pObd7JIJWqGolyGjjdUjDnhAxXXBPHbzGZo57DX7qo54+fTOyIi7/DA==",
+  "public_key": "jade-pk-root-u9yg2vwkHJt/xCdQdqUcOJIpnYbbbK18V82IraZo2/8=",
+  "timestamp": 1771873500.3054507,
+  "layers_passed": 5,
+  "skill_hash": "d775822d0157697c5ff2043353144bf2800946411673aacb539152aabc93c6e2"
+}

@@ -1,0 +1,8 @@
+{
+  "skill_file": "uptime_check.json",
+  "signature": "jade-sig-a1Xy4cz/v4MDWk6/Ez9TnIzaTBXRuD4oS5TsagrpnIskPEpadIMH3JSkoyn/xDEnkRKvwBCHL3XiPHJ/cHc0CA==",
+  "public_key": "jade-pk-root-u9yg2vwkHJt/xCdQdqUcOJIpnYbbbK18V82IraZo2/8=",
+  "timestamp": 1771873688.8110375,
+  "layers_passed": 5,
+  "skill_hash": "95a7b3624cff65f0493f82046c247b8fad9ae144dbf2fb9fce1b6044f339131c"
+}

@@ -1,0 +1,8 @@
+{
+  "skill_file": "mcp_brianell_in.json",
+  "signature": "jade-sig-FoJUuLcjlDA71c3frBZPJj1maatCqaO1S455rxJ70QUJxlAxp7lOXurA87oj5a6uWBp72h3SdCyGVSOZp9sqBw==",
+  "public_key": "jade-pk-root-u9yg2vwkHJt/xCdQdqUcOJIpnYbbbK18V82IraZo2/8=",
+  "timestamp": 1771872926.9508953,
+  "layers_passed": 5,
+  "skill_hash": "fa28f7a36527d1fb6566cd03c45464df56f6ab8f187a634b7ba1de9a31eccf86"
+}

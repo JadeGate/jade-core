@@ -1,0 +1,8 @@
+{
+  "skill_file": "mcp_tiktok_ads.json",
+  "signature": "jade-sig-lnOeacM1uYuvrujTw13Ki7RYoXBm2a3f7TRLMdfrjT0W9Te82Y+6cYA8Dth6Hzdwg9TBAthtX+2w1tNPS/KDBA==",
+  "public_key": "jade-pk-root-u9yg2vwkHJt/xCdQdqUcOJIpnYbbbK18V82IraZo2/8=",
+  "timestamp": 1771873560.7916772,
+  "layers_passed": 5,
+  "skill_hash": "5315b7378e71b71cf30247a3a243177d149465773cce9f2d6cc1acbfab6bdcac"
+}

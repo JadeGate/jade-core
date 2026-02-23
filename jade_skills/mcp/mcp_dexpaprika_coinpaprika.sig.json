@@ -1,0 +1,8 @@
+{
+  "skill_file": "mcp_dexpaprika_coinpaprika.json",
+  "signature": "jade-sig-XPIGJqEMBDnOEkX4GxLmrQsIDnssJ8gG4Rm3gBsoZmcCOVviQY5eALpLsHqxGItf+J7cwB6BuqqE2B2MgOxVAw==",
+  "public_key": "jade-pk-root-u9yg2vwkHJt/xCdQdqUcOJIpnYbbbK18V82IraZo2/8=",
+  "timestamp": 1771873022.0476286,
+  "layers_passed": 5,
+  "skill_hash": "b79acf05babfc406699a986de487c63b680b198db1999a3d9bc40145e5d4365a"
+}

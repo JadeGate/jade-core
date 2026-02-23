@@ -1,0 +1,8 @@
+{
+  "skill_file": "mcp_variflight.json",
+  "signature": "jade-sig-0zzcGnUX00UmgRKcjFAEDKQYTgwPjsAIiVNkZHoruM2OQp6TU8odU55WaF4uWYZGxbI5IWk9IamMz25bOpJzAQ==",
+  "public_key": "jade-pk-root-u9yg2vwkHJt/xCdQdqUcOJIpnYbbbK18V82IraZo2/8=",
+  "timestamp": 1771873593.07267,
+  "layers_passed": 5,
+  "skill_hash": "4add1dd3ab7031eec3025698c8c29b2d6ce488b21a7ea86b521927e0eef25b54"
+}

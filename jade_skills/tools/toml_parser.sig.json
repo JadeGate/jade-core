@@ -1,0 +1,8 @@
+{
+  "skill_file": "toml_parser.json",
+  "signature": "jade-sig-lqSp996kkI6U607KhcOON+SxEJwnbGmPXZVdbr/4Y2fZOH6mmFrUBvnLSKR0EbfPlMMXtmbsr97PMgYL9bbSCg==",
+  "public_key": "jade-pk-root-u9yg2vwkHJt/xCdQdqUcOJIpnYbbbK18V82IraZo2/8=",
+  "timestamp": 1771873688.3441112,
+  "layers_passed": 5,
+  "skill_hash": "80cfdd882e6b4b5166c86c45f0a122abf94570037f1a5015fec797b1a632ca09"
+}

@@ -1,0 +1,8 @@
+{
+  "skill_file": "mcp_allvoicelab.json",
+  "signature": "jade-sig-ncW8+aLJA4nbMtKAYqBcTOeSCSjRotJevlYHJa6m1n8P9q73ewWHC9/e34G3JEbxK/zpFpE17M/TovHWXr+tAg==",
+  "public_key": "jade-pk-root-u9yg2vwkHJt/xCdQdqUcOJIpnYbbbK18V82IraZo2/8=",
+  "timestamp": 1771872851.1590633,
+  "layers_passed": 5,
+  "skill_hash": "3ee4e76ad8499db6bd8a0fb82c343ae7ce82d6dc0afbc0520ea83b6dff04641e"
+}

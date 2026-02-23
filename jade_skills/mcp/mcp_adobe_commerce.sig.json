@@ -1,0 +1,8 @@
+{
+  "skill_file": "mcp_adobe_commerce.json",
+  "signature": "jade-sig-7t5hTLXvpqxooBwTPgFKRX8es2JUEnVvll6/3PrFlwDhp9WDrN2nrWxgQ55NFXQ8nwXYVuoOHGskSbk+r5C2DA==",
+  "public_key": "jade-pk-root-u9yg2vwkHJt/xCdQdqUcOJIpnYbbbK18V82IraZo2/8=",
+  "timestamp": 1771872833.1428823,
+  "layers_passed": 5,
+  "skill_hash": "9fc3d1cbad791da2308395b0e3033fc7e49788d311ddc39ce69a098ee419abe4"
+}

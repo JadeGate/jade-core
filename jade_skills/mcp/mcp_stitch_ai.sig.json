@@ -1,0 +1,8 @@
+{
+  "skill_file": "mcp_stitch_ai.json",
+  "signature": "jade-sig-h6WI7m4Lo65Y9cD3WQy8cwz76CUZhkW5UxlUffjan3rekdanW2GmS6bMbWYSqcWLnDPzy/7Sc1qP8LSMW20zBg==",
+  "public_key": "jade-pk-root-u9yg2vwkHJt/xCdQdqUcOJIpnYbbbK18V82IraZo2/8=",
+  "timestamp": 1771873521.863382,
+  "layers_passed": 5,
+  "skill_hash": "541dca3090b66777f1720cb6bdc70589ab5c51f465b9f1823ad46bce1ba7b0ad"
+}

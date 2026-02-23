@@ -1,0 +1,8 @@
+{
+  "skill_file": "mcp_lunarcrush_remote_mcp.json",
+  "signature": "jade-sig-6uPnNxB15iF3WG00fkomsuvtQCszExK68AuPRpf1kOMggDe6TVEORikz5mCiSv807AJD9EXJC1QcE7Oop6anDA==",
+  "public_key": "jade-pk-root-u9yg2vwkHJt/xCdQdqUcOJIpnYbbbK18V82IraZo2/8=",
+  "timestamp": 1771873232.6946466,
+  "layers_passed": 5,
+  "skill_hash": "498f502e2c40efa1a357f799bfe474548c183bd92107095f4336a7e15520608e"
+}

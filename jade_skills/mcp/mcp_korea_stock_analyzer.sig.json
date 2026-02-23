@@ -1,0 +1,8 @@
+{
+  "skill_file": "mcp_korea_stock_analyzer.json",
+  "signature": "jade-sig-5EKlCcK3Yyne1CuZuuBz4uEHxCo8bu3O1apeAyI8IxsaElyU2WMmrpJHIwh0CaV95GoSNlAQuinqAfsZ/6AeDw==",
+  "public_key": "jade-pk-root-u9yg2vwkHJt/xCdQdqUcOJIpnYbbbK18V82IraZo2/8=",
+  "timestamp": 1771873199.6273315,
+  "layers_passed": 5,
+  "skill_hash": "56db7f32db202f7b6fc5364be177db256836afdedfeb6a998abd43b5a1a6edfb"
+}

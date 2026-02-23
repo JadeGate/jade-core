@@ -1,0 +1,8 @@
+{
+  "skill_file": "mcp_wasabi_s3.json",
+  "signature": "jade-sig-jATEH0+1+6L8IYzFPeNZOyC8YXrcwrlqwF6aCE4hPtD/nFDybVo+tZ1IllmSvAuq0PIZAZQavSFeMYk76577CQ==",
+  "public_key": "jade-pk-root-u9yg2vwkHJt/xCdQdqUcOJIpnYbbbK18V82IraZo2/8=",
+  "timestamp": 1771873608.538994,
+  "layers_passed": 5,
+  "skill_hash": "235f898f16c6519464d06b69aac5b36dd5b039cc18e3a74565901f145ae56d73"
+}

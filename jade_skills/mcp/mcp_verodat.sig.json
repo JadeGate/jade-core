@@ -1,0 +1,8 @@
+{
+  "skill_file": "mcp_verodat.json",
+  "signature": "jade-sig-roSbSZ6cWZsiF0ZMK1TaP6Wol5/nA5cPcEQKQBp1vHpubn9yq+Hrvpnk+xz4DceJtQNYdBEx2Ttz1aU+jmh0CQ==",
+  "public_key": "jade-pk-root-u9yg2vwkHJt/xCdQdqUcOJIpnYbbbK18V82IraZo2/8=",
+  "timestamp": 1771873598.2392373,
+  "layers_passed": 5,
+  "skill_hash": "6db02c7e675b06cdfcf1f90d6774a83536ae9df1c2d3b09e846c4d97914a64b6"
+}

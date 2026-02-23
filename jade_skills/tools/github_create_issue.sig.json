@@ -1,15 +1,8 @@
 {
-  "jade_signature": {
-    "version": "1.0.0",
-    "skill_id": "github_create_issue",
-    "content_hash": "sha256:d94e0d58e5ae0b312955f26fce6f5740c5fba0f68a21df95aced2258b2f6aced",
-    "signature": "jade-sig-0GJO/AJ6ZN7ACgzGDqnFoS9KbTrDrTeOebUH3WCZXpJbVeBTHq6wYQtbqiFLOe9oEJqKE8Codvo0XzS0L2sFAg==",
-    "signer": {
-      "public_key": "jade-pk-root-o0p0Em+ufryyPQFFdKHEdSbWOPCqiGhUwwC9AjYJb/U=",
-      "fingerprint": "SHA256:HU0Dpg+xFPNxCURZhG9eX6Yx+ynMlbincaJxIRUJt98=",
-      "role": "root"
-    },
-    "timestamp": "2026-02-22T16:18:07Z",
-    "expires": "2027-02-22T16:18:07Z"
-  }
+  "skill_file": "github_create_issue.json",
+  "signature": "jade-sig-sBHvw2WK0IJV52ByitaEzbme+sjyqVlJslxwmN47061yrJqCfVz9hJGn0JcE5uCCuetSiKGnynHy40MX8/4cDg==",
+  "public_key": "jade-pk-root-u9yg2vwkHJt/xCdQdqUcOJIpnYbbbK18V82IraZo2/8=",
+  "timestamp": 1771873661.8747182,
+  "layers_passed": 5,
+  "skill_hash": "31369c2d92c85de3caeab0ec2bb3959c87cf1e05a4de19a0add31e941ec743a6"
 }

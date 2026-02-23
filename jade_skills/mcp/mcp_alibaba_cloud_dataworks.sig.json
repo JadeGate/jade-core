@@ -1,0 +1,8 @@
+{
+  "skill_file": "mcp_alibaba_cloud_dataworks.json",
+  "signature": "jade-sig-2YGefYkND/X1P82CqKDF3niR/iDJ/ODsCD+h1XnMywY1iiSyTKVBWEZ0RuzXZMX3Qsg0GzXElSOVr4j6QkyRCA==",
+  "public_key": "jade-pk-root-u9yg2vwkHJt/xCdQdqUcOJIpnYbbbK18V82IraZo2/8=",
+  "timestamp": 1771872848.230725,
+  "layers_passed": 5,
+  "skill_hash": "bc9e55dd4e145c4fcca56d7229d5a687c5cdc417e34748dba403837f62a7bfde"
+}

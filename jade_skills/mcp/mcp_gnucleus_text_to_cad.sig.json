@@ -1,0 +1,8 @@
+{
+  "skill_file": "mcp_gnucleus_text_to_cad.json",
+  "signature": "jade-sig-V56BFsVnJlOAHYZXDi++yoGpw/akLAneURT42dhvpVK/unRaq2AY9J0cd8KT6bK+Jlgdo99LB86ht0A5lWXMDg==",
+  "public_key": "jade-pk-root-u9yg2vwkHJt/xCdQdqUcOJIpnYbbbK18V82IraZo2/8=",
+  "timestamp": 1771873113.610688,
+  "layers_passed": 5,
+  "skill_hash": "71b389b8565fa810c0b8c573a636b273922128b02a8ae872b0c75918d5a0d537"
+}

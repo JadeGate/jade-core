@@ -1,0 +1,8 @@
+{
+  "skill_file": "mcp_lark_feishu.json",
+  "signature": "jade-sig-i9JAq6hUNDuLejy/mJkfWfb+5JUOTe9ykUWsruZ0XEpK0sDDxj1+X1SjoUXWrTBqn/xNE6ur7NwQMqeejkVrDg==",
+  "public_key": "jade-pk-root-u9yg2vwkHJt/xCdQdqUcOJIpnYbbbK18V82IraZo2/8=",
+  "timestamp": 1771873211.2308223,
+  "layers_passed": 5,
+  "skill_hash": "f3a0d9e07cbaba5d7ce060027df322b2cc2b5d85cff7fe9012ba8dda1c10d912"
+}

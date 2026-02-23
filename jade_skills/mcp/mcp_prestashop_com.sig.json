@@ -1,0 +1,8 @@
+{
+  "skill_file": "mcp_prestashop_com.json",
+  "signature": "jade-sig-Pe6OFg1Im0SnTUoFNoLLkUvmPNiokpeczLfbFesQq18qtxT8skg6ed4/utOvy5l+/6LnjwIJoTjbokWuVFbvBQ==",
+  "public_key": "jade-pk-root-u9yg2vwkHJt/xCdQdqUcOJIpnYbbbK18V82IraZo2/8=",
+  "timestamp": 1771873417.8878903,
+  "layers_passed": 5,
+  "skill_hash": "5cf779161da365b4db9166b9f58067fd0cae8daed443c43c596e478fadcbd6cb"
+}

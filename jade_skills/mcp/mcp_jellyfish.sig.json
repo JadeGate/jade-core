@@ -1,0 +1,8 @@
+{
+  "skill_file": "mcp_jellyfish.json",
+  "signature": "jade-sig-g2q9AwNcgLW3NmERaaXTmXRcrusL73ym3tK2xmGMpCj9f7q5/skL4D88VHEWe+0qlfe05at2Gl6aPxisGruJBA==",
+  "public_key": "jade-pk-root-u9yg2vwkHJt/xCdQdqUcOJIpnYbbbK18V82IraZo2/8=",
+  "timestamp": 1771873174.9699605,
+  "layers_passed": 5,
+  "skill_hash": "0e7da9555e77e1f61927f762dadf05369194472a014e5cd89ab3b7a2ee81e48d"
+}

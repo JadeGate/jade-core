@@ -1,0 +1,8 @@
+{
+  "skill_file": "mcp_ibm_wxflows.json",
+  "signature": "jade-sig-ycck2RzRR5ZjUhBU7z/mqUZXbIDTgbf55WZOILfPJ1crA6N9S6Gm6C1wDuNGWl4TOlVU3m3OKdQFWyYViCLYAQ==",
+  "public_key": "jade-pk-root-u9yg2vwkHJt/xCdQdqUcOJIpnYbbbK18V82IraZo2/8=",
+  "timestamp": 1771873154.6402137,
+  "layers_passed": 5,
+  "skill_hash": "0ac0dbf69dc1f695ff25500d8be4dc81168e43827cb15f969407e6650fa01c9e"
+}

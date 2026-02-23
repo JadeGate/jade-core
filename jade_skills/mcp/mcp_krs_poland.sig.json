@@ -1,0 +1,8 @@
+{
+  "skill_file": "mcp_krs_poland.json",
+  "signature": "jade-sig-Sge7qpDMBg9oZGd1YQMq9FcHiQCfDAITU0oBwBH6LhmC/YAumdqoP5LLR9CfRZSgtD0bKUcGbeO5t2TJWzrIDg==",
+  "public_key": "jade-pk-root-u9yg2vwkHJt/xCdQdqUcOJIpnYbbbK18V82IraZo2/8=",
+  "timestamp": 1771873200.11328,
+  "layers_passed": 5,
+  "skill_hash": "05b69fbd6ea1903be98627146b6cd264112732b1281c6109ef22ebb5e454f290"
+}

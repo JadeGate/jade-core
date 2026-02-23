@@ -1,0 +1,8 @@
+{
+  "skill_file": "mcp_quarkus_mcp_server_sdk.json",
+  "signature": "jade-sig-F67fesMZjWf98hApN98Fguy8wuxFr1c3VXZyVq51tlxEkWUIirhSK53KB5uMD9uk0H0VB5yew+tM9b0Xdb4aDA==",
+  "public_key": "jade-pk-root-u9yg2vwkHJt/xCdQdqUcOJIpnYbbbK18V82IraZo2/8=",
+  "timestamp": 1771873436.5620513,
+  "layers_passed": 5,
+  "skill_hash": "2487058fbc094bdccc2ad5488ef69692b4b6913e4bb8b8accfb1d75807524e66"
+}

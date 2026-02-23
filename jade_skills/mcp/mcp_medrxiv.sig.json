@@ -1,0 +1,8 @@
+{
+  "skill_file": "mcp_medrxiv.json",
+  "signature": "jade-sig-XE+0J6Nrl0Da4syK49u5p1eUJIUEoNWpoZa7fJDDNw7JdK+qd4e6YzniDGiasu+6ojXXcL7kIV5ess1VoQj1Cw==",
+  "public_key": "jade-pk-root-u9yg2vwkHJt/xCdQdqUcOJIpnYbbbK18V82IraZo2/8=",
+  "timestamp": 1771873288.843704,
+  "layers_passed": 5,
+  "skill_hash": "daa8bd832fe0645f87df57bb14d80b097a7d45fb76892a993a8a22d7447f6303"
+}

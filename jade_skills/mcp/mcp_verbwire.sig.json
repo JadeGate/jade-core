@@ -1,0 +1,8 @@
+{
+  "skill_file": "mcp_verbwire.json",
+  "signature": "jade-sig-z7Ox37H1Oj7+XyJlM5PVcXfZLoreCt+AhjdKtShtXKp7K3Tu1GFCEHF51ZzfJKeDfFXrdHEKyoA3ZpT9huzaCA==",
+  "public_key": "jade-pk-root-u9yg2vwkHJt/xCdQdqUcOJIpnYbbbK18V82IraZo2/8=",
+  "timestamp": 1771873596.3599017,
+  "layers_passed": 5,
+  "skill_hash": "80ec6014d3cada5510d254b9778c5da3a251d1f27610808ff25dd7b554cb1744"
+}

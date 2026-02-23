@@ -1,0 +1,8 @@
+{
+  "skill_file": "mcp_mcp_sse_elixir.json",
+  "signature": "jade-sig-NvCuEsYjQhtN6T/eDpXrQj1IPbPEuTglWNPr7UnznSznXHNYkymn7jxHhJ3a7GPYMr9sB0TUoUlbmMoPOaIUCg==",
+  "public_key": "jade-pk-root-u9yg2vwkHJt/xCdQdqUcOJIpnYbbbK18V82IraZo2/8=",
+  "timestamp": 1771873275.8261876,
+  "layers_passed": 5,
+  "skill_hash": "48c840ff0762175b8bb63f0ef13b342404bd89c3dbe9d881f2c950c10108b375"
+}

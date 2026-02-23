@@ -1,0 +1,8 @@
+{
+  "skill_file": "mcp_gcp_firestore_query.json",
+  "signature": "jade-sig-SyFszeibBhuL24quZ0UL0A0xjS0jrMSz/BolX5qItp3tPgDoZ68gEU/95zjCm0YNbEFivsZBBfgWCMF7cBwgCA==",
+  "public_key": "jade-pk-root-u9yg2vwkHJt/xCdQdqUcOJIpnYbbbK18V82IraZo2/8=",
+  "timestamp": 1771873090.7774856,
+  "layers_passed": 5,
+  "skill_hash": "cc96ed84e5c7cf77f14d3f03056658935f82124b11834c15004a8f6555cc687c"
+}

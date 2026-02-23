@@ -1,0 +1,8 @@
+{
+  "skill_file": "mcp_uniswap_trader_mcp.json",
+  "signature": "jade-sig-lKlknXfZUHvA1Cs7yiGKbOPx96UZI3/usH0ekVa9udxp/Vx5KXHTdL9pHD5SFLmyFGHggNiXA7cGYSWEe2WqAg==",
+  "public_key": "jade-pk-root-u9yg2vwkHJt/xCdQdqUcOJIpnYbbbK18V82IraZo2/8=",
+  "timestamp": 1771873583.548343,
+  "layers_passed": 5,
+  "skill_hash": "f4ec4756342eabbfe0339a07a29cf8d8fc2f0eaa17e605064f4d42224a0a77de"
+}

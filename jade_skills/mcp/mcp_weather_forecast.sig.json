@@ -1,15 +1,8 @@
 {
-  "jade_signature": {
-    "version": "1.0.0",
-    "skill_id": "mcp_weather_forecast",
-    "content_hash": "sha256:0d7bbacb556dee5467267f220042ac0f8b70edeaeab2331e2effeb4c9f3d6a18",
-    "signature": "jade-sig-vt4REPl/3+aNZJcl2FlGyyrhZPo+Q8rTt02LxZtIodvVmUr4p51xOPzagCOJSLvSfSa7qNLuTtdxh1P2FYjSAw==",
-    "signer": {
-      "public_key": "jade-pk-root-o0p0Em+ufryyPQFFdKHEdSbWOPCqiGhUwwC9AjYJb/U=",
-      "fingerprint": "SHA256:HU0Dpg+xFPNxCURZhG9eX6Yx+ynMlbincaJxIRUJt98=",
-      "role": "root"
-    },
-    "timestamp": "2026-02-22T16:23:44Z",
-    "expires": "2027-02-22T16:23:44Z"
-  }
+  "skill_file": "mcp_weather_forecast.json",
+  "signature": "jade-sig-IzzhXxzy5GNnbERJQQDocnb1HCA3wz1LKIj7cHmKJ3BoXdjEhBNthefiIeDOSSUMglQ8KdP6P60fnW/zoDkZAg==",
+  "public_key": "jade-pk-root-u9yg2vwkHJt/xCdQdqUcOJIpnYbbbK18V82IraZo2/8=",
+  "timestamp": 1771873610.031582,
+  "layers_passed": 5,
+  "skill_hash": "97dc8f3ee2018bc1d1a433d2311b8348b1ea8259142e1ded70d9bbea5a81cb5f"
 }

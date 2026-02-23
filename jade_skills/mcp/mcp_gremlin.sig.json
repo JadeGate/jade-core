@@ -1,0 +1,8 @@
+{
+  "skill_file": "mcp_gremlin.json",
+  "signature": "jade-sig-gTfV+RKRnYZt5uqDwpboEAQG7YR4Qm7tJkzW9VNbm7E10BgRs3KAYXJHelL+lRdK54EdmCuVrOXC9TatbRjyCQ==",
+  "public_key": "jade-pk-root-u9yg2vwkHJt/xCdQdqUcOJIpnYbbbK18V82IraZo2/8=",
+  "timestamp": 1771873130.3793864,
+  "layers_passed": 5,
+  "skill_hash": "2b47b74c6d236d16455cc821f9c3d4d7e7146321144d57c8a9adfb9e339f55c7"
+}

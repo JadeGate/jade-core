@@ -1,0 +1,8 @@
+{
+  "skill_file": "mcp_starling_bank.json",
+  "signature": "jade-sig-HQda6KEwyUbCQ8YNaCYFUAWmvMfWmwmQZu6fLtDWaxkSDfsR1rsbuBm5/TjvZi6D4QVLUR4pTLT/O/Q1JOsuDw==",
+  "public_key": "jade-pk-root-u9yg2vwkHJt/xCdQdqUcOJIpnYbbbK18V82IraZo2/8=",
+  "timestamp": 1771873518.0147326,
+  "layers_passed": 5,
+  "skill_hash": "198e9533018645abbc2b57491e699676bf3c32f19c686aebfec7f2d886a139bf"
+}

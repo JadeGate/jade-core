@@ -1,0 +1,8 @@
+{
+  "skill_file": "mcp_lucid_mcp_server.json",
+  "signature": "jade-sig-HfH+9t8hJ0DBNBFuN4cuQNUuE4ga6wdAJ1pNLsO0tAjlIIBJ+HyA16Mlv+SHjafYcbJiv1lP/l/wsrQ1Y637Aw==",
+  "public_key": "jade-pk-root-u9yg2vwkHJt/xCdQdqUcOJIpnYbbbK18V82IraZo2/8=",
+  "timestamp": 1771873231.7415068,
+  "layers_passed": 5,
+  "skill_hash": "f94fca12bb07c052b76ef34f5950bbf784922e2bb6e8d4ca4ea0e5a0b6708016"
+}

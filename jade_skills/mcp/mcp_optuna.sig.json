@@ -1,0 +1,8 @@
+{
+  "skill_file": "mcp_optuna.json",
+  "signature": "jade-sig-vwxXCeh2ipxLeeNsjwU6MwyFABAxuwcYr5P5V1zia33dYTNcg+9IhfB87kHtuFpEMv0HXctt9j0GbGvhT6F2BQ==",
+  "public_key": "jade-pk-root-u9yg2vwkHJt/xCdQdqUcOJIpnYbbbK18V82IraZo2/8=",
+  "timestamp": 1771873377.7285323,
+  "layers_passed": 5,
+  "skill_hash": "f8cd2fb12696a7a14582d09f173bf5c9279e37bf1935b42d6f311f78c4c98037"
+}

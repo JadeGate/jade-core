@@ -1,0 +1,8 @@
+{
+  "skill_file": "mcp_eunomia.json",
+  "signature": "jade-sig-lMCqXUKMVDUY3TgCZ8tuPkYhJyjmfROksCsluqLgUiBf7V9wiAk6rO0Gl9isW6om6Jo3Lk5kzZIzZOTbCikyCQ==",
+  "public_key": "jade-pk-root-u9yg2vwkHJt/xCdQdqUcOJIpnYbbbK18V82IraZo2/8=",
+  "timestamp": 1771873052.6933038,
+  "layers_passed": 5,
+  "skill_hash": "7ad5513a78978e229fbda9cf9fb8e20296ea793e972a080d6bbb862f5be10046"
+}

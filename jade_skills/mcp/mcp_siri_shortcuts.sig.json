@@ -1,0 +1,8 @@
+{
+  "skill_file": "mcp_siri_shortcuts.json",
+  "signature": "jade-sig-NGMdNC8sSWqeNztk2pN1xO6JA45N20FWHgkHBcKkEmeFeKPYWcOeKn6Aq9ZRF5Z2PVsoDg1IxrakdWbDnB9eDQ==",
+  "public_key": "jade-pk-root-u9yg2vwkHJt/xCdQdqUcOJIpnYbbbK18V82IraZo2/8=",
+  "timestamp": 1771873493.5348744,
+  "layers_passed": 5,
+  "skill_hash": "1dcd79e77345a3f683cf664d3521744fb4f0099c54740bb973e91183223e271f"
+}

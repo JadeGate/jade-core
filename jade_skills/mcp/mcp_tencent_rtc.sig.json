@@ -1,0 +1,8 @@
+{
+  "skill_file": "mcp_tencent_rtc.json",
+  "signature": "jade-sig-BpdX++UmKjxIVw3HRSGwJHtZgW4ADa10ek2E0TVragKS4azZ4g11hR8bmPoNnNi3+fmHwyskIgBXLopxzZkjAg==",
+  "public_key": "jade-pk-root-u9yg2vwkHJt/xCdQdqUcOJIpnYbbbK18V82IraZo2/8=",
+  "timestamp": 1771873545.6674273,
+  "layers_passed": 5,
+  "skill_hash": "bff94c5c5cde74541953fe67e894af69ee2c33263426754bcce351a3373bdc4e"
+}

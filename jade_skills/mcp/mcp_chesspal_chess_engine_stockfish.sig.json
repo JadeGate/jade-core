@@ -1,0 +1,8 @@
+{
+  "skill_file": "mcp_chesspal_chess_engine_stockfish.json",
+  "signature": "jade-sig-a0pthTuW0lYyos5YnfNsrIgJUTEVNUeScmQqyVRaeLBPF4b8mWctRJsazgO36T4uAs2AAfPUWTLcZ153AJH5Aw==",
+  "public_key": "jade-pk-root-u9yg2vwkHJt/xCdQdqUcOJIpnYbbbK18V82IraZo2/8=",
+  "timestamp": 1771872945.4161325,
+  "layers_passed": 5,
+  "skill_hash": "c665e9ccdb55223166ef1190f8edd7b2f3bbe95675273728677cfe65e743acd5"
+}

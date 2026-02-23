@@ -1,15 +1,8 @@
 {
-  "jade_signature": {
-    "version": "1.0.0",
-    "skill_id": "mcp_discord_webhook",
-    "content_hash": "sha256:0d0242921fe8e5fff305ebe0805abbd619c49febc06dc83e90a780e4a9b10763",
-    "signature": "jade-sig-iQAbD6LyhgpuxFANcQhYAuCRPVUeUexZS7dUcyoyhWB9AFvGMzJM8OFXqrL3Dw0+UkeLGGDRFyIM6mHQqmLFDQ==",
-    "signer": {
-      "public_key": "jade-pk-root-o0p0Em+ufryyPQFFdKHEdSbWOPCqiGhUwwC9AjYJb/U=",
-      "fingerprint": "SHA256:HU0Dpg+xFPNxCURZhG9eX6Yx+ynMlbincaJxIRUJt98=",
-      "role": "root"
-    },
-    "timestamp": "2026-02-22T16:17:38Z",
-    "expires": "2027-02-22T16:17:38Z"
-  }
+  "skill_file": "mcp_discord_webhook.json",
+  "signature": "jade-sig-FT1OdV33ZYv6USKAqZkzMs8FLCy40wGHpUfurrqoYaWg0tFM9AAkS7ycRbitW4qkTLKhIhFdVi11x7Ex/t93DA==",
+  "public_key": "jade-pk-root-u9yg2vwkHJt/xCdQdqUcOJIpnYbbbK18V82IraZo2/8=",
+  "timestamp": 1771873026.3315725,
+  "layers_passed": 5,
+  "skill_hash": "89298e41095c1c1319d88d412d16f317693e51daffce14496e5c774dec005d56"
 }

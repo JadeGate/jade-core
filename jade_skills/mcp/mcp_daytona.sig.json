@@ -1,0 +1,8 @@
+{
+  "skill_file": "mcp_daytona.json",
+  "signature": "jade-sig-PzxH+KLvO54skj/2hF4lpmvT3Dkm+T0ZY6Y+ohHuqFEqkF8lC5ldsoS469MmCeWn+vPb3hTfqSTzDrT5NWUXDA==",
+  "public_key": "jade-pk-root-u9yg2vwkHJt/xCdQdqUcOJIpnYbbbK18V82IraZo2/8=",
+  "timestamp": 1771873006.7917092,
+  "layers_passed": 5,
+  "skill_hash": "aa089b75b54e5ecdb8e7ab45d623e0fb49df44e540dd342f5ee7f8893d3976e7"
+}

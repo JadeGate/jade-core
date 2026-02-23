@@ -1,0 +1,8 @@
+{
+  "skill_file": "mcp_talk_to_figma_via_claude.json",
+  "signature": "jade-sig-yP5DPg8T2osJ2gRWUkhTe+LaZhzNqoYbxAuXHKImyRBbyrbdTC6DGDVX+jURRtczAxg4hnkvgXzCR3v3XvWLAQ==",
+  "public_key": "jade-pk-root-u9yg2vwkHJt/xCdQdqUcOJIpnYbbbK18V82IraZo2/8=",
+  "timestamp": 1771873537.1304724,
+  "layers_passed": 5,
+  "skill_hash": "67e22f54aa91bb0b1dd8ececc20fa7c7eb82b089b47668e7fbdae4e839ad4012"
+}

@@ -1,0 +1,8 @@
+{
+  "skill_file": "mcp_stack_overflow.json",
+  "signature": "jade-sig-53Ym9vR8WhXlC5Dbc7xAWd9GbaEwr0EianuQVDi8wBJeLuSJCaj3U636hexdNNRloVEDIZdh8Ad0YEAcWeh+Dw==",
+  "public_key": "jade-pk-root-u9yg2vwkHJt/xCdQdqUcOJIpnYbbbK18V82IraZo2/8=",
+  "timestamp": 1771873514.1880224,
+  "layers_passed": 5,
+  "skill_hash": "8e6c07326e33dc0ba052e4865d5cc894fcb301088e9e1f9374b61d7de707913a"
+}

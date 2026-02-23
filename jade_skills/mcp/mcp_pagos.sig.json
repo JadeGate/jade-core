@@ -1,0 +1,8 @@
+{
+  "skill_file": "mcp_pagos.json",
+  "signature": "jade-sig-7Y5Hwxx20KcAGUmwsBWMNS7scKPTqSWtlzY9NKFkVlWkvkGl6Y4jeDOIY0S8PoE8vzIBbaYqVo+i3u2zowygDA==",
+  "public_key": "jade-pk-root-u9yg2vwkHJt/xCdQdqUcOJIpnYbbbK18V82IraZo2/8=",
+  "timestamp": 1771873384.89993,
+  "layers_passed": 5,
+  "skill_hash": "9702fdc0c06f4cd93058e5b91a920e248b65adbae8599aef00ac14dd8acf98c3"
+}

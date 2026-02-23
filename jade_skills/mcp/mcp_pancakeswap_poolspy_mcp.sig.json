@@ -1,0 +1,8 @@
+{
+  "skill_file": "mcp_pancakeswap_poolspy_mcp.json",
+  "signature": "jade-sig-qXJCTlDVPnuBgmY18QcSBDfTDdfSrCk1Y+Gr+iZl81OFVvU5lx4depBbRFn6X9HZE+tIQQhXRtK5/36BU1XQDg==",
+  "public_key": "jade-pk-root-u9yg2vwkHJt/xCdQdqUcOJIpnYbbbK18V82IraZo2/8=",
+  "timestamp": 1771873385.8450956,
+  "layers_passed": 5,
+  "skill_hash": "8d147828dce6ddf945f646023d48ee7b84c1149c626acff43bc0cb5cd2a7655d"
+}

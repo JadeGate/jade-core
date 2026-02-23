@@ -1,0 +1,8 @@
+{
+  "skill_file": "mcp_crypto_feargreed_mcp.json",
+  "signature": "jade-sig-ya0sNCr/bqpm/PCyvZGeu6nBeHWNObrrQ9hv+cPE9RSSxS6jbNYWDwWtTCzE1pvzHaWJfuasILPBcbpfL8PUBg==",
+  "public_key": "jade-pk-root-u9yg2vwkHJt/xCdQdqUcOJIpnYbbbK18V82IraZo2/8=",
+  "timestamp": 1771872991.416421,
+  "layers_passed": 5,
+  "skill_hash": "d3ef4ef17a4ebb6711452bdf467e865a6ee04a4eab55ef056360bfa469d36588"
+}

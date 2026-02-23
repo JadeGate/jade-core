@@ -1,0 +1,8 @@
+{
+  "skill_file": "mcp_apache_pinot.json",
+  "signature": "jade-sig-xwzaQEQkPVLd1gvuHKJjoUQYK83FOiMkq3ZQarTS7lRYKVSM8GpX861aJA6nkpzqWurPXvKpmu26VzeQ7Dm1CA==",
+  "public_key": "jade-pk-root-u9yg2vwkHJt/xCdQdqUcOJIpnYbbbK18V82IraZo2/8=",
+  "timestamp": 1771872862.5339751,
+  "layers_passed": 5,
+  "skill_hash": "859d3d03e529c42a82cedbaaffa6684b8f1200419a10e24be3cdc8ab935fb970"
+}

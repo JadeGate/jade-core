@@ -1,15 +1,8 @@
 {
-  "jade_signature": {
-    "version": "1.0.0",
-    "skill_id": "mcp_spotify_search",
-    "content_hash": "sha256:67584a236c79601de475cfe92d75440cdb205edb1dc278d83ac8cba2fa177406",
-    "signature": "jade-sig-KbyOAMf1m5S7HJTflznXPD0M2P2kQfSvFHlyNgpMBDSliKz7gL042qS2GWOfUxSRTNXNyVK9I/l53qGe9H3sAw==",
-    "signer": {
-      "public_key": "jade-pk-root-o0p0Em+ufryyPQFFdKHEdSbWOPCqiGhUwwC9AjYJb/U=",
-      "fingerprint": "SHA256:HU0Dpg+xFPNxCURZhG9eX6Yx+ynMlbincaJxIRUJt98=",
-      "role": "root"
-    },
-    "timestamp": "2026-02-22T16:23:43Z",
-    "expires": "2027-02-22T16:23:43Z"
-  }
+  "skill_file": "mcp_spotify_search.json",
+  "signature": "jade-sig-QW26o3yKXqsVU69u4XE8oTuAa085u9B9WKrNvcYl74+iQlNoJpkNVSOvqXIE3cRp5WWaFwIGG2Scy4XEkLnKDQ==",
+  "public_key": "jade-pk-root-u9yg2vwkHJt/xCdQdqUcOJIpnYbbbK18V82IraZo2/8=",
+  "timestamp": 1771873506.9271724,
+  "layers_passed": 5,
+  "skill_hash": "88889dabc7f211c3ff34076f7c20a9556cb2a390d48e74e49ac9367e0cc5bd0a"
 }

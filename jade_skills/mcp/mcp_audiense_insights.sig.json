@@ -1,0 +1,8 @@
+{
+  "skill_file": "mcp_audiense_insights.json",
+  "signature": "jade-sig-rITUayF7rKK75/6OCdPm0BD+DbeJ/wiOHwsi+zPQ8bDZt4iuBml1L+UG15i6/lpDDUUZmvPxwzZljvRfvURPAQ==",
+  "public_key": "jade-pk-root-u9yg2vwkHJt/xCdQdqUcOJIpnYbbbK18V82IraZo2/8=",
+  "timestamp": 1771872881.1147282,
+  "layers_passed": 5,
+  "skill_hash": "7d993ca302f748d8915feaa9ee5e03eb602b666bfde2d0f3085c824b296e4b5b"
+}

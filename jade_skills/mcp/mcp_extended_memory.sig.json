@@ -1,0 +1,8 @@
+{
+  "skill_file": "mcp_extended_memory.json",
+  "signature": "jade-sig-GZeVZoPBTpsOEjqRyCKXlhwge2mYiXzcqOs3nWvm6FIxahc2pgmHYLmCrFoD2YriC3WtLnJDXWbHmrRaapx3Cg==",
+  "public_key": "jade-pk-root-u9yg2vwkHJt/xCdQdqUcOJIpnYbbbK18V82IraZo2/8=",
+  "timestamp": 1771873057.451346,
+  "layers_passed": 5,
+  "skill_hash": "59867537967e43b242baa96ffd6ae34f31679daaf19c070313062145f9c8020c"
+}

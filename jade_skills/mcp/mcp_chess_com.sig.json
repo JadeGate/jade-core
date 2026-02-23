@@ -1,0 +1,8 @@
+{
+  "skill_file": "mcp_chess_com.json",
+  "signature": "jade-sig-E+1mVqY/HD4JuaEXkXmVYgPjMtgdnp7qd1la1NliRoyHoPIdLwkgJ+ExyNTvsfAwQJ8ddfizOhs0zxtj+yamCQ==",
+  "public_key": "jade-pk-root-u9yg2vwkHJt/xCdQdqUcOJIpnYbbbK18V82IraZo2/8=",
+  "timestamp": 1771872944.4573767,
+  "layers_passed": 5,
+  "skill_hash": "6c400d03228432365e0e580ff7fa739066b703f10615fa1e7f8f62aeaa795402"
+}

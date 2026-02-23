@@ -1,0 +1,8 @@
+{
+  "skill_file": "mcp_token_revoke_mcp.json",
+  "signature": "jade-sig-/DfBWuUnwKlp8pfd2Ne6Pk5b3M5dKpS6YZZyUsKMwwFBD5Fsvi6cxeJHRTLDmPniTlJ0lEjcKCup2OvKfpcaBw==",
+  "public_key": "jade-pk-root-u9yg2vwkHJt/xCdQdqUcOJIpnYbbbK18V82IraZo2/8=",
+  "timestamp": 1771873567.886967,
+  "layers_passed": 5,
+  "skill_hash": "851f63b604af27178827972440e409035eed169922614dd04a001a34d4a47ec2"
+}

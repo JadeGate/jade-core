@@ -1,0 +1,8 @@
+{
+  "skill_file": "mcp_biorxiv.json",
+  "signature": "jade-sig-ivLIq57NZLNuKkqKEirKCXrkbIgWhKWArR8rERfMV4LHVXbuRt8lWrpRrJruDblw5ncFI7vYR8ISdG/4au5hCg==",
+  "public_key": "jade-pk-root-u9yg2vwkHJt/xCdQdqUcOJIpnYbbbK18V82IraZo2/8=",
+  "timestamp": 1771872915.4575267,
+  "layers_passed": 5,
+  "skill_hash": "4e342eb4209d802677ec6a83d474194aed9406e4ac873c86f94ce6aa89dc1abb"
+}

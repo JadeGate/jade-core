@@ -1,0 +1,8 @@
+{
+  "skill_file": "mcp_sap_abap_mcp_server_sdk.json",
+  "signature": "jade-sig-uFZVTqAI7qexwJE7cx64Xii7mmfUix2E4ElSJwRI0VkCojxKYqqXSXGwKjie0hFiGj5VZtZ51XNO2yls7IuEAw==",
+  "public_key": "jade-pk-root-u9yg2vwkHJt/xCdQdqUcOJIpnYbbbK18V82IraZo2/8=",
+  "timestamp": 1771873471.8778071,
+  "layers_passed": 5,
+  "skill_hash": "df10fa65cd0c14eb4c679c2f60ec9dd7e962fcc82624fa46fe9b81bd94813ab1"
+}

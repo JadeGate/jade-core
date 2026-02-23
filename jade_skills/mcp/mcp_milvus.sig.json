@@ -1,0 +1,8 @@
+{
+  "skill_file": "mcp_milvus.json",
+  "signature": "jade-sig-+sqpK2s+cVVrh+5JZGdZcl4H6GLcfEE00yMLZWt1+/oKl4QTPoh/diXUS4xpzmD+PJU8XMfA0oym2Z7IjLutDg==",
+  "public_key": "jade-pk-root-u9yg2vwkHJt/xCdQdqUcOJIpnYbbbK18V82IraZo2/8=",
+  "timestamp": 1771873303.1181648,
+  "layers_passed": 5,
+  "skill_hash": "6d03eb6a470a40982f74ae3630280885abe923928d36f81f2365eb040639637a"
+}

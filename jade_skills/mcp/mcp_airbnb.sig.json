@@ -1,0 +1,8 @@
+{
+  "skill_file": "mcp_airbnb.json",
+  "signature": "jade-sig-J8jghBeLsYohj9BIvKdBtiGIQUq8bn+SsPgV3OY4MS1qW2kpHvTMFrqkjld1mREcIaSlixJcAhLqPpehhRGMCg==",
+  "public_key": "jade-pk-root-u9yg2vwkHJt/xCdQdqUcOJIpnYbbbK18V82IraZo2/8=",
+  "timestamp": 1771872842.0549514,
+  "layers_passed": 5,
+  "skill_hash": "def24f78a087086cc3cccf5fb7025a2cc4a4ce83a9db83f7f11001063428cdb2"
+}

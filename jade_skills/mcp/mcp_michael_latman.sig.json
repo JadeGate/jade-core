@@ -1,0 +1,8 @@
+{
+  "skill_file": "mcp_michael_latman.json",
+  "signature": "jade-sig-VnAuFzLiubYwCLtfl/jplIDQlv/AwiUdJz2+qz4YfX2ky6QmqqRSuNe1iS8fqonFLw7G0+B6gA/PZaGCUjN8DQ==",
+  "public_key": "jade-pk-root-u9yg2vwkHJt/xCdQdqUcOJIpnYbbbK18V82IraZo2/8=",
+  "timestamp": 1771873297.4046054,
+  "layers_passed": 5,
+  "skill_hash": "fa0ec383513f3abac24a24f5729b38dbd7d31c2c72fbac28233c672b730760f1"
+}

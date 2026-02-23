@@ -1,0 +1,8 @@
+{
+  "skill_file": "mcp_mastodon_post.json",
+  "signature": "jade-sig-6rWdNNgkdN08No/Bt/PnObwqR0AAwV2GMb73ukClyfLkV1b7uZ+1me5t9vstCWB6XDsTUkC7UhasKbFemwY7BQ==",
+  "public_key": "jade-pk-root-u9yg2vwkHJt/xCdQdqUcOJIpnYbbbK18V82IraZo2/8=",
+  "timestamp": 1771873244.2409782,
+  "layers_passed": 5,
+  "skill_hash": "6e600d47f7fcd51652b4adb580be5701426c129547db5d1e28f3010d7af23315"
+}

@@ -1,0 +1,8 @@
+{
+  "skill_file": "mcp_dynamodb_toolbox.json",
+  "signature": "jade-sig-zkTGyghYqOkvSIw1V0cLwmktGxM6SUCdvTo9elv3pMDEP3FxATk/ihvfd9yrbQJ2wLG2raUL/MNX+IXRXug0BA==",
+  "public_key": "jade-pk-root-u9yg2vwkHJt/xCdQdqUcOJIpnYbbbK18V82IraZo2/8=",
+  "timestamp": 1771873037.7618847,
+  "layers_passed": 5,
+  "skill_hash": "4a0692a59bec512d4f55bec632547713e0bb31a2f790691be1cdd552bdd61dba"
+}

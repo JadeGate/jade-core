@@ -1,0 +1,8 @@
+{
+  "skill_file": "mcp_databricks.json",
+  "signature": "jade-sig-Q/UebIW/WfJZDKOEGgNgnYotAy65+iN5XCikdDeOhPvq4fsiGTR/dpDdtHrCqJPishLRcRDEMaNdBolxp1ktAA==",
+  "public_key": "jade-pk-root-u9yg2vwkHJt/xCdQdqUcOJIpnYbbbK18V82IraZo2/8=",
+  "timestamp": 1771873000.4918792,
+  "layers_passed": 5,
+  "skill_hash": "a6213554a9f76ce5ee8ce34578a12821dcfd32ee4fa7bd55d8afdf4af3d6dfd3"
+}

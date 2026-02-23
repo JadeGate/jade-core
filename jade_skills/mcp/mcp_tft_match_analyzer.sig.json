@@ -1,0 +1,8 @@
+{
+  "skill_file": "mcp_tft_match_analyzer.json",
+  "signature": "jade-sig-LVIfWdqOgaofYAcW5MEUAcfWz6QjVDYdDktQ7jE02aDLe9QzJNrJMIKQf9zTxvOCUbLZFogcDU/4o5liOLOaDg==",
+  "public_key": "jade-pk-root-u9yg2vwkHJt/xCdQdqUcOJIpnYbbbK18V82IraZo2/8=",
+  "timestamp": 1771873550.3912795,
+  "layers_passed": 5,
+  "skill_hash": "fcda5abdec95afa89453fc51e783f95aedad0ba8765a5dd04dc0b4d29709dbfb"
+}

@@ -1,0 +1,8 @@
+{
+  "skill_file": "mcp_wordpress_mcp.json",
+  "signature": "jade-sig-1Mk6xIniT5B87AG4PMN4PX2dLO2j4ZO0JF//uJ+MihIoeuyjYgWNwoK2GZIWo/JWZPRm0FoXgJLSmBpaZIO1AQ==",
+  "public_key": "jade-pk-root-u9yg2vwkHJt/xCdQdqUcOJIpnYbbbK18V82IraZo2/8=",
+  "timestamp": 1771873625.2115216,
+  "layers_passed": 5,
+  "skill_hash": "421a3d33a64dd4077d61635ace5028e0970433a9fde09826fdb9c187c8844af9"
+}

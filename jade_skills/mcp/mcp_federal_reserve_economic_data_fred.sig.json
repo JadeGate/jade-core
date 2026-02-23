@@ -1,0 +1,8 @@
+{
+  "skill_file": "mcp_federal_reserve_economic_data_fred.json",
+  "signature": "jade-sig-X4ta0LbtzLAY3MYEkAK35lGM3Nqk5PobI2dOOzjkRhkA6piCmgWznXU7y9MwKK9sqrToQ7LFkVOz6EsBBtyuDw==",
+  "public_key": "jade-pk-root-u9yg2vwkHJt/xCdQdqUcOJIpnYbbbK18V82IraZo2/8=",
+  "timestamp": 1771873066.52537,
+  "layers_passed": 5,
+  "skill_hash": "9e98d0ff4aff18e0e343a9ed73a2299ead0d491f26a408d9a1c7783d41475e85"
+}

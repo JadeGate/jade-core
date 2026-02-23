@@ -1,0 +1,8 @@
+{
+  "skill_file": "mcp_star_wars.json",
+  "signature": "jade-sig-kOusQ5ffhy+S7QKcvyO6W3fdGYAlpS8ihoekNOJvXAPPpTTkx5aEABq5LVE37GwmOK5IQgChWTwDDGYg/8HVAw==",
+  "public_key": "jade-pk-root-u9yg2vwkHJt/xCdQdqUcOJIpnYbbbK18V82IraZo2/8=",
+  "timestamp": 1771873516.5954552,
+  "layers_passed": 5,
+  "skill_hash": "f83c554750d188312ae4aaf171c3e23a9aa4ce42d879b36298f1a6e1208e5494"
+}

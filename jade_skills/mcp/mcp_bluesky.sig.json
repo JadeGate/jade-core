@@ -1,0 +1,8 @@
+{
+  "skill_file": "mcp_bluesky.json",
+  "signature": "jade-sig-uNsjygK/11L5oLb82R3nj01gd6SilOnIUGe0OIeX0HU2l6jZe2CCEdyUjHRlUy9z2M39AxD2z35CppEFj0XbCg==",
+  "public_key": "jade-pk-root-u9yg2vwkHJt/xCdQdqUcOJIpnYbbbK18V82IraZo2/8=",
+  "timestamp": 1771872919.7606666,
+  "layers_passed": 5,
+  "skill_hash": "36f2fd91c1c7d1edde5bce2f9d44f27c9cc0f19eb0edb2710d569a2227890cae"
+}

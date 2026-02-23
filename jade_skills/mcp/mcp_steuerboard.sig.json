@@ -1,0 +1,8 @@
+{
+  "skill_file": "mcp_steuerboard.json",
+  "signature": "jade-sig-FrblytECepW31dx6BlAqprq/eaf1OczddbEKn/ZvV41drD+0VwsFMLQBMaK+wswdhRZ/JiSjfHXCdjWgInP6DA==",
+  "public_key": "jade-pk-root-u9yg2vwkHJt/xCdQdqUcOJIpnYbbbK18V82IraZo2/8=",
+  "timestamp": 1771873521.3858304,
+  "layers_passed": 5,
+  "skill_hash": "129b51328a1ec665c2da548ace5870443273f281001e5fdbe12e5c5699143772"
+}

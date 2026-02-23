@@ -1,0 +1,8 @@
+{
+  "skill_file": "mcp_thena.json",
+  "signature": "jade-sig-nvCM3+CNjr+auDgYNoHOXS0RYYn/u028hzKWQ9iMfIZtEe2Daf+Ry0jCUNYhcz7dXOb2nN0b0QwGdSm7tfVIBw==",
+  "public_key": "jade-pk-root-u9yg2vwkHJt/xCdQdqUcOJIpnYbbbK18V82IraZo2/8=",
+  "timestamp": 1771873553.244429,
+  "layers_passed": 5,
+  "skill_hash": "080ed219876961ef41786a9f2173c9706d305a0b3d9371612a654c631bfd939c"
+}

@@ -1,0 +1,8 @@
+{
+  "skill_file": "mcp_mercado_pago.json",
+  "signature": "jade-sig-WR08tDk9S1VAELWR7DwV+yRd79F9YpLcBT2yvNOiDhpnM5uJtQZsvZL5Od15j3c3bC93h0uMmK+3UrV9DJkqBw==",
+  "public_key": "jade-pk-root-u9yg2vwkHJt/xCdQdqUcOJIpnYbbbK18V82IraZo2/8=",
+  "timestamp": 1771873294.5268722,
+  "layers_passed": 5,
+  "skill_hash": "6517345164cf7cafbc02c06930fa4e751955c0120dd09bf6e96c850fc41bc1c4"
+}

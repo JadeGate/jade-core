@@ -1,0 +1,8 @@
+{
+  "skill_file": "mcp_oura_ring.json",
+  "signature": "jade-sig-Sd7XpAw5JztIbOUg96qVGZ6/sFvRq1fISupv13axLD+HAjR8dEbbw3C0+qaXtglGFjR9YX7OFpltb2Tmx6wKCg==",
+  "public_key": "jade-pk-root-u9yg2vwkHJt/xCdQdqUcOJIpnYbbbK18V82IraZo2/8=",
+  "timestamp": 1771873380.1386783,
+  "layers_passed": 5,
+  "skill_hash": "f60a01f36d7ebaa640a3c5717d29f464ca3e4c0a3e721e720ae5318730a0fadd"
+}

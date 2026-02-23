@@ -1,0 +1,8 @@
+{
+  "skill_file": "mcp_mcp_airflow_api.json",
+  "signature": "jade-sig-xKz1avlfQvpBMQJds2tSkdVjUPxkTPLqgqQex/1nrSWlaCcXPiXm04MtCDcXgSY2DuOhZ6DHqENclnR2RqSICQ==",
+  "public_key": "jade-pk-root-u9yg2vwkHJt/xCdQdqUcOJIpnYbbbK18V82IraZo2/8=",
+  "timestamp": 1771873248.115282,
+  "layers_passed": 5,
+  "skill_hash": "865fdb1b90e5b754cea7bd9f79a3c800d03f25d1ba46d916779fad962cf1ac20"
+}

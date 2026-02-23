@@ -1,15 +1,8 @@
 {
-  "jade_signature": {
-    "version": "1.0.0",
-    "skill_id": "mcp_openrouter",
-    "content_hash": "sha256:17b71cc903b52b4f4791e833cb9ed2484d22e24fd217f72512d1bee13159de60",
-    "signature": "jade-sig-aIvTEZnpQq45/UuzEN4w9n3H/2ZBcR+GpUepPuqZaIwhula17+wI1UIa9Ju+e9MBxt3xRvggXFAyN6imszIGCQ==",
-    "signer": {
-      "public_key": "jade-pk-root-o0p0Em+ufryyPQFFdKHEdSbWOPCqiGhUwwC9AjYJb/U=",
-      "fingerprint": "SHA256:HU0Dpg+xFPNxCURZhG9eX6Yx+ynMlbincaJxIRUJt98=",
-      "role": "root"
-    },
-    "timestamp": "2026-02-22T16:23:43Z",
-    "expires": "2027-02-22T16:23:43Z"
-  }
+  "skill_file": "mcp_openrouter.json",
+  "signature": "jade-sig-r0cU89abR4pBniGc2DXb4zRMY7G0R+Beb/vCtXqFTunNnW1kkEONwtOcg6/ZySKEhp7GzgsjAK2DS5ItjemHAw==",
+  "public_key": "jade-pk-root-u9yg2vwkHJt/xCdQdqUcOJIpnYbbbK18V82IraZo2/8=",
+  "timestamp": 1771873371.559502,
+  "layers_passed": 5,
+  "skill_hash": "d484330cd848365fe7881779660f7bb72949cf9e661cab2f62b4766bf6303c9c"
 }

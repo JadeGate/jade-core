@@ -1,0 +1,8 @@
+{
+  "skill_file": "mcp_discord_server.json",
+  "signature": "jade-sig-GCqtYMOZmKLpMR6aBGlNmFIokNlnZL6JfiRylRQqo6kK9HMQvvaTi087NLzQbIaVwzyZNbkY4ZmfnptGfAjPAg==",
+  "public_key": "jade-pk-root-u9yg2vwkHJt/xCdQdqUcOJIpnYbbbK18V82IraZo2/8=",
+  "timestamp": 1771873025.3974166,
+  "layers_passed": 5,
+  "skill_hash": "69f55f98dd6698f37f6efd111fc61ad49f7a373204aad6b28f7833cdb0c52a8c"
+}

@@ -1,0 +1,8 @@
+{
+  "skill_file": "mcp_nasa.json",
+  "signature": "jade-sig-QiqYMS5wTiQ3Gm2Oba9R125pN64Bn4CH7Ikj6kB0WRFf4ZUOo0TghnYIkLGOI1AZkEEGPWkCeUwCfoPk2MKhAw==",
+  "public_key": "jade-pk-root-u9yg2vwkHJt/xCdQdqUcOJIpnYbbbK18V82IraZo2/8=",
+  "timestamp": 1771873324.7530127,
+  "layers_passed": 5,
+  "skill_hash": "4ae585658d3476bba7ebcae8786429b81476a4d50d823fd205861b49d112d24c"
+}

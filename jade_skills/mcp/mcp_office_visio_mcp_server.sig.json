@@ -1,0 +1,8 @@
+{
+  "skill_file": "mcp_office_visio_mcp_server.json",
+  "signature": "jade-sig-U1MN2FaHewjzr5BMNqE9F7DdHjgy+11T8IL1bwYSOgrG72W+4xbvPsh5WVcFeanVjanO7lMmOfvgY7u56a2OAg==",
+  "public_key": "jade-pk-root-u9yg2vwkHJt/xCdQdqUcOJIpnYbbbK18V82IraZo2/8=",
+  "timestamp": 1771873353.2911108,
+  "layers_passed": 5,
+  "skill_hash": "2de582fc364bf9d992bc3074f0b5b9263847afd8679bd02156c3172532b790e8"
+}

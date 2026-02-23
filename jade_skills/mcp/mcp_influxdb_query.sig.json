@@ -1,0 +1,8 @@
+{
+  "skill_file": "mcp_influxdb_query.json",
+  "signature": "jade-sig-r16sxZDHcvf+U/vrS6a7K1WkURRkmkC1YvwIOXevoVgRBlbzUsMexBKpQTESPMYidgAgmQQ6ucM1d/OANA8HBQ==",
+  "public_key": "jade-pk-root-u9yg2vwkHJt/xCdQdqUcOJIpnYbbbK18V82IraZo2/8=",
+  "timestamp": 1771873161.2011232,
+  "layers_passed": 5,
+  "skill_hash": "c5cd5a436958879ad4a97eebde978c1f586bb64a2faebdf94beddd1b83bdced1"
+}

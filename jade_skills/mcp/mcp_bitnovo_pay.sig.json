@@ -1,0 +1,8 @@
+{
+  "skill_file": "mcp_bitnovo_pay.json",
+  "signature": "jade-sig-CP8Zpbx6lvEJ4115r4xRAhyz6MlrkiO4EO6MhEiCtpy6sySE/5vF44hGP5NcGKy2+1SmJaU+eGlNYTOLsn6XAw==",
+  "public_key": "jade-pk-root-u9yg2vwkHJt/xCdQdqUcOJIpnYbbbK18V82IraZo2/8=",
+  "timestamp": 1771872916.8619082,
+  "layers_passed": 5,
+  "skill_hash": "3ff53c38b7c9ec919324b1a9437be56fa54a308dcf2a15b76ed5fd5cdaf5a050"
+}

@@ -1,0 +1,8 @@
+{
+  "skill_file": "mcp_bauplan.json",
+  "signature": "jade-sig-qK9H7+ufDyHM1VJn6e8Z/BNkZHt0VtehOt19OhffL0FDF1whdG8pNQtcZSpRBLfw9RJnM3/9d6D1gyk2g6fDBQ==",
+  "public_key": "jade-pk-root-u9yg2vwkHJt/xCdQdqUcOJIpnYbbbK18V82IraZo2/8=",
+  "timestamp": 1771872910.6872144,
+  "layers_passed": 5,
+  "skill_hash": "a10aca2c7640c62d13140b9c8020c671522c51e2e45be9ed39d1bd89bd36e416"
+}

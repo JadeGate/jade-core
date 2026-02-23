@@ -1,0 +1,8 @@
+{
+  "skill_file": "mcp_twilio.json",
+  "signature": "jade-sig-RKtALo21Tzpf3ghajwT5DPCgi9k9YxBw7Z0kAKX59Wlh6u9+Q/ZPkE2ngneHtCgPCDTcVVfupZvkN1ghIsTPCQ==",
+  "public_key": "jade-pk-root-u9yg2vwkHJt/xCdQdqUcOJIpnYbbbK18V82IraZo2/8=",
+  "timestamp": 1771873577.8738678,
+  "layers_passed": 5,
+  "skill_hash": "98d94224eacb8c24883c2ba1e091230aa6926d3345b786af91906dbd9456b789"
+}

@@ -1,0 +1,8 @@
+{
+  "skill_file": "mcp_puppeteer.json",
+  "signature": "jade-sig-QjJEEBMHl1UVaxxTlN5ZuFcSz5aEo6KfiLaH8IVtrg+VZdoX+7EBm25kzeTlkmYJLnvchKgP2wAVri3ej4y8Bg==",
+  "public_key": "jade-pk-root-u9yg2vwkHJt/xCdQdqUcOJIpnYbbbK18V82IraZo2/8=",
+  "timestamp": 1771873427.4568865,
+  "layers_passed": 5,
+  "skill_hash": "2ca23946177abedf41b7f02620aeed0683942b735bd1e5305205514bd1966d36"
+}

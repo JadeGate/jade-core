@@ -1,0 +1,8 @@
+{
+  "skill_file": "mcp_brevo_email.json",
+  "signature": "jade-sig-DTDYLHhdBeNBdVfbskgmvAkULPdaE6miM4C9Hh5ql6FSpUDgeKXw0xXSETMcmUA+TKospnCJ91KK3C0KysnyBg==",
+  "public_key": "jade-pk-root-u9yg2vwkHJt/xCdQdqUcOJIpnYbbbK18V82IraZo2/8=",
+  "timestamp": 1771872926.4744537,
+  "layers_passed": 5,
+  "skill_hash": "29f204a71c7ca74f99398e3733ae6f34a04df8a8769398320d432994c4d5faab"
+}

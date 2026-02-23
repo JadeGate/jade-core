@@ -1,0 +1,8 @@
+{
+  "skill_file": "mcp_spring_ai_mcp_client.json",
+  "signature": "jade-sig-dhA7x7AAxgOn+535u0JlzUMpl78flgwsKKM4S/eSZb9cIjYjhOaHhC+9zl2nf02oEp1Ul2hes2wVp5/jEE7nCw==",
+  "public_key": "jade-pk-root-u9yg2vwkHJt/xCdQdqUcOJIpnYbbbK18V82IraZo2/8=",
+  "timestamp": 1771873507.3999066,
+  "layers_passed": 5,
+  "skill_hash": "dde6a6268a654ac9370735c20d137b6f1eb18b42f2dddb4f87482fdbf0165c6b"
+}

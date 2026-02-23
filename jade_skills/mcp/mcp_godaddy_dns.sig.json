@@ -1,0 +1,8 @@
+{
+  "skill_file": "mcp_godaddy_dns.json",
+  "signature": "jade-sig-dbkhxp//C+Li3R6+a6eJA+Ym2aO7ztjgoOLuq8VoRkqAPd6npLTVyCH0JEGm3A7wf6xAlWSZi1W1rshmA9jnBg==",
+  "public_key": "jade-pk-root-u9yg2vwkHJt/xCdQdqUcOJIpnYbbbK18V82IraZo2/8=",
+  "timestamp": 1771873115.5005357,
+  "layers_passed": 5,
+  "skill_hash": "82901b3457f7d8cef68b5124a0b6af502752106687e38e73d8a39b8ea71196f7"
+}

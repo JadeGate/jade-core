@@ -1,0 +1,8 @@
+{
+  "skill_file": "mcp_ncp.json",
+  "signature": "jade-sig-VYOSy3JUgek9sqk0tvGONbyJGSt2Pqwt2tIocRsRumpmUAQBZ5c0bXvFrPvonAILWT79oyHQb/9ahFbh3be7BA==",
+  "public_key": "jade-pk-root-u9yg2vwkHJt/xCdQdqUcOJIpnYbbbK18V82IraZo2/8=",
+  "timestamp": 1771873329.5135849,
+  "layers_passed": 5,
+  "skill_hash": "8e57560f265f0bcd80f99d078ea20cccbb92f7f2f46ee09f52c9759eb12da13a"
+}

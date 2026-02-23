@@ -1,0 +1,8 @@
+{
+  "skill_file": "mcp_behavioural_prediction.json",
+  "signature": "jade-sig-IpxZ6p7v6sBSS/q3ANln18/Uc0qIOGZMexN2Ez9Tfkvzt+QNfJTUDrmDY9zSsLrUyym+4/hZQ0CoaJ3n7BaJDw==",
+  "public_key": "jade-pk-root-u9yg2vwkHJt/xCdQdqUcOJIpnYbbbK18V82IraZo2/8=",
+  "timestamp": 1771872911.1612885,
+  "layers_passed": 5,
+  "skill_hash": "282a948750c56dde938fef3700eb4b07bb31f395b53afcd8fc3c44850b99a88f"
+}

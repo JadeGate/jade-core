@@ -1,0 +1,8 @@
+{
+  "skill_file": "mcp_unifai.json",
+  "signature": "jade-sig-AE6XRpQUaXCERPWuHl01vIg2pde8/16+oQ2/nxfaQbkOP/xS4B+2jVCBSYwtMcCdszOg5jTiJZyVNWE00PTSCQ==",
+  "public_key": "jade-pk-root-u9yg2vwkHJt/xCdQdqUcOJIpnYbbbK18V82IraZo2/8=",
+  "timestamp": 1771873581.6625335,
+  "layers_passed": 5,
+  "skill_hash": "237cd08de4bd17c75806873a2bc4cc40e883225e80b56c7f95506605043e21b2"
+}

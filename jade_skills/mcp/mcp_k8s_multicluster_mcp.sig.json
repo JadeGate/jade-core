@@ -1,0 +1,8 @@
+{
+  "skill_file": "mcp_k8s_multicluster_mcp.json",
+  "signature": "jade-sig-PS0fEq/cBvNYsYkYckABMT8/R30Jz6hdqUlVbOAJi/XpCK1QBGe3dhz63aq5mAvn0R5D41TIWSgR99xEOdvYBQ==",
+  "public_key": "jade-pk-root-u9yg2vwkHJt/xCdQdqUcOJIpnYbbbK18V82IraZo2/8=",
+  "timestamp": 1771873182.5153954,
+  "layers_passed": 5,
+  "skill_hash": "e0b39885ec17879fdc1caef6868e141fc08231e9b8d0cb2b7cff3226dc590cae"
+}

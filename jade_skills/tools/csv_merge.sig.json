@@ -1,0 +1,8 @@
+{
+  "skill_file": "csv_merge.json",
+  "signature": "jade-sig-XCCR5wBzQ24ancQPIQdAKqKVowtg/GeDcZPwa0m5PdzKKAdRkqnf1LVTx7ClNFG5mHMZE+SPbbIS+0/ZS0pVAg==",
+  "public_key": "jade-pk-root-u9yg2vwkHJt/xCdQdqUcOJIpnYbbbK18V82IraZo2/8=",
+  "timestamp": 1771873653.4133494,
+  "layers_passed": 5,
+  "skill_hash": "7c4a93aa0fadde90fa4a15b6be9f482e126aadc6e3c758a9a434e0cc2b1c57a3"
+}

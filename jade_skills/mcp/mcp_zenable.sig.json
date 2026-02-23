@@ -1,0 +1,8 @@
+{
+  "skill_file": "mcp_zenable.json",
+  "signature": "jade-sig-1iwdikRqa0Py4F8QhhpKw0SwCJ4aZPflLUUB3r5XmsJlBGp6rZr0Dv5oDT1Iuzo6hkWJ+6ptg3qlAHUuC1TOBQ==",
+  "public_key": "jade-pk-root-u9yg2vwkHJt/xCdQdqUcOJIpnYbbbK18V82IraZo2/8=",
+  "timestamp": 1771873641.1599727,
+  "layers_passed": 5,
+  "skill_hash": "855af0ba2b60cf24d0bbca67644358751aeee0cfb6003239525279fe8cc52e50"
+}

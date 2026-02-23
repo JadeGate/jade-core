@@ -1,0 +1,8 @@
+{
+  "skill_file": "mcp_vulnicheck.json",
+  "signature": "jade-sig-lOzvPxiCyK2Pp74SMgjR0sDOCRoX9w4NUE4l/ETrt0NG7dMKUmeLFb6LRmF8QF9Dp9gczXzGnxbzHXFsDQ0rDg==",
+  "public_key": "jade-pk-root-u9yg2vwkHJt/xCdQdqUcOJIpnYbbbK18V82IraZo2/8=",
+  "timestamp": 1771873607.6006086,
+  "layers_passed": 5,
+  "skill_hash": "85ad397620824704b271834fd6e593fa8b38b8d9504e5dc5d5cd0b04d62fd4f7"
+}

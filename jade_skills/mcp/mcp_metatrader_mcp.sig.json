@@ -1,0 +1,8 @@
+{
+  "skill_file": "mcp_metatrader_mcp.json",
+  "signature": "jade-sig-zW11n48q5neorsVwL6enRzU7RAr0KvQg9v2efAX9pGX0FvYDRL9R6kkDDeu/9ksg7lZMKXxBg4weL/UQ1dwnBQ==",
+  "public_key": "jade-pk-root-u9yg2vwkHJt/xCdQdqUcOJIpnYbbbK18V82IraZo2/8=",
+  "timestamp": 1771873295.97087,
+  "layers_passed": 5,
+  "skill_hash": "6e0a2f94ffebe628a94d70fb49170c536cf8c4b1a20f81d754f80c5c683eecc5"
+}

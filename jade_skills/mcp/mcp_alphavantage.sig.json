@@ -1,0 +1,8 @@
+{
+  "skill_file": "mcp_alphavantage.json",
+  "signature": "jade-sig-8PsK0NHPHDVYet08PZNMu0cccsgKhvUnOCxOHEe8vuuQ8eQ873efOaaMoKq7ZQO+FgNvdyWrXp8/nWZ4Ug+DDQ==",
+  "public_key": "jade-pk-root-u9yg2vwkHJt/xCdQdqUcOJIpnYbbbK18V82IraZo2/8=",
+  "timestamp": 1771872852.1070523,
+  "layers_passed": 5,
+  "skill_hash": "79e6661fdf49a5686b9bedc1e41b27530c3eb7e0a98a485cba6aeeb19a0ef5e4"
+}

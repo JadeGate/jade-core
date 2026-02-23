@@ -1,0 +1,8 @@
+{
+  "skill_file": "mcp_metricool_mcp.json",
+  "signature": "jade-sig-bnUIxbCpOCtOJmVj1wOpWCxVDhuVkYNkbpD8ntN76yGLzz5Fhk34kClnQb2wbz3AtW30ol2FxUMZdE0yQ1fsBg==",
+  "public_key": "jade-pk-root-u9yg2vwkHJt/xCdQdqUcOJIpnYbbbK18V82IraZo2/8=",
+  "timestamp": 1771873296.9257,
+  "layers_passed": 5,
+  "skill_hash": "c7eed68dc58e90d54c3c3fabe9919b9c105c0b11878b07ed17f979f887ab3e32"
+}

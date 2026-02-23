@@ -1,0 +1,8 @@
+{
+  "skill_file": "mcp_hyperliquid.json",
+  "signature": "jade-sig-ZpQl4Smf0SYT7ttGZDrlzqhWmN9UBHVWiyj44VFq20NR/Oox2imD55wIPh/2jRdAHlte2FmkxDb0tPSXZsY3BA==",
+  "public_key": "jade-pk-root-u9yg2vwkHJt/xCdQdqUcOJIpnYbbbK18V82IraZo2/8=",
+  "timestamp": 1771873152.7237968,
+  "layers_passed": 5,
+  "skill_hash": "7d28ca16e4024c5dbdf805d71152a083f794a9b3bcdbe5b5101e9e5e613957dc"
+}

@@ -1,0 +1,8 @@
+{
+  "skill_file": "mcp_rohlik.json",
+  "signature": "jade-sig-KXDHApbYzNLlQKKauyeqNUXFQK03hO8clZm0kh8jY4RRuz2YUI2ukDGeDO+JgJ01mJXstAowaYx2vL2G4Y0PDA==",
+  "public_key": "jade-pk-root-u9yg2vwkHJt/xCdQdqUcOJIpnYbbbK18V82IraZo2/8=",
+  "timestamp": 1771873462.4255865,
+  "layers_passed": 5,
+  "skill_hash": "92d23e50d8dab8b8f0199ca2ba92ae49743cd9e7e2199a7da7baca6dfa1d2486"
+}

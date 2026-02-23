@@ -1,0 +1,8 @@
+{
+  "skill_file": "mcp_openweather.json",
+  "signature": "jade-sig-YZUc6FykzIQl+FylZP5ajeEFGQq2zvr3qDnYBHwmF9cCCYS3pnkQFsdO5hre3Lp77jQ9UPEnuQO9sEDwlAICDw==",
+  "public_key": "jade-pk-root-u9yg2vwkHJt/xCdQdqUcOJIpnYbbbK18V82IraZo2/8=",
+  "timestamp": 1771873374.4017587,
+  "layers_passed": 5,
+  "skill_hash": "f2e6d343315b8fbe058f13f2f224a4230bea5397c9d4128fa7c471fff37ec01a"
+}

@@ -1,0 +1,8 @@
+{
+  "skill_file": "mcp_keboola.json",
+  "signature": "jade-sig-IBNW0suHVcfHxBFXKGNfpFbqmuQa9jwGlTJoAEdib6NkdZBKjnXPYsXcAbjsXbNZzHuXg7dLWOEPiHMuzuWoAg==",
+  "public_key": "jade-pk-root-u9yg2vwkHJt/xCdQdqUcOJIpnYbbbK18V82IraZo2/8=",
+  "timestamp": 1771873186.8098567,
+  "layers_passed": 5,
+  "skill_hash": "a7c424a3d5344d284899c2d7de37e7fb1f8f1f8a26792f4f99c505975056f86f"
+}

@@ -1,0 +1,8 @@
+{
+  "skill_file": "mcp_volcengine_tos.json",
+  "signature": "jade-sig-ZRm1av7GAABSwyIBY27g+Wi0KCjT95wUS0FSQOxSSkT8xT+ATdaVsqaPGx9D+xljHxWLznsJBmxo95iMNH8NBQ==",
+  "public_key": "jade-pk-root-u9yg2vwkHJt/xCdQdqUcOJIpnYbbbK18V82IraZo2/8=",
+  "timestamp": 1771873606.2218544,
+  "layers_passed": 5,
+  "skill_hash": "86d30c450db062d37f8311aa2e1eb0c0792d4dc3478de5cbb4803003967ba7be"
+}

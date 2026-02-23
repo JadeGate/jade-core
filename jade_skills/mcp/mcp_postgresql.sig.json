@@ -1,0 +1,8 @@
+{
+  "skill_file": "mcp_postgresql.json",
+  "signature": "jade-sig-6Z/2gDku5dlAsXji4dZjFtSIeENled3Tr9W9+DLIU4u1vR0elZfnUTW8FIEaJfRSH7R2aDW1B7+5wGhEKPDzAg==",
+  "public_key": "jade-pk-root-u9yg2vwkHJt/xCdQdqUcOJIpnYbbbK18V82IraZo2/8=",
+  "timestamp": 1771873412.1581607,
+  "layers_passed": 5,
+  "skill_hash": "335e1976b9856b741ba1047391ee166eb0981ccff0c07f0b480a7e89a9545591"
+}

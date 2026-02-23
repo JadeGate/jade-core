@@ -1,0 +1,8 @@
+{
+  "skill_file": "mcp_mcp_on_android_tv.json",
+  "signature": "jade-sig-AmzHm/1NQZyGd3odWi/XTbyN2fX3d34ten2SDCSY2u/z3yKOMW4kuLUKjiX55a9OkHVQeSCt3wPFqtSLCEHdDA==",
+  "public_key": "jade-pk-root-u9yg2vwkHJt/xCdQdqUcOJIpnYbbbK18V82IraZo2/8=",
+  "timestamp": 1771873265.348683,
+  "layers_passed": 5,
+  "skill_hash": "55fc8da778bdcf7c6b445a4a4428f10d72a5a156656523fedb3ff6115a007b8c"
+}

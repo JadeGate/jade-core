@@ -1,15 +1,8 @@
 {
-  "jade_signature": {
-    "version": "1.0.0",
-    "skill_id": "mcp_pypi_package_info",
-    "content_hash": "sha256:11efdf7ea334248893484ee881b588908ded5454723b8703653132cc3f1590b5",
-    "signature": "jade-sig-TyOFUfpW0czRURAUl5+qJH1Ve9WfG4CEWJ01U3M7uKMCIvkg8d43/S/MkT0q6LlpeWJaRRDpZZS58G2TEeb8DA==",
-    "signer": {
-      "public_key": "jade-pk-root-o0p0Em+ufryyPQFFdKHEdSbWOPCqiGhUwwC9AjYJb/U=",
-      "fingerprint": "SHA256:HU0Dpg+xFPNxCURZhG9eX6Yx+ynMlbincaJxIRUJt98=",
-      "role": "root"
-    },
-    "timestamp": "2026-02-22T17:49:35Z",
-    "expires": "2027-02-22T17:49:35Z"
-  }
+  "skill_file": "mcp_pypi_package_info.json",
+  "signature": "jade-sig-su+XR7QUec6tanXRHVOsrEStklIuukfX1GJhJUzMGsuACk/b347yWdjI3eB+8nfoTSY9UF7PcKBMoBwdtptkAg==",
+  "public_key": "jade-pk-root-u9yg2vwkHJt/xCdQdqUcOJIpnYbbbK18V82IraZo2/8=",
+  "timestamp": 1771873431.3208754,
+  "layers_passed": 5,
+  "skill_hash": "f990e8f9cad967394a48ad6e739b3de74f70fd0f1aa9f9ac9af04bd1e336dc8b"
 }

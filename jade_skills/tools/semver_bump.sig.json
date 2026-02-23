@@ -1,0 +1,8 @@
+{
+  "skill_file": "semver_bump.json",
+  "signature": "jade-sig-vhMwa0W6CCLR+DOSCuTY5RK7xGpxLTBtJoC+MyxuKgB8I9bzQKif+rEky1r+XsFXtu0dPU75wh1qv9DdnvTiDQ==",
+  "public_key": "jade-pk-root-u9yg2vwkHJt/xCdQdqUcOJIpnYbbbK18V82IraZo2/8=",
+  "timestamp": 1771873678.940407,
+  "layers_passed": 5,
+  "skill_hash": "9c522eaef7c1edc97d4127cded21be42818fdf3673516837ca88034dba8d804e"
+}

@@ -1,0 +1,8 @@
+{
+  "skill_file": "mcp_ibm_watsonx_data_intelligence.json",
+  "signature": "jade-sig-CknxFXsBz/PGuN8W99STpMJ6LTyS3GUoNttjcVHKMpvhbpttMOySzqm6Q/NEEZ6aLQycZXh71/CBnwW/QljoBg==",
+  "public_key": "jade-pk-root-u9yg2vwkHJt/xCdQdqUcOJIpnYbbbK18V82IraZo2/8=",
+  "timestamp": 1771873154.1564994,
+  "layers_passed": 5,
+  "skill_hash": "ffe0727ecce207f09eaf3f2eae5cb8eb5878a277b6b5cff595d33356a22ffd6e"
+}

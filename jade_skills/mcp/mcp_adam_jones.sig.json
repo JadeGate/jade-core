@@ -1,0 +1,8 @@
+{
+  "skill_file": "mcp_adam_jones.json",
+  "signature": "jade-sig-G21KDRtYS4yZP3xXriHqlfGktAYAmS9GT2uwqlOtyKwofHzi7rY9fXzYc6Ab0Sbs6NvF6Qo4MkQ9gX5saJCFBA==",
+  "public_key": "jade-pk-root-u9yg2vwkHJt/xCdQdqUcOJIpnYbbbK18V82IraZo2/8=",
+  "timestamp": 1771872832.198499,
+  "layers_passed": 5,
+  "skill_hash": "4563e4bb25bc3bfcb7370bb0c6fd73e203772f5bcba596a005f2aaed303efc8d"
+}

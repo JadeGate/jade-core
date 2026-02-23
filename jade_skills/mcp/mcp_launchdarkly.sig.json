@@ -1,0 +1,8 @@
+{
+  "skill_file": "mcp_launchdarkly.json",
+  "signature": "jade-sig-CdE74sjo7xrJ9Z/B07hTWLpuVoDg70mJyQuLwYUSfMP9/Xonf9sBl0qV2SfoyWCKzRI2AZIX8KVJaxVmgBqLDA==",
+  "public_key": "jade-pk-root-u9yg2vwkHJt/xCdQdqUcOJIpnYbbbK18V82IraZo2/8=",
+  "timestamp": 1771873212.6635847,
+  "layers_passed": 5,
+  "skill_hash": "648fa4777be64adaf756226e1e44d2e101cf4dc5c79f3041128cde99ed402557"
+}

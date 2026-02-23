@@ -1,0 +1,8 @@
+{
+  "skill_file": "mcp_davinci_resolve.json",
+  "signature": "jade-sig-SkU4rvX0aGY+d9UQGEvxr4TSm24meYM1a8wZl7xRUUs5GP8/UcEd3p8YZzz4yiRzygaK2/AR3KdY2QYaAJeIDw==",
+  "public_key": "jade-pk-root-u9yg2vwkHJt/xCdQdqUcOJIpnYbbbK18V82IraZo2/8=",
+  "timestamp": 1771873006.3006632,
+  "layers_passed": 5,
+  "skill_hash": "65b55bee436ce6cf609a3b28fafa43b07283b0592fe726a29edbaf988d9a7282"
+}

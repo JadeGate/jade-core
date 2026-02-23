@@ -1,15 +1,8 @@
 {
-  "jade_signature": {
-    "version": "1.0.0",
-    "skill_id": "mcp_npm_package_info",
-    "content_hash": "sha256:e1b4e91837933218b53b7283b891c8ef228852390690f1843e03fa7a1dfc1345",
-    "signature": "jade-sig-ALUVYGEWkn4O6t/7bTAM0DCSHUP3HkJ091qZ/Lgxv+Q88LaZzfWd1pagzaFFKd9q2SxELKTdbWFpDfZniNb4DQ==",
-    "signer": {
-      "public_key": "jade-pk-root-o0p0Em+ufryyPQFFdKHEdSbWOPCqiGhUwwC9AjYJb/U=",
-      "fingerprint": "SHA256:HU0Dpg+xFPNxCURZhG9eX6Yx+ynMlbincaJxIRUJt98=",
-      "role": "root"
-    },
-    "timestamp": "2026-02-22T17:49:34Z",
-    "expires": "2027-02-22T17:49:34Z"
-  }
+  "skill_file": "mcp_npm_package_info.json",
+  "signature": "jade-sig-zb/A3+6kJiahn8jmSQRV5wRS9mMdS7nSsVRTCexni4KXZvzR7VojC6/mB1JjgJcd+QX0yQUVsjEEiNNYrBokAQ==",
+  "public_key": "jade-pk-root-u9yg2vwkHJt/xCdQdqUcOJIpnYbbbK18V82IraZo2/8=",
+  "timestamp": 1771873344.2457767,
+  "layers_passed": 5,
+  "skill_hash": "ddb66a84da79fe7df652d120bd038daf07b1b06cb670acee2c1cc0d6cd1673f4"
 }

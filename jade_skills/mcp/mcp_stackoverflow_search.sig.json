@@ -1,15 +1,8 @@
 {
-  "jade_signature": {
-    "version": "1.0.0",
-    "skill_id": "mcp_stackoverflow_search",
-    "content_hash": "sha256:c08a3bb97f6aa4be5c276cbf236b617dcc81f1dbc987eecf42b944eca26384c3",
-    "signature": "jade-sig-ND+hrV5mFvtetih9RW8GfoTzePXZLFyL2ap360cMiEVWQJfEAHHdqFKcl8tiYymPAaxnlaSGSjBmGG4uSJoeDw==",
-    "signer": {
-      "public_key": "jade-pk-root-o0p0Em+ufryyPQFFdKHEdSbWOPCqiGhUwwC9AjYJb/U=",
-      "fingerprint": "SHA256:HU0Dpg+xFPNxCURZhG9eX6Yx+ynMlbincaJxIRUJt98=",
-      "role": "root"
-    },
-    "timestamp": "2026-02-22T17:49:34Z",
-    "expires": "2027-02-22T17:49:34Z"
-  }
+  "skill_file": "mcp_stackoverflow_search.json",
+  "signature": "jade-sig-qvBcKChzUjLZ7zgSOci2mJgmmVB7N3f/nDXCUWNvzZGMOLXHK4N9y8k1g3IzF/I+k6if465qio6638Tq2NOXAA==",
+  "public_key": "jade-pk-root-u9yg2vwkHJt/xCdQdqUcOJIpnYbbbK18V82IraZo2/8=",
+  "timestamp": 1771873515.636464,
+  "layers_passed": 5,
+  "skill_hash": "bbf084a32428178d92d89f213027dce18d8c114b4204c4cd8f1baa4dc74c2d33"
 }

@@ -1,0 +1,8 @@
+{
+  "skill_file": "mcp_apache_gravitino_incubating.json",
+  "signature": "jade-sig-amAwYvFj0MwR7K5KbpFx64UPXFQfoK1JxhAXlqKo2y+7vk11d0rgmPWW7EAu0eDCyFzkOi+FwL6Ai/QCGBqLBA==",
+  "public_key": "jade-pk-root-u9yg2vwkHJt/xCdQdqUcOJIpnYbbbK18V82IraZo2/8=",
+  "timestamp": 1771872860.6523743,
+  "layers_passed": 5,
+  "skill_hash": "97d883c97a4afaefa0baf5ed22443bf287bb304877e381ecf86c9542a59b646b"
+}

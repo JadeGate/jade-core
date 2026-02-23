@@ -1,0 +1,8 @@
+{
+  "skill_file": "mcp_strava_api.json",
+  "signature": "jade-sig-59gntEcN4tAzDbfHrFIfjYGMb4/rWXgbg2TtwfWArcLDqet26s02gPOBYHT6GW+RCapOXGGCZN6mFx/vVPGoBQ==",
+  "public_key": "jade-pk-root-u9yg2vwkHJt/xCdQdqUcOJIpnYbbbK18V82IraZo2/8=",
+  "timestamp": 1771873525.2526712,
+  "layers_passed": 5,
+  "skill_hash": "c8b3cd6444dcbb8821ac625735845879044d78beccd1074b5fe35e41606c207f"
+}

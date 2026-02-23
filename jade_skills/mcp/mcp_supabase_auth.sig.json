@@ -1,15 +1,8 @@
 {
-  "jade_signature": {
-    "version": "1.0.0",
-    "skill_id": "mcp_supabase_auth",
-    "content_hash": "sha256:b2c0659e9f8c47d8a90d2de32600af883e54c0a6a30eb5224b14033c2d6d0fe7",
-    "signature": "jade-sig-JW0VjZQPsFTr9v9LwFDzCfvq2RLSbkGkFMP3HAmbNFiYSvJ89jGhyOoN5wfEg1COd2TdwZM8aA+qa0D369oCCw==",
-    "signer": {
-      "public_key": "jade-pk-root-o0p0Em+ufryyPQFFdKHEdSbWOPCqiGhUwwC9AjYJb/U=",
-      "fingerprint": "SHA256:HU0Dpg+xFPNxCURZhG9eX6Yx+ynMlbincaJxIRUJt98=",
-      "role": "root"
-    },
-    "timestamp": "2026-02-22T16:23:44Z",
-    "expires": "2027-02-22T16:23:44Z"
-  }
+  "skill_file": "mcp_supabase_auth.json",
+  "signature": "jade-sig-2idVy7XDrS/lnJQMy0JJ8vEitBqr2mjk5cu/VnzLlL5fG5cihnveySBRejrOP2XqVP7Dv9yUQND4DmBf3yWhAw==",
+  "public_key": "jade-pk-root-u9yg2vwkHJt/xCdQdqUcOJIpnYbbbK18V82IraZo2/8=",
+  "timestamp": 1771873532.3846674,
+  "layers_passed": 5,
+  "skill_hash": "6882ed492730dc116e094e343c5823fe7970df5979a8deb607043e6ed7b48220"
 }

@@ -1,0 +1,8 @@
+{
+  "skill_file": "mcp_trino.json",
+  "signature": "jade-sig-dTyefZarFrVZbmUrEJYARD/KFasBmoqV1KY54f3oumI8z0Kpzxz05Qts67tR5vqEZqr3DBAcK3bwYPf8O8FmBw==",
+  "public_key": "jade-pk-root-u9yg2vwkHJt/xCdQdqUcOJIpnYbbbK18V82IraZo2/8=",
+  "timestamp": 1771873574.4352279,
+  "layers_passed": 5,
+  "skill_hash": "35839127aaa57f4546956cfa84b10cdf159f4cc52ba5d11f884d0c6824590d90"
+}

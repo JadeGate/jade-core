@@ -1,0 +1,8 @@
+{
+  "skill_file": "mcp_fastapi_to_mcp_auto_generator.json",
+  "signature": "jade-sig-JPqdEbAOsw1R4WcvLbL1WzQpdaEFKTMSyQYUuQCVTlEEqXYccj5bRPfk2BdEhtGfV5sIjTDHLFkeEpW9iIqkDw==",
+  "public_key": "jade-pk-root-u9yg2vwkHJt/xCdQdqUcOJIpnYbbbK18V82IraZo2/8=",
+  "timestamp": 1771873063.6787422,
+  "layers_passed": 5,
+  "skill_hash": "0cac897b81f4173109f299e7c97aed7e5982435bc1752e755049bc27e2e2def6"
+}

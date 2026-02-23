@@ -1,0 +1,8 @@
+{
+  "skill_file": "mcp_bluetooth_mcp_server.json",
+  "signature": "jade-sig-itjwfZdFZQ5DQfA/me5t8PoYcv34R1bjUNXgQcE8mDBi9h+GBSWIwbLkhK7tbtNKJnreRJUFQN3YVsljo/HCAg==",
+  "public_key": "jade-pk-root-u9yg2vwkHJt/xCdQdqUcOJIpnYbbbK18V82IraZo2/8=",
+  "timestamp": 1771872920.7158036,
+  "layers_passed": 5,
+  "skill_hash": "4ed31740545029b135a309bae505d48ef691ff4ffa2c19c1ad97693b8352604a"
+}

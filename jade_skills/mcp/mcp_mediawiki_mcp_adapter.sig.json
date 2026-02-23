@@ -1,0 +1,8 @@
+{
+  "skill_file": "mcp_mediawiki_mcp_adapter.json",
+  "signature": "jade-sig-yPmhqZNwmJjUETO4SsMZejVfhOvectzErhsWGUB7FINexOMWJnCXBJgEGvAe+HXdkwIPpNozz562pAjJrdrVAw==",
+  "public_key": "jade-pk-root-u9yg2vwkHJt/xCdQdqUcOJIpnYbbbK18V82IraZo2/8=",
+  "timestamp": 1771873287.88483,
+  "layers_passed": 5,
+  "skill_hash": "04b581c29e153edd2c84d39936fb43a8b7b11fd632a6b70630182d0e0f295dc6"
+}

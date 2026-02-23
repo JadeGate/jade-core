@@ -1,0 +1,8 @@
+{
+  "skill_file": "mcp_freqtrade_mcp.json",
+  "signature": "jade-sig-VVRWDRqtL+trjs4QBLZ2nu72hAS1bOkmO35JLUv4QaX00TiOKFAzoUxYaFyBXQm0ap/Ct6zJr9tcI73bzNipDA==",
+  "public_key": "jade-pk-root-u9yg2vwkHJt/xCdQdqUcOJIpnYbbbK18V82IraZo2/8=",
+  "timestamp": 1771873087.4573653,
+  "layers_passed": 5,
+  "skill_hash": "3f4dae74c0a90fd5eb137ec2d76c3436de9505bdedaf219c7f58c967c2e88009"
+}

@@ -1,0 +1,8 @@
+{
+  "skill_file": "mcp_vectara.json",
+  "signature": "jade-sig-el5M+R8zYYE7J2aapDB1qHIbUtBfi94IOxFrzJXZ4no3m5gZfuIca9SwpgJZ7okCp5sdLPXjeVflv23fl0e8CA==",
+  "public_key": "jade-pk-root-u9yg2vwkHJt/xCdQdqUcOJIpnYbbbK18V82IraZo2/8=",
+  "timestamp": 1771873594.9610193,
+  "layers_passed": 5,
+  "skill_hash": "ee7ae7de88ddeaa7f996906f6c654e85a4663f1adab3c3a394a60e55ee8b5082"
+}

@@ -1,15 +1,8 @@
 {
-  "jade_signature": {
-    "version": "1.0.0",
-    "skill_id": "mcp_docker_list",
-    "content_hash": "sha256:25f75bb0673a7c508dc402c0b02d08e01c5c03dadea2830f1fedf9a5a1eddbe1",
-    "signature": "jade-sig-YnInhUEzubz5RLCKC0iQ15t72UPbZ1SEJJeGSA8fwBTX/fxWSR8UVFGlTfOuR4LQNA9k41Kdvvg/As/YonELBA==",
-    "signer": {
-      "public_key": "jade-pk-root-o0p0Em+ufryyPQFFdKHEdSbWOPCqiGhUwwC9AjYJb/U=",
-      "fingerprint": "SHA256:HU0Dpg+xFPNxCURZhG9eX6Yx+ynMlbincaJxIRUJt98=",
-      "role": "root"
-    },
-    "timestamp": "2026-02-22T16:17:39Z",
-    "expires": "2027-02-22T16:17:39Z"
-  }
+  "skill_file": "mcp_docker_list.json",
+  "signature": "jade-sig-95600NS0ebqPzvPZidJ7F3DL/szHEsjsG/krM3EXw3ulfTt9uquVzgQKQkC3THuzluMWxSIEjvv3GJo5MK0yDA==",
+  "public_key": "jade-pk-root-u9yg2vwkHJt/xCdQdqUcOJIpnYbbbK18V82IraZo2/8=",
+  "timestamp": 1771873029.1711059,
+  "layers_passed": 5,
+  "skill_hash": "271d01345743f764d294c0d3d63b16e2b3ef996a4b40f7dbcb2815b5175dcbd7"
 }

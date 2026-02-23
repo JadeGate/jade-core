@@ -1,0 +1,8 @@
+{
+  "skill_file": "mcp_turso_query.json",
+  "signature": "jade-sig-ITjBdpcqFn8NtHyd6wUveTiOPyAz3eBpGH6gm+qLFS85FlV/R5q787nZMWf+Me4V55BvvdOnKOLkFKYUloFGDg==",
+  "public_key": "jade-pk-root-u9yg2vwkHJt/xCdQdqUcOJIpnYbbbK18V82IraZo2/8=",
+  "timestamp": 1771873576.9059975,
+  "layers_passed": 5,
+  "skill_hash": "49b8f99beba22475a7fd1778d5755275ebfbf5563044456b1edf8a27836b1c85"
+}

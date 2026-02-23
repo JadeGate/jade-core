@@ -1,0 +1,8 @@
+{
+  "skill_file": "mcp_pacman.json",
+  "signature": "jade-sig-6SqHCYc+GmM/QZ2M346wi4pjymtw5lS0WMpx5uUVBCkTm4EfhiwkUNPPQi9/7+gChZN3EBIrU4ERkt1wd9ujDA==",
+  "public_key": "jade-pk-root-u9yg2vwkHJt/xCdQdqUcOJIpnYbbbK18V82IraZo2/8=",
+  "timestamp": 1771873382.0353413,
+  "layers_passed": 5,
+  "skill_hash": "12f19d403459dc0d34c1683bc0c1f1d7a29669b56283c1cbedb727106a6eb187"
+}

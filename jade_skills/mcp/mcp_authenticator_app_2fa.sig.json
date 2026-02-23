@@ -1,0 +1,8 @@
+{
+  "skill_file": "mcp_authenticator_app_2fa.json",
+  "signature": "jade-sig-IeYxoWcDxo7HGq1SYT7FyEuua9BGX1SQcW2sYGjXei7UZXV7MoAI5vo95OiTQUnC3AGb7RiylKCkSO0IHozQAw==",
+  "public_key": "jade-pk-root-u9yg2vwkHJt/xCdQdqUcOJIpnYbbbK18V82IraZo2/8=",
+  "timestamp": 1771872883.0206075,
+  "layers_passed": 5,
+  "skill_hash": "cc7abe97e55a0c74b59b00b510956ade8a094c84bc0a6fc1ef54e0f093796643"
+}

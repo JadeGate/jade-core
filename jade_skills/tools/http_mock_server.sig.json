@@ -1,0 +1,8 @@
+{
+  "skill_file": "http_mock_server.json",
+  "signature": "jade-sig-lkxVarlHMjJ1Cqb/gOVIzAAy1yy0brFrNepmn7QgNXZVIK3x5L5FoJb5KwLjIWFkcexuy8UCgcIeciRSCmrFAQ==",
+  "public_key": "jade-pk-root-u9yg2vwkHJt/xCdQdqUcOJIpnYbbbK18V82IraZo2/8=",
+  "timestamp": 1771873664.6984603,
+  "layers_passed": 5,
+  "skill_hash": "1d0ed5bcc77dcbf232ff79d1e17bc2cd0bfa886a5b284f856fb1a64a8a010f16"
+}

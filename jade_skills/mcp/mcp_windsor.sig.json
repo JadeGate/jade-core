@@ -1,0 +1,8 @@
+{
+  "skill_file": "mcp_windsor.json",
+  "signature": "jade-sig-xWKi9tY8IkAuaLIIVSTOQXOgBJvmkVX4sXNzEvoB8G4/r36KEgqcnQDuW81FDuoRnDMKKKMGNy2vW/LNC3u6Bw==",
+  "public_key": "jade-pk-root-u9yg2vwkHJt/xCdQdqUcOJIpnYbbbK18V82IraZo2/8=",
+  "timestamp": 1771873620.9383485,
+  "layers_passed": 5,
+  "skill_hash": "5c8c9ba834e6fc2bf63affedb439521ddfdf9e04c01b152a6f4ce2955ed26012"
+}

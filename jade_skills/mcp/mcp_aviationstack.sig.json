@@ -1,0 +1,8 @@
+{
+  "skill_file": "mcp_aviationstack.json",
+  "signature": "jade-sig-09FlK2MXYC/09O87VInJbY3m1VHuMxKKpqVXd0JGTEKJxYs7UwUNGpanB6yuHQ8wIvlgXJBRyqfdd/T9fjMHCA==",
+  "public_key": "jade-pk-root-u9yg2vwkHJt/xCdQdqUcOJIpnYbbbK18V82IraZo2/8=",
+  "timestamp": 1771872883.9672332,
+  "layers_passed": 5,
+  "skill_hash": "5441dc10d33819bfd18fb317f9c5a0715e4c83a4e23738b7fff6a1381295530f"
+}

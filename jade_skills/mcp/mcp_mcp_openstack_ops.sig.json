@@ -1,0 +1,8 @@
+{
+  "skill_file": "mcp_mcp_openstack_ops.json",
+  "signature": "jade-sig-nM4ZZB4zhS/4hi1PtrL9IfEg5EDrAY6O5/3UqNJVoYhAo8b+elpL+a5xX3GDp6HSfN569Wbqm7+rzpxDDI9gDQ==",
+  "public_key": "jade-pk-root-u9yg2vwkHJt/xCdQdqUcOJIpnYbbbK18V82IraZo2/8=",
+  "timestamp": 1771873266.7850819,
+  "layers_passed": 5,
+  "skill_hash": "ca241f3baa9895e90da1df2b8e1d4ca9367d481bb66d3e12f50c1465602c413d"
+}

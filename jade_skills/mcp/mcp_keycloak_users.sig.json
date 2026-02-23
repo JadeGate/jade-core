@@ -1,0 +1,8 @@
+{
+  "skill_file": "mcp_keycloak_users.json",
+  "signature": "jade-sig-qJkjQQv04JJKfsJAd0JRQzY/iFnUhrSF/4TpOx6JaKpDX6DPPUDbs4XlV3d+wkkkZokV7G9VTgGIIeFWLUy7BQ==",
+  "public_key": "jade-pk-root-u9yg2vwkHJt/xCdQdqUcOJIpnYbbbK18V82IraZo2/8=",
+  "timestamp": 1771873189.4428718,
+  "layers_passed": 5,
+  "skill_hash": "51fee1a3709c88d3968677e14f55c190eb9cc760b708ec77f75014fdfe5f9655"
+}

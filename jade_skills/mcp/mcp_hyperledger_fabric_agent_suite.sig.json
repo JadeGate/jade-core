@@ -1,0 +1,8 @@
+{
+  "skill_file": "mcp_hyperledger_fabric_agent_suite.json",
+  "signature": "jade-sig-j5jO0M/Njrle2xwbyLjCpreJKzShXZ5k0Qm7QJkUXndWYNEBXb2nmtynXftYW4QjlVR+TolbGglhYh8JyLHuAQ==",
+  "public_key": "jade-pk-root-u9yg2vwkHJt/xCdQdqUcOJIpnYbbbK18V82IraZo2/8=",
+  "timestamp": 1771873152.241838,
+  "layers_passed": 5,
+  "skill_hash": "2d37cc64c8c24d31c049569b92f5d53d3b688d7710ae94f0dc7090a98e3834b6"
+}

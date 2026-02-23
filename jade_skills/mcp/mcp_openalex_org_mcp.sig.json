@@ -1,0 +1,8 @@
+{
+  "skill_file": "mcp_openalex_org_mcp.json",
+  "signature": "jade-sig-dGw83a/PHBycc9J7zZ1QPpNbEPbD3s/p9I3ZbPB4tzV6I0ICeR/vAW7LgU8NJD9ExUsI/q5CJOa9cxPCs2n3BQ==",
+  "public_key": "jade-pk-root-u9yg2vwkHJt/xCdQdqUcOJIpnYbbbK18V82IraZo2/8=",
+  "timestamp": 1771873363.3631852,
+  "layers_passed": 5,
+  "skill_hash": "195fcc807a9fb057ac126f634cdd0df96d9dd983d9618aae69e68cbe3e05b62a"
+}

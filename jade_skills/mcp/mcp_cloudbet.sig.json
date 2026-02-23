@@ -1,0 +1,8 @@
+{
+  "skill_file": "mcp_cloudbet.json",
+  "signature": "jade-sig-oSEGIMjxT8sNg+syoIbRNffooK6O/jpZA3JFFYbdCDK+AS8ht4GtWW9tyuyLIS3EZcrG2hT1ZmAvu7jA+oXGDg==",
+  "public_key": "jade-pk-root-u9yg2vwkHJt/xCdQdqUcOJIpnYbbbK18V82IraZo2/8=",
+  "timestamp": 1771872958.8378034,
+  "layers_passed": 5,
+  "skill_hash": "4220ecb2e7e09a27ecd366aa76d5d6fefb514d20b354d7ccedc4d19149ab8439"
+}

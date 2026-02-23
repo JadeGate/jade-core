@@ -1,0 +1,8 @@
+{
+  "skill_file": "mcp_netlify.json",
+  "signature": "jade-sig-DJwwPssme7gHAYbdjtuTZB8Rec5p3XEx3cTA8Qdef6ma2Hyz39OxJcJU67qjoSJ0OAZVRKo9BJ95X/7dGw1zBA==",
+  "public_key": "jade-pk-root-u9yg2vwkHJt/xCdQdqUcOJIpnYbbbK18V82IraZo2/8=",
+  "timestamp": 1771873335.6668067,
+  "layers_passed": 5,
+  "skill_hash": "1f1ae563dd453ee5ef9e06465bd0d3ca550cb4a125f872b089d50bef34753a51"
+}

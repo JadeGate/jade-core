@@ -1,0 +1,8 @@
+{
+  "skill_file": "mcp_uniswap_poolspy_mcp.json",
+  "signature": "jade-sig-8TNG4zSl7MUzukFYFKIF2E0I5co9gGd44bdcFAj0CqT6VxzO+RG2RelxIMSR+MO8nKbQPjmB/prtswnm3nV9Bw==",
+  "public_key": "jade-pk-root-u9yg2vwkHJt/xCdQdqUcOJIpnYbbbK18V82IraZo2/8=",
+  "timestamp": 1771873583.073514,
+  "layers_passed": 5,
+  "skill_hash": "d9a1373ba94827b6325f0cdf47ca1a4d0d694fb63f2a87f1f60e9a9025b94f25"
+}

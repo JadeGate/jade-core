@@ -1,0 +1,8 @@
+{
+  "skill_file": "mcp_ticketmaster.json",
+  "signature": "jade-sig-I/XTteni7poEzn8iX76wltbXG8XJ18Sg1dqAkESm+zxLqe7u+s735zaTzFee00iFSAu0/ftASzlcGuhtNkjwCw==",
+  "public_key": "jade-pk-root-u9yg2vwkHJt/xCdQdqUcOJIpnYbbbK18V82IraZo2/8=",
+  "timestamp": 1771873557.9811287,
+  "layers_passed": 5,
+  "skill_hash": "b51f3f71ac18e752a461b124f8b905323bd0ea3ac36b7f1179f5afeb97211122"
+}

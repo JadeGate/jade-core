@@ -1,0 +1,8 @@
+{
+  "skill_file": "mcp_splunk_search.json",
+  "signature": "jade-sig-3SqMIRDlW+nFGa8dQQy9mBHy/OzpXXHQ4sRSal3vu/uPfZuOJI3aRs7lgcRRafaCfu/kWXgEiCC3Rycgp+zWBA==",
+  "public_key": "jade-pk-root-u9yg2vwkHJt/xCdQdqUcOJIpnYbbbK18V82IraZo2/8=",
+  "timestamp": 1771873505.988019,
+  "layers_passed": 5,
+  "skill_hash": "65aa77e4528d25b9529c2fd63668208e2dbb55e1057cec73e8fbb61888ed3416"
+}

@@ -1,0 +1,8 @@
+{
+  "skill_file": "mcp_netmind_parsepro.json",
+  "signature": "jade-sig-2qpCC+WW037Ob0Wbc7KzEHF+Ea3GzAnwlFhLAEXTZy6sBatuZxPEQBeND8YZLcMOMZ4bKBuP4sETg0uHWg+tAA==",
+  "public_key": "jade-pk-root-u9yg2vwkHJt/xCdQdqUcOJIpnYbbbK18V82IraZo2/8=",
+  "timestamp": 1771873337.0640306,
+  "layers_passed": 5,
+  "skill_hash": "d286eb18fe43e569ef88a73dc779da0a0204702fc1921b9b68d0db468991f597"
+}

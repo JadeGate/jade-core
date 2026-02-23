@@ -1,0 +1,8 @@
+{
+  "skill_file": "mcp_ironben.json",
+  "signature": "jade-sig-Qs04sKSGJcTIq9YsacqV0/SWNkvorUKnJeBAsb7JFGtGEjh1CqcIAO6ERJML+UwZIcjcxsd9vEieFtJj78zjAA==",
+  "public_key": "jade-pk-root-u9yg2vwkHJt/xCdQdqUcOJIpnYbbbK18V82IraZo2/8=",
+  "timestamp": 1771873169.2878911,
+  "layers_passed": 5,
+  "skill_hash": "c08f58bfaeb53657e9ba6437ce8339aa03e8813894bb2440106a7f5f75433d0d"
+}

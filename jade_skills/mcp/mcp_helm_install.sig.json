@@ -1,0 +1,8 @@
+{
+  "skill_file": "mcp_helm_install.json",
+  "signature": "jade-sig-gLGYtKcv3FtdL9O8dP8fAVH8rYHz4K5Upg3EGS1y9Gpjh75evTMNgq9YQzXuU4WTVhK57ubKa17eGMBx/+95Ag==",
+  "public_key": "jade-pk-root-u9yg2vwkHJt/xCdQdqUcOJIpnYbbbK18V82IraZo2/8=",
+  "timestamp": 1771873138.485535,
+  "layers_passed": 5,
+  "skill_hash": "2a95e8942d1858d1743768f1508db6c86bb35dafabd1ceb993c81eb1e7b41ce2"
+}

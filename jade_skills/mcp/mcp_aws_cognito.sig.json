@@ -1,0 +1,8 @@
+{
+  "skill_file": "mcp_aws_cognito.json",
+  "signature": "jade-sig-GsBNoMLSdVZEhTjn5BXmK4IuQ3mz5Gdi/pSy4T9GRggMQ9o3Zh1FDohLRCyZ9FgtLzEpgxc/PVRIOLOAbS49Dg==",
+  "public_key": "jade-pk-root-u9yg2vwkHJt/xCdQdqUcOJIpnYbbbK18V82IraZo2/8=",
+  "timestamp": 1771872888.7832966,
+  "layers_passed": 5,
+  "skill_hash": "e08ea9f624023daa59082ac34d1e845ec09c117ba4595a710ba42185c72018b4"
+}

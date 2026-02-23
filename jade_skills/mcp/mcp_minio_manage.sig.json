@@ -1,0 +1,8 @@
+{
+  "skill_file": "mcp_minio_manage.json",
+  "signature": "jade-sig-1zEzL0UEWAproWDn/NVzjKd0IMB/1j2kgjyCX9P4aMheTI+DN8lQ8FyJjYp3qaUrtXxfjipcuhzpZH0YrhsPCw==",
+  "public_key": "jade-pk-root-u9yg2vwkHJt/xCdQdqUcOJIpnYbbbK18V82IraZo2/8=",
+  "timestamp": 1771873305.0280719,
+  "layers_passed": 5,
+  "skill_hash": "ed34af41e2aa1d374e49d9592a85025a41f714d6551bc765fb22852059471840"
+}

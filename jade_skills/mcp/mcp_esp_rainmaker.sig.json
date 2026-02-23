@@ -1,0 +1,8 @@
+{
+  "skill_file": "mcp_esp_rainmaker.json",
+  "signature": "jade-sig-eLehG4vyS44253POeq+6S85Wy36eiltg8FEz5CrT+v4zXofHj/srnJjOgk6+kXSPMXocsBpKCCS9scu/8IuxDg==",
+  "public_key": "jade-pk-root-u9yg2vwkHJt/xCdQdqUcOJIpnYbbbK18V82IraZo2/8=",
+  "timestamp": 1771873052.2065928,
+  "layers_passed": 5,
+  "skill_hash": "e94a0a0f8ffc24532ed8b117706db49374000c7001971a61dd2c518dabf3c3df"
+}

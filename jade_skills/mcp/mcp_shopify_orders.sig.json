@@ -1,0 +1,8 @@
+{
+  "skill_file": "mcp_shopify_orders.json",
+  "signature": "jade-sig-6OAP2mSIx53eO5fao0rKZZcZMg5rHgSXxZaxs8xuxDVLFQRpEFfqIXg4MeJ1Y9ucOL8dO9UC3krqz9LIjE8LDQ==",
+  "public_key": "jade-pk-root-u9yg2vwkHJt/xCdQdqUcOJIpnYbbbK18V82IraZo2/8=",
+  "timestamp": 1771873489.6015935,
+  "layers_passed": 5,
+  "skill_hash": "46c567d7eaf6e509f2aab30bc6e61e164c6498125f5484d43c5dbddacf5efe2d"
+}

@@ -1,0 +1,8 @@
+{
+  "skill_file": "mcp_netsuite.json",
+  "signature": "jade-sig-dLtazZGF+2mkxSqwk2iah6HjLBUaHPFqGLo/rEvWnzQ+LKCiO3m4wjxbBIsdC0d8wstmjX2d8B6W0Ev6gpMqCA==",
+  "public_key": "jade-pk-root-u9yg2vwkHJt/xCdQdqUcOJIpnYbbbK18V82IraZo2/8=",
+  "timestamp": 1771873337.5306246,
+  "layers_passed": 5,
+  "skill_hash": "a9b7e09cc50cd64f7a06df8c12769e36063147347584f534a96e4cfd3abb08ef"
+}

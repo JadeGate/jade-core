@@ -1,0 +1,8 @@
+{
+  "skill_file": "mcp_ip2location_io.json",
+  "signature": "jade-sig-x8pivkqB2t5c7Tty0MhlJp2qmpSuPoKhYb0P4zvETx7BHPe2zJK3cDENyrZvqNC0sE88OXPaoW0xMmeShikTBg==",
+  "public_key": "jade-pk-root-u9yg2vwkHJt/xCdQdqUcOJIpnYbbbK18V82IraZo2/8=",
+  "timestamp": 1771873167.8857584,
+  "layers_passed": 5,
+  "skill_hash": "46fec5599d69f9ba9bd2213b736fadd329bfe06153414a5ca51fba2d10089e36"
+}

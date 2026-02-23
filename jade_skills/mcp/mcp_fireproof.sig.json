@@ -1,0 +1,8 @@
+{
+  "skill_file": "mcp_fireproof.json",
+  "signature": "jade-sig-cfLnv85lwt96XLY7worGajXezkRcpWh7x+xdbfh6o8tVYXaXNTnBjczv2AFaN40bHpllwhMgtnsJYZhBXs1ZCw==",
+  "public_key": "jade-pk-root-u9yg2vwkHJt/xCdQdqUcOJIpnYbbbK18V82IraZo2/8=",
+  "timestamp": 1771873077.89102,
+  "layers_passed": 5,
+  "skill_hash": "34f468cfd17ebba5fdff9709597a65a3c6f1150d66cdf6b82f577ab8b3b0af8d"
+}

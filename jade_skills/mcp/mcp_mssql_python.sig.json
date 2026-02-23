@@ -1,0 +1,8 @@
+{
+  "skill_file": "mcp_mssql_python.json",
+  "signature": "jade-sig-UM7kC3vZsST1tDtw5FxxZ385y787yRxdqC26OgaSxAWVraOY7ZGlgos4gGIDBXn0nrc2A9zNNHtMbEtJoFoKBg==",
+  "public_key": "jade-pk-root-u9yg2vwkHJt/xCdQdqUcOJIpnYbbbK18V82IraZo2/8=",
+  "timestamp": 1771873317.5511417,
+  "layers_passed": 5,
+  "skill_hash": "4e475e20c33b0700f1f10506d82dd2c051f973c7203213d8bda455410ba20695"
+}

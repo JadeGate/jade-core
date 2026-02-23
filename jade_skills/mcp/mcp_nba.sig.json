@@ -1,0 +1,8 @@
+{
+  "skill_file": "mcp_nba.json",
+  "signature": "jade-sig-UU5sRsb+5ofy11gORmO22+1I87Qk6vg39FnGxUpxcZzCDgP079UHLvGLlQyDojcC5UZyyBPuH6fuxNM0PW1tAg==",
+  "public_key": "jade-pk-root-u9yg2vwkHJt/xCdQdqUcOJIpnYbbbK18V82IraZo2/8=",
+  "timestamp": 1771873328.580746,
+  "layers_passed": 5,
+  "skill_hash": "e6531182018366f3d9301536ec66a18cad55914318271e5fa419ddb2e91fa68e"
+}

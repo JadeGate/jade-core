@@ -1,0 +1,8 @@
+{
+  "skill_file": "mcp_google_analytics.json",
+  "signature": "jade-sig-ocBOfjEZDs6xeNRiJds2efhdG5rr9YI9lyz2cEPTyCqVrvqUGr/F7sAPmQa8oXxrtwR85EiIgr8A5vL8FoCNAw==",
+  "public_key": "jade-pk-root-u9yg2vwkHJt/xCdQdqUcOJIpnYbbbK18V82IraZo2/8=",
+  "timestamp": 1771873118.3437781,
+  "layers_passed": 5,
+  "skill_hash": "b45ebbc17308275caa9f5d5cb4d0d8b5047e1a960c85d1c455f4aca4c009ce70"
+}

@@ -1,0 +1,8 @@
+{
+  "skill_file": "mcp_henry_mao.json",
+  "signature": "jade-sig-YuSlKC0+QZU2Yt5PWjrAMYQ0jYCFba1pMAIvt3qqhvpuw0qDKQbPMREp2Sui0wamYiyxq3R0Fizyh0NuO/9cBw==",
+  "public_key": "jade-pk-root-u9yg2vwkHJt/xCdQdqUcOJIpnYbbbK18V82IraZo2/8=",
+  "timestamp": 1771873138.967735,
+  "layers_passed": 5,
+  "skill_hash": "b30e408452686b88e1342908692e47d885c83fc0eaf42827b7154d8114d4e70e"
+}

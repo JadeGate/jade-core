@@ -1,0 +1,8 @@
+{
+  "skill_file": "mcp_victorialogs.json",
+  "signature": "jade-sig-BLTk0rYHPW92ssbEy7CzPd2B+Nh24AhYAehPWAJ6U9GS/F3t+7WC6pk/ioTnEp7rGqi2erGZOFwawN9U2V3yCw==",
+  "public_key": "jade-pk-root-u9yg2vwkHJt/xCdQdqUcOJIpnYbbbK18V82IraZo2/8=",
+  "timestamp": 1771873600.10052,
+  "layers_passed": 5,
+  "skill_hash": "c9e9bf54bf908d244c78725e790af07d585e2eb6da65b4a73fee6d4f135d0dc5"
+}

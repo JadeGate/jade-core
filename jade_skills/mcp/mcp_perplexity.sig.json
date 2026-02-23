@@ -1,0 +1,8 @@
+{
+  "skill_file": "mcp_perplexity.json",
+  "signature": "jade-sig-f1/0T+x3AldvBs0UUSoGayf11j4AY5l4OsYGHdC4qkoEJrd0/SZFv/S9SgmuPzubrrOtW/NCB7oXgQmClgx1CA==",
+  "public_key": "jade-pk-root-u9yg2vwkHJt/xCdQdqUcOJIpnYbbbK18V82IraZo2/8=",
+  "timestamp": 1771873395.0278945,
+  "layers_passed": 5,
+  "skill_hash": "17db5b2a4bada1758688455ee1a280bee4a9317f0223e50f1b750e606a7761c9"
+}

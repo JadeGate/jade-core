@@ -1,0 +1,8 @@
+{
+  "skill_file": "mcp_fastmail_mcp.json",
+  "signature": "jade-sig-F5UPiSJj5mYo/1mT+AU64sPq9rHZ2o23eKAexnEOyqOklDbFq6dCp0K9orzmFegHM9tOtiskaQnrwltEbgPRAQ==",
+  "public_key": "jade-pk-root-u9yg2vwkHJt/xCdQdqUcOJIpnYbbbK18V82IraZo2/8=",
+  "timestamp": 1771873064.1539054,
+  "layers_passed": 5,
+  "skill_hash": "b9e17b6345587958a738ddbf458d9b88e191f764363c4e915f1f59e231cadbf2"
+}

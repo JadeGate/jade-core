@@ -1,0 +1,8 @@
+{
+  "skill_file": "mcp_sequa_ai.json",
+  "signature": "jade-sig-v0H+VQS8QFBvjAAySJGcPRCjTkOZI7m2tlS2oiLTBwojTHVqr0evoypiVD/cN2Y73LY2LeEbJful0k4+sv00DA==",
+  "public_key": "jade-pk-root-u9yg2vwkHJt/xCdQdqUcOJIpnYbbbK18V82IraZo2/8=",
+  "timestamp": 1771873484.8178644,
+  "layers_passed": 5,
+  "skill_hash": "5541c6249db1dc135d62758c24a240c87161463ad19ee5a5a6193fac5d5fbe33"
+}

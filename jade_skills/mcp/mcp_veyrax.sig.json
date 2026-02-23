@@ -1,0 +1,8 @@
+{
+  "skill_file": "mcp_veyrax.json",
+  "signature": "jade-sig-9HyfZxAUhBPWy1rGCAAKCD7uLUrfE+OJu5jGxrvPMxR8MO8yecvfPz6GR1YuDFFOPGQ+scYUg779AGLTLCd1Bw==",
+  "public_key": "jade-pk-root-u9yg2vwkHJt/xCdQdqUcOJIpnYbbbK18V82IraZo2/8=",
+  "timestamp": 1771873599.166671,
+  "layers_passed": 5,
+  "skill_hash": "2c9d4ac7350d236764bafe96372b9bdd4290e95ad0d0084a849351564300126f"
+}

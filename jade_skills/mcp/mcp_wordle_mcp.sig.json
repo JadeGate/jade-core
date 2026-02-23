@@ -1,0 +1,8 @@
+{
+  "skill_file": "mcp_wordle_mcp.json",
+  "signature": "jade-sig-Qlz/UT5F7PqgncdA+aqcugbLiDPxvJSxyTjmBMvo0lOGy5fMgN/VK8e9lMRSmwa8gfFx+rPJZrB1aFL6pYJVAw==",
+  "public_key": "jade-pk-root-u9yg2vwkHJt/xCdQdqUcOJIpnYbbbK18V82IraZo2/8=",
+  "timestamp": 1771873624.263123,
+  "layers_passed": 5,
+  "skill_hash": "863daa3edb0ab3f38bfa89caf39564a901e8ac66788613f2d3a4f86877ecffd8"
+}

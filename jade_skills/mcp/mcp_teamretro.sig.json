@@ -1,0 +1,8 @@
+{
+  "skill_file": "mcp_teamretro.json",
+  "signature": "jade-sig-/4MOZ7rX9VMRGC3x0NMx/SEyBPxZGyZu4bgjQ+jxGWsbMveYkQM4BDlWfNNawAuQpsEZFAb7/DWNOYjy1/gvDA==",
+  "public_key": "jade-pk-root-u9yg2vwkHJt/xCdQdqUcOJIpnYbbbK18V82IraZo2/8=",
+  "timestamp": 1771873540.8968215,
+  "layers_passed": 5,
+  "skill_hash": "82f324e37bb101d804d2683d437d0a7108efa651bc2dc075a6f9e29ff1be75c4"
+}

@@ -1,0 +1,8 @@
+{
+  "skill_file": "mcp_chargebee.json",
+  "signature": "jade-sig-4WbDeZrm1DXpx2h4N4ptfEHxaF4daK7uiROuZ2Q0MBJLbXwUFPFkfOOT6XPXXd244v5A1yD0/56ww/AwV2hvBg==",
+  "public_key": "jade-pk-root-u9yg2vwkHJt/xCdQdqUcOJIpnYbbbK18V82IraZo2/8=",
+  "timestamp": 1771872942.4857414,
+  "layers_passed": 5,
+  "skill_hash": "53606ad06bd7e7b4f35f33c0917f36a124dfd04b0810e2033518dbc183e77e0f"
+}

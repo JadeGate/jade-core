@@ -1,0 +1,8 @@
+{
+  "skill_file": "mcp_zincbind.json",
+  "signature": "jade-sig-86IFPfl2tXyvUj8plxwXzLZziPPX8PyuYVt/l2Bk9ISf/hy3ZOWqRs/t31FA3VHbHWrwnZf/muzGST1WRttaCQ==",
+  "public_key": "jade-pk-root-u9yg2vwkHJt/xCdQdqUcOJIpnYbbbK18V82IraZo2/8=",
+  "timestamp": 1771873643.9682293,
+  "layers_passed": 5,
+  "skill_hash": "0a63628a01ffc4fa19f191f92e65db3e61b0b0f464627973e36a1a64717544a1"
+}

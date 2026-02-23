@@ -1,0 +1,8 @@
+{
+  "skill_file": "mcp_hekmon.json",
+  "signature": "jade-sig-xsBWtC1uvh8UVDFZK1FatNVGrMD8FqDzlV9E2Eoyk8VxWdPZjbphxfiPCcSYuKWOw0uia0O9BEg+IETHesScDg==",
+  "public_key": "jade-pk-root-u9yg2vwkHJt/xCdQdqUcOJIpnYbbbK18V82IraZo2/8=",
+  "timestamp": 1771873137.5378716,
+  "layers_passed": 5,
+  "skill_hash": "e297dd3e97adecbbc9cbabec57f5a56e0fe1127c14cd88e55e61783b82f28e80"
+}

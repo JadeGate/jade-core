@@ -1,0 +1,8 @@
+{
+  "skill_file": "mcp_pinecone.json",
+  "signature": "jade-sig-XRsxhi6dcvspKNQ7Mf3Pf+1onXpDIoxqmhCh3KSGvd3oHx9G5w1pNrtkIyO6j++tWMuAxruG7cb8MiwW9mPrDQ==",
+  "public_key": "jade-pk-root-u9yg2vwkHJt/xCdQdqUcOJIpnYbbbK18V82IraZo2/8=",
+  "timestamp": 1771873401.254569,
+  "layers_passed": 5,
+  "skill_hash": "cf5654b97736c5cd9b73e55b16f065ab88454b912bc4b4b57ad6b172329c59b4"
+}

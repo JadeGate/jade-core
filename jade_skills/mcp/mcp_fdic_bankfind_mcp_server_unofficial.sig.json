@@ -1,0 +1,8 @@
+{
+  "skill_file": "mcp_fdic_bankfind_mcp_server_unofficial.json",
+  "signature": "jade-sig-PdAgnitbgnNUXydfMH393LWeDPlEv0QNuISqOAnEFQe8gvvnbk0rg1hWHpDeHTbOO3hOri82TI2AvsjS8s73DA==",
+  "public_key": "jade-pk-root-u9yg2vwkHJt/xCdQdqUcOJIpnYbbbK18V82IraZo2/8=",
+  "timestamp": 1771873066.047004,
+  "layers_passed": 5,
+  "skill_hash": "ab3fdf9f7623d0e84bc20b45439e5a9cdc0d9d92b30c186ea115877d28cfb741"
+}

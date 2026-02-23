@@ -1,0 +1,8 @@
+{
+  "skill_file": "mcp_thales_cdsp_cakm_mcp_server.json",
+  "signature": "jade-sig-j8eMCxQIr8GRZzxT6kh73prOB+p04Kf46C9/c9NRMpsVY0OhQQ2gyS/Bd+oh4SfRkATlxqFo2Ew+0dqHjIRiBQ==",
+  "public_key": "jade-pk-root-u9yg2vwkHJt/xCdQdqUcOJIpnYbbbK18V82IraZo2/8=",
+  "timestamp": 1771873550.8659189,
+  "layers_passed": 5,
+  "skill_hash": "b21c50a059f1bf3fdec191dd15f1cccb7eeadfdb70202cf167c7bdfc66cc5351"
+}

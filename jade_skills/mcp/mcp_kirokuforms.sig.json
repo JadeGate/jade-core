@@ -1,0 +1,8 @@
+{
+  "skill_file": "mcp_kirokuforms.json",
+  "signature": "jade-sig-iONtkGLhZoLHhWFxfDv87euitJAk1OzAWtkvuAea8s7EV7zNUhGPx+/a3fcDTxiGoDj45QSc+EIQYx6qu2WDDQ==",
+  "public_key": "jade-pk-root-u9yg2vwkHJt/xCdQdqUcOJIpnYbbbK18V82IraZo2/8=",
+  "timestamp": 1771873194.2256758,
+  "layers_passed": 5,
+  "skill_hash": "7f245c5bea4d1932ab167712e67a1a486b70dc9b584a6c948a5cb282978bfb2f"
+}

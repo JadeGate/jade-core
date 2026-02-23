@@ -1,0 +1,8 @@
+{
+  "skill_file": "mcp_wren_engine.json",
+  "signature": "jade-sig-/weoj7viMPxV3pWuwKzvMWG50Uv9VJh9KZNlTl6VjXjdBhzJE/Eel8Yb/Qr6seeRbFkAEvFC6USFtR6DL5TiCw==",
+  "public_key": "jade-pk-root-u9yg2vwkHJt/xCdQdqUcOJIpnYbbbK18V82IraZo2/8=",
+  "timestamp": 1771873627.5776043,
+  "layers_passed": 5,
+  "skill_hash": "46ecf404354082a884017e88cc965ba82255febb29f290c28d8e55ec1e030a38"
+}

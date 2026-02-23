@@ -1,0 +1,8 @@
+{
+  "skill_file": "mcp_dodo_payments.json",
+  "signature": "jade-sig-gG0RENZqowLQ72SRyB8EMZhcVxHLd8Pxd4d68QAfnSDLawwE2HwncJCL6Py5c5TbJxBkIGdcHGVT1Op5icjpCg==",
+  "public_key": "jade-pk-root-u9yg2vwkHJt/xCdQdqUcOJIpnYbbbK18V82IraZo2/8=",
+  "timestamp": 1771873031.0530305,
+  "layers_passed": 5,
+  "skill_hash": "01abcba80cd3ffb636bbe28ce6fcd1096fd0d80c4738d4c430e6446451bc8f4e"
+}

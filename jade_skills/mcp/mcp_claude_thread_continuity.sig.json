@@ -1,0 +1,8 @@
+{
+  "skill_file": "mcp_claude_thread_continuity.json",
+  "signature": "jade-sig-RcRQIipbSttjv5l4BmjSKjLLzQvJz58Xxthkwtm1odPIDrTY2MJSCGsQ1iZljrWft8RKc8SjoSL8cBXixKq+Cw==",
+  "public_key": "jade-pk-root-u9yg2vwkHJt/xCdQdqUcOJIpnYbbbK18V82IraZo2/8=",
+  "timestamp": 1771872951.6314447,
+  "layers_passed": 5,
+  "skill_hash": "4344a01a2b2ccea1bb70e3e44078e6733bc9e782c228e57172b0cbbcccd47bcb"
+}

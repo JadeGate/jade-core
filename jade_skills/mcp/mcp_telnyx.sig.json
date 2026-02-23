@@ -1,0 +1,8 @@
+{
+  "skill_file": "mcp_telnyx.json",
+  "signature": "jade-sig-7ohyAJ21JJm5Rd1rw7i0LFhJbajx+10bIyHOtGlf5JMO4mPUdF6d+f+FGCkpAhyw6URx0PEjt1F0d0szeoXdBw==",
+  "public_key": "jade-pk-root-u9yg2vwkHJt/xCdQdqUcOJIpnYbbbK18V82IraZo2/8=",
+  "timestamp": 1771873544.2278605,
+  "layers_passed": 5,
+  "skill_hash": "3caadae7ef28e0e0c144cb649dbf614c07e94662cc67998bd90e9f9322b73473"
+}

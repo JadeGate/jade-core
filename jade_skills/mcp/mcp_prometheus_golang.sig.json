@@ -1,0 +1,8 @@
+{
+  "skill_file": "mcp_prometheus_golang.json",
+  "signature": "jade-sig-SPADLj4n9tUsaYf+3AhaBj80cbjdK/xUiZy8YTZs7nzmk67aEF1fn6sKFC7NgB/NH0btyHWnPiewsarXUq8IDQ==",
+  "public_key": "jade-pk-root-u9yg2vwkHJt/xCdQdqUcOJIpnYbbbK18V82IraZo2/8=",
+  "timestamp": 1771873422.6702888,
+  "layers_passed": 5,
+  "skill_hash": "3b303baa725f81391b91727afe0a4d211fa05d029d16814cf15818d34bd214af"
+}

@@ -1,0 +1,8 @@
+{
+  "skill_file": "mcp_ebook_mcp.json",
+  "signature": "jade-sig-1VJtydUnHHne0VvE+dDbVrJTZ1TWJqfp7Xktl/+A6gpaE5cIjN+1eapN8jlLBVfc/IS4oGPV3G0AwuaKIRYbDQ==",
+  "public_key": "jade-pk-root-u9yg2vwkHJt/xCdQdqUcOJIpnYbbbK18V82IraZo2/8=",
+  "timestamp": 1771873039.6978114,
+  "layers_passed": 5,
+  "skill_hash": "a63c7fd4cbde8bd969a03285df2a289f4a5d6144b0ec3e5b7271bf04e20e7e9a"
+}

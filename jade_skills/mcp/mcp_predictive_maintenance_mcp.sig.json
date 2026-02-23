@@ -1,0 +1,8 @@
+{
+  "skill_file": "mcp_predictive_maintenance_mcp.json",
+  "signature": "jade-sig-DN6BaEMYE61gAA+cskcy0PchmO91JJAVsF7opzLCwdyg7zxR5TpLyGG9vIOGu1Rb5l5cq0kdtfw7iE2dADj3DA==",
+  "public_key": "jade-pk-root-u9yg2vwkHJt/xCdQdqUcOJIpnYbbbK18V82IraZo2/8=",
+  "timestamp": 1771873416.9251082,
+  "layers_passed": 5,
+  "skill_hash": "91624a8fbcfa7407a543341049821d1d625f810d582aa55c138e701f2ab0518e"
+}

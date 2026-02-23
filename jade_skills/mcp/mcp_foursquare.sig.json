@@ -1,0 +1,8 @@
+{
+  "skill_file": "mcp_foursquare.json",
+  "signature": "jade-sig-kSwJ+NV0gowkThn1MxJHn8t2nvwpVlXyN10Kp1vA8/7C403/wjQth1VavzeaHZuYNpjw9LEv/clZznumrTQYCA==",
+  "public_key": "jade-pk-root-u9yg2vwkHJt/xCdQdqUcOJIpnYbbbK18V82IraZo2/8=",
+  "timestamp": 1771873085.0592585,
+  "layers_passed": 5,
+  "skill_hash": "f2c90b845bcbb966bed286d349ec3ca2b2f7c1d8a8228d164f3024103d501017"
+}

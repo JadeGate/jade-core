@@ -1,0 +1,8 @@
+{
+  "skill_file": "mcp_coinmarketcap.json",
+  "signature": "jade-sig-LPaBrhywaVo7YNlPLfi5HicVYO4Cs6gg0Z47j3nnj1VYnmVL0Q0L9zlFX5YnF+b0RzV43Roi5N1orsofLbNYCA==",
+  "public_key": "jade-pk-root-u9yg2vwkHJt/xCdQdqUcOJIpnYbbbK18V82IraZo2/8=",
+  "timestamp": 1771872971.7916677,
+  "layers_passed": 5,
+  "skill_hash": "8baa10aafee72f014e6bf540d9e765d19857436d7cd694a9a456e4131809550c"
+}

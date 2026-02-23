@@ -1,15 +1,8 @@
 {
-  "jade_signature": {
-    "version": "1.0.0",
-    "skill_id": "ip_subnet_calc",
-    "content_hash": "sha256:361263b816ff23f42e7d72515e099e11097ecfe4a0d6f482b2e098bf726d6862",
-    "signature": "jade-sig-LW7AT24rP64iyUmxX9WDi2ZuNXzdw6UksvxX5qyqKvyy/TjmtLnGQpXanZl3lp8nSaWzi0/MiwE3x0Q84cZ3BQ==",
-    "signer": {
-      "public_key": "jade-pk-root-o0p0Em+ufryyPQFFdKHEdSbWOPCqiGhUwwC9AjYJb/U=",
-      "fingerprint": "SHA256:HU0Dpg+xFPNxCURZhG9eX6Yx+ynMlbincaJxIRUJt98=",
-      "role": "root"
-    },
-    "timestamp": "2026-02-22T17:50:24Z",
-    "expires": "2027-02-22T17:50:24Z"
-  }
+  "skill_file": "ip_subnet_calc.json",
+  "signature": "jade-sig-FbODtyBvZwTTFImLBvLqIb0QA/+i3A5D8fbAkAkermIIJeH+mRdN1f0jTlLkblsxZ+ZlpPHBjjJrQZbENIJOCw==",
+  "public_key": "jade-pk-root-u9yg2vwkHJt/xCdQdqUcOJIpnYbbbK18V82IraZo2/8=",
+  "timestamp": 1771873666.672836,
+  "layers_passed": 5,
+  "skill_hash": "a814df8b8199061c4698011d3c7badf361c4bac276713e7fb48e59bd9142abc7"
 }

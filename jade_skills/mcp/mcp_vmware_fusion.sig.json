@@ -1,0 +1,8 @@
+{
+  "skill_file": "mcp_vmware_fusion.json",
+  "signature": "jade-sig-ijPgqfVSGPdT5YcktlKu+9txWoiLyaw/wJnKxER51tddULZAu1khMsVlqqNLHCpiv05hymCOTwHll5cgVC41DQ==",
+  "public_key": "jade-pk-root-u9yg2vwkHJt/xCdQdqUcOJIpnYbbbK18V82IraZo2/8=",
+  "timestamp": 1771873604.81256,
+  "layers_passed": 5,
+  "skill_hash": "a94a7ceb583e7bfeabcc636037b3f3350b375cfc8dae81f6e791a70c3a03b1ed"
+}

@@ -1,0 +1,8 @@
+{
+  "skill_file": "mcp_truenas_core_mcp.json",
+  "signature": "jade-sig-AUmFnonrlZLWQYp4ehHqDBTzfjSLlCFvJ0uwol4zvhR8IhmivnibDZmCVUXlfCe7qj/o1fwGHD4HNmV6r+R7Dw==",
+  "public_key": "jade-pk-root-u9yg2vwkHJt/xCdQdqUcOJIpnYbbbK18V82IraZo2/8=",
+  "timestamp": 1771873575.9300156,
+  "layers_passed": 5,
+  "skill_hash": "4d15e78f62ad424a1fffd35ddc8933d01c9d26d22089a0d29abea0543fa2a7df"
+}

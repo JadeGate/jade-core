@@ -1,0 +1,8 @@
+{
+  "skill_file": "mcp_anubis_mcp.json",
+  "signature": "jade-sig-wPEzGR0JiL/S1q92gmFQXxIK9ZUTF7DMML/hkf3bIIjhRglYVxXS3B9aNqpdj6EfRSIGwRx+PMg2dCrw4z7sCQ==",
+  "public_key": "jade-pk-root-u9yg2vwkHJt/xCdQdqUcOJIpnYbbbK18V82IraZo2/8=",
+  "timestamp": 1771872858.7615983,
+  "layers_passed": 5,
+  "skill_hash": "bbb6c085545532f5a3adf71c9e678a6bf5c2c72ad902e1799d14c54b6d6636bf"
+}

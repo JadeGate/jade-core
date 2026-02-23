@@ -1,0 +1,8 @@
+{
+  "skill_file": "mcp_cldgeminipdf_analyzer.json",
+  "signature": "jade-sig-pHmEpXWi/ewr/dxxkfa6bUkMZOirvW5AsfXreaGRrQC84sGoVdUQMnhPoebYASW6R4V+1QXOmAL6cPI6neGOCw==",
+  "public_key": "jade-pk-root-u9yg2vwkHJt/xCdQdqUcOJIpnYbbbK18V82IraZo2/8=",
+  "timestamp": 1771872952.6064177,
+  "layers_passed": 5,
+  "skill_hash": "b9b57394591425c3af0a780c543af351915e9aa57ac3ad997e0fd99a56782385"
+}

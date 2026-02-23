@@ -1,0 +1,8 @@
+{
+  "skill_file": "mcp_eqty_lab.json",
+  "signature": "jade-sig-R6K4b+6OWMoXRJcVSzGQsphdKMfrsVw2ZNSSP6xEbfpCZ2xBS0uJv8IXWPHXWYFzHXm83tmAdCBZzibRqsBQAQ==",
+  "public_key": "jade-pk-root-u9yg2vwkHJt/xCdQdqUcOJIpnYbbbK18V82IraZo2/8=",
+  "timestamp": 1771873050.286043,
+  "layers_passed": 5,
+  "skill_hash": "3e7c3e79216621bab0c13ece3adc0eef13c9c24df9b2393c7432ebf521d13ed8"
+}

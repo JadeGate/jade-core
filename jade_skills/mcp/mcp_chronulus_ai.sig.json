@@ -1,0 +1,8 @@
+{
+  "skill_file": "mcp_chronulus_ai.json",
+  "signature": "jade-sig-LGPLwEOlMwRBUaKyfiKJkhGLPHic5dHxQfo3YlccjEZZMLNnSIRdWp7mwbPOCUaS5geyiYnHMQMQkNDsDcbdCw==",
+  "public_key": "jade-pk-root-u9yg2vwkHJt/xCdQdqUcOJIpnYbbbK18V82IraZo2/8=",
+  "timestamp": 1771872948.3123271,
+  "layers_passed": 5,
+  "skill_hash": "865a32ddad158094cd543c3bdf00ad8e6241f0679c3a24483e2e779827c6273b"
+}

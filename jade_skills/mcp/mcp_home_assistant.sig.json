@@ -1,0 +1,8 @@
+{
+  "skill_file": "mcp_home_assistant.json",
+  "signature": "jade-sig-cJoFy2gx32/R9kTT+9bxi35A0XElF69172vAXTUt9/GpPZgkBH4Py+cdFka33AM6ZsIPFGo+6WNT2LgXEjjJCg==",
+  "public_key": "jade-pk-root-u9yg2vwkHJt/xCdQdqUcOJIpnYbbbK18V82IraZo2/8=",
+  "timestamp": 1771873144.6619625,
+  "layers_passed": 5,
+  "skill_hash": "1d25f878141e4cc4e8d656d550234d353022c1a727bd7fbd023a4defdedd0bfb"
+}

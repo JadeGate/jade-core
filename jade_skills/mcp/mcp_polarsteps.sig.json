@@ -1,0 +1,8 @@
+{
+  "skill_file": "mcp_polarsteps.json",
+  "signature": "jade-sig-2cvpt0eLTUWy1w26YVHnoL8DhtcIRZ9eO9z8+C7P+hXZ6WXjyw2M9OggmZoJFDOIALNst+tt/LPBg27Sg0woAg==",
+  "public_key": "jade-pk-root-u9yg2vwkHJt/xCdQdqUcOJIpnYbbbK18V82IraZo2/8=",
+  "timestamp": 1771873410.2910497,
+  "layers_passed": 5,
+  "skill_hash": "29bb31b1d6f2a2f5d35d6ff8d25f4e2c2bf08f9c09ae6abca08d33881fcdebc4"
+}

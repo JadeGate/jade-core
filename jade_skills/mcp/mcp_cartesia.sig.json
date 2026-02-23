@@ -1,0 +1,8 @@
+{
+  "skill_file": "mcp_cartesia.json",
+  "signature": "jade-sig-756ylyMsDjUCT2aCqqn8luG3rdUEm6DV//20Q1uyXhSBNMBl1RID/+d+I2lsdjzTiEPekan6IvBcPWveAedgAw==",
+  "public_key": "jade-pk-root-u9yg2vwkHJt/xCdQdqUcOJIpnYbbbK18V82IraZo2/8=",
+  "timestamp": 1771872939.0682206,
+  "layers_passed": 5,
+  "skill_hash": "8ac6e1ab6b8d27e25a22de97372ec0d639ee5222a828f77465940d7dc7e93c6d"
+}

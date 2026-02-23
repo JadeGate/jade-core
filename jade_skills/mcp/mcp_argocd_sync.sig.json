@@ -1,0 +1,8 @@
+{
+  "skill_file": "mcp_argocd_sync.json",
+  "signature": "jade-sig-7RFyW6VFLojdA7RJnBqBkLPR4LcowFtoTFzUvDuRi+V32rTXHmvuVoH7zFSdWX/ZBsSpJeZs5U7CfgIQMYI6AQ==",
+  "public_key": "jade-pk-root-u9yg2vwkHJt/xCdQdqUcOJIpnYbbbK18V82IraZo2/8=",
+  "timestamp": 1771872872.5199935,
+  "layers_passed": 5,
+  "skill_hash": "1dbe857a6ab608b49cb2f354da4a5a5dd280bed32aed924ea08bdfddcbdabeee"
+}

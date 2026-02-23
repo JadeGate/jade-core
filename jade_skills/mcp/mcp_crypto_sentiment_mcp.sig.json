@@ -1,0 +1,8 @@
+{
+  "skill_file": "mcp_crypto_sentiment_mcp.json",
+  "signature": "jade-sig-IcuZATP78Mo7kZzRiGk9ni4V+7t7hXJwX/XobMi2EBHluarJ4quDJT+poFr9O2UmX1fZzkI8ji9z7sYdPZpmCA==",
+  "public_key": "jade-pk-root-u9yg2vwkHJt/xCdQdqUcOJIpnYbbbK18V82IraZo2/8=",
+  "timestamp": 1771872992.3695235,
+  "layers_passed": 5,
+  "skill_hash": "0612850052129e8f43738c424d81f35c832df6c5cd5c6226c8cba1b4c152b0c7"
+}

@@ -1,0 +1,8 @@
+{
+  "skill_file": "mcp_flightradar24.json",
+  "signature": "jade-sig-V8vLtrpShWAyPG79JGbUaE3MF1jjSsxXEjyShHrNCOq1mW/m6FHzNKNqHokVbSe+NXH+1sFFDpnWrLxdlepeAw==",
+  "public_key": "jade-pk-root-u9yg2vwkHJt/xCdQdqUcOJIpnYbbbK18V82IraZo2/8=",
+  "timestamp": 1771873080.2761188,
+  "layers_passed": 5,
+  "skill_hash": "ae0b7b2ad4b431a4484baf8bdf17832ca6485591cd003788d18ad6238087e7c1"
+}

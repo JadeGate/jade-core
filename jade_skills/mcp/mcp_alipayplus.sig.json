@@ -1,0 +1,8 @@
+{
+  "skill_file": "mcp_alipayplus.json",
+  "signature": "jade-sig-vpyaiHw148DH/RMk9E7vwYBUE44LldAywIv2zJ6mR/qQ4s09jA5eysFLTj3X16oJu4w3Ns9VPUnc1Q7aE8XZDA==",
+  "public_key": "jade-pk-root-u9yg2vwkHJt/xCdQdqUcOJIpnYbbbK18V82IraZo2/8=",
+  "timestamp": 1771872850.21241,
+  "layers_passed": 5,
+  "skill_hash": "538e6c886802fe9565dc10417c69d55f79cc4fdbf829a3312414221761106e8c"
+}

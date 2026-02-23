@@ -1,0 +1,8 @@
+{
+  "skill_file": "mcp_kubeflow_spark_history_mcp_server.json",
+  "signature": "jade-sig-wVnuNDkVmmYsL1wqG7UcdnN4RFZYiVBECJMu+DVBLYn4mvSGi/q8gJbyHZotjE0CpvYxFWNxaIoExuUm5oERAg==",
+  "public_key": "jade-pk-root-u9yg2vwkHJt/xCdQdqUcOJIpnYbbbK18V82IraZo2/8=",
+  "timestamp": 1771873200.5795188,
+  "layers_passed": 5,
+  "skill_hash": "9aa2f04d66418f67e0a1bab5f74cda21579904c9281481cd32597c06b16cae74"
+}

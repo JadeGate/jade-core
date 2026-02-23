@@ -1,0 +1,8 @@
+{
+  "skill_file": "mcp_wikidata_sparql.json",
+  "signature": "jade-sig-uhV+uBjRFJT3z9fBACiGVqBbgiZqxVkOHR+ElNa+zGK+8rLAJ1sJoNyjaqjTQRGcH91hB6NLsGDC8beJRE4tCg==",
+  "public_key": "jade-pk-root-u9yg2vwkHJt/xCdQdqUcOJIpnYbbbK18V82IraZo2/8=",
+  "timestamp": 1771873618.566927,
+  "layers_passed": 5,
+  "skill_hash": "62992c35587c7dc206b7dfb17e391fab5e7e271435d160169e581c87a91a1eee"
+}

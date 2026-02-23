@@ -1,0 +1,8 @@
+{
+  "skill_file": "mcp_cloudsway_smartsearch.json",
+  "signature": "jade-sig-xFqMh+xNhrbotbfUXa0bAEAm+p9rBhP8+1EjqjuY1LAObzCaslRLRoKEZgFcYXXxW55Za4cgClnSnAlRgLZOAw==",
+  "public_key": "jade-pk-root-u9yg2vwkHJt/xCdQdqUcOJIpnYbbbK18V82IraZo2/8=",
+  "timestamp": 1771872963.141493,
+  "layers_passed": 5,
+  "skill_hash": "4d7e93210c62010bd81c23a62cbce0575adc474841d6220d402c3041b6481afa"
+}

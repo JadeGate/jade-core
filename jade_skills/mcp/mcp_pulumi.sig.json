@@ -1,0 +1,8 @@
+{
+  "skill_file": "mcp_pulumi.json",
+  "signature": "jade-sig-drDNZ9iyktGSvCloM0yc6A9y0lKz/YZpgLqh3qsi0wk47Khjn3UlQDUyWoGA9OGdGLrGf/kolBAbXXd7OT/6DQ==",
+  "public_key": "jade-pk-root-u9yg2vwkHJt/xCdQdqUcOJIpnYbbbK18V82IraZo2/8=",
+  "timestamp": 1771873426.9792082,
+  "layers_passed": 5,
+  "skill_hash": "4bd4e24dca8ef648e6e7ecd6be548682cb5059c5a83cba14b54face2eaf8865b"
+}

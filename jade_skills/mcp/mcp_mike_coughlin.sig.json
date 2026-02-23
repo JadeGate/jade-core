@@ -1,0 +1,8 @@
+{
+  "skill_file": "mcp_mike_coughlin.json",
+  "signature": "jade-sig-LyihX3m5UW1bEOx91JsWajC2bcsmsZxcLuHRZHCkP4rd6Kt1A+nKOt5VbjDFVyDRjClMeqTukyhTNmpQK7QMBw==",
+  "public_key": "jade-pk-root-u9yg2vwkHJt/xCdQdqUcOJIpnYbbbK18V82IraZo2/8=",
+  "timestamp": 1771873302.150525,
+  "layers_passed": 5,
+  "skill_hash": "f5f4f75315f1d6fdea67b1c32325275fe9fcd28049460ddd517ea2dbbb2d742f"
+}

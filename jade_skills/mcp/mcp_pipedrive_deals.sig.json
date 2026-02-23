@@ -1,0 +1,8 @@
+{
+  "skill_file": "mcp_pipedrive_deals.json",
+  "signature": "jade-sig-PmqrHcTZWxM6Owr8K4iMbfbAeVKHva8dRC1IwMz1oFb0jgOhV9rNMKrVC6BOJC+MU3PK9EX/xcW742BqVNJAAQ==",
+  "public_key": "jade-pk-root-u9yg2vwkHJt/xCdQdqUcOJIpnYbbbK18V82IraZo2/8=",
+  "timestamp": 1771873404.1457496,
+  "layers_passed": 5,
+  "skill_hash": "87a8d525b537e883c6221501e5dd0e9a55fd6dd7e0e94feda89af6041d707189"
+}

@@ -1,0 +1,8 @@
+{
+  "skill_file": "mcp_offorte.json",
+  "signature": "jade-sig-Yg9FA6vgVtK15U12OuzZGnwFoB/LezeUcjlzs+85+bDK7/zkUow90IEr4goJVwjAQfNYR+jMDplQMjFXgtxfDQ==",
+  "public_key": "jade-pk-root-u9yg2vwkHJt/xCdQdqUcOJIpnYbbbK18V82IraZo2/8=",
+  "timestamp": 1771873354.305209,
+  "layers_passed": 5,
+  "skill_hash": "47bf2d3e5177f6966facd962997b64a0a20cadcc27ca371fdf5ee89cbb27a36d"
+}

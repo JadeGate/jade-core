@@ -1,0 +1,8 @@
+{
+  "skill_file": "mcp_powerdrill.json",
+  "signature": "jade-sig-2f5lYXe+qNg5HevAvFUr6XtkUpDwAdRWUcFmA6obF5EUPWjHxvbuEmGXlqpGq3xjVQyBLWBMGHxUw2w6H7K6CQ==",
+  "public_key": "jade-pk-root-u9yg2vwkHJt/xCdQdqUcOJIpnYbbbK18V82IraZo2/8=",
+  "timestamp": 1771873415.9731479,
+  "layers_passed": 5,
+  "skill_hash": "02aba64310b05ee6d5bf821028ae975cd0e93a1fec193a9192932a01404569b0"
+}

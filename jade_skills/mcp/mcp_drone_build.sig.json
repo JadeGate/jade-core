@@ -1,0 +1,8 @@
+{
+  "skill_file": "mcp_drone_build.json",
+  "signature": "jade-sig-f6Gh7fNGWvniPm1wInKbQLIl7QzbvvDJZwuXW7dnPHS8Q9nDe5A2tepUpiRGX2TRGMV1b6KqRWWds3BxROAVAw==",
+  "public_key": "jade-pk-root-u9yg2vwkHJt/xCdQdqUcOJIpnYbbbK18V82IraZo2/8=",
+  "timestamp": 1771873034.421459,
+  "layers_passed": 5,
+  "skill_hash": "8d575324115f7706d8760ac9da0c3dc073705fd9a0d0841256b21325fb53521a"
+}

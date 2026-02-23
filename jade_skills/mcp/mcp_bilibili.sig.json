@@ -1,0 +1,8 @@
+{
+  "skill_file": "mcp_bilibili.json",
+  "signature": "jade-sig-pik9AprwyIvhSc+MWZfP41JDMHssyPjnxobya/gUuJR+0aUXczgTXyoLDT4jTebheACdl6A26wso9THTLwmACg==",
+  "public_key": "jade-pk-root-u9yg2vwkHJt/xCdQdqUcOJIpnYbbbK18V82IraZo2/8=",
+  "timestamp": 1771872913.5467806,
+  "layers_passed": 5,
+  "skill_hash": "62a1423cacf598bc95d2c7b8d22ff367ba53279cb71c4512f5c36b1560f69d08"
+}

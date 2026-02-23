@@ -1,0 +1,8 @@
+{
+  "skill_file": "mcp_google_vertex_ai_search.json",
+  "signature": "jade-sig-0i+z3Ls/O/7tQap7iESAuoGQUK6DAYO70qzEhnczcJh6bKdLubxBZxCLEDct1lgP/gy7lBFsL3Csozl2ATizDw==",
+  "public_key": "jade-pk-root-u9yg2vwkHJt/xCdQdqUcOJIpnYbbbK18V82IraZo2/8=",
+  "timestamp": 1771873124.089559,
+  "layers_passed": 5,
+  "skill_hash": "d6b3aadf92c3100001a0124a97bb230cf05944c93aeabc4ab27210a3de2db36c"
+}
