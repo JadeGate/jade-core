@@ -1,0 +1,100 @@
+{
+  "jade_version": "1.0.0",
+  "skill_id": "mcp_py_mcp_qdrant_rag",
+  "metadata": {
+    "name": "MCP py-mcp-qdrant-rag",
+    "version": "1.0.0",
+    "description": "MCP server: py-mcp-qdrant-rag. Verified from official MCP registry. Source: https://github.com/amornpan/py-mcp-qdrant-rag",
+    "author": "mcp-registry",
+    "tags": [
+      "mcp",
+      "verified",
+      "qdrant",
+      "rag"
+    ],
+    "license": "BSL-1.1",
+    "created_at": "2026-02-23T18:44:45Z",
+    "updated_at": "2026-02-23T18:44:45Z",
+    "category": "mcp",
+    "source_url": "https://github.com/amornpan/py-mcp-qdrant-rag"
+  },
+  "trigger": {
+    "type": "task_intent",
+    "conditions": [
+      {
+        "field": "task.type",
+        "operator": "in",
+        "value": [
+          "mcp_py_mcp_qdrant_rag"
+        ]
+      }
+    ]
+  },
+  "input_schema": {
+    "required_params": [
+      {
+        "name": "request",
+        "type": "object",
+        "description": "Request parameters for py-mcp-qdrant-rag"
+      }
+    ],
+    "optional_params": []
+  },
+  "output_schema": {
+    "fields": [
+      {
+        "name": "result",
+        "type": "object",
+        "description": "Result from py-mcp-qdrant-rag"
+      }
+    ]
+  },
+  "execution_dag": {
+    "nodes": [
+      {
+        "id": "exec",
+        "action": "http_get",
+        "params": {
+          "server": "mcp_py_mcp_qdrant_rag"
+        }
+      },
+      {
+        "id": "parse",
+        "action": "json_extract",
+        "params": {
+          "path": "$.result"
+        }
+      },
+      {
+        "id": "ret",
+        "action": "return_result",
+        "params": {}
+      }
+    ],
+    "edges": [
+      {
+        "from": "exec",
+        "to": "parse"
+      },
+      {
+        "from": "parse",
+        "to": "ret"
+      }
+    ],
+    "entry_node": "exec",
+    "exit_node": "ret"
+  },
+  "security": {
+    "network_whitelist": [],
+    "file_permissions": {
+      "read": [],
+      "write": []
+    },
+    "max_execution_time_ms": 30000,
+    "max_retries": 2,
+    "sandbox_level": "strict",
+    "dangerous_patterns": []
+  },
+  "mcp_compatible": true,
+  "required_mcp_capabilities": []
+}

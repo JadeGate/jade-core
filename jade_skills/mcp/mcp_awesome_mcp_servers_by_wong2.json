@@ -1,0 +1,101 @@
+{
+  "jade_version": "1.0.0",
+  "skill_id": "mcp_awesome_mcp_servers_by_wong2",
+  "metadata": {
+    "name": "MCP Awesome MCP Servers by wong2",
+    "version": "1.0.0",
+    "description": "MCP server: Awesome MCP Servers by wong2. Verified from official MCP registry. Source: https://github.com/wong2/awesome-mcp-servers",
+    "author": "mcp-registry",
+    "tags": [
+      "mcp",
+      "verified",
+      "awesome",
+      "servers",
+      "wong"
+    ],
+    "license": "BSL-1.1",
+    "created_at": "2026-02-23T18:44:45Z",
+    "updated_at": "2026-02-23T18:44:45Z",
+    "category": "mcp",
+    "source_url": "https://github.com/wong2/awesome-mcp-servers"
+  },
+  "trigger": {
+    "type": "task_intent",
+    "conditions": [
+      {
+        "field": "task.type",
+        "operator": "in",
+        "value": [
+          "mcp_awesome_mcp_servers_by_wong2"
+        ]
+      }
+    ]
+  },
+  "input_schema": {
+    "required_params": [
+      {
+        "name": "request",
+        "type": "object",
+        "description": "Request parameters for Awesome MCP Servers by wong2"
+      }
+    ],
+    "optional_params": []
+  },
+  "output_schema": {
+    "fields": [
+      {
+        "name": "result",
+        "type": "object",
+        "description": "Result from Awesome MCP Servers by wong2"
+      }
+    ]
+  },
+  "execution_dag": {
+    "nodes": [
+      {
+        "id": "exec",
+        "action": "http_get",
+        "params": {
+          "server": "mcp_awesome_mcp_servers_by_wong2"
+        }
+      },
+      {
+        "id": "parse",
+        "action": "json_extract",
+        "params": {
+          "path": "$.result"
+        }
+      },
+      {
+        "id": "ret",
+        "action": "return_result",
+        "params": {}
+      }
+    ],
+    "edges": [
+      {
+        "from": "exec",
+        "to": "parse"
+      },
+      {
+        "from": "parse",
+        "to": "ret"
+      }
+    ],
+    "entry_node": "exec",
+    "exit_node": "ret"
+  },
+  "security": {
+    "network_whitelist": [],
+    "file_permissions": {
+      "read": [],
+      "write": []
+    },
+    "max_execution_time_ms": 30000,
+    "max_retries": 2,
+    "sandbox_level": "strict",
+    "dangerous_patterns": []
+  },
+  "mcp_compatible": true,
+  "required_mcp_capabilities": []
+}

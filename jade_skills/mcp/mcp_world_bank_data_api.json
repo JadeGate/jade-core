@@ -1,0 +1,102 @@
+{
+  "jade_version": "1.0.0",
+  "skill_id": "mcp_world_bank_data_api",
+  "metadata": {
+    "name": "MCP World Bank data API",
+    "version": "1.0.0",
+    "description": "MCP server: World Bank data API. Verified from official MCP registry. Source: https://github.com/anshumax/world_bank_mcp_server",
+    "author": "mcp-registry",
+    "tags": [
+      "mcp",
+      "verified",
+      "world",
+      "bank",
+      "data",
+      "api"
+    ],
+    "license": "BSL-1.1",
+    "created_at": "2026-02-23T18:44:45Z",
+    "updated_at": "2026-02-23T18:44:45Z",
+    "category": "mcp",
+    "source_url": "https://github.com/anshumax/world_bank_mcp_server"
+  },
+  "trigger": {
+    "type": "task_intent",
+    "conditions": [
+      {
+        "field": "task.type",
+        "operator": "in",
+        "value": [
+          "mcp_world_bank_data_api"
+        ]
+      }
+    ]
+  },
+  "input_schema": {
+    "required_params": [
+      {
+        "name": "request",
+        "type": "object",
+        "description": "Request parameters for World Bank data API"
+      }
+    ],
+    "optional_params": []
+  },
+  "output_schema": {
+    "fields": [
+      {
+        "name": "result",
+        "type": "object",
+        "description": "Result from World Bank data API"
+      }
+    ]
+  },
+  "execution_dag": {
+    "nodes": [
+      {
+        "id": "exec",
+        "action": "http_get",
+        "params": {
+          "server": "mcp_world_bank_data_api"
+        }
+      },
+      {
+        "id": "parse",
+        "action": "json_extract",
+        "params": {
+          "path": "$.result"
+        }
+      },
+      {
+        "id": "ret",
+        "action": "return_result",
+        "params": {}
+      }
+    ],
+    "edges": [
+      {
+        "from": "exec",
+        "to": "parse"
+      },
+      {
+        "from": "parse",
+        "to": "ret"
+      }
+    ],
+    "entry_node": "exec",
+    "exit_node": "ret"
+  },
+  "security": {
+    "network_whitelist": [],
+    "file_permissions": {
+      "read": [],
+      "write": []
+    },
+    "max_execution_time_ms": 30000,
+    "max_retries": 2,
+    "sandbox_level": "strict",
+    "dangerous_patterns": []
+  },
+  "mcp_compatible": true,
+  "required_mcp_capabilities": []
+}

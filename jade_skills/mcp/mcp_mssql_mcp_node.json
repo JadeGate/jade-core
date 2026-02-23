@@ -1,0 +1,100 @@
+{
+  "jade_version": "1.0.0",
+  "skill_id": "mcp_mssql_mcp_node",
+  "metadata": {
+    "name": "MCP MSSQL-MCP-Node",
+    "version": "1.0.0",
+    "description": "MCP server: MSSQL-MCP-Node. Verified from official MCP registry. Source: https://github.com/mihai-dulgheru/mssql-mcp-node",
+    "author": "mcp-registry",
+    "tags": [
+      "mcp",
+      "verified",
+      "mssql",
+      "node"
+    ],
+    "license": "BSL-1.1",
+    "created_at": "2026-02-23T18:44:45Z",
+    "updated_at": "2026-02-23T18:44:45Z",
+    "category": "mcp",
+    "source_url": "https://github.com/mihai-dulgheru/mssql-mcp-node"
+  },
+  "trigger": {
+    "type": "task_intent",
+    "conditions": [
+      {
+        "field": "task.type",
+        "operator": "in",
+        "value": [
+          "mcp_mssql_mcp_node"
+        ]
+      }
+    ]
+  },
+  "input_schema": {
+    "required_params": [
+      {
+        "name": "request",
+        "type": "object",
+        "description": "Request parameters for MSSQL-MCP-Node"
+      }
+    ],
+    "optional_params": []
+  },
+  "output_schema": {
+    "fields": [
+      {
+        "name": "result",
+        "type": "object",
+        "description": "Result from MSSQL-MCP-Node"
+      }
+    ]
+  },
+  "execution_dag": {
+    "nodes": [
+      {
+        "id": "exec",
+        "action": "http_get",
+        "params": {
+          "server": "mcp_mssql_mcp_node"
+        }
+      },
+      {
+        "id": "parse",
+        "action": "json_extract",
+        "params": {
+          "path": "$.result"
+        }
+      },
+      {
+        "id": "ret",
+        "action": "return_result",
+        "params": {}
+      }
+    ],
+    "edges": [
+      {
+        "from": "exec",
+        "to": "parse"
+      },
+      {
+        "from": "parse",
+        "to": "ret"
+      }
+    ],
+    "entry_node": "exec",
+    "exit_node": "ret"
+  },
+  "security": {
+    "network_whitelist": [],
+    "file_permissions": {
+      "read": [],
+      "write": []
+    },
+    "max_execution_time_ms": 30000,
+    "max_retries": 2,
+    "sandbox_level": "strict",
+    "dangerous_patterns": []
+  },
+  "mcp_compatible": true,
+  "required_mcp_capabilities": []
+}

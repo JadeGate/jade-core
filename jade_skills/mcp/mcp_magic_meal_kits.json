@@ -1,0 +1,101 @@
+{
+  "jade_version": "1.0.0",
+  "skill_id": "mcp_magic_meal_kits",
+  "metadata": {
+    "name": "MCP Magic Meal Kits",
+    "version": "1.0.0",
+    "description": "MCP server: Magic Meal Kits. Verified from official MCP registry. Source: https://github.com/pureugong/mmk-mcp",
+    "author": "mcp-registry",
+    "tags": [
+      "mcp",
+      "verified",
+      "magic",
+      "meal",
+      "kits"
+    ],
+    "license": "BSL-1.1",
+    "created_at": "2026-02-23T18:44:45Z",
+    "updated_at": "2026-02-23T18:44:45Z",
+    "category": "mcp",
+    "source_url": "https://github.com/pureugong/mmk-mcp"
+  },
+  "trigger": {
+    "type": "task_intent",
+    "conditions": [
+      {
+        "field": "task.type",
+        "operator": "in",
+        "value": [
+          "mcp_magic_meal_kits"
+        ]
+      }
+    ]
+  },
+  "input_schema": {
+    "required_params": [
+      {
+        "name": "request",
+        "type": "object",
+        "description": "Request parameters for Magic Meal Kits"
+      }
+    ],
+    "optional_params": []
+  },
+  "output_schema": {
+    "fields": [
+      {
+        "name": "result",
+        "type": "object",
+        "description": "Result from Magic Meal Kits"
+      }
+    ]
+  },
+  "execution_dag": {
+    "nodes": [
+      {
+        "id": "exec",
+        "action": "http_get",
+        "params": {
+          "server": "mcp_magic_meal_kits"
+        }
+      },
+      {
+        "id": "parse",
+        "action": "json_extract",
+        "params": {
+          "path": "$.result"
+        }
+      },
+      {
+        "id": "ret",
+        "action": "return_result",
+        "params": {}
+      }
+    ],
+    "edges": [
+      {
+        "from": "exec",
+        "to": "parse"
+      },
+      {
+        "from": "parse",
+        "to": "ret"
+      }
+    ],
+    "entry_node": "exec",
+    "exit_node": "ret"
+  },
+  "security": {
+    "network_whitelist": [],
+    "file_permissions": {
+      "read": [],
+      "write": []
+    },
+    "max_execution_time_ms": 30000,
+    "max_retries": 2,
+    "sandbox_level": "strict",
+    "dangerous_patterns": []
+  },
+  "mcp_compatible": true,
+  "required_mcp_capabilities": []
+}

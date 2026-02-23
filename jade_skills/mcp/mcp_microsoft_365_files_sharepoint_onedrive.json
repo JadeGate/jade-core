@@ -1,0 +1,102 @@
+{
+  "jade_version": "1.0.0",
+  "skill_id": "mcp_microsoft_365_files_sharepoint_onedrive",
+  "metadata": {
+    "name": "MCP Microsoft 365 Files (SharePoint/OneDrive)",
+    "version": "1.0.0",
+    "description": "MCP server: Microsoft 365 Files (SharePoint/OneDrive). Verified from official MCP registry. Source: https://github.com/godwin3737/mcp-server-microsoft365-filesearch",
+    "author": "mcp-registry",
+    "tags": [
+      "mcp",
+      "verified",
+      "microsoft",
+      "files",
+      "sharepoint",
+      "onedrive"
+    ],
+    "license": "BSL-1.1",
+    "created_at": "2026-02-23T18:44:45Z",
+    "updated_at": "2026-02-23T18:44:45Z",
+    "category": "mcp",
+    "source_url": "https://github.com/godwin3737/mcp-server-microsoft365-filesearch"
+  },
+  "trigger": {
+    "type": "task_intent",
+    "conditions": [
+      {
+        "field": "task.type",
+        "operator": "in",
+        "value": [
+          "mcp_microsoft_365_files_sharepoint_onedrive"
+        ]
+      }
+    ]
+  },
+  "input_schema": {
+    "required_params": [
+      {
+        "name": "request",
+        "type": "object",
+        "description": "Request parameters for Microsoft 365 Files (SharePoint/OneDrive)"
+      }
+    ],
+    "optional_params": []
+  },
+  "output_schema": {
+    "fields": [
+      {
+        "name": "result",
+        "type": "object",
+        "description": "Result from Microsoft 365 Files (SharePoint/OneDrive)"
+      }
+    ]
+  },
+  "execution_dag": {
+    "nodes": [
+      {
+        "id": "exec",
+        "action": "http_get",
+        "params": {
+          "server": "mcp_microsoft_365_files_sharepoint_onedrive"
+        }
+      },
+      {
+        "id": "parse",
+        "action": "json_extract",
+        "params": {
+          "path": "$.result"
+        }
+      },
+      {
+        "id": "ret",
+        "action": "return_result",
+        "params": {}
+      }
+    ],
+    "edges": [
+      {
+        "from": "exec",
+        "to": "parse"
+      },
+      {
+        "from": "parse",
+        "to": "ret"
+      }
+    ],
+    "entry_node": "exec",
+    "exit_node": "ret"
+  },
+  "security": {
+    "network_whitelist": [],
+    "file_permissions": {
+      "read": [],
+      "write": []
+    },
+    "max_execution_time_ms": 30000,
+    "max_retries": 2,
+    "sandbox_level": "strict",
+    "dangerous_patterns": []
+  },
+  "mcp_compatible": true,
+  "required_mcp_capabilities": []
+}

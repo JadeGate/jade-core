@@ -1,0 +1,100 @@
+{
+  "jade_version": "1.0.0",
+  "skill_id": "mcp_pydantic_pydantic_ai_mcp_run_python",
+  "metadata": {
+    "name": "MCP pydantic/pydantic-ai/mcp-run-python",
+    "version": "1.0.0",
+    "description": "MCP server: pydantic/pydantic-ai/mcp-run-python. Verified from official MCP registry. Source: https://github.com/pydantic/pydantic-ai/tree/main/mcp-run-python",
+    "author": "mcp-registry",
+    "tags": [
+      "mcp",
+      "verified",
+      "pydantic",
+      "run"
+    ],
+    "license": "BSL-1.1",
+    "created_at": "2026-02-23T18:44:45Z",
+    "updated_at": "2026-02-23T18:44:45Z",
+    "category": "mcp",
+    "source_url": "https://github.com/pydantic/pydantic-ai/tree/main/mcp-run-python"
+  },
+  "trigger": {
+    "type": "task_intent",
+    "conditions": [
+      {
+        "field": "task.type",
+        "operator": "in",
+        "value": [
+          "mcp_pydantic_pydantic_ai_mcp_run_python"
+        ]
+      }
+    ]
+  },
+  "input_schema": {
+    "required_params": [
+      {
+        "name": "request",
+        "type": "object",
+        "description": "Request parameters for pydantic/pydantic-ai/mcp-run-python"
+      }
+    ],
+    "optional_params": []
+  },
+  "output_schema": {
+    "fields": [
+      {
+        "name": "result",
+        "type": "object",
+        "description": "Result from pydantic/pydantic-ai/mcp-run-python"
+      }
+    ]
+  },
+  "execution_dag": {
+    "nodes": [
+      {
+        "id": "exec",
+        "action": "http_get",
+        "params": {
+          "server": "mcp_pydantic_pydantic_ai_mcp_run_python"
+        }
+      },
+      {
+        "id": "parse",
+        "action": "json_extract",
+        "params": {
+          "path": "$.result"
+        }
+      },
+      {
+        "id": "ret",
+        "action": "return_result",
+        "params": {}
+      }
+    ],
+    "edges": [
+      {
+        "from": "exec",
+        "to": "parse"
+      },
+      {
+        "from": "parse",
+        "to": "ret"
+      }
+    ],
+    "entry_node": "exec",
+    "exit_node": "ret"
+  },
+  "security": {
+    "network_whitelist": [],
+    "file_permissions": {
+      "read": [],
+      "write": []
+    },
+    "max_execution_time_ms": 30000,
+    "max_retries": 2,
+    "sandbox_level": "strict",
+    "dangerous_patterns": []
+  },
+  "mcp_compatible": true,
+  "required_mcp_capabilities": []
+}
