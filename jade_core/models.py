@@ -71,14 +71,18 @@ class ValidationIssue:
     code: str
     message: str
     path: str = ""  # JSON path to the problematic field
+    hint: str = ""  # Human-friendly fix suggestion
 
     def to_dict(self) -> Dict[str, str]:
-        return {
+        d = {
             "severity": self.severity.value,
             "code": self.code,
             "message": self.message,
             "path": self.path,
         }
+        if self.hint:
+            d["hint"] = self.hint
+        return d
 
 
 @dataclass

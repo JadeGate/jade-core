@@ -160,6 +160,7 @@ class JadeValidator:
                     severity=ValidationSeverity.ERROR,
                     code="PARSE_ERROR",
                     message=f"Failed to parse skill: {e}",
+                    hint="Check that all required fields exist and have correct types. Run: jade verify examples/hello_world.json to see a working example.",
                 )],
             )
 
@@ -203,6 +204,7 @@ class JadeValidator:
                     code="MISSING_FIELD",
                     message=f"Required field '{field_name}' is missing",
                     path=field_name,
+                    hint=f"Add '{field_name}' to your skill JSON. See examples/ for reference.",
                 ))
         return issues
 
@@ -216,6 +218,7 @@ class JadeValidator:
                 message=f"jade_version '{skill.jade_version}' must match pattern '1.x.x'. "
                         f"Supported versions: {self.SUPPORTED_VERSIONS}",
                 path="jade_version",
+                hint="Use \"jade_version\": \"1.0.0\"",
             ))
         elif skill.jade_version not in self.SUPPORTED_VERSIONS:
             issues.append(ValidationIssue(
@@ -237,6 +240,7 @@ class JadeValidator:
                 code="INVALID_SKILL_ID",
                 message=f"skill_id '{skill.skill_id}' must match pattern '^[a-z][a-z0-9_]{{2,63}}$'",
                 path="skill_id",
+                hint="Use lowercase letters, numbers, and underscores only. Example: \"my_cool_tool\"",
             ))
 
         if not meta.name or len(meta.name) > 128:

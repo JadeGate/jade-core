@@ -193,6 +193,7 @@ class SecurityEngine:
                         code="SEC_DANGEROUS_CMD",
                         message=f"Dangerous system command detected: '{match.group()}'",
                         path=path,
+                        hint="Remove shell commands from your skill. Skills should use atomic actions (http_get, json_extract, etc.), not system commands.",
                     ))
         return issues
 
@@ -277,6 +278,7 @@ class SecurityEngine:
                         code="SEC_SENSITIVE_PATH",
                         message=f"Access to sensitive path forbidden: '{perm_path}'",
                         path="security.file_permissions",
+                        hint="Remove sensitive paths from file_permissions. Skills should not access system files like /etc/passwd or ~/.ssh/.",
                     ))
 
         return issues
@@ -295,6 +297,7 @@ class SecurityEngine:
                     message=f"Action '{node.action}' is not in the allowed atomic actions list. "
                             f"Node: '{node.id}'",
                     path=f"execution_dag.nodes.{node.id}.action",
+                    hint=f"Use a valid action like 'http_get', 'return_result', 'json_extract', 'text_template'. See jade_schema/allowed_atomic_actions.json for the full list.",
                 ))
 
         return issues

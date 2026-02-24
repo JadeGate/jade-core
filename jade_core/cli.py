@@ -183,11 +183,15 @@ def cmd_verify(args):
             print(f"  {C.RED}❌ REJECTED{C.RESET}  {C.DIM}({elapsed:.0f}ms){C.RESET}")
             for e in r.errors:
                 print(f"     {C.RED}[{e.code}]{C.RESET} {e.message}")
+                if hasattr(e, 'hint') and e.hint:
+                    print(f"     {C.DIM}💡 {e.hint}{C.RESET}")
 
         if args.verbose and r.warnings:
             print()
             for w in r.warnings:
                 print(f"     {C.YELLOW}⚠ [{w.code}]{C.RESET} {w.message}")
+                if hasattr(w, 'hint') and w.hint:
+                    print(f"     {C.DIM}💡 {w.hint}{C.RESET}")
 
         print()
 
