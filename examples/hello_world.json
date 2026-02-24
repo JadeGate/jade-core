@@ -1,0 +1,61 @@
+{
+  "jade_version": "1.0.0",
+  "skill_id": "hello_world",
+  "metadata": {
+    "name": "Hello World",
+    "version": "1.0.0",
+    "description": "The simplest possible JadeGate skill. Returns a greeting.",
+    "author": "jadegate",
+    "tags": ["example", "beginner"],
+    "license": "Apache-2.0",
+    "category": "general"
+  },
+  "trigger": {
+    "type": "task_intent",
+    "conditions": [
+      {"field": "task.type", "operator": "equals", "value": "greet"}
+    ]
+  },
+  "input_schema": {
+    "required_params": [
+      {"name": "name", "type": "string", "description": "Name to greet"}
+    ],
+    "optional_params": []
+  },
+  "output_schema": {
+    "fields": [
+      {"name": "greeting", "type": "string", "description": "The greeting message"}
+    ]
+  },
+  "execution_dag": {
+    "nodes": [
+      {
+        "id": "format",
+        "action": "text_template",
+        "params": {
+          "template": "Hello, {{input.name}}! Welcome to JadeGate."
+        }
+      },
+      {
+        "id": "done",
+        "action": "return_result",
+        "params": {
+          "output_mapping": {"greeting": "{{nodes.format.output}}"}
+        }
+      }
+    ],
+    "edges": [
+      {"from": "format", "to": "done"}
+    ],
+    "entry_node": "format",
+    "exit_node": "done"
+  },
+  "security": {
+    "network_whitelist": [],
+    "file_permissions": {"read": [], "write": []},
+    "max_execution_time_ms": 5000,
+    "max_retries": 0,
+    "sandbox_level": "strict",
+    "dangerous_patterns": []
+  }
+}

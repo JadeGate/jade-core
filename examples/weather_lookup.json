@@ -1,0 +1,68 @@
+{
+  "jade_version": "1.0.0",
+  "skill_id": "weather_lookup",
+  "metadata": {
+    "name": "Weather Lookup",
+    "version": "1.0.0",
+    "description": "Fetch current weather for a city using wttr.in API. Demonstrates network whitelist.",
+    "author": "jadegate",
+    "tags": ["example", "weather", "api"],
+    "license": "Apache-2.0",
+    "category": "general"
+  },
+  "trigger": {
+    "type": "task_intent",
+    "conditions": [
+      {"field": "task.type", "operator": "in", "value": ["weather", "weather_lookup"]}
+    ]
+  },
+  "input_schema": {
+    "required_params": [
+      {"name": "city", "type": "string", "description": "City name (e.g. Tokyo, London)"}
+    ],
+    "optional_params": [
+      {"name": "format", "type": "string", "description": "Output format: short or full", "default": "short"}
+    ]
+  },
+  "output_schema": {
+    "fields": [
+      {"name": "weather", "type": "string", "description": "Weather information"},
+      {"name": "city", "type": "string", "description": "Queried city"}
+    ]
+  },
+  "execution_dag": {
+    "nodes": [
+      {
+        "id": "fetch",
+        "action": "http_get",
+        "params": {
+          "url": "https://wttr.in/{{input.city}}?format=3",
+          "headers": {"User-Agent": "JadeGate-Skill/1.0"}
+        }
+      },
+      {
+        "id": "result",
+        "action": "return_result",
+        "params": {
+          "output_mapping": {
+            "weather": "{{nodes.fetch.body}}",
+            "city": "{{input.city}}"
+          }
+        }
+      }
+    ],
+    "edges": [
+      {"from": "fetch", "to": "result"}
+    ],
+    "entry_node": "fetch",
+    "exit_node": "result"
+  },
+  "security": {
+    "network_whitelist": ["wttr.in"],
+    "file_permissions": {"read": [], "write": []},
+    "max_execution_time_ms": 15000,
+    "max_retries": 2,
+    "sandbox_level": "strict",
+    "dangerous_patterns": []
+  }
+}
