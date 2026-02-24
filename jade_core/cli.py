@@ -45,20 +45,21 @@ def cmd_list(args):
     base = _find_base()
     skills = []
 
+    import glob as _glob
     for d in ["jade_skills", "converted_skills"]:
         skill_dir = os.path.join(base, d)
         if not os.path.isdir(skill_dir):
             continue
         cat = "jade.core" if d == "jade_skills" else "jadegate.community"
-        for f in sorted(os.listdir(skill_dir)):
-            if not f.endswith(".json"):
+        for path in sorted(_glob.glob(os.path.join(skill_dir, "**", "*.json"), recursive=True)):
+            if ".sig." in path:
                 continue
-            path = os.path.join(skill_dir, f)
+            f = os.path.basename(path)
             try:
                 with open(path) as fh:
                     sk = json.load(fh)
                 skills.append({
-                    "id": sk.get("skill_id", f),
+                    "id": sk.get("skill_id", f.replace(".json", "")),
                     "name": sk.get("metadata", {}).get("name", ""),
                     "version": sk.get("metadata", {}).get("version", ""),
                     "tags": sk.get("metadata", {}).get("tags", []),
@@ -199,14 +200,15 @@ def cmd_search(args):
     query = args.query.lower()
     found = 0
 
+    import glob as _glob
     for d in ["jade_skills", "converted_skills"]:
         skill_dir = os.path.join(base, d)
         if not os.path.isdir(skill_dir):
             continue
-        for f in sorted(os.listdir(skill_dir)):
-            if not f.endswith(".json"):
+        for path in sorted(_glob.glob(os.path.join(skill_dir, "**", "*.json"), recursive=True)):
+            if ".sig." in path:
                 continue
-            path = os.path.join(skill_dir, f)
+            f = os.path.basename(path)
             try:
                 with open(path) as fh:
                     sk = json.load(fh)
@@ -232,14 +234,15 @@ def cmd_info(args):
 
     base = _find_base()
     # Find skill by id
+    import glob as _glob
     for d in ["jade_skills", "converted_skills"]:
         skill_dir = os.path.join(base, d)
         if not os.path.isdir(skill_dir):
             continue
-        for f in sorted(os.listdir(skill_dir)):
-            if not f.endswith(".json"):
+        for path in sorted(_glob.glob(os.path.join(skill_dir, "**", "*.json"), recursive=True)):
+            if ".sig." in path:
                 continue
-            path = os.path.join(skill_dir, f)
+            f = os.path.basename(path)
             try:
                 with open(path) as fh:
                     sk = json.load(fh)
