@@ -55,7 +55,7 @@ Current approaches rely on trust, reputation, or LLM-based review. JadeGate take
 - **Mathematical verification** — 5 deterministic layers, no probabilistic guessing
 - **Runs 100% locally** — `pip install jadegate`, done. No server, no cloud, no account
 - **Zero token cost** — Pure Python, zero dependencies, no LLM calls
-- **Open source** — Every line of code is auditable. Security through transparency, not obscurity
+- **Source-available** — BSL 1.1 license. Every line of code is auditable. Converts to Apache 2.0 in 2030
 - **Agent-native** — Designed for machines to query, not just humans to browse
 
 ```bash
@@ -102,10 +102,12 @@ Every skill must pass all 5 layers. No exceptions. No overrides.
 | Layer | Name | What it does |
 |-------|------|-------------|
 | 1 | **Structural Integrity** | JSON Schema validation. Malformed = rejected. |
-| 2 | **Code Injection Scan** | 47 dangerous patterns (eval, exec, subprocess, shell injection...) |
-| 3 | **Bayesian Confidence** | Probabilistic risk scoring based on complexity + anomaly patterns |
-| 4 | **Network & Data Leak** | URL whitelist enforcement + sensitive data exfiltration detection |
-| 5 | **DAG Integrity** | Execution graph must be acyclic, no orphan nodes, valid dependencies |
+| 2 | **Code Injection Scan** | Pattern matching for code injection vectors (eval, exec, subprocess, template injection, unicode homoglyphs...) |
+| 3 | **Dangerous Commands** | Shell command detection, sensitive path access, sandbox constraint enforcement |
+| 4 | **Network & Data Leak** | URL whitelist enforcement + env variable exfiltration + sensitive data leak detection |
+| 5 | **DAG Integrity** | Execution graph must be acyclic, all nodes reachable, valid entry/exit, allowed actions only |
+
+> **Bayesian Confidence** is a separate scoring system in the skill registry — it tracks trust over time based on attestation history, not part of the 5-layer pass/fail verification.
 
 ## For AI Agents 🤖
 
@@ -267,7 +269,7 @@ We run adversarial attacks against our own engine. Current results:
 | Env variable exfiltration | ✅ Blocked |
 | subprocess injection | ✅ Blocked |
 
-**12/12 attacks blocked.** Full report available in our security audits.
+**12/12 attack categories tested.** See `red_team_results.json` for full methodology and results.
 
 ## Quick Start
 
@@ -362,12 +364,12 @@ BSL 1.1 — Source-available. Free for non-production use. Converts to Apache 2.
 
 ### 为什么选择 JadeGate？
 
-- 🔒 **完全开源** — 每一行代码都可审计
+- 🔒 **源码公开** — BSL 1.1 许可，每一行代码可审计，4 年后转 Apache 2.0
 - 💻 **本地运行** — `pip install jadegate`，不连任何服务器
 - 🧮 **数学验证** — 5 层确定性检测，不靠概率猜测
 - 🤖 **Agent 原生** — 为 AI agent 设计的查询接口
 - 💰 **零成本** — 纯 Python，零依赖，不调用任何 LLM
-- 🛡️ **红队测试** — 12 种攻击手法全部拦截
+- 🛡️ **红队测试** — 覆盖 12 类攻击向量（详见 red_team_results.json）
 
 
 ### 一行命令，开箱即用
