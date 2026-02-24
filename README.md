@@ -30,7 +30,7 @@ Zero trust. Five-layer mathematical verification. Runs locally. No cloud. No LLM
 ### One command. That's it.
 
 ```bash
-pip install jadegate && jade verify my_skill.json
+pip install jadegate[secure] && jade verify my_skill.json
 # ✅ Passed 5/5 layers | Confidence: 0.97 | 💠 Verified
 ```
 
@@ -139,21 +139,21 @@ else:
 **MCP Server (Claude, Cursor, Windsurf):**
 
 ```bash
-# Run directly with npx
-npx @jadegate/mcp-server
+# Option 1: Python (recommended)
+pip install jadegate[secure]
+jade mcp-serve
 
-# Or install globally
-npm install -g @jadegate/mcp-server
-jadegate-mcp
+# Option 2: npm
+npx @projectjade/mcp-server
 ```
 
-Add to your Claude Desktop config (`claude_desktop_config.json`):
+Add to your Claude Desktop / Cursor config:
 ```json
 {
   "mcpServers": {
     "jadegate": {
-      "command": "npx",
-      "args": ["@jadegate/mcp-server"]
+      "command": "jade",
+      "args": ["mcp-serve"]
     }
   }
 }
@@ -375,7 +375,7 @@ BSL 1.1 — Source-available. Free for non-production use. Converts to Apache 2.
 ### 一行命令，开箱即用
 
 ```bash
-pip install jadegate && jade verify my_skill.json
+pip install jadegate[secure] && jade verify my_skill.json
 # ✅ 5/5 层通过 | 置信度: 0.97 | 💠 已验证
 ```
 
