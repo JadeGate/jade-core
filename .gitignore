@@ -61,3 +61,4 @@ mcp-server/node_modules/
 !SECURITY.md
 !examples/
 !examples/**
+.npmrc
