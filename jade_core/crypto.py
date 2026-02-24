@@ -1,10 +1,11 @@
 """
 JadeGate Cryptographic Engine — Ed25519 Pure Python Implementation
 
-⚠️ SECURITY NOTE: This is a pure-Python Ed25519 implementation for zero-dependency operation.
-For production environments handling high-value signatures, consider using the `cryptography` library
-(pip install cryptography) which provides constant-time C implementations.
-This implementation uses hmac.compare_digest for timing-safe comparisons.
+This module uses the `cryptography` library (OpenSSL/libsodium-backed) for Ed25519 operations
+when available, with a pure-Python fallback for zero-dependency environments.
+
+The `cryptography` backend provides constant-time C implementations, eliminating timing
+side-channel risks present in pure-Python integer arithmetic.
 
 This is the "权柄" (authority scepter) of JadeGate.
 Root CA private key holder can:
@@ -26,6 +27,17 @@ import os
 import base64
 import datetime
 from typing import Optional, Dict, Any, Tuple
+
+# Prefer cryptography library for constant-time Ed25519 (C-backed)
+# Falls back to pure-Python implementation if not installed
+try:
+    from cryptography.hazmat.primitives.asymmetric.ed25519 import (
+        Ed25519PrivateKey, Ed25519PublicKey
+    )
+    from cryptography.exceptions import InvalidSignature
+    _HAS_CRYPTOGRAPHY = True
+except ImportError:
+    _HAS_CRYPTOGRAPHY = False
 
 
 # ============================================================
@@ -107,11 +119,18 @@ def _bit(h: bytes, i: int) -> int:
     return (h[i // 8] >> (i % 8)) & 1
 
 
-def _publickey(sk: bytes) -> bytes:
+def _publickey_pure(sk: bytes) -> bytes:
     h = _H(sk)
     a = 2 ** (b - 2) + sum(2**i * _bit(h, i) for i in range(3, b - 2))
     A = _scalarmult(_B, a)
     return _encodepoint(A)
+
+
+def _publickey(sk: bytes) -> bytes:
+    if _HAS_CRYPTOGRAPHY:
+        private_key = Ed25519PrivateKey.from_private_bytes(sk)
+        return private_key.public_key().public_bytes_raw()
+    return _publickey_pure(sk)
 
 
 def _Hint(m: bytes) -> int:
@@ -148,7 +167,7 @@ def _decodepoint(s: bytes) -> list:
     return P
 
 
-def _checkvalid(s: bytes, m: bytes, pk: bytes) -> bool:
+def _checkvalid_pure(s: bytes, m: bytes, pk: bytes) -> bool:
     if len(s) != b // 4:
         raise ValueError("signature length is wrong")
     if len(pk) != b // 8:
@@ -163,6 +182,19 @@ def _checkvalid(s: bytes, m: bytes, pk: bytes) -> bool:
     if not hmac.compare_digest(lhs, rhs):
         return False
     return True
+
+
+def _checkvalid(s: bytes, m: bytes, pk: bytes) -> bool:
+    if _HAS_CRYPTOGRAPHY:
+        try:
+            public_key = Ed25519PublicKey.from_public_bytes(pk)
+            public_key.verify(s, m)
+            return True
+        except InvalidSignature:
+            return False
+        except Exception:
+            return False
+    return _checkvalid_pure(s, m, pk)
 
 
 # ============================================================

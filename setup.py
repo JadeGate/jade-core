@@ -20,6 +20,9 @@ setup(
     python_requires=">=3.8",
     install_requires=[],
     extras_require={
+        "secure": ["cryptography>=41.0"],
+    },
+    extras_require={
         "dev": ["pytest>=7.0", "pytest-cov"],
     },
     entry_points={
