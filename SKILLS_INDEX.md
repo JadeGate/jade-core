@@ -1,11 +1,11 @@
 ---
 name: jadegate
-description: "The TLS of AI Tool Calls — 43 security-verified skills for MCP servers. Transparent security proxy with zero config, zero dependencies."
+description: "The TLS of AI Tool Calls — 46 security-verified skills for MCP servers. Transparent security proxy with zero config, zero dependencies."
 ---
 
 # JadeGate Skills Collection
 
-**The TLS of AI Tool Calls** — 43 security-verified skills for MCP (Model Context Protocol) servers.
+**The TLS of AI Tool Calls** — 46 security-verified skills for MCP (Model Context Protocol) servers.
 
 ## Quick Start
 
@@ -16,7 +16,7 @@ jadegate scan          # Audit MCP servers
 jadegate list          # Browse 150+ skills
 ```
 
-## Skills (43 total)
+## Skills (46 total)
 
 ### JadeGate Core (8 skills)
 
@@ -53,10 +53,11 @@ jadegate list          # Browse 150+ skills
 | [hash-file-verify](skills/hash-file-verify/) | File hash computation and verification |
 | [base64-file-encode](skills/base64-file-encode/) | Base64 file encoding/decoding |
 
-### Web (5 skills)
+### Web (6 skills)
 
 | Skill | Description |
 |-------|-------------|
+| [defuddle](skills/defuddle/) | Use Defuddle to extract readable main content and debug extraction pipelines |
 | [web-search-query](skills/web-search-query/) | Web search via public APIs |
 | [webpage-content-extract](skills/webpage-content-extract/) | Extract content from web pages |
 | [webpage-screenshot](skills/webpage-screenshot/) | Capture web page screenshots |
@@ -83,6 +84,18 @@ jadegate list          # Browse 150+ skills
 | [github-create-issue](skills/github-create-issue/) | Create GitHub issues via API |
 | [docker-container-list](skills/docker-container-list/) | List and inspect Docker containers |
 | [ssh-remote-exec](skills/ssh-remote-exec/) | Secure remote command execution via SSH |
+
+### Development Workflow (1 skill)
+
+| Skill | Description |
+|-------|-------------|
+| [karpathy-guidelines](skills/karpathy-guidelines/) | Coding guardrails that surface assumptions, prefer simpler changes, and require verification |
+
+### Knowledge Management (1 skill)
+
+| Skill | Description |
+|-------|-------------|
+| [llm-wiki](skills/llm-wiki/) | Design and maintain a persistent Obsidian-compatible LLM wiki with ingest, query, and lint workflows |
 
 ### System & Utilities (7 skills)
 

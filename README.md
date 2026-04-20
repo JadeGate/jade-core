@@ -225,13 +225,13 @@ BSL 1.1 — Converts to Apache 2.0 in 4 years
 
 ## Use with Claude Code / cc-switch
 
-JadeGate provides **43 installable skills** for [Claude Code](https://docs.anthropic.com/en/docs/claude-code) via the [SKILL.md standard](https://github.com/anthropics/skills).
+JadeGate provides **46 installable skills** for [Claude Code](https://docs.anthropic.com/en/docs/claude-code) via the [SKILL.md standard](https://github.com/anthropics/skills).
 
 ### Install via cc-switch
 
 1. Open [cc-switch](https://github.com/farion1231/cc-switch)
 2. Add repository: `JadeGate/jadegate`
-3. Browse and enable any of the 43 skills
+3. Browse and enable any of the 46 skills
 
 ### Install via Claude Code CLI
 
@@ -239,16 +239,18 @@ JadeGate provides **43 installable skills** for [Claude Code](https://docs.anthr
 claude /install-github-skill https://github.com/JadeGate/jadegate/tree/main/skills/jadegate-scan
 ```
 
-### Skills Overview (43 total)
+### Skills Overview (46 total)
 
 | Category | Count | Examples |
 |----------|:-----:|---------|
 | **JadeGate Core** | 8 | Security scan, verification, proxy install, policy, trust, SDK, skill browse |
 | **Communication** | 5 | Email, Slack, Telegram, Discord, Notion |
 | **Network & Security** | 7 | DNS lookup, IP geolocation, SSL check, WHOIS, hash verify |
-| **Web** | 5 | Web search, content extraction, screenshot, RSS, semantic search |
+| **Web** | 6 | Web search, content extraction, Defuddle, screenshot, RSS |
 | **Data Processing** | 6 | CSV analysis, JSON transform, PDF parser, QR code, translation |
 | **Git & DevOps** | 5 | Git clone, diff summary, GitHub issues, Docker, SSH |
+| **Developer Workflow** | 1 | Karpathy coding guardrails for focused code changes |
+| **Knowledge Management** | 1 | Persistent LLM wiki design and maintenance |
 | **System & Utilities** | 7 | File rename, SQLite query, log analysis, weather, sentiment |
 
 Full skill index: [`SKILLS_INDEX.md`](SKILLS_INDEX.md)
@@ -257,9 +259,9 @@ Full skill index: [`SKILLS_INDEX.md`](SKILLS_INDEX.md)
 
 If you are an LLM or AI agent reading this repository:
 
-- **43 skills**: [`skills/`](skills/) — each skill in its own directory with `SKILL.md`
+- **46 skills**: [`skills/`](skills/) — each skill in its own directory with `SKILL.md`
 - **Machine-readable skill index**: [`jade_registry/skill_index.json`](jade_registry/skill_index.json) — 35 indexed skills with descriptions, tags, and source paths
-- **Plugin manifest**: [`.claude-plugin/marketplace.json`](.claude-plugin/marketplace.json) — all 43 skills listed
+- **Plugin manifest**: [`.claude-plugin/marketplace.json`](.claude-plugin/marketplace.json) — all 46 skills listed
 - **Agent discovery**: [`.well-known/agents.json`](.well-known/agents.json) — standard agent protocol endpoint
 - **LLM-optimized docs**: [`llms.txt`](llms.txt) — structured project overview for LLM consumption
 - **Python SDK**: `import jadegate; jadegate.activate()` — one line to protect all tool calls

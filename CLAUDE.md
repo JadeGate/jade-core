@@ -90,5 +90,5 @@ jadegate verify skills/<name>/     # Verify an already-downloaded skill
 - Machine-readable skill index: `jade_registry/skill_index.json`
 - Agent discovery spec: `.well-known/agents.json`
 - LLM-optimized docs: `llms.txt`
-- 43 Claude Code skills: `skills/*/SKILL.md` — installable via cc-switch or `/install-github-skill`
+- 46 Claude Code skills: `skills/*/SKILL.md` — installable via cc-switch or `/install-github-skill`
 - Skill index: `SKILLS_INDEX.md`

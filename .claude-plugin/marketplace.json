@@ -1,6 +1,6 @@
 {
   "name": "JadeGate Skills",
-  "description": "The TLS of AI Tool Calls - 43 security-verified skills for MCP servers",
+  "description": "The TLS of AI Tool Calls - 46 security-verified skills for MCP servers",
   "version": "2.0.0",
   "author": "JadeGate",
   "skills": [
@@ -9,6 +9,9 @@
     },
     {
       "path": "skills/csv-data-analysis"
+    },
+    {
+      "path": "skills/defuddle"
     },
     {
       "path": "skills/discord-webhook-send"
@@ -75,6 +78,12 @@
     },
     {
       "path": "skills/json-data-transform"
+    },
+    {
+      "path": "skills/karpathy-guidelines"
+    },
+    {
+      "path": "skills/llm-wiki"
     },
     {
       "path": "skills/log-error-analyzer"
